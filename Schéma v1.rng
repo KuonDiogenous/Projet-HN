@@ -52,7 +52,14 @@
                   <data type="NCName"/>
                 </attribute>
               </element>
-              <ref name="date"/>
+              <element name="date">
+                <attribute name="type">
+                  <data type="NCName"/>
+                </attribute>
+                <attribute name="when">
+                  <data type="date"/>
+                </attribute>
+              </element>
               <ref name="note"/>
             </element>
           </element>
@@ -68,21 +75,12 @@
           <element name="list">
             <oneOrMore>
               <element name="item">
-                <zeroOrMore>
-                  <ref name="persName"/>
-                </zeroOrMore>
-                <zeroOrMore>
-                  <ref name="roleName"/>
-                </zeroOrMore>
-                <zeroOrMore>
-                  <ref name="orgName"/>
-                </zeroOrMore>
-                <zeroOrMore>
+                <choice>
                   <ref name="eventName"/>
-                </zeroOrMore>
-                <optional>
+                  <ref name="orgName"/>
+                  <ref name="persName"/>
                   <ref name="term"/>
-                </optional>
+                </choice>
               </element>
             </oneOrMore>
           </element>
@@ -131,19 +129,6 @@
       </oneOrMore>
     </element>
   </define>
-  <define name="date">
-    <element name="date">
-      <optional>
-        <attribute name="type">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <attribute name="when">
-        <data type="NMTOKEN"/>
-      </attribute>
-      <text/>
-    </element>
-  </define>
   <define name="note">
     <element name="note">
       <optional>
@@ -183,13 +168,13 @@
         <choice>
           <text/>
           <ref name="addName"/>
-          <ref name="date"/>
           <ref name="eventName"/>
           <ref name="interp"/>
           <ref name="note"/>
           <ref name="orgName"/>
           <ref name="persName"/>
           <ref name="roleName"/>
+          <ref name="said"/>
           <ref name="seg"/>
           <ref name="w"/>
           <element name="hi">
@@ -219,39 +204,36 @@
               </choice>
             </oneOrMore>
           </element>
-          <element name="said">
-            <optional>
-              <attribute name="aloud">
-                <data type="boolean"/>
-              </attribute>
-            </optional>
-            <optional>
-              <attribute name="corresp"/>
-            </optional>
-            <optional>
-              <attribute name="direct">
-                <data type="boolean"/>
-              </attribute>
-            </optional>
-            <optional>
-              <attribute name="toWhom"/>
-            </optional>
-            <optional>
-              <attribute name="who"/>
-            </optional>
-            <oneOrMore>
-              <choice>
-                <text/>
-                <ref name="addName"/>
-                <ref name="note"/>
-                <ref name="orgName"/>
-                <ref name="persName"/>
-                <ref name="roleName"/>
-                <ref name="term"/>
-                <ref name="w"/>
-              </choice>
-            </oneOrMore>
-          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="eventName">
+    <element name="eventName">
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="nymRef">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="orgName"/>
+          <ref name="persName"/>
         </choice>
       </oneOrMore>
     </element>
@@ -295,6 +277,25 @@
       </oneOrMore>
     </element>
   </define>
+  <define name="term">
+    <element name="term">
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
   <define name="orgName">
     <element name="orgName">
       <optional>
@@ -304,9 +305,6 @@
       </optional>
       <optional>
         <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="nymRef"/>
       </optional>
       <optional>
         <attribute name="type">
@@ -326,55 +324,6 @@
           <ref name="w"/>
         </choice>
       </oneOrMore>
-    </element>
-  </define>
-  <define name="eventName">
-    <element name="eventName">
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="nymRef">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="orgName"/>
-          <ref name="persName"/>
-        </choice>
-      </oneOrMore>
-    </element>
-  </define>
-  <define name="term">
-    <element name="term">
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <text/>
     </element>
   </define>
   <define name="addName">
@@ -456,10 +405,56 @@
       </oneOrMore>
     </element>
   </define>
+  <define name="said">
+    <element name="said">
+      <optional>
+        <attribute name="aloud">
+          <data type="boolean"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="direct">
+          <data type="boolean"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="toWhom"/>
+      </optional>
+      <optional>
+        <attribute name="who"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="addName"/>
+          <ref name="note"/>
+          <ref name="orgName"/>
+          <ref name="persName"/>
+          <ref name="roleName"/>
+          <ref name="said"/>
+          <ref name="term"/>
+          <ref name="w"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
   <define name="interp">
     <element name="interp">
       <optional>
         <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
       </optional>
       <optional>
         <attribute name="subtype">
