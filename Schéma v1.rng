@@ -381,7 +381,10 @@
       </optional>
       <optional>
         <attribute name="msd">
-          <data type="NCName"/>
+          <choice>
+            <value>Pass</value>
+            <value>Act</value>
+          </choice>
         </attribute>
       </optional>
       <optional>
@@ -391,7 +394,13 @@
       </optional>
       <optional>
         <attribute name="pos">
-          <data type="NCName"/>
+          <choice>
+            <value>NOM</value>
+            <value>ADJ</value>
+            <value>EXP</value>
+            <value>V</value>
+            <value>PRONOUN</value>
+          </choice>
         </attribute>
       </optional>
       <optional>
