@@ -208,36 +208,6 @@
       </oneOrMore>
     </element>
   </define>
-  <define name="eventName">
-    <element name="eventName">
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="nymRef">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="orgName"/>
-          <ref name="persName"/>
-        </choice>
-      </oneOrMore>
-    </element>
-  </define>
   <define name="persName">
     <element name="persName">
       <optional>
@@ -322,6 +292,36 @@
           <text/>
           <ref name="roleName"/>
           <ref name="w"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="eventName">
+    <element name="eventName">
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="nymRef">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="orgName"/>
+          <ref name="persName"/>
         </choice>
       </oneOrMore>
     </element>
@@ -421,11 +421,6 @@
         </attribute>
       </optional>
       <optional>
-        <attribute name="n">
-          <data type="integer"/>
-        </attribute>
-      </optional>
-      <optional>
         <attribute name="toWhom"/>
       </optional>
       <optional>
@@ -450,11 +445,6 @@
     <element name="interp">
       <optional>
         <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="n">
-          <data type="integer"/>
-        </attribute>
       </optional>
       <optional>
         <attribute name="subtype">
