@@ -178,9 +178,11 @@
           <ref name="seg"/>
           <ref name="w"/>
           <element name="hi">
-            <attribute name="n">
-              <data type="integer"/>
-            </attribute>
+            <optional>
+              <attribute name="n">
+                <data type="integer"/>
+              </attribute>
+            </optional>
             <text/>
           </element>
           <element name="quote">
@@ -467,3 +469,4 @@
     </element>
   </define>
 </grammar>
+
