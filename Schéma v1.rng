@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
   <start>
     <element name="TEI">
       <attribute>
@@ -98,7 +99,15 @@
           <text/>
           <ref name="addName"/>
           <ref name="eventName"/>
+          <ref name="interp"/>
           <ref name="note"/>
+          <ref name="orgName"/>
+          <ref name="persName"/>
+          <ref name="roleName"/>
+          <ref name="said"/>
+          <ref name="seg"/>
+          <ref name="w"/>
+          <ref name="quote"/>
         </choice>
       </oneOrMore>
     </element>
@@ -119,12 +128,21 @@
       <text/>
     </element>
   </define>
+  <define name="hi">
+    <element name="hi">
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
   <define name="p">
     <element name="p">
       <oneOrMore>
         <choice>
           <text/>
-          <ref name="seg"/>
+          <ref name="s"/>
         </choice>
       </oneOrMore>
     </element>
@@ -157,6 +175,27 @@
       </oneOrMore>
     </element>
   </define>
+  <define name="s">
+    <element name="s">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="addName"/>
+          <ref name="eventName"/>
+          <ref name="interp"/>
+          <ref name="note"/>
+          <ref name="orgName"/>
+          <ref name="persName"/>
+          <ref name="roleName"/>
+          <ref name="said"/>
+          <ref name="seg"/>
+          <ref name="w"/>
+          <ref name="hi"/>
+          <ref name="quote"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
   <define name="seg">
     <element name="seg">
       <optional>
@@ -177,47 +216,49 @@
           <ref name="said"/>
           <ref name="seg"/>
           <ref name="w"/>
-          <element name="hi">
-            <optional>
-              <attribute name="n">
-                <data type="integer"/>
-              </attribute>
-            </optional>
-            <text/>
-          </element>
-          <element name="quote">
-            <optional>
-              <attribute name="cert">
-                <data type="NCName"/>
-              </attribute>
-            </optional>
-            <optional>
-              <attribute name="corresp"/>
-            </optional>
-            <optional>
-              <attribute name="type">
-                <data type="NCName"/>
-              </attribute>
-            </optional>
-            <oneOrMore>
-              <choice>
-                <text/>
-                <ref name="w"/>
-              </choice>
-            </oneOrMore>
-          </element>
+          <ref name="hi"/>
+          <ref name="quote"/>
         </choice>
       </oneOrMore>
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="pos">
+          <choice>
+            <value>NOM</value>
+            <value>ADJ</value>
+            <value>EXP</value>
+            <value>V</value>
+            <value>PRONOUN</value>
+          </choice>
+        </attribute>
+      </optional>
     </element>
   </define>
   <define name="persName">
     <element name="persName">
       <optional>
+        <attribute name="ana">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
         <attribute name="corresp"/>
       </optional>
       <optional>
         <attribute name="type">
-          <data type="NCName"/>
+          <choice>
+            <value>judicial</value>
+            <value>gouvernment</value>
+            <value>political</value>
+            <value>social</value>
+            <value>proche</value>
+            <value>historical</value>
+            <data type="NCName"/>
+          </choice>
         </attribute>
       </optional>
       <optional>
@@ -252,11 +293,24 @@
   <define name="term">
     <element name="term">
       <optional>
+        <attribute name="ana">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
         <attribute name="corresp"/>
       </optional>
       <optional>
         <attribute name="type">
-          <data type="NCName"/>
+          <choice>
+            <value>judicial</value>
+            <value>gouvernment</value>
+            <value>political</value>
+            <value>social</value>
+            <value>proche</value>
+            <value>historical</value>
+            <data type="NCName"/>
+          </choice>
         </attribute>
       </optional>
       <optional>
@@ -280,7 +334,26 @@
       </optional>
       <optional>
         <attribute name="type">
-          <data type="NCName"/>
+          <choice>
+            <value>judicial</value>
+            <value>gouvernment</value>
+            <value>political</value>
+            <value>social</value>
+            <value>proche</value>
+            <value>historical</value>
+            <data type="NCName"/>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="NymRef">
+          <choice>
+            <value>parti</value>
+            <value>union</value>
+            <value>ONG</value>
+            <value>communauté</value>
+            <data type="NCName"/>
+          </choice>
         </attribute>
       </optional>
       <optional>
@@ -305,7 +378,11 @@
       </optional>
       <optional>
         <attribute name="nymRef">
-          <data type="NCName"/>
+          <choice>
+            <value>manifestation</value>
+            <value>GAD</value>
+            <data type="NCName"/>
+          </choice>
         </attribute>
       </optional>
       <optional>
@@ -356,11 +433,39 @@
   <define name="roleName">
     <element name="roleName">
       <optional>
+        <attribute name="ana">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
         <attribute name="corresp"/>
       </optional>
       <optional>
         <attribute name="type">
-          <data type="NCName"/>
+          <choice>
+            <value>judicial</value>
+            <value>gouvernment</value>
+            <value>political</value>
+            <value>social</value>
+            <value>proche</value>
+            <value>historical</value>
+            <data type="NCName"/>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="NymRef">
+          <choice>
+            <value>sympathisant</value>
+            <value>adhérent</value>
+            <value>candidat</value>
+            <value>elu</value>
+            <value>magistrat</value>
+            <value>président</value>
+            <value>parquet</value>
+            <value>responsable</value>
+            <data type="NCName"/>
+          </choice>
         </attribute>
       </optional>
       <oneOrMore>
@@ -452,6 +557,34 @@
       </oneOrMore>
     </element>
   </define>
+  <define name="quote">
+    <element name="quote">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="w"/>
+        </choice>
+      </oneOrMore>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="source">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="cert">
+          <choice>
+            <value>unknown</value>
+            <value>low</value>
+            <value>medium</value>
+            <value>high</value>
+          </choice>
+        </attribute>
+      </optional>
+    </element>
+  </define>
   <define name="interp">
     <element name="interp">
       <optional>
@@ -469,4 +602,3 @@
     </element>
   </define>
 </grammar>
-
