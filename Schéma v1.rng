@@ -130,6 +130,12 @@
   </define>
   <define name="hi">
     <element name="hi">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="s"/>
+        </choice>
+      </oneOrMore>
       <optional>
         <attribute name="n">
           <data type="integer"/>
@@ -241,6 +247,17 @@
   <define name="persName">
     <element name="persName">
       <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="eventName"/>
+            <ref name="orgName"/>
+            <ref name="roleName"/>
+          </choice>
+        </oneOrMore>
+      </optional>
+      <optional>
         <attribute name="ana">
           <data type="NCName"/>
         </attribute>
@@ -324,6 +341,17 @@
   </define>
   <define name="orgName">
     <element name="orgName">
+      <oneOrMore>
+        <optional>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="eventName"/>
+            <ref name="persName"/>
+            <ref name="roleName"/>
+          </choice>
+        </optional>
+      </oneOrMore>
       <optional>
         <attribute name="ana">
           <data type="NCName"/>
@@ -346,7 +374,7 @@
         </attribute>
       </optional>
       <optional>
-        <attribute name="NymRef">
+        <attribute name="nymRef">
           <choice>
             <value>parti</value>
             <value>union</value>
@@ -408,6 +436,17 @@
   <define name="addName">
     <element name="addName">
       <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="eventName"/>
+            <ref name="orgName"/>
+            <ref name="persName"/>
+            <ref name="roleName"/>
+          </choice>
+        </oneOrMore>
+      </optional>
+      <optional>
         <attribute name="corresp"/>
       </optional>
       <optional>
@@ -433,6 +472,17 @@
   <define name="roleName">
     <element name="roleName">
       <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="eventName"/>
+            <ref name="orgName"/>
+            <ref name="persName"/>
+          </choice>
+        </oneOrMore>
+      </optional>
+      <optional>
         <attribute name="ana">
           <data type="NCName"/>
         </attribute>
@@ -454,7 +504,7 @@
         </attribute>
       </optional>
       <optional>
-        <attribute name="NymRef">
+        <attribute name="nymRef">
           <choice>
             <value>sympathisant</value>
             <value>adhérent</value>
