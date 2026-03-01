@@ -53,14 +53,9 @@
                   <data type="NCName"/>
                 </attribute>
               </element>
-              <element name="date">
-                <attribute name="type">
-                  <data type="NCName"/>
-                </attribute>
-                <attribute name="when">
-                  <data type="date"/>
-                </attribute>
-              </element>
+              <oneOrMore>
+                <ref name="date"/>
+              </oneOrMore>
               <ref name="note"/>
             </element>
           </element>
@@ -186,6 +181,7 @@
       <oneOrMore>
         <choice>
           <text/>
+          <ref name="date"/>
           <ref name="addName"/>
           <ref name="eventName"/>
           <ref name="interp"/>
@@ -209,9 +205,15 @@
           <data type="NCName"/>
         </attribute>
       </optional>
+      <optional>
+        <attribute name="corresp">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
       <oneOrMore>
         <choice>
           <text/>
+          <ref name="date"/>
           <ref name="addName"/>
           <ref name="eventName"/>
           <ref name="interp"/>
@@ -247,17 +249,6 @@
   <define name="persName">
     <element name="persName">
       <optional>
-        <oneOrMore>
-          <choice>
-            <text/>
-            <ref name="addName"/>
-            <ref name="eventName"/>
-            <ref name="orgName"/>
-            <ref name="roleName"/>
-          </choice>
-        </oneOrMore>
-      </optional>
-      <optional>
         <attribute name="ana">
           <data type="NCName"/>
         </attribute>
@@ -284,9 +275,14 @@
           <data type="NCName"/>
         </attribute>
       </optional>
+      <optional>
       <oneOrMore>
         <choice>
           <text/>
+          <ref name="addName"/>
+          <ref name="eventName"/>
+          <ref name="orgName"/>
+          <ref name="roleName"/>
           <ref name="addName"/>
           <ref name="w"/>
           <element name="forename">
@@ -305,6 +301,7 @@
           </element>
         </choice>
       </oneOrMore>
+      </optional>
     </element>
   </define>
   <define name="term">
@@ -649,6 +646,18 @@
         <data type="NCName"/>
       </attribute>
       <text/>
+    </element>
+  </define>
+  <define name="date">
+    <element name="date">
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <attribute name="when">
+        <data type="date"/>
+      </attribute>
     </element>
   </define>
 </grammar>
