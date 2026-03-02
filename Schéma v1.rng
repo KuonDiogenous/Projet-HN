@@ -63,11 +63,6 @@
       </element>
       <element name="text">
         <element name="body">
-          <optional>
-            <element name="head">
-              <ref name="seg"/>
-            </element>
-          </optional>
           <element name="list">
             <oneOrMore>
               <element name="item">
@@ -80,6 +75,9 @@
               </element>
             </oneOrMore>
           </element>
+          <oneOrMore>
+            <ref name="hi"/>
+          </oneOrMore>
           <oneOrMore>
             <ref name="p"/>
           </oneOrMore>
