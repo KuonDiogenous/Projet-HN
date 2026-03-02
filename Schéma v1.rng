@@ -39,12 +39,6 @@
               <element name="series">
                 <text/>
               </element>
-              <element name="editor">
-                <attribute name="role">
-                  <data type="NCName"/>
-                </attribute>
-                <text/>
-              </element>
               <element name="ptr">
                 <attribute name="target">
                   <data type="anyURI"/>
@@ -53,9 +47,16 @@
                   <data type="NCName"/>
                 </attribute>
               </element>
-              <oneOrMore>
-                <ref name="date"/>
-              </oneOrMore>
+              <element name="date">
+                <optional>
+                  <attribute name="type">
+                    <data type="NCName"/>
+                  </attribute>
+                </optional>
+                <attribute name="when">
+                  <data type="date"/>
+                </attribute>
+              </element>
               <ref name="note"/>
             </element>
           </element>
@@ -63,21 +64,20 @@
       </element>
       <element name="text">
         <element name="body">
-          <element name="list">
-            <oneOrMore>
-              <element name="item">
-                <choice>
-                  <ref name="eventName"/>
-                  <ref name="orgName"/>
-                  <ref name="persName"/>
-                  <ref name="term"/>
-                </choice>
-              </element>
-            </oneOrMore>
-          </element>
-          <oneOrMore>
-            <ref name="hi"/>
-          </oneOrMore>
+          <optional>
+            <element name="list">
+              <oneOrMore>
+                <element name="item">
+                  <choice>
+                    <ref name="eventName"/>
+                    <ref name="orgName"/>
+                    <ref name="roleName"/>
+                    <ref name="persName"/>
+                  </choice>
+                </element>
+              </oneOrMore>
+            </element>
+          </optional>
           <oneOrMore>
             <ref name="p"/>
           </oneOrMore>
@@ -88,20 +88,7 @@
   <define name="title">
     <element name="title">
       <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="addName"/>
-          <ref name="eventName"/>
-          <ref name="interp"/>
-          <ref name="note"/>
-          <ref name="orgName"/>
-          <ref name="persName"/>
-          <ref name="roleName"/>
-          <ref name="said"/>
-          <ref name="seg"/>
-          <ref name="w"/>
-          <ref name="quote"/>
-        </choice>
+        <ref name="s"/>
       </oneOrMore>
     </element>
   </define>
@@ -142,6 +129,7 @@
         <choice>
           <text/>
           <ref name="s"/>
+          <ref name="hi"/>
         </choice>
       </oneOrMore>
     </element>
@@ -164,14 +152,7 @@
           <data type="NCName"/>
         </attribute>
       </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="eventName"/>
-          <ref name="roleName"/>
-          <ref name="w"/>
-        </choice>
-      </oneOrMore>
+      <text/>
     </element>
   </define>
   <define name="s">
@@ -179,7 +160,6 @@
       <oneOrMore>
         <choice>
           <text/>
-          <ref name="date"/>
           <ref name="addName"/>
           <ref name="eventName"/>
           <ref name="interp"/>
@@ -211,7 +191,6 @@
       <oneOrMore>
         <choice>
           <text/>
-          <ref name="date"/>
           <ref name="addName"/>
           <ref name="eventName"/>
           <ref name="interp"/>
@@ -219,11 +198,8 @@
           <ref name="orgName"/>
           <ref name="persName"/>
           <ref name="roleName"/>
-          <ref name="said"/>
           <ref name="seg"/>
           <ref name="w"/>
-          <ref name="hi"/>
-          <ref name="quote"/>
         </choice>
       </oneOrMore>
       <optional>
@@ -247,63 +223,18 @@
   <define name="persName">
     <element name="persName">
       <optional>
-        <attribute name="ana">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="type">
+        <oneOrMore>
           <choice>
-            <value>judicial</value>
-            <value>gouvernment</value>
-            <value>political</value>
-            <value>social</value>
-            <value>proche</value>
-            <value>historical</value>
-            <data type="NCName"/>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="addName"/>
-          <ref name="eventName"/>
-          <ref name="orgName"/>
-          <ref name="roleName"/>
-          <ref name="addName"/>
-          <ref name="w"/>
-          <element name="forename">
-            <optional>
-              <attribute name="corresp"/>
-            </optional>
-            <optional>
-              <attribute name="type">
-                <data type="NCName"/>
-              </attribute>
-            </optional>
-            <data type="NCName"/>
-          </element>
-          <element name="surname">
             <text/>
-          </element>
-        </choice>
-      </oneOrMore>
+            <ref name="addName"/>
+            <ref name="eventName"/>
+            <ref name="orgName"/>
+            <ref name="roleName"/>
+            <ref name="addName"/>
+            <ref name="w"/>
+          </choice>
+        </oneOrMore>
       </optional>
-    </element>
-  </define>
-  <define name="term">
-    <element name="term">
       <optional>
         <attribute name="ana">
           <data type="NCName"/>
@@ -321,7 +252,8 @@
             <value>social</value>
             <value>proche</value>
             <value>historical</value>
-            <data type="NCName"/>
+            <value>police</value>
+            <value>humanitarian</value>
           </choice>
         </attribute>
       </optional>
@@ -331,7 +263,7 @@
           <data type="NCName"/>
         </attribute>
       </optional>
-      <text/>
+
     </element>
   </define>
   <define name="orgName">
@@ -344,6 +276,7 @@
             <ref name="eventName"/>
             <ref name="persName"/>
             <ref name="roleName"/>
+            <ref name="w"/>
           </choice>
         </optional>
       </oneOrMore>
@@ -364,7 +297,8 @@
             <value>social</value>
             <value>proche</value>
             <value>historical</value>
-            <data type="NCName"/>
+            <value>police</value>
+            <value>humanitarian</value>
           </choice>
         </attribute>
       </optional>
@@ -385,17 +319,20 @@
           <data type="NCName"/>
         </attribute>
       </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="roleName"/>
-          <ref name="w"/>
-        </choice>
-      </oneOrMore>
     </element>
   </define>
   <define name="eventName">
     <element name="eventName">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="w"/>
+          <ref name="eventName"/>
+          <ref name="roleName"/>
+          <ref name="orgName"/>
+          <ref name="persName"/>
+        </choice>
+      </oneOrMore>
       <optional>
         <attribute name="corresp"/>
       </optional>
@@ -419,13 +356,6 @@
           <data type="NCName"/>
         </attribute>
       </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="orgName"/>
-          <ref name="persName"/>
-        </choice>
-      </oneOrMore>
     </element>
   </define>
   <define name="addName">
@@ -438,6 +368,7 @@
             <ref name="orgName"/>
             <ref name="persName"/>
             <ref name="roleName"/>
+            <ref name="w"/>
           </choice>
         </oneOrMore>
       </optional>
@@ -451,17 +382,12 @@
       </optional>
       <optional>
         <attribute name="type">
-          <data type="NCName"/>
+          <choice>
+            <value>nickName</value>
+            <data type="NCName"/>
+          </choice>
         </attribute>
       </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="interp"/>
-          <ref name="orgName"/>
-          <ref name="w"/>
-        </choice>
-      </oneOrMore>
     </element>
   </define>
   <define name="roleName">
@@ -474,6 +400,7 @@
             <ref name="eventName"/>
             <ref name="orgName"/>
             <ref name="persName"/>
+            <ref name="w"/>
           </choice>
         </oneOrMore>
       </optional>
@@ -494,7 +421,8 @@
             <value>social</value>
             <value>proche</value>
             <value>historical</value>
-            <data type="NCName"/>
+            <value>police</value>
+            <value>humanitarian</value>
           </choice>
         </attribute>
       </optional>
@@ -509,16 +437,13 @@
             <value>président</value>
             <value>parquet</value>
             <value>responsable</value>
-            <data type="NCName"/>
+            <value>avocat</value>
+            <value>juge</value>
+            <value>race_sociale</value>
+            <value>groupe</value>
           </choice>
         </attribute>
       </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="w"/>
-        </choice>
-      </oneOrMore>
     </element>
   </define>
   <define name="w">
@@ -556,14 +481,11 @@
         </attribute>
       </optional>
       <optional>
-        <attribute name="type"/>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
       </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="w"/>
-        </choice>
-      </oneOrMore>
+      <text/>
     </element>
   </define>
   <define name="said">
@@ -578,7 +500,12 @@
       </optional>
       <optional>
         <attribute name="direct">
-          <data type="boolean"/>
+          <choice>
+            <value>true</value>
+            <value>false</value>
+            <value>inapplicable</value>
+            <value>unknown</value>
+          </choice>
         </attribute>
       </optional>
       <optional>
@@ -587,29 +514,25 @@
       <optional>
         <attribute name="who"/>
       </optional>
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="addName"/>
-          <ref name="note"/>
-          <ref name="orgName"/>
-          <ref name="persName"/>
-          <ref name="roleName"/>
-          <ref name="said"/>
-          <ref name="term"/>
-          <ref name="w"/>
-        </choice>
-      </oneOrMore>
+      <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="note"/>
+            <ref name="orgName"/>
+            <ref name="persName"/>
+            <ref name="eventName"/>
+            <ref name="seg"/>
+            <ref name="roleName"/>
+            <ref name="w"/>
+          </choice>
+        </oneOrMore>
+      </optional>
     </element>
   </define>
   <define name="quote">
     <element name="quote">
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="w"/>
-        </choice>
-      </oneOrMore>
       <optional>
         <attribute name="corresp"/>
       </optional>
@@ -628,6 +551,21 @@
           </choice>
         </attribute>
       </optional>
+      <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="note"/>
+            <ref name="orgName"/>
+            <ref name="persName"/>
+            <ref name="eventName"/>
+            <ref name="seg"/>
+            <ref name="roleName"/>
+            <ref name="w"/>
+          </choice>
+        </oneOrMore>
+      </optional>
     </element>
   </define>
   <define name="interp">
@@ -635,27 +573,16 @@
       <optional>
         <attribute name="corresp"/>
       </optional>
-      <optional>
-        <attribute name="subtype">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
       <attribute name="type">
-        <data type="NCName"/>
+        <choice>
+          <value>COMMENTARY</value>
+          <value>IRONY</value>
+          <value>medium</value>
+          <value>SARCASM</value>
+        </choice>
       </attribute>
       <text/>
     </element>
   </define>
-  <define name="date">
-    <element name="date">
-      <optional>
-        <attribute name="type">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <attribute name="when">
-        <data type="date"/>
-      </attribute>
-    </element>
-  </define>
+
 </grammar>
