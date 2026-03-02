@@ -577,7 +577,6 @@
         <choice>
           <value>COMMENTARY</value>
           <value>IRONY</value>
-          <value>medium</value>
           <value>SARCASM</value>
         </choice>
       </attribute>
@@ -586,3 +585,4 @@
   </define>
 
 </grammar>
+
