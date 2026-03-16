@@ -2,17 +2,25 @@
 <grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0"
   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xi="http://www.w3.org/2001/XInclude">
   <start>
+    
+    
     <element name="TEI">
       <attribute>
         <name ns="http://www.w3.org/XML/1998/namespace">id</name>
         <data type="NCName"/>
       </attribute>
+      
+      <!-- Informations principales -->
+      
       <element name="teiHeader">
         <element name="fileDesc">
           <element name="titleStmt">
             <ref name="title"/>
             <ref name="author"/>
           </element>
+          
+          <!-- Identité de l'encodeur -->
+          
           <element name="editionStmt">
             <element name="edition">
               <empty/>
@@ -29,6 +37,9 @@
           <element name="publicationStmt">
             <ref name="p"/>
           </element>
+          
+          <!-- Métadonnées -->
+          
           <element name="sourceDesc">
             <element name="bibl">
               <ref name="title"/>
@@ -64,6 +75,9 @@
       </element>
       <element name="text">
         <element name="body">
+          
+          <!-- Permet d'utiliser un index via xi:include -->
+          
           <optional>
             <element name="include">
               <attribute name="href">
@@ -71,6 +85,9 @@
               </attribute>
             </element>
           </optional>
+          
+          <!-- Si l'on préfère avoir temporairement les xml:id en local -->
+          
           <optional>
             <element name="list">
               <oneOrMore>
@@ -85,6 +102,9 @@
               </oneOrMore>
             </element>
           </optional>
+          
+          <!-- Main -->
+          
           <oneOrMore>
             <ref name="p"/>
           </oneOrMore>
@@ -92,6 +112,8 @@
       </element>
     </element>
   </start>
+  
+  
   <define name="title">
     <element name="title">
       <oneOrMore>
@@ -99,6 +121,7 @@
       </oneOrMore>
     </element>
   </define>
+  
   <define name="author">
     <element name="author">
       <optional>
@@ -115,32 +138,23 @@
       <text/>
     </element>
   </define>
-  <define name="hi">
-    <element name="hi">
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="s"/>
-        </choice>
-      </oneOrMore>
+  
+  <define name="interp">
+    <element name="interp">
       <optional>
-        <attribute name="n">
-          <data type="integer"/>
-        </attribute>
+        <attribute name="corresp"/>
       </optional>
-    </element>
-  </define>
-  <define name="p">
-    <element name="p">
-      <oneOrMore>
+      <attribute name="type">
         <choice>
-          <text/>
-          <ref name="s"/>
-          <ref name="hi"/>
+          <value>COMMENTARY</value>
+          <value>IRONY</value>
+          <value>SARCASM</value>
         </choice>
-      </oneOrMore>
+      </attribute>
+      <text/>
     </element>
   </define>
+  
   <define name="note">
     <element name="note">
       <optional>
@@ -162,6 +176,39 @@
       <text/>
     </element>
   </define>
+  
+  <!-- Ordre de la segmentation : p > (hi) > s > seg > w -->
+  
+  <define name="p">
+    <element name="p">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="s"/>
+          <ref name="hi"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <!-- Utilisé pour différencier des éléments graphiques (titre, sous-titres, potentielles citentations mises en évidences) -->
+  
+  <define name="hi">
+    <element name="hi">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="s"/>
+        </choice>
+      </oneOrMore>
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  
   <define name="s">
     <element name="s">
       <oneOrMore>
@@ -183,11 +230,18 @@
       </oneOrMore>
     </element>
   </define>
+  
   <define name="seg">
     <element name="seg">
       <optional>
         <attribute name="type">
-          <data type="NCName"/>
+          <choice>
+            <value>NOM</value>
+            <value>ADJ</value>
+            <value>EXP</value>
+            <value>V</value>
+            <value>PRONOUN</value>
+          </choice>
         </attribute>
       </optional>
       <optional>
@@ -227,232 +281,7 @@
       </optional>
     </element>
   </define>
-  <define name="persName">
-    <element name="persName">
-      <optional>
-        <oneOrMore>
-          <choice>
-            <text/>
-            <ref name="addName"/>
-            <ref name="eventName"/>
-            <ref name="orgName"/>
-            <ref name="roleName"/>
-            <ref name="addName"/>
-            <ref name="w"/>
-          </choice>
-        </oneOrMore>
-      </optional>
-      <optional>
-        <attribute name="ana">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <choice>
-            <value>judicial</value>
-            <value>gouvernment</value>
-            <value>political</value>
-            <value>social</value>
-            <value>proche</value>
-            <value>historical</value>
-            <value>police</value>
-            <value>humanitarian</value>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-
-    </element>
-  </define>
-  <define name="orgName">
-    <element name="orgName">
-      <oneOrMore>
-        <optional>
-          <choice>
-            <text/>
-            <ref name="addName"/>
-            <ref name="eventName"/>
-            <ref name="persName"/>
-            <ref name="roleName"/>
-            <ref name="w"/>
-          </choice>
-        </optional>
-      </oneOrMore>
-      <optional>
-        <attribute name="ana">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <choice>
-            <value>judicial</value>
-            <value>gouvernment</value>
-            <value>political</value>
-            <value>social</value>
-            <value>proche</value>
-            <value>historical</value>
-            <value>police</value>
-            <value>humanitarian</value>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="nymRef">
-          <choice>
-            <value>parti</value>
-            <value>union</value>
-            <value>ONG</value>
-            <value>communauté</value>
-            <data type="NCName"/>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-    </element>
-  </define>
-  <define name="eventName">
-    <element name="eventName">
-      <oneOrMore>
-        <choice>
-          <text/>
-          <ref name="w"/>
-          <ref name="eventName"/>
-          <ref name="roleName"/>
-          <ref name="orgName"/>
-          <ref name="persName"/>
-        </choice>
-      </oneOrMore>
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="nymRef">
-          <choice>
-            <value>manifestation</value>
-            <value>GAD</value>
-            <data type="NCName"/>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute>
-          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-    </element>
-  </define>
-  <define name="addName">
-    <element name="addName">
-      <optional>
-        <oneOrMore>
-          <choice>
-            <text/>
-            <ref name="eventName"/>
-            <ref name="orgName"/>
-            <ref name="persName"/>
-            <ref name="roleName"/>
-            <ref name="w"/>
-          </choice>
-        </oneOrMore>
-      </optional>
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="n">
-          <data type="integer"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <choice>
-            <value>nickName</value>
-            <data type="NCName"/>
-          </choice>
-        </attribute>
-      </optional>
-    </element>
-  </define>
-  <define name="roleName">
-    <element name="roleName">
-      <optional>
-        <oneOrMore>
-          <choice>
-            <text/>
-            <ref name="addName"/>
-            <ref name="eventName"/>
-            <ref name="orgName"/>
-            <ref name="persName"/>
-            <ref name="w"/>
-          </choice>
-        </oneOrMore>
-      </optional>
-      <optional>
-        <attribute name="ana">
-          <data type="NCName"/>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="corresp"/>
-      </optional>
-      <optional>
-        <attribute name="type">
-          <choice>
-            <value>judicial</value>
-            <value>gouvernment</value>
-            <value>political</value>
-            <value>social</value>
-            <value>proche</value>
-            <value>historical</value>
-            <value>police</value>
-            <value>humanitarian</value>
-          </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="nymRef">
-          <choice>
-            <value>sympathisant</value>
-            <value>adhérent</value>
-            <value>candidat</value>
-            <value>elu</value>
-            <value>magistrat</value>
-            <value>président</value>
-            <value>parquet</value>
-            <value>responsable</value>
-            <value>avocat</value>
-            <value>juge</value>
-            <value>race_sociale</value>
-            <value>groupe</value>
-          </choice>
-        </attribute>
-      </optional>
-    </element>
-  </define>
+    
   <define name="w">
     <element name="w">
       <optional>
@@ -476,17 +305,7 @@
           <data type="integer"/>
         </attribute>
       </optional>
-      <optional>
-        <attribute name="pos">
-          <choice>
-            <value>NOM</value>
-            <value>ADJ</value>
-            <value>EXP</value>
-            <value>V</value>
-            <value>PRONOUN</value>
-          </choice>
-        </attribute>
-      </optional>
+      
       <optional>
         <attribute name="type">
           <data type="NCName"/>
@@ -495,6 +314,9 @@
       <text/>
     </element>
   </define>
+  
+  <!-- Pour les citations d’une personne ou propos rapportés -->
+  
   <define name="said">
     <element name="said">
       <optional>
@@ -538,6 +360,9 @@
       </optional>
     </element>
   </define>
+  
+  <!-- Pour les citations d’un texte ou d’une organisation -->
+  
   <define name="quote">
     <element name="quote">
       <optional>
@@ -575,20 +400,311 @@
       </optional>
     </element>
   </define>
-  <define name="interp">
-    <element name="interp">
+  
+  <!-- Possibilité d'emboîtement des balises en Name ; différenciation au type et nymRef -->
+
+  <define name="persName">
+    <element name="persName">
+      <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="eventName"/>
+            <ref name="orgName"/>
+            <ref name="roleName"/>
+            <ref name="addName"/>
+            <ref name="w"/>
+          </choice>
+        </oneOrMore>
+      </optional>
+      <optional>
+        <attribute name="ana">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
       <optional>
         <attribute name="corresp"/>
       </optional>
-      <attribute name="type">
-        <choice>
-          <value>COMMENTARY</value>
-          <value>IRONY</value>
-          <value>SARCASM</value>
-        </choice>
-      </attribute>
-      <text/>
+      <optional>
+        <attribute name="type">
+          <choice>
+            <value>judicial</value>
+            <value>gouvernment</value>
+            <value>political</value>
+            <value>social</value>
+            <value>proche</value>
+            <value>historical</value>
+            <value>police</value>
+            <value>humanitarian</value>
+            <value>presse</value>
+            <value>economical</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="subtype">
+          <choice>
+            <value>accusé</value>
+            <value>témoin</value>
+            <value>victime</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="nymRef">
+          <choice>
+            <value>sympathisant</value>
+            <value>adhérent</value>
+            <value>candidat</value>
+            <value>elu</value>
+            <value>magistrat</value>
+            <value>président</value>
+            <value>parquet</value>
+            <value>responsable</value>
+            <value>avocat</value>
+            <value>juge</value>
+            <value>race_sociale</value>
+            <value>militant</value>
+            <value>groupe</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+
     </element>
   </define>
+  
+  <define name="orgName">
+    <element name="orgName">
+      <oneOrMore>
+        <optional>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="eventName"/>
+            <ref name="persName"/>
+            <ref name="roleName"/>
+            <ref name="w"/>
+          </choice>
+        </optional>
+      </oneOrMore>
+      <optional>
+        <attribute name="ana">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="subtype">
+          <choice>
+            <value>accusé</value>
+            <value>témoin</value>
+            <value>victime</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <choice>
+            <value>judicial</value>
+            <value>gouvernment</value>
+            <value>political</value>
+            <value>social</value>
+            <value>proche</value>
+            <value>historical</value>
+            <value>police</value>
+            <value>humanitarian</value>
+            <value>presse</value>
+            <value>economical</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="nymRef">
+          <choice>
+            <value>parti</value>
+            <value>union</value>
+            <value>ONG</value>
+            <value>communauté</value>
+            <value>nationalité</value>
+            <data type="NCName"/>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  
+  <define name="eventName">
+    <element name="eventName">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="w"/>
+          <ref name="eventName"/>
+          <ref name="roleName"/>
+          <ref name="orgName"/>
+          <ref name="persName"/>
+        </choice>
+      </oneOrMore>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="nymRef">
+          <choice>
+            <value>manifestation</value>
+            <value>GAD</value>
+            <data type="NCName"/>
+          </choice>
+        </attribute>
+      </optional>
+      
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  
+  <define name="roleName">
+    <element name="roleName">
+      <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="addName"/>
+            <ref name="eventName"/>
+            <ref name="orgName"/>
+            <ref name="persName"/>
+            <ref name="w"/>
+          </choice>
+        </oneOrMore>
+      </optional>
+      <optional>
+        <attribute name="ana">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="subtype">
+          <choice>
+            <value>accusé</value>
+            <value>témoin</value>
+            <value>victime</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <choice>
+            <value>judicial</value>
+            <value>gouvernment</value>
+            <value>political</value>
+            <value>social</value>
+            <value>proche</value>
+            <value>historical</value>
+            <value>police</value>
+            <value>humanitarian</value>
+            <value>presse</value>
+            <value>economical</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="nymRef">
+          <choice>
+            <value>sympathisant</value>
+            <value>adhérent</value>
+            <value>candidat</value>
+            <value>elu</value>
+            <value>magistrat</value>
+            <value>président</value>
+            <value>parquet</value>
+            <value>responsable</value>
+            <value>avocat</value>
+            <value>juge</value>
+            <value>race_sociale</value>
+            <value>militant</value>
+            <value>groupe</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  
+  <!-- Réservé pour les surnoms -->
+  
+  <define name="addName">
+    <element name="addName">
+      <optional>
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="eventName"/>
+            <ref name="orgName"/>
+            <ref name="persName"/>
+            <ref name="roleName"/>
+            <ref name="w"/>
+          </choice>
+        </oneOrMore>
+      </optional>
+      <optional>
+        <attribute name="subtype">
+          <choice>
+            <value>accusé</value>
+            <value>témoin</value>
+            <value>victime</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <choice>
+            <value>nickName</value>
+            <data type="NCName"/>
+          </choice>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  
 
 </grammar>
