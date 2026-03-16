@@ -268,17 +268,7 @@
           <data type="integer"/>
         </attribute>
       </optional>
-      <optional>
-        <attribute name="pos">
-          <choice>
-            <value>NOM</value>
-            <value>ADJ</value>
-            <value>EXP</value>
-            <value>V</value>
-            <value>PRONOUN</value>
-          </choice>
-        </attribute>
-      </optional>
+
     </element>
   </define>
     
@@ -305,7 +295,17 @@
           <data type="integer"/>
         </attribute>
       </optional>
-      
+            <optional>
+        <attribute name="pos">
+          <choice>
+            <value>NOM</value>
+            <value>ADJ</value>
+            <value>EXP</value>
+            <value>V</value>
+            <value>PRONOUN</value>
+          </choice>
+        </attribute>
+      </optional>
       <optional>
         <attribute name="type">
           <data type="NCName"/>
