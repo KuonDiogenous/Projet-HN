@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                    <s>Marseille. <persName corresp="#Ali">Ibrahim Ali</persName>, le long chemin de la mémoire</s>
+                    <s>Marseille <persName corresp="#Ali">Ibrahim Ali</persName>, le long chemin de la mémoire</s>
                 </title>
                 <author/>
             </titleStmt>
@@ -23,7 +23,7 @@
             <sourceDesc>
                 <bibl>
                     <title>
-                        <s>Marseille. <persName corresp="#Ali">Ibrahim Ali</persName>, le long chemin de la mémoire</s>
+                        <s>Marseille <persName corresp="#Ali">Ibrahim Ali</persName>, le long chemin de la mémoire</s>
                     </title>
                     <author/>
                     <publisher/>
@@ -55,23 +55,16 @@
                 </item>
             </list>
             <p/>
-            <!-- METTRE NIVEAU TITRE + REMONTER LES XML:ID-->
             <p>
-                <s>samedi 20 février 2021 1835 mots, p.</s>
-            </p>
-            <p/>
-            <p/>
-            <p/>
-            <p>
-                <s>Dimanche, une avenue prendra officiellement le nom du <seg type="NOM" n="1"><addName corresp="#Ali"
-                            type="judicial" subtype="victime">jeune
-                        Marseillais</addName></seg><w pos="V" n="2">tué</w> d'une balle dans le dos
-                    par <seg type="NOM" n="3"><roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">des
+                <s>Dimanche, une avenue prendra officiellement le nom du <addName corresp="#Ali"
+                        type="judicial" subtype="victime"><w pos="NOM" n="1">jeune
+                        Marseillais</w></addName><w pos="V" n="2">tué</w> d'une balle dans le dos
+                    par <seg type="NOM" n="3"><roleName type="judicial" subtype="accusé">des
                             colleurs d'affiches du <orgName type="political" nymRef="parti"
                                 corresp="#RN">FN</orgName></roleName></seg>, en 1995.</s>
                 <s>L'aboutissement de <seg type="EXP" n="1">vingt-six ans de bataille pour <orgName
                             type="proche" ana="Ali">ses proches</orgName></seg>, largement <w
-                        pos="V" msd="Act" n="2">ignorés</w>
+                        type="V" n="2">ignorés</w>
                     <seg type="EXP" n="3">par l'ancienne <orgName ana="LR" type="political">mairie
                             LR</orgName></seg>.</s>
             </p>
@@ -83,42 +76,41 @@
                 <s>Vice, cité de la Savine.</s>
             </p>
             <p>
-                <s>«<quote source="plaque_commémorative" corresp="#Ali"><persName type="judicial"
+                <s><quote source="plaque_commémorative" corresp="#Ali">«<persName type="judicial"
                             subtype="victime" corresp="#Ali">Ibrahim
-                            Ali</persName>-1977-1995</quote>», écrit en lettres blanches avec mention de
+                        Ali</persName>-1977-1995»</quote>, écrit en lettres blanches avec mention de
                     l'arrondissement, le 15e de Marseille.</s>
                 <s>Chaque année, le 21 février, <orgName type="proche" ana="Ali"> amis d'<persName
-                            type="judicial" subtype="victime" corresp="#Ali">Ibrahim Ali</persName></orgName> en
+                            type="judicial" subtype="victime">Ibrahim Ali</persName></orgName> en
                     fabriquent d'autres et descendent les accrocher sur l'avenue des Aygalades, en
                     contrebas de la cité du nord de la ville.</s>
-                <s>C'est là, au carrefour des Quatre-Chemins, il y a vingt-six ans, que <seg
-                        type="NOM" n="1"><addName type="nickName" corresp="#Ali">le jeune de 17 ans <roleName nymRef="race_sociale">d'origine
-                            comorienne</roleName></addName></seg> a été abattu d'une balle dans le dos
-                    par<roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio"> des colleurs d'affiches
+                <s>C'est là, au carrefour des Quatre-Chemins, il y a vingt-six ans, que <addName type="nickName" corresp="#Ali">le jeune de 17 ans d'origine
+                            comorienne</addName> a été abattu d'une balle dans le dos
+                        par<roleName type="judicial" subtype="accusé"> des colleurs d'affiches
                             du<orgName type="political" nymRef="parti" ana="RN">Front
                             national</orgName></roleName>, alors qu'il rentrait d'une répétition
                     avec <orgName type="proche" corresp="#B_Vice" ana="Ali">son groupe de
                         rap</orgName>.</s>
-                <s>«<quote source="plaque_commémorative"><roleName type="judicial" corresp="#Ali"
+                <s><quote source="plaque_commémorative">«<roleName type="judicial" corresp="#Ali"
                             ><!-- assez maladroit comme "type" -->Victime</roleName> de
-                        l'intolérance et de la haine</quote>», rappelle une autre plaque à l'angle
+                        l'intolérance et de la haine»</quote>, rappelle une autre plaque à l'angle
                     de la rue, près d'une fresque représentant son visage souriant, lunettes rondes
                     et casquette à l'envers.</s>
             </p>
             <p>
                 <s><interp type="COMMENTARY"/>Un mémorial trop petit pour <eventName
-                        corresp="#Mort_Ali">l'histoire</eventName> qu'il raconte: depuis <eventName
-                        type="judicial" corresp="#Mort_Ali">la mort d'Ibrahim Ali</eventName>,
+                        corresp="#mort_Ali">l'histoire</eventName> qu'il raconte: depuis <eventName
+                        type="judicial" corresp="#mort_Ali">la mort d'Ibrahim Ali</eventName>,
                         <orgName type="proche" ana="Ali">ses proches</orgName> mènent bataille pour
                     qu'une rue porte son nom.</s>
                 <s><interp type="COMMENTARY"/>Il aura fallu un quart de siècle et un basculement de
-                    majorité municipale pour qu'enfin, le 8 février en <orgName type="political">conseil municipal</orgName>, une
+                    majorité municipale pour qu'enfin, le 8 février en conseil municipal, une
                     délibération acte le baptême : dimanche, <eventName type="political"
                         nymRef="manifestation" corresp="#hommage_Ali">jour de commémoration de sa
-                        mort</eventName>, une première plaque «<quote source="plaque_commémorative"
-                            >avenue <persName corresp="#Ali">Ibrahim-Ali</persName></quote>» remplacera
-                    symboliquement celle de l'avenue des Aygalades, en présence du <roleName corresp="Payan" type="political" nymRef="elu">maire PS</roleName>, <persName type="political" nymRef="elu" corresp="Payan">Benoît
-                    Payan</persName>, et de plusieurs élus.</s>
+                        mort</eventName>, une première plaque <quote source="plaque_commémorative"
+                        >«avenue <persName corresp="#Ali">Ibrahim-Ali</persName>»</quote> remplacera
+                    symboliquement celle de l'avenue des Aygalades, en présence du maire PS, Benoît
+                    Payan, et de plusieurs élus.</s>
             </p>
             <p>
                 <s>Le jour du vote, <persName type="proche" ana="Ali" corresp="#Soly #B_Vice">Mbaé
@@ -139,19 +131,19 @@
                 <s><orgName corresp="#B_Vice">Vice</orgName>, un <orgName corresp="#B_Vice"
                         >collectif de graffeurs-rappeurs</orgName> né quatre ans plus tôt,
                     entraînant tout le quartier dans un mouvement alors encore en préhistoire.</s>
-                <s>"<said who="Soly" direct="true">Il y avait un tel engouement à l'époque</said>,
-                    se souvient-il. <said who="Soly" direct="true">IAM avait sorti son album
+                <s><said who="#Soly" direct="true">«Il y avait un tel engouement à l'époque</said>,
+                    se souvient-il. <said who="#Soly" direct="true">IAM avait sorti son album
                         Concept, les plus jeunes allaient squatter chez Akhenaton et Imhotep pour
                         écouter des disques ramenés de New York. Moi, j'écrivais des textes et on
-                        les rappait comme tout le monde, sur des faces B américaines.</said>"</s>
+                        les rappait comme tout le monde, sur des faces B américaines."</said></s>
                 <s> Les pionniers font des émules dans le quartier, <orgName type="social"
-                        nymRef="groupe" corresp="#les_jeunes">les jeunes</orgName> gravitent autour du local arraché de
+                        nymRef="groupe">les jeunes</orgName> gravitent autour du local arraché de
                     longue lutte au bailleur social de la cité.</s>
                 <s><persName corresp="#Ali">Ibrahim Ali </persName>vient souvent traîner, écouter
                     les aînés en silence.</s>
                 <s>Un soir, un membre du groupe a du retard, on lui propose de le remplacer, il ne
                     partira plus.</s>
-                <s>«<said who="Soly" direct="true" corresp="#Ali">Comme nous tous, la musique, ce
+                <s><said who="#Soly" direct="true" corresp="#Ali">«Comme nous tous, la musique, ce
                         n'était pas une voie pour lui,</said> explique Soly. Il était au lycée de
                     l'Estaque, en menuiserie. C'était pour faire partie d'un collectif. Etre
                     considéré, ne plus être seul dans son coin.</s>
@@ -171,12 +163,12 @@
                 <s>A la tombée de la nuit, <persName corresp="#Ali">Ibrahim Ali</persName> et
                         <roleName type="proche" ana="Ali">ses copains</roleName> arrivent au
                     carrefour des Quatre-Chemins.</s>
-                <s>Sur leur route,<roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio"> trois militants du
+                <s>Sur leur route,<roleName type="judicial" subtype="accusé"> trois militants du
                             <orgName corresp="#RN">Front national</orgName></roleName>, venus
                     recouvrir les murs d'affiches de <persName type="political" nymRef="président"
-                        corresp="#JM_le_pen">Jean-Marie Le Pen</persName>, alors en campagne
+                        corresp="JM_le_pen">Jean-Marie Le Pen</persName>, alors en campagne
                     présidentielle.</s>
-                <s><seg type="NOM" n="1">Deux d'entre eux</seg>, <persName type="judicial"
+                <s><w pos="NOM" n="1">Deux d'entre eux</w>, <persName type="judicial"
                         subtype="accusé" corresp="#Lagier">Robert Lagier</persName>, 63 ans, et
                         <persName type="judicial" subtype="accusé" corresp="#Ambrosio">Mario
                         d'Ambrosio</persName>, 41 ans, <w pos="V" n="2">sont</w><w pos="ADJ" n="3"
@@ -185,24 +177,24 @@
                         Ali</persName> reçoit une balle mortelle dans le dos.</s>
             </p>
             <p>
-                <s>Ce soir-là, <persName corresp="Soly">Soly</persName>, resté peaufiner ses textes
+                <s>Ce soir-là, <persName corresp="#Soly">Soly</persName>, resté peaufiner ses textes
                     à la cité, apprend la nouvelle par téléphone.</s>
                 <s>
-                    «<said who="Soly" direct="true" corresp="#Mort_Ali">Ça s'est répandu dans la
+                    <said who="#Soly" direct="true" corresp="#mort_Ali">«Ça s'est répandu dans la
                         ville comme une traînée de poudre, je me souviens les défilés de scooters de
                         tous les quartiers. Ils voulaient brûler Marseille. Moi aussi, j'étais en
-                        feu.</said>»
+                        feu. »</said>
                 </s>
                 <s> Il est chargé de prévenir <roleName ana="Ali" type="proche">la mère d'<persName
                             corresp="#Ali">Ibrahim</persName></roleName>.</s>
                 <s>
-                    «<said direct="true" toWhom="Soly" who="mère_Ali">Elle m'a dit: "Va voir tes
-                        frères, calme-les. Ne salissez pas sa mémoire." </said>»
+                    <said direct="true" toWhom="#Soly" who="mère_Ali">«Elle m'a dit: "Va voir tes
+                        frères, calme-les. Ne salissez pas sa mémoire."» </said>
                 </s>
                 <s>Il faudra parlementer jusqu'au matin pour apaiser un peu les colères.</s>
                 <s>
-                    «<said who="Soly">Il y avait des cris de partout, j'ai dû m'engueuler avec des
-                        pères de famille. Mais j'avais une mission. </said>»
+                    <said who="#Soly">«Il y avait des cris de partout, j'ai dû m'engueuler avec des
+                        pères de famille Mais j'avais une mission. »</said>
                 </s>
                 <s> Quelques jours plus tard, des milliers de Marseillais défilent dans le
                     calme.</s>
@@ -228,60 +220,60 @@
                     face, a déménagé il y a longtemps, d'abord dans le centre-ville, un presque bout
                     du monde vu des quartiers Nord, puis encore plus loin, à Nantes.</s>
                 <s>Elle reviendra dimanche pour assister à <eventName type="political"
-                        nymRef="manifestation" corresp="#hommage_Ali">l'hommage</eventName> rendu à <roleName
+                        nymRef="manifestation">l'hommage</eventName> rendu à <roleName
                         corresp="#Ali">son fils unique</roleName>.</s>
             </p>
             <p>
-                <s>«MARRE D'ÉCRIRE» <persName corresp="Soly">Soly</persName>, lui, n'a pas quitté
+                <s>«MARRE D'ÉCRIRE» <persName corresp="#Soly">Soly</persName>, lui, n'a pas quitté
                     la Savine.</s>
-                <s><seg type="NOM" n="1"><roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">Les colleurs
-                            d'affiches frontistes</roleName></seg> ont été <w pos="V"  msd="Pass" n="2"
+                <s><seg type="NOM" n="1"><roleName type="judicial" subtype="accusé">Les colleurs
+                            d'affiches frontistes</roleName></seg> ont été <w pos="V" n="2"
                         >condamnés</w> en 1998 <seg type="EXP" n="3">à quinze, dix et deux ans de
-                        prison</seg> par <orgName type="judicial">la cour d'assises d'Aix</orgName>.</s>
+                        prison</seg> par la cour d'assises d'Aix.</s>
                 <s>A charge toujours, pour <roleName type="proche" ana="Ali">les amis
                             d'<persName corresp="#Ali">Ibrahim</persName></roleName>, de transmettre
                     sa mémoire.</s>
                 <s><interp type="COMMENTARY"/>La rue Ibrahim-Ali, c'est une idée du <orgName
-                        corresp="#B_Vice">groupe B</orgName>.</s>
+                        corresp="B_Vice">groupe B</orgName>.</s>
             </p>
             <p>
                 <s>Vice.</s>
-                <s>«<said direct="true" corresp="#Mort_Ali" who="Soly">On ne pouvait pas faire
+                <s><said direct="true" corresp="#mort_Ali" who="#Soly">«On ne pouvait pas faire
                         comme si c'était un fait divers comme un autre</said>, explique Soly. <said
-                        direct="true" corresp="#Mort_Ali" who="Soly">Il fallait faire quelque chose
+                        direct="true" corresp="#mort_Ali" who="#Soly">Il fallait faire quelque chose
                         pour l'honorer, un endroit où des gens habitent, pour que l'on sache
-                        pourquoi on l'a tué.</said>»
+                        pourquoi on l'a tué.»</said>
                 </s>
                 <s> La demande est faite par courrier au <roleName type="political"
-                        corresp="Gaudin" ana="LR">maire</roleName><persName corresp="Gaudin"
+                        corresp="#Gaudin" ana="LR">maire</roleName><persName corresp="#Gaudin"
                         type="political" ana="LR">Jean-Claude Gaudin</persName>, arrivé à la tête de
                     la ville en juin 1995, quelques mois seulement après le drame.</s>
                 <s>Lettre morte.</s>
                 <s>D'autres missives suivront, en vain.</s>
-                <s>«<said who="Soly" direct="true">Et puis j'en ai eu marre d'écrire</said>»,
+                <s><said who="#Soly" direct="true">«Et puis j'en ai eu marre d'écrire»</said>,
                     souffle-t-il.</s>
             </p>
             <p>
                 <s>D'autant qu'il y a d'autres fronts à investir.</s>
-                <s>Devenu <roleName type="social" corresp="Soly">médiateur culturel</roleName>,
-                        <persName corresp="Soly">Soly</persName>arpente les collèges et lycées pour
+                <s>Devenu <roleName type="social" corresp="#Soly">médiateur culturel</roleName>,
+                        <persName corresp="#Soly">Soly</persName>arpente les collèges et lycées pour
                     raconter l'histoire d'<persName corresp="#Ali">Ibrahim</persName> à travers des
                     ateliers d'écriture.</s>
                 <s><interp type="COMMENTARY"/>Il raconte aussi celle de Marseille, des vagues
                     d'immigration qui l'ont façonnée, remonte aux colonies, rappelle les ratonnades
                     lll contre les Italiens, jetés dans le Vieux-Port.</s>
                 <s>
-                    «<said direct="true" who="Soly">Souvent, en face, il y a de l'étonnement.
-                        Après, je les laisse écrire sur ce qu'ils ont retenu. La rue, c'est un
+                    <said direct="true" who="#Soly">«Souvent, en face, il y a de l'étonnement.
+                        Après, je les laisse écrire sur ce qu'ils ont retenu.La rue, c'est un
                         symbole, mais il y a toute une action éducative et citoyenne à mener
-                        derrière contre ces idées qui n'ont cessé de progresser.</said>»
+                        derrière contre ces idées qui n'ont cessé de progresser.»</said>
                 </s>
                 <s>
-                    <said direct="inapplicable" who="Soly">Car en vingt-six ans, sur le terrain
-                        politique, <w type="NOM" corresp="Soly" n="1">il</w> <w pos="V" msd="Act" n="2">a fallu encaisser </w><seg type="EXP" n="3">plusieurs «coups de surin»</seg></said>.</s>
+                    <said direct="inapplicable" who="#Soly">Car en vingt-six ans, sur le terrain
+                        politique, il a fallu encaisser plusieurs «coups de surin»</said>.</s>
                 <s>Comme quand <persName type="judicial" nymRef="avocat" corresp="#Collard">Gilbert
                         Collard</persName>, <roleName type="judicial" nymRef="avocat"
-                        corresp="#Collard">l'avocat des B.Vice </roleName>lors du procès aux assises,
+                        corresp="Collard">l'avocat des B.Vice </roleName>lors du procès aux assises,
                     a rejoint <persName type="political" nymRef="président" ana="RN"
                         corresp="#Marine_Le_Pen">Marine Le Pen</persName>.</s>
                 <s>Ou quand <persName type="political" ana="RN" nymRef="elu" corresp="#Ravier"
@@ -289,24 +281,24 @@
                         <!-- METTRE LES ID EN HAUT --> leader frontiste marseillais</roleName>, a
                     raflé la mairie de secteur voisine, en 2014.</s>
                 <s>
-                    «<said who="#Soly" corresp="#RN" direct="true">Nos politiques ne se sont pas
+                    <said who="#Soly" corresp="#RN" direct="true">«Nos politiques ne se sont pas
                         battus pour le bien des habitants,</said> tranche Soly.<said who="#Soly"
                         corresp="#RN" direct="true"> Avant, <persName corresp="JM_le_pen">Le
                             Pen</persName>, c'était <addName corresp="#JM_le_pen">le
                             diable</addName>, aujourd'hui on a <seg type="ADJ"
                             corresp="Marine_Le_Pen">une blonde qui présente bien</seg>, mais on sait
-                            que les idées sont les mêmes.</said>»
+                        que les idées sont les mêmes.»</said>
                 </s>
                 <s>
-                    <interp type="COMMENTARY"/><seg type="NOM" corresp="#RN" n="1"><orgName corresp="#RN">Le parti frontiste</orgName></seg> <w msd="Act" pos="V" n="2">a
-                    encore montré</w> <seg type="EXP" n="3">les muscles lors du dernier scrutin municipal</seg>, engrangeant plus de
+                    <interp type="COMMENTARY"/><orgName corresp="#RN">Le parti frontiste</orgName> a
+                    encore montré les muscles lors du dernier scrutin municipal, engrangeant plus de
                     26 % au second tour dans le 15e arrondissement.</s>
                 <s>A la Savine, comme dans les autres cités du nord de la ville, c'est surtout
                     l'abstention qui l'a emporté.</s>
                 <s>Dans l'école maternelle, il n'y a eu que 410 votants pour 1 331 inscrits.</s>
                 <s>L'élection en triangulaire a finalement été remportée par <persName
                         type="political" nymRef="elu">Samia Ghali (ex-PS)</persName>, <seg
-                        type="ADJ" corresp="#Ghali">soutien de la première heure du projet de
+                        type="ADJ" corresp="Ghali">soutien de la première heure du projet de
                         rue</seg>.</s>
                 <s>Avant elle, <roleName corresp="#Harmier" type="political" nymRef="elu" ana="PC"
                         >l'ancien maire</roleName> de secteur communiste <persName type="political"
@@ -315,20 +307,20 @@
                     que la mairie centrale de <persName corresp="#Gaudin">Jean-Claude
                         Gaudin</persName>, décisionnaire en la matière, n'aille plus loin.</s>
                 <s><interp type="COMMENTARY"/>Peine perdue, ou presque : en 2001, les habitants de
-                    la Savine découvrent non loin de la cité le «<quote
-                        source="plaque_commémorative_rond-point">rond-point <persName
-                            corresp="#Ali">Ibrahim-Ali</persName></quote>», un terre-plein rebaptisé
-                    en catimini sans même que <roleName type="proche" ana="Ali">la famille</roleName> ou <roleName type="proche" ana="Ali">les amis</roleName> n'aient été informés.</s>
+                    la Savine découvrent non loin de la cité le <quote
+                        source="plaque_commémorative_rond-point">«rond-point <persName
+                            corresp="#Ali">Ibrahim-Ali</persName>»</quote>, un terre-plein rebaptisé
+                    en catimini sans même que la famille ou les amis n'aient été informés.</s>
                 <s>Un ratage total, jusque dans la date de naissance du jeune homme, 1978 au lieu de
-                    1977 "<said direct="true" who="Soly" corresp="plaque_commémorative_rond-point"
-                        >C'était d'une violence</said>, grince Soly. <said direct="true"
-                        who="Soly">En gros, c'était : fermez vos gueules, on vous a mis un
-                        rondpoint en bas de votre cité !</said>"</s>
+                    1977 <said direct="true" who="#Soly" corresp="plaque_commémorative_rond-point"
+                        >«C'était d'une violence</said>, grince Soly. <said direct="true"
+                        who="#Soly">En gros, c'était : fermez vos gueules, on vous a mis un
+                        rondpoint en bas de votre cité !</said></s>
             </p>
             <p>
-                <s>«CONSTAT D'ÉCHEC» <w type="NOM" n="1">Il</w> <w msd="Act" pos="V" n="2">faudra attendre</w><seg type="EXP" n="3"> le départ de <orgName type="political"
+                <s>«CONSTAT D'ÉCHEC» Il faudra attendre le départ de <orgName type="political"
                         nymRef="élu" corresp="#Gaudin">l'équipe Gaudin</orgName> pour que la
-                    situation se débloque.</seg></s>
+                    situation se débloque.</s>
                 <s>Dans l'hémicycle, le 8 février, même <orgName type="political" ana="LR"
                         nymRef="élu">les héritiers LR de <roleName corresp="#Gaudin"
                             type="political" nymRef="elu">l'ancien maire</roleName></orgName> ont
@@ -339,43 +331,43 @@
                         <w pos="V" n="2">était</w>
                         <seg type="ADJ" n="3" corresp="Ali">un enfant de Marseille</seg>,</said>
                     souligne en préambule Samia Ghali.<said direct="true" who="#Ghali"
-                        corresp="#Ali"> Aujourd'hui, il aurait pu être Soprano. Il a eu <seg type="NOM"
-                            n="1">sa vie</seg>
+                        corresp="#Ali"> Aujourd'hui, il aurait pu être Soprano. Il a eu <w pos="NOM"
+                            n="1">sa vie</w>
                         <w pos="V" n="2">fauchée</w> sauvagement <seg type="EXP" n="3">parce qu'il
-                            était <roleName nymRef="race_sociale">noir</roleName></seg>. Cette rue, ce n'est pas un petit symbole.»</said></s>
+                            était noir</seg>. Cette rue, ce n'est pas un petit symbole.»</said></s>
                 <s> Alors que l'hémicycle applaudit, <roleName type="political" ana="RN"
                         nymRef="elu">les élus du Rassemblement national</roleName> s'agitent,
                     veulent prendre la parole.</s>
-                <s><interp type="COMMENTARY"/> Refus net du maire : «<said who="maire_Marseille"
-                        direct="true" toWhom="#RN">A ce moment-là de l'histoire, votre humanité
-                        vous impose le silence !</said>» tranche-t-il, sous les cris indignés du
+                <s><interp type="COMMENTARY"/> Refus net du maire : <said who="maire_Marseille"
+                        direct="true" toWhom="#RN">«A ce moment-là de l'histoire, votre humanité
+                        vous impose le silence !»</said> tranche-t-il, sous les cris indignés du
                         <orgName type="political" ana="RN" nymRef="parti">clan RN</orgName>.</s>
             </p>
             <p>
                 <s><interp type="COMMENTARY"/>L'hommage de l'hémicycle et la colère du RN, <persName
-                        type="political" nymRef="elu" ana="Parti_centriste">Saïd Ahamada</persName>, dans le
+                        type="political" nymRef="elu" ana="LREM">Saïd Ahamada</persName>, dans le
                     public ce jour-là, ne les oubliera jamais.</s>
                 <s><roleName corresp="#Ahamada">Le député LREM des 15e et 16e arrondissements de
                         Marseille </roleName>le répète souvent, <said direct="false"
                         corresp="#mort_Ali" who="#Ahamada">c'est la mort d'Ibrahim Ali qui l'a
                         poussé à s'engager en politique alors qu'il n'avait que 22 ans.</said></s>
-                <s>«<said direct="true" corresp="#mort_Ali" who="#Ahamada">Avant qu'il ne meure, je
+                <s><said direct="true" corresp="#mort_Ali" who="#Ahamada">«Avant qu'il ne meure, je
                         ne pensais pas que ça pouvait arriver en France, mourir parce qu'on est
-                        <roleName nymRef="race_sociale">noir</roleName></said>», explique-t-il.</s>
+                        noir»</said>, explique-t-il.</s>
                 <s>Vingt-six ans plus tard, l'émotion se mêle à l'amertume.</s>
-                <s>«<said direct="true" corresp="#RN" who="#Ahamada">On a raté une occasion à
+                <s><said direct="true" corresp="#RN" who="#Ahamada">«On a raté une occasion à
                         l'époque de bouter le <orgName type="political" nymRef="parti" corresp="#RN"
                             >FN</orgName> hors de Marseille. Vingt-cinq ans après, <orgName
                             corresp="#RN">le parti</orgName> n'a jamais été aussi fort ici et se
                         trouve même en situation de l'emporter à l'échelle du pays.C'est aussi ce
-                        constat d'échec collectif que l'on va commémorer dimanche.</said>»<persName
-                        corresp="Soly">Soly</persName>aussi désespère parfois.</s>
-                <s>«<said direct="true" who="Soly">On a sans doute notre part de responsabilité.Je
+                        constat d'échec collectif que l'on va commémorer dimanche.»</said><persName
+                        corresp="#Soly">Soly</persName>aussi désespère parfois.</s>
+                <s><said direct="true" who="#Soly">«On a sans doute notre part de responsabilité.Je
                         me retrouve devant des gamins qui n'ont pas les mêmes références que moi, le
                         rap a changé, maintenant tout le monde peut faire son studio dans sa
                         chambre, le challenge, c'est celui qui a le plus de vues.Les choses se
-                        construisent différemment, mais j'ai besoin d'espérer.</said>». </s>
-                    <s>Dimanche, c'est lui qui clôturera les prises de parole.</s>
+                        construisent différemment, mais j'ai besoin d'espérer.»</said> Dimanche,
+                    c'est lui qui clôturera les prises de parole.</s>
                 <s>Il faudra encore attendre quelques mois pour que les plaques au nom d'<persName
                         corresp="#Ali">Ibrahim Ali</persName> s'affichent sur toute l'avenue.</s>
             </p>
