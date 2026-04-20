@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="author.css"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Sch%C3%A9ma/Sch%C3%A9ma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Menaces_Figaro_2025">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- Desc. fichier | Obligatoire -->
+            <title>
+               <s><persName corresp="#Bénédice_Perthuis">Bénédicte de Perthuis</persName>,
+                  <roleName corresp="#Bénédice_Perthuis">la juge</roleName> par qui le
+                  tremblement de terre est arrivé</s>
+            </title>
+            <author>Paule Gonzales</author>
+         </titleStmt>
+         <editionStmt>
+            <!-- Desc. de l'éditionn | Facultatif -->
+            <edition/>
+            <!-- Obligatoire si <editionStmt> -->
+            <respStmt>
+               <!-- Déclaration de responsabilité | Facultatif -->
+               <resp>Encodage de l'article</resp>
+               <!-- Obligatoire si <respStmt> -->
+               <name>Nicolas Bleton</name>
+               <!-- Obligatoire si <respStmt> -->
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <!-- Contexte et production du fichier | Obligatoire -->
+            <p>Projet HN spé Traitement de textes</p>
+            <!-- Obligatoire -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>
+                  <s><persName corresp="#Bénédice_Perthuis">Bénédicte de Perthuis</persName>,
+                     <roleName corresp="#Bénédice_Perthuis">la juge</roleName> par qui le
+                     tremblement de terre est arrivé</s>
+               </title>
+               <author corresp="#Paule_Gonzales">Paule Gonzales</author>
+               <publisher>Le Figaro</publisher>
+               <series>Société</series>
+               <ptr type="URL"
+                  target="https://www.lefigaro.fr/actualite-france/condamnation-de-marine-le-pen-benedicte-de-perthuis-la-juge-par-qui-le-tremblement-de-terre-est-arrive-20250401"/>
+               <date when="2025-04-02" type="published"/>
+               <note type="Word_count">953</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <list>
+            <item>
+               <persName xml:id="Bénédicte_Perthuis"/>
+            </item>
+            <item>
+               <persName xml:id="Gérald_Darmanin"/>
+            </item>
+            <item>
+               <persName xml:id="François_Bayrou"/>
+            </item>
+            <item>
+               <persName xml:id="Marine_Le_Pen"/>
+            </item>
+            <item>
+               <persName xml:id="Paule_Gonzales"/>
+            </item>
+            <item>
+               <persName xml:id="Alexandra_Vaillant"/>
+            </item>
+            <item>
+               <orgName xml:id="MoDem"/>
+            </item>
+            <item>
+               <orgName xml:id="Parti_centriste"/>
+            </item>
+            <item>
+               <persName xml:id="Eva_Joly"/>
+            </item>
+            <item>
+               <orgName xml:id="FN"/>
+            </item>
+            <item>
+               <orgName xml:id="DSJ"/>
+            </item>
+            <item>
+               <eventName xml:id="Guerre_du_Golfe"/>
+            </item>
+            <item>
+               <orgName xml:id="BRDP"/>
+            </item>
+         </list>
+         
+         <p>
+            <hi n="1">
+               <s>
+                  <interp type="COMMENTARY"/>
+                  <seg n="1" type="NOM" corresp="#Bénédicte_Perthuis">  <persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName></seg>, la
+                  <seg n="2" pos="NOM" corresp="#Bénédicte_Perthuis"> <roleName corresp="#Bénédicte_Perthuis" type="judicial" nymRef="juge">juge</roleName></seg> 
+                  par qui le
+                  <seg n="3"  type="NOM">tremblement de terre est arrivé</seg>
+               </s>
+            </hi>
+         </p>
+         <p>
+            <hi n="2">
+               <s>Sous le feu des critiques depuis la condamnation prononcée à l’encontre
+                  de <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName>, la <seg n="1"
+                     corresp="#Bénédicte_Perthuis" type="NOM"><roleName
+                        type="judicial" corresp="#Bénédicte_Perthuis">magistrate</roleName></seg>
+                  <w n="2" pos="V" msd="Pass">a été placée</w> sous <seg type="EXP" n="3">protection
+                     policière
+                  </seg>
+               </s>
+            </hi>
+            <s>Les <seg n="1" type="NOM"><roleName type="judicial" nymRef="magistrat">magistrats économiques et financiers</roleName></seg> ne 
+               s'<w n="2" pos="V" msd="Act">attendaient</w> 
+               sans doute pas
+               <seg type="EXP" n="3">à être menacés</seg> au même titre que ceux qui traitent de criminalité organisée ou de
+                     terrorisme
+            </s>
+            <s>C'est chose faite avec l'<eventName nymRef="Attachés">affaire des attachés
+                  parlementaires du Rassemblement
+               national</eventName><!-- devrait marcher -->.</s>
+            <s>En novembre dernier, les deux 
+               <seg n="1" type="NOM"><roleName type="judicial">parquetiers</roleName></seg> du procès <w n="2" pos="V" msd="Act">avaient
+                  subi</w>, après leurs réquisitions, des <seg n="3" type="NOM">menaces de mort</seg> et
+               s'étaient vu attribuer des  protections physique et fonctionnelle tandis que le parquet de Paris ouvrait
+               une enquête.</s>
+         </p>
+         <p>
+            <s>C'est aujourd'hui aux trois <seg n="1" type="NOM"> <roleName type="judicial" nymRef="juge">juges du siège</roleName></seg>
+               d'<w n="2" pos="V" msd="Pass">être pris</w>  
+               <seg type="EXP" n="3">pour cibles</seg>.
+            </s>
+            <s>
+               Depuis lundi, 
+               <seg n="1" type="NOM">les invectives</seg>
+               <w n="2" pos="V" msd="Act">se multiplient</w> 
+               <seg n="3" type="EXP">sur les réseaux sociaux à l'encontre de <persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName></seg>, 
+               <roleName corresp="#Bénédicte_Perthuis" type="judicial" nymRef="président">présidente de la 11e chambre correctionnelle</roleName>,
+               qui a signé le jugement
+               qui fait vaciller le monde politique.</s>
+            
+            <s>Pour découvrir l'historique de sa carrière, son visage ou son adresse, il suffit de
+               taper son nom dans le moteur de recherche du réseau X.</s>
+            <s> Et si l'on n'en est pas encore au stade des menaces de mort,  
+               <seg n="1" type="NOM" corresp="#Bénédicte_Perthuis">les innombrables commentaires</seg>
+               à son encotre
+               <w n="2" pos="V" msd="Act">sont</w> 
+               <seg n="3" type="EXP">autant de formes de pression agressive</seg>.</s>
+         </p>
+
+         <p>
+            <s>Dès 13 heures lundi, le  bureau de la <orgName corresp="#DSJ" type="judicial">direction des services judiciaires</orgName> (DSJ) s'empressait
+               «<said  who="#DSJ" direct="true"> d'identifier les risques et de demander une évaluation de la menace</said> », en prenant
+               «<said who="#DSJ" direct="true"> attache auprès du ministère de l'Intérieur pour que les abords de son domicile soient protégés </said>», sait-on de bonne
+               source.</s>
+            <s>La <orgName corresp="#DSJ #Alexandra_Vaillant" type="judicial">DSJ</orgName>,
+               elle, se tenait prête à activer « 
+               <said who="#DSJ" direct="true"> la protection fonctionnelle </said>».</s>
+            <s>Mardi, à la suite de ces menaces, une enquête a été confiée à la <orgName
+                  type="gouvernment" corresp="#BRDP">brigade de répression de la délinquance aux
+                  personnes</orgName> (BRDP).</s>
+         </p>
+         <p>
+            <s>L'affaire est assez sérieuse pour que le <roleName corresp="#Gérald_Darmanin"
+                  type="gouvernment">garde des Sceaux</roleName>, 
+               <persName corresp="#Gérald_Darmanin">Gérald Darmanin</persName>, 
+               juge 
+               ces menaces « <said who="#Gérald_Darmanin" direct="true">inacceptables dans une démocratie</said> ». </s>
+            <s>Le <roleName type="judicial">procureur général</roleName>
+               et le <roleName type="judicial">premier président de la Cour de
+                     cassation</roleName>
+               ont usé des médias pour «
+                  <said who="Procureur_général" direct="true">défendre l'État de droit</said> », tandis que la
+               <seg n="1" type="NOM"><roleName type="judicial" nymRef="président">première présidente de la cour d'appel de Paris</roleName></seg>
+               <w n="2" pos="V" msd="Pass">s'est</w> également
+               <seg n="3" type="EXP">émue de la situation.</seg></s>
+            <s>De son côté, l'<orgName corresp="#USM" type="judicial" nymRef="union">Union syndicale des magistrats</orgName> (USM) 
+               « <said who="#Alexandra_Vaillant" direct="true">a créé une veille des réseaux sociaux</said> » et a déjà « <said who="#Alexandra_Vaillant" direct="true">adressé un signalement à
+                  la plateforme Pharos, qui collecte les contenus numériques illicites</said> »,
+               explique <persName type="judicial" corresp="#Alexandra_Vaillant">Alexandra
+                  Vaillant</persName>, sa <roleName type="judicial" corresp="#Alexandra_Vaillant"
+                  >secrétaire générale</roleName>.</s>
+         </p>
+         <p>
+            <s>Qualifiée dans nombre de commentaires de « <said who="unknown" direct="true">juge rouge</said> », 
+               <persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName>, 63 ans dont 25 passés dans la
+               magistrature, se voit aussi associée au « <said who="unknown" direct="false"><orgName type="judicial">syndicat de la
+                     magistrature </orgName>»</said>, véritable organisation repoussoir pour
+               beaucoup d'observateurs depuis le traumatisme du « <said who="unknown" direct="false"><eventName nymRef="#Mur_des_cons"
+                  >mur des cons</eventName></said> » en 2012, qui a entamé pour toujours la confiance dans
+               la justice.</s>
+            <s>
+               <interp type="IRONY"/>
+               On prête par ailleurs à <roleName corresp="#Bénédicte_Perthuis">la magistrate</roleName> une folle
+               admiration pour la juge 
+               <persName corresp="#Eva_Joly" type="judicial" nymRef="juge">Eva Joly</persName>,
+               première 
+               <roleName type="judicial" corresp="Eva_Joly" nymRef="juge">juge</roleName> « <said who="unknown" direct="false">éco-fi </said>» des années 1990 et fortement politisée.</s>
+         </p>
+
+         <p>
+            <s>
+               Il lui est simultanément reproché d'être <roleName corresp="#Bénédicte_Perthuis">une ancienne du
+               cabinet de consulting américain</roleName> <orgName type="economical">Ernst and Young</orgName>. </s>
+            <s> Ce qui est vrai, puisque la formation initiale de 
+               <persName corresp="Bénédicte_Perthuis">Bénédicte de Perthuis</persName> est celle d'
+                  <roleName corresp="#Bénédicte_Perthuis">expert-comptable</roleName> et de
+                  <roleName corresp="#Bénédicte_Perthuis">commissaire aux comptes</roleName>. </s>
+            <s> « <said who="haut_magistrat" corresp="#Bénédicte_Perthuis">Un profil comme ça,
+                  forcément, on ne le laisse pas passer dans un tribunal</said> », souligne un
+                  <persName corresp="haut_magistrat">haut magistrat</persName>, qui rappelle combien
+               « <said who="haut_magistrat" corresp="#Bénédicte_Perthuis">la filière économique et
+                  financière est sinistrée</said> » et combien « <said who="haut_magistrat"
+                  corresp="#Bénédicte_Perthuis">il est compliqué de trouver des magistrats compétents
+                  pour suivre</said> » une matière réputée âpre, technique, exigeant un travail de
+               moine soldat. </s>
+            <s> Avant de se retrouver à traiter d'affaires politico-financières, 
+               <seg type="NOM" n="1" corresp="#Bénédicte_Perthuis">cette <roleName corresp="#Bénédicte_Perthuis">magistrate</roleName></seg>, qui
+               n'entra dans le corps qu'à 37 ans passés, 
+               <w pos="V" msd="Pass" n="2">fut en charge</w> de 
+               <seg type="EXP" n="3">dossiers d'une complexité extrême</seg> : celui
+                  d'<eventName nymRef="affaire_EADS">EADS</eventName> et l'<eventName
+                  nymRef="affaire_Wendel">affaire Wendel</eventName>. </s>
+         </p>
+
+         <p>
+            <s>
+               Accusée d'être à la fois<addName type="nickName" corresp="#Bénédicte_Perthuis"> juge
+                  rouge</addName> et <addName type="nickName" corresp="#Bénédicte_Perthuis">supplétive du grand
+                  capital</addName> , on neconnaît pourtant à <persName corresp="#Bénédicte_Perthuis"
+                  >Bénédicte de Perthuis</persName> aucun engagement politique ou syndical. </s>
+            <s>
+               <seg type="NOM" corresp="#Bénédicte_Perthuis" n="1">Elle</seg>
+               <w pos="V" msd="Pass" n="2">serait créditée</w>, comme une grande majorité des magistrats, 
+               <seg type="EXP" n="3">d'une inclination pour le centre de l'échiquier politique.</seg>
+            </s>
+            <s> Cela ne l'a pas empêchée d'être la<roleName corresp="#Bénédicte_Perthuis"
+                  type="judicial"> juge d'instruction</roleName> qui renvoya sans hésitation le
+                  <orgName type="political" corresp="#MoDem">MoDem</orgName> et <persName
+                  type="political">François Bayrou</persName> sur le banc des accusés. </s>
+            <s> Pour elle, l'<eventName corresp="#Parti_centriste">affaire des attachés
+                  parlementaires européens</eventName> du <orgName type="political"
+                  corresp="#Parti_centriste">parti centriste</orgName> ne faisait aucun doute. </s>
+            <s> Comme pour le <orgName type="political" corresp="#RN">Rassemblement
+                  national</orgName>, 
+               <seg type="NOM" n="1" corresp="#Bénédicte_Perthuis">elle</seg> a toujours 
+               <w pos="V" msd="Act" n="2">estimé</w>
+               <seg type="EXP" n="3"> que ce parti politique avait mis en place un système de
+                  détournement de fonds de grande ampleur,</seg> piloté par son <roleName
+                  corresp="#Jordan_Bardella">président</roleName> lui-même. </s>
+            <s> De la même façon, <persName corresp="assesseurs">ses deux assesseurs</persName> ne
+               sont pas connus pour leur engagement à gauche. </s>
+            <s>
+               Selon certaines sources, c'est même le contraire.
+            </s>
+         </p>
+
+         <p>
+            <s> Ceux qui ont côtoyé <persName corresp="#Bénédicte_Perthuis">Bénédicte de
+                  Perthuis</persName> lui prêtent un profil de marbre que peu de chose atteint. </s>
+            <s> Cela a été le cas pour l'<eventName nymRef="affaire_Olivier_Dussopt">affaire
+                  Olivier Dussopt</eventName>, poursuivi pour favoritisme, en janvier 2024. </s>
+            <s> Persuadée de sa culpabilité à la lecture du dossier, elle aurait finalement été
+               convaincue du contraire à l'audience, bâchant <orgName type="judicial">le
+                  parquet</orgName> par une relaxe. </s>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>
+               Pour autant, la décision de justice de ce lundi 31 mars, qui vaut à la France bien des leçons de
+               démocratie, doit être interrogée. </s>
+            <s> En vérité, 
+               <seg type="NOM" n="1"><persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName> et <persName corresp="#assesseurs">les deux juges assesseurs</persName></seg>
+               , car il ne faut pas nier la collégialité de la cour, 
+               <w pos="V" msd="Act" n="2">n'ont fait qu' appliquer</w> 
+              <seg type="EXP" n="3">la jurisprudence constante de la 11e chambre correctionnelle</seg>
+               , sans prendre en compte l'incompréhension qu'elle pourrait
+               susciter par l'exécution provisoire. </s>
+            <s>
+              Se pose donc la question de savoir si le double enjeu d'une décision
+                  de justice n'est pas de faire du droit, tout en étant comprise de tous.
+            </s>
+         </p>
+
+         <p>
+            <s> Pour éteindre le feu allumé par les <persName corresp="#Bénédicte_Perthuis"
+                  >magistrats</persName>, l'<seg type="NOM" n="1">institution judiciaire</seg>
+               <w pos="V" msd="Act" n="2">sera</w> sans doute
+               <seg type="EXP"  n="3">obligée de rompre l'égalité des citoyens devant la loi.</seg>
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>
+               À l'Assemblée nationale, <persName corresp="#Gerald_Darmanin">Gérald
+                  Darmanin</persName> a demandé que l'appel intervienne dans « <said
+                     who="#Gerald_Darmanin" direct="true">des délais raisonnables</said> », ce
+                  qui signifie au plus vite, pour tenir compte de la présidentielle de 2027. </s>
+            <s> Ce procès pourrait donc se conclure avant même celui du
+                  <eventName corresp="#MoDem"><orgName type="political" corresp="#MoDem"
+                     >MoDem</orgName></eventName>. </s>
+            <s>
+               <interp type="IRONY"/> De quoi perturber encore davantage
+                  <persName corresp="#François_Bayrou">François Bayrou</persName>, qui s'est dit «
+                  <said who="#François_Bayrou" direct="true">troublé</said> » par l'énoncé du jugement choc ?
+            </s>
+         </p>
+         <p>P. G.</p>
+      </body>
+   </text>
+</TEI>

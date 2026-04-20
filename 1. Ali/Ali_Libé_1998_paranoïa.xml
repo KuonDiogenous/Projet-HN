@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ali_Libé_1998_paranoïa">
+   <teiHeader>
+      <fileDesc xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+         <titleStmt>
+            <title>
+               <s><eventName corresp="#procès_Ali">Le meurtre d'Ibrahim Ali aux assises
+                     d'Aix</eventName>. La paranoïa aux tripes. Pour <addName type="nickName"
+                     subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">les trois
+                     accusés</addName>, <addName type="judicial" subtype="accusé"
+                     corresp="#Giglio #Lagier #Ambrosio">colleurs d'affiches du <orgName
+                        type="political" ana="RN">FN</orgName></addName>, l'embuscade était
+                  certaine. Mais ils nient toute réaction raciste.</s>
+            </title>
+            <author>JOHANNES Franck</author>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>Encodage de l'article</resp>
+               <name>...</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Projet HN spé Traitement de textes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>
+                  <s><eventName corresp="#procès_Ali">Le meurtre d'Ibrahim Ali aux assises
+                        d'Aix</eventName>. La paranoïa aux tripes. Pour <addName type="nickName"
+                        subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">les trois
+                        accusés</addName>, <addName type="judicial" subtype="accusé"
+                        corresp="#Giglio #Lagier #Ambrosio">colleurs d'affiches du <orgName
+                           type="political" ana="RN">FN</orgName></addName>, l'embuscade était
+                     certaine. Mais ils nient toute réaction raciste.</s>
+               </title>
+               <author>JOHANNES Franck</author>
+               <publisher>Libération</publisher>
+               <series>Envoyé spécial</series>
+               <ptr type="URL" target=""/>
+               <date when="1998-05-15" type="published"/>
+               <note type="Word_count">1102</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <list>
+            <item>
+               <persName xml:id="Lagier"/>
+            </item>
+            <item>
+               <persName xml:id="Ambrosio"/>
+            </item>
+            <item>
+               <persName xml:id="Giglio"/>
+            </item>
+            <item>
+               <persName xml:id="Ali"/>
+            </item>
+            <item>
+               <persName xml:id="JM_le_pen"/>
+            </item>
+            <item>
+               <eventName xml:id="procès_Ali"/>
+            </item>
+         </list>
+
+         <p>
+            <s>Aix-en-Provence, envoyé spécial.</s>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>
+               <seg type="NOM" n="1"><roleName type="judicial" nymRef="président">Le président</roleName></seg> 
+               <w pos="V" msd="Act" n="2">est minutieux</w> 
+               <seg type="EXP" n="3">jusqu'à la démesure</seg>
+               et, sauf l'ennui de l'audience, il fait bien.
+            </s>
+            <s>
+               <interp type="IRONY"/>
+               <seg type="NOM" n="1"><roleName type="judicial" nymRef="président" >Il</roleName> </seg>
+               <w pos="V" msd="Act" n="2">a fait entendre </w>
+               le balayeur municipal qui n'a rien vu, le chauffeur du bus qui ne
+               passait pas par là, l'expert en lunettes teintées, pour caler de minuscules détails
+               absolument pas contestés: 
+               <seg type="EXP" n="3" >près de 80 témoins et experts</seg>,
+               <eventName corresp="#procès_Ali"> pour une fusillade de trois minutes, il y a trois ans, dans les quartiers nord de Marseille</eventName>.
+            </s>
+            <s>
+               <seg type="NOM" n="1">Les faits</seg>
+               <w pos="V" msd="Act" n="2">sont</w>
+               <seg type="EXP" n="3">nets</seg>
+               : <addName type="judicial" subtype="accusé" corresp="#Giglio #Lagier">deux colleurs d'affiches du Front national</addName> ont tiré, le 21
+               février 1995, sur <addName type="nickName" subtype="victime" corresp="#Ali">un groupe de jeunes Blacks</addName> qui couraient prendre leur bus; 
+               <persName type="judicial" subtype="victime" corresp="#Ali">Ibrahim Ali</persName>, 17 ans, a été tué d'une balle dans le dos.</s>
+         </p>
+         <p>
+            <s>Reste, après une semaine de débats d'assises, 
+               <seg type="NOM" n="1">le coeur du problème</seg>
+               : 
+               <w pos="V" n="2">est-ce</w>
+               <seg type="EXP" n="3">un crime raciste ou "un terrible accident"?</seg>
+            </s>
+            <s>Sans doute quelque chose de compliqué entre les deux, avec le risque que le verdict,
+               vendredi, ne satisfasse pas grand monde.</s>
+         </p>
+         <p>
+            <s>Les complices rôdent.</s>
+            <s>
+               <seg type="NOM" n="1"><persName type="judicial" subtype="accusé" corresp="#Lagier">Robert Lagier</persName> et <persName type="judicial" subtype="accusé" corresp="#Giglio">Pierre Giglio </persName></seg>
+               <w pos="V" msd="Act" n="2">sont allés se dénoncer</w> 
+               <seg type="EXP" n="3">le lendemain du meurtre</seg>,
+               <addName type="nickName" subtype="accusé" corresp="#Ambrosio">le troisième larron</addName>, <persName type="judicial" subtype="accusé" corresp="#Ambrosio">Mario D'Ambrosio</persName>, attendait la police chez lui.</s>
+            <s>
+               <roleName type="judicial" nymRef="avocat">Un avocat des parties civiles</roleName> laisse entendre que les tireurs attendaient les jeunes
+               pour faire un carton, mais personne ne pouvait prévoir que <addName type="nickName" subtype="victime" corresp="#Ali">les rappeurs</addName> passeraient
+               par là à cette heure-là.
+            </s>
+            <s>
+               Pour <persName type="judicial" subtype="accusé" corresp="#Lagier">Lagier</persName>,
+               <addName type="nickName" subtype="accusé" corresp="#Lagier">l'auteur du coup de feu mortel</addName>, 
+               les choses sont malheureusement
+               simples.</s>
+            <s>
+               Il a vu rôder une 309 crème près de l'endroit où ils affichaient, puis 
+               <addName type="nickName" subtype="victime" corresp="#Ali">un groupe de jeunes</addName>,
+               qu'il a cru complices, qui couraient vers eux au milieu de la nuit, il a
+               voulu tirer trois fois en l'air.</s>
+            <s>"<said who="#Lagier" corresp="#Ali" direct="true">Ibrahim Ali a été victime des circonstances, dont je suis un élément</said>, explique 
+               <addName type="nickName" subtype="accusé" corresp="#Lagier">le monsieur de 66 ans</addName>.
+            <said who="#Lagier" corresp="#Ali" direct="true">Il ne représentait pas un danger pour moi, je ne l'ai même pas vu.</said>
+            <said who="#Lagier" corresp="#Ali" direct="true">C'est un accident</said>".
+         </s>
+            <s> 
+               <interp type="COMMENTARY"/>
+               <seg type="NOM" n="1"><addName type="nickName" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">Les trois accusés</addName></seg>,
+               au casier vierge, 
+               <w pos="V" msd="Act" n="2">ont astucieusement </w>
+               <seg type="EXP" n="3">choisi un avocat classé à gauche</seg>, 
+               Me Jean-Michel Pesenti, qui s'est jadis occupé du divorce de LionelJospin.</s>
+            <s>
+               En garde à vue comme à l'audience, 
+               <seg type="NOM" n="1"><addName  type="nickName" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">les frontistes</addName> </seg>
+               <w pos="V" msd="Act" n="2">évitent</w>
+               <seg type="EXP" n="3">comme la peste tout dérapage raciste.</seg>
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Jusqu'à la caricature: 
+               <seg type="NOM" n="1"><persName type="judicial" subtype="accusé" corresp="#Ambrosio">D'Ambrosio</persName></seg>, 
+               <addName type="nickName" subtype="accusé" corresp="#Ambrosio">le moins fin</addName>, 
+               <w pos="V" msd="Act" n="2">n'avait même pas vu</w>
+              <seg type="EXP" n="3">que <addName type="nickName" subtype="victime" corresp="#Ali">les jeunes</addName> étaient <roleName subtype="victime" corresp="#Ali" nymRef="race_sociale">noirs</roleName></seg>,
+               il "<said corresp="#Ambrosio" who="#Ambrosio" direct="true">ne remarque pas des détails comme ça</said>".</s>
+            <s>Pierre Giglio, si.</s>
+            <s>"<said corresp="#Giglio" who="#Giglio" direct="true">Je les ai vus de <roleName nymRef="race_sociale" corresp="#Ali">couleur noire</roleName>, mais je ne pense pas que c'est un délit.</said>"</s>
+         </p>
+         <p>
+            <s>Le choix de l'arme.</s>
+            <s>Mais 
+               <seg type="NOM" n="1"><addName type="nickName" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">les trois hommes</addName></seg>
+               <w pos="V" msd="Act" n="2">ont tout fait </w>
+               <seg type="EXP" n="3">pour qu'un collage tourne, un jour ou l'autre, à la bavure.</seg>
+            </s>
+            <s>"<said who="#Lagier" direct="true">Je ne prends jamais d'arme quand je vais coller des affiches</said>", assure 
+               <persName corresp="#Lagier">Robert Lagier</persName>.</s>
+            <s>
+               <interp type="IRONY"/>
+               Juste sa bombe lacrymogène, qui ne le quitte pas.</s>
+            <s>"<said who="#Lagier" direct="true">Quand j'emmène ma femme au supermarché, je mets la bombe dans ma poche</said>.
+            " Ce soir-là, 
+               "<said who="#Lagier" direct="true">la boîte à gants était à ce point encombrée que je ne l'ai pas trouvée</said>".</s>
+            <s>
+               <interp type="IRONY"/>
+               <roleName type="police">Les policiers</roleName>, le lendemain, l'ont retrouvée tout de suite.</s>
+            <s>
+               <interp type="IRONY"/>
+               Dans la boîte à gants.</s>
+         </p>
+         <p>
+            <s>
+               Alors 
+               <w pos="NOM" corresp="#Lagier" n="1"><persName corresp="#Lagier">Lagier</persName></w>
+               <w pos="V" msd="Act" n="2">prend</w> 
+               <seg type="EXP" n="3">un pistolet automatique 22 long rifle</seg>,
+               "<said who="#Lagier" direct="true">le plus maniable</said>".</s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Il est vrai qu'
+               <w pos="PRONOUN" corresp="#Lagier" n="1">il</w> 
+               <w pos="V" msd="Act" n="2">a le choix</w>, 
+               <seg type="EXP" n="3">il a quatre armes de poing chez lui</seg>, 
+               dont un 357
+               Magnum, et une carabine, toutes légalement détenues.
+            </s>
+            <s>
+               <interp type="IRONY"></interp>
+               Plus un coup-de-poing américain dont il ne se sert plus "<said who="#Lagier" direct="true">depuis des années</said>".</s>
+            <s>
+               <interp type="IRONY"/>
+               C'est qu'il n'a pas "<said who="#Lagier" corresp="#Lagier" direct="true">une passion</said>" pour les armes, juste "<said who="Lagier" corresp="#Lagier" direct="true">un goût</said>".</s>
+            <s>
+               <interp type="IRONY"/>
+               Et se voit comme un tireur "<said who="#Lagier" corresp="#Lagier" direct="true">un peu au-dessus de la moyenne</said>", lui qui loge à 25 m une
+               balle dans une cible de 18 cm.</s>
+            <s>
+               <interp type="IRONY"/>
+               <seg type="NOM" n="1" corresp="#Lagier">Il met six balles dans le chargeur</seg>,
+               et pas n'importe lesquelles: il a 3 000
+               cartouches chez lui, mais il prend 
+               des Remington à effet dit "<said who="#Lagier" direct="true">lacérant</said>", 
+               <w pos="V" msd="Act" n="2">qui sont</w>
+               <seg type="EXP" n="3">interdites même en temps de guerre par la convention de Genève.</seg>
+            </s>
+            <s>
+               Et
+               <seg type="NOM" corresp="#Lagier" n="1">il</seg> 
+               <w pos="V" msd="Act">scotche</w>
+               <seg type="EXP" n="3">son pistolet à son mollet gauche</seg>.</s>
+            <s>
+               <interp type="SARCASM"/>
+               Officiellement parce que "<said who="#Lagier" direct="true">c'est plus pratique</said>", mais il a avoué au juge qu'il avait
+               ainsi l'impression d'"<said who="#Lagier" corresp="#Lagier" direct="true">être un petit James Bond</said>".</s>
+            <s>Il n'oublie pas non plus d'emporter des lunettes jaunâtres, achetées quinze jours
+               avant, pour les essayer.</s>
+            <s>Des lunettes de tir, pour accentuer les contrastes.</s>
+         </p>
+         <p>
+            <s>
+               <interp type="IRONY"/>
+               <persName corresp="#Ambrosio">Mario D'Ambrosio</persName> non plus ne porte jamais d'armes.</s>
+            <s>Son entourage proche ne les supporte pas, alors 
+               <w pos="NOM" n="1" corresp="#Ambrosio">il</w>
+               <w pos="V" msd="Act" n="2">laisse</w> 
+              <seg type="EXP" n="2">son 7,65 sous le siège de la voiture de sa femme.</seg></s>
+            <s>
+               <interp type="IRONY"/>
+               Un pistolet qu'il assure n'avoir jamais essayé, mais qu'il prend soin d'emporter ce
+               soir-là.</s>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>
+               Et Lagier lui porte le coup de grâce en racontant qu'il l'a déjà vu "<said who="#Lagier" corresp="#Lagier" direct="true">manipuler une
+               arme, probablement à grenaille, dans les locaux du Front national</said>".</s>
+         </p>
+         <p>
+            <s>Autre problème pour la défense, les pierres.</s>
+            <s>
+               <w pos="NOM" n="1">Lagier</w>
+               <w pos="V" msd="Act" n="2">prétend</w> 
+               <seg type="EXP" n="3">qu'il a vu <addName type="nickName" subtype="victime" corresp="#Ali">les jeunes</addName> lui lancer des pierres</seg>, 
+               tombées sur sa voiture.</s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Giglio a entendu le bruit des cailloux, D'Ambrosio les a vus traverser 
+               "<said who="#Ambrosio" corresp="#Ambrosio" direct="true">le faisceau des phares</said>", 
+               <w pos="#Ambrosio" n="1">lui</w>
+               <w pos="V" msd="Act" n="2">qui n'a même pas reconnu</w>
+              <seg type="EXP" n="3">son <addName type="nickName" subtype="accusé" corresp="#Giglio">copain</addName> Giglio quand il tirait dans le tas.</seg>
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Personne n'y croit.
+            </s>
+            <s>
+               Le chef d'enquête en "<said who="chef_enquête" direct="true">doute fort</said>", l'expert n'a pas retrouvé d'impacts convaincants
+               sur la voiture et il n'y avait pas un caillou aux environs.
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>
+               <seg type="NOM" n="1"><orgName type="judicial">La cour</orgName> </seg>
+               <w pos="V" msd="Act" n="2">ne peut qu'en déduire </w>
+               <seg type="EXP" n="3">que les <addName type="nickName" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">accusés</addName> se sont soigneusement concertés avant de se rendre.</seg></s>
+         </p>
+         <p>
+            <s><interp type="SARCASM"/>La couche brune.</s>
+            <s>
+               <seg type="NOM" n="1">Sous le vernis policé des trois hommes </seg>
+               <w pos="V" msd="Act" n="2">perce</w>,
+               à de rares instants, 
+               <seg type="EXP" n="3">la couche plus nettement brune de l'extrême droite</seg>.
+            </s>
+            <s>
+               <interp type="SARCASM"/>
+               Lagier n'est pas raciste, mais, quand il parle des rappeurs, il dit "<said who="#Lagier" corresp="#Lagier" direct="true">les Norvégiens</said>",
+               parfois "<said who="#Ambrosio" corresp="#Ambrosio" direct="true">la meute</said>".
+            </s>
+            <s>Il en a vu dix-sept ou dix-huit qui couraient vers lui.</s>
+            <s>Ils n'étaient que dix.</s>
+            <s>Selon lui, l'explication de cette différence tient au fait que "les dix autres
+               n'étaient pas présentables pour la justice".</s>
+            <s>
+               <interp type="SARCASM"/>
+               <w pos="NOM" corresp="#Lagier" n="1">Il</w> 
+               ne s'intéresse pas à la couleur de la peau, mais 
+               <w pos="V" msd="Act" n="2">décrit</w>
+               un jeune comme 
+               "<said who="#Lagier" corresp="#Lagier" direct="true"><seg type="EXP" n="3"><roleName nymRef="race_sociale">un métis bien brassé</roleName> </seg></said>".
+            </s>
+            <s>
+               <interp type="IRONY"/>
+               "<said who="#Lagier" corresp="#Lagier" direct="true">Je ne suis plus un petit garçon, je ne m'effraie plus de voir un Noir</said>", assure 
+               <addName type="nickName" subtype="accusé" corresp="#Lagier">le vieux monsieur</addName>.
+            </s>
+            <s>
+               D'ailleurs, 
+               "<said who="#Lagier" corresp="#Lagier" direct="true">au sein du <orgName type="political" ana="RN">FN</orgName>, il y a des adhérents qui sont noirs</said>" 
+               et Lagier se sent
+               "<said who="#Lagier" corresp="#Lagier" direct="true">à demi arabe</said>".
+            </s>
+            <s>
+               "<said who="#Lagier" corresp="#Lagier" direct="true">Si j'avais été raciste, j'aurais tiré toutes les balles que j'avais dans mon arme</said>".
+            </s>
+            <s>Il a pourtant l'air sincère sur l'essentiel.</s>
+            <s>
+               <interp type="IRONY"/>
+               Il a vraiment eu peur, il a cru qu'on allait l'agresser, des <addName type="nickName" subtype="victime" corresp="#Ali">jeunes</addName>, <roleName nymRef="race_sociale">noirs</roleName> en
+               plus.</s>
+            <s>Et 
+               <w pos="NOM" corresp="#Lagier" n="1">il</w> 
+              <w pos="V" msd="Act" n="2">restait marqué</w>
+               <seg type="EXP" n="3">par la Lettre de <persName type="political" corresp="#JM_le_Pen">Jean-Marie Le Pen</persName></seg>, 
+               qui recensait six militants
+               tués pendant des collages.</s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Comme le <orgName type="political" ana="RN">Front national</orgName>, 
+               <seg type="NOM" n="1">l'angoisse du complot </seg>
+               <w pos="V" msd="Act" n="2">n'est</w>
+               <seg n="3" type="EXP">jamais loin</seg>.
+            </s>
+            <s>
+               "<said who="#Lagier" corresp="#Lagier" direct="true">Ce soir-là</said>, dit d'un coup Lagier,
+               <said who="#Lagier" corresp="#Lagier" direct="true">une chose est certaine, une embuscade nous était tendue</said>.
+               " <said who="#Lagier" corresp="#Lagier" direct="true">Et si on n'a pas retrouvé de pierres, c'est qu'elles ont été enlevées</said>".</s>
+            <s>
+               <seg type="NOM" n="1"><addName type="nickName" subtype="accusé" corresp="#Lagier #Ambrosio #Giglio">Les trois colleurs d'affiches du FN</addName></seg>
+               <w pos="V" msd="Act" n="2">n'étaient</w>
+              <seg type="EXP" n="3">a priori pas des tueurs</seg>.
+            </s>
+            <s>
+               Mais on voit doucement se profiler la réponse à l'interrogation de l'<roleName type="judicial" nymRef="avocat">avocat général</roleName>:
+               "<said who="Avocat_général" direct="true">Qu'est-ce qui, dans leur appartenance au <orgName type="political" ana="RN">Front national</orgName>, a pu déterminer leur comportement?</said>"
+            </s>
+            <s>Au moins une chose: la paranoïa.</s>
+         </p>
+      </body>
+   </text>
+</TEI>

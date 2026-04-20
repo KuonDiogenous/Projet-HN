@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Menaces_Libé_2025"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <s><persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> Après la condamnation,
+                  le <w pos="NOM" n="1">déluge</w>
+                  <w pos="V" n="2">s'abat</w> sur <w n="3" pos="NOM">les juges</w></s>
+            </title>
+            <author>Paule Gonzales</author>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>Encodage de l'article</resp>
+               <name>Nicolas Bleton</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Projet HN spé Traitement de textes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>
+                  <s><persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> Après la condamnation,
+                     le <w pos="NOM" n="1">déluge</w>
+                     <w pos="V" n="2">s'abat</w> sur <w n="3" pos="NOM">les juges</w></s>
+               </title>
+               <author corresp="Nicolas_Massol">Nicolas Massol</author>
+               <publisher>Libération</publisher>
+               <series>Evénement</series>
+
+               <ptr type="URL"
+                  target="https://nouveau.europresse.com/Link/MOULINT_1/news%c2%b720250402%c2%b7LI%c2%b7202504020895921563"/>
+               <date when="2025-04-02" type="published"/>
+               <note type="Word_count">1119</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+
+      <body>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Index.xml"/>
+
+         <p>
+            <hi>
+               <s><persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> Après la condamnation,
+                  le <seg type="NOM" n="1">déluge</seg>
+                  <w pos="V" n="2">s'abat</w> sur <seg n="3" type="NOM">les juges</seg></s>
+            </hi>
+         </p>
+
+
+         <p>
+            <s>
+              « <said who="#RN" direct="false">Le système</said> », 
+               «<said who="#RN" direct="false">l’oligarchie</said>», les 
+               « <said who="#RN" direct="false">juges rouges</said> » : après
+               le déni, la colère, deuxième étape du deuil.</s>
+            <s> La première a duré plus que de raison, au Rassemblement national, où <seg n="1" type="NOM">la
+               condamnation de <persName corresp="#Marine_Le_Pen" ana="RN" type="political"
+                  >Marine Le Pen</persName></seg>, lundi, à cinq ans d'inéligibilité avec effet
+               immédiat, <w pos="V" msd="Act" n="2">a laissé </w>
+               <seg n="3" type="ADJ">hébétés la quasi-totalité des cadres</seg>.</s>
+            <s> Par superstition ou aveuglement, nul dans le <addName type="nickName" corresp="#RN">parti d'extrême droite</addName> n'avait osé
+               imaginer que <addName type="nickName" corresp="#Marine_le_Pen">la triple candidate à l’élection présidentielle</addName> ne pourrait probablement
+               pas en briguer une quatrième en 2027.</s>
+         </p>
+         <p>
+            <s>Un nouveau jour se lève, mardi, sur une phase de colère.</s>
+            <s>
+               Elle déferle sur toutes les matinales de radio et télé, contre le principal objet
+               du ressentiment te : la justice en général et <persName
+                  type="judicial" corresp="#Bénédicte_Perthuis"> Bénédicte de
+                     Perthuis</persName> en particulier, 
+               <seg type="NOM" n="1" corresp="#Bénédicte_Perthuis"><roleName type="judicial" nymRef="magistrat" corresp="#Bénédice_Perthuis">la magistrate </roleName></seg>
+               <w pos="V" n="2" msd="Act">coupable d'avoir immolé</w>
+               <seg type="EXP" n="3"><persName corresp="#Marine_Le_Pen" ana="RN" type="political">
+                  Marine LePen</persName></seg>, c'est-à-dire d'avoir appliqué la loi en
+               condamnant les responsables du détournement de 4,4 millions d'euros d'argent
+               public.</s>
+            <s> Sur RMC, 
+               <seg type="NOM" n="1"><persName corresp="#Louis_Alliot" ana="RN" type="political">Louis Aliot</persName></seg>, lui-même condamné, 
+               <w pos="V" msd="Act" n="2">dénonce</w> un 
+               « <said who="#Louis_Alliot" corresp="vision_FN" aloud="true" direct="true"><seg type="EXP" n="3">dispositif [...] pas juridique mais
+                        politique</seg></said>».</s>
+            <s>
+               «<said direct="true" aloud="true" corresp="vision_FN" who="#Jordan_Bardella"
+                  >Tout sera fait pour nous empêcher d'arriver au pouvoir</said>», morigène au même moment <persName
+                  corresp="#Jordan_Bardella" ana="RN" type="political">Jordan
+                     Bardella</persName> sur <orgName type="presse">Europe 1</orgName>,dénonçant la «<said direct="true" aloud="true" corresp="#vision_FN" who="#Jordan_Bardella">tyrannie des juges</said>» repeints
+               en «<said direct="true" aloud="true" corresp="vision_FN" who="#Jordan_Bardella">rouge</said>».</s>
+            <s> Les spectateurs de <orgName type="presse">France 2</orgName> et de <orgName type="presse">TF1</orgName> se lèvent aussi avec les protestations de
+               l'extrême droite.</s>
+         </p>
+         <p>
+            <s>«<said who="unknown" direct="true">BOMBE NUCLÉAIRE</said>» La première salve terminée, tout ce petit monde serve à l'Assemblée pour la réunion du 
+               <addName type="nickName" corresp="#RN">groupe frontiste</addName>, ouverte
+               pour l'occasion aux caméras.</s>
+            <s> L'intensité monte d'un cran.</s>
+            <s>
+               «<said direct="true" aloud="true" corresp="vision_FN" who="#Jordan_Bardella">Quel est
+                  ce pays où on ferme une chaîne de télévision [<orgName type="presse">C8</orgName>, ndlr], où l'on empêche la leader
+                  de l'opposition de concourir à l'élection présidentielle, où l’on requiert de la
+                  prison ferme contre un ancien président de la République ?</said>» interroge le
+               <roleName type="political" nymRef="président" corresp="#Jordan_Bardella">président du RN</roleName>, nouant le sort de sa patronne avec celui de <persName>Nicolas Sarkozy,</persName>
+               condamné définitivement à un an de prison ferme, avec bracelet, pour corruption et
+               trafic d'influence.</s>
+            <s>
+               «<said direct="true" aloud="true" corresp="vision_FN" who="#Jordan_Bardella">, c’était un jour
+                     très sombre pour la démocratie française, peut-être le
+                     plus sombre que la démocratie française ait connu</said>», dramatise <addName type="nickName" corresp="#Jordan_Bardella">Bardella</addName>,
+               dont <interp type="IRONY"/>
+               <seg type="NOM" n="1">les fiches</w>
+               <w n="2" pos="V" msd="Act">n'ont pas l'air de mentionner</w>
+               <seg n="3" type="EXP">le vote des pleins pouvoirs à <persName>Philippe Pétain</persName></seg>, le 10 juillet
+               1940.</s>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" n="1"><persName corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le Pen</seg>
+               <w pos="V" n="2" msd="Act">enchaîne</w>, <seg n="3" type="ADJ">féroce et caustique</seg>.</s>
+            <s> Le coup de mou de la veille semble loin, les yeux sont secs.</s>
+            <s>
+               «<said direct="true" aloud="true" corresp="vision_FN" who="#Marine_Le_Pen"><seg
+                     type="NOM" n="1">Le système</seg>
+                  <w n="2" pos="V" msd="Act">a sorti</w>
+                  <seg n="3" type="EXP">la bombe nucléaire</seg></said>, commence-t-elle. <said direct="true" aloud="true" corresp="vision_FN" who="#Marine_Le_Pen">Et s'il utilise une arme
+                  aussi puissante contre nous, c'est évidemment parce que nous sommes sur le point
+                  de gagner des élections.</said>»</said>
+            </s>
+            <s> Seules contre tous, les troupes, encore flageolantes, resserrent les rangs : «<said
+                  direct="true" aloud="true" corresp="vision_FN" who="#Marine_Le_Pen">Ils nous ont
+                  volé les législatives [en raison du désistement républicain], que les choses
+                  soient claires, on ne se laissera pas voler la présidentielle.</said>»</s>
+            <s>
+               <interp type="COMMENTARY"/>
+               <seg n="1" type="NOM">L'ennemi</seg>
+               <w pos="V" n="2" msd="Pass">est désigné</w> cent fois : <seg n="3" type="EXP">la <roleName
+                     corresp="#Bénédicte_Perthuis" type="judicial" nymRef="magistrat"
+                  >magistrate</roleName>, <persName corresp="#Bénédicte_Perthuis" type="judicial"
+                     >Perthuis</persName></seg>, «<said said direct="true" aloud="true" who="#Marine_Le_Pen">juge de première instance</said>», prend-elle toujours
+               soin de préciser avec mépris.</s>
+         </p>
+         <p>
+            <s>Certes, <persName corresp="#Marine_Le_Pen" ana="RN" type="political">Le Pen</persName>se désolidarise des multiples menaces dont est victime depuis la veille la juge,
+               placée sous protection policière.</s>
+            <s> Mais c'est pour mieux citer le communiqué du Syndicat de la magistrature – auquel la
+               juge visée n'appartient pas –, publié en juin, au moment des législatives, appelant
+               «<quote corresp="#SN">l'ensemble des magistrates et magistrats» à «se mobiliser
+                  contre l'accession au pouvoir de l’extrême droite</quote>».</s>
+            <s>
+               <interp type="COMMENTARY"/>
+               «<said direct="true" aloud="true" corresp="vision_FN" who="#Marine_Le_Pen">Cet appel
+                  [...], c'est aussi une menace !</said>»
+               tonne la <roleName corresp="#Marine_Le_Pen"
+                  ana="RN" nymRef="président" type="political">cheffe</roleName>, qui mélange tout,
+               allant jusqu'à oser la comparaison entre son cas et celui d'<persName>Alexeï Navalny</persName>, assassiné
+               par <orgName>le régime de Poutine</orgName>.</s>
+            <s> Et ça fonctionne : le moral des troupes remonte.</s>
+            <s> «<said who="député_RN" direct="true">C'était incroyable</said>», gazouille un député à la sortie.</s>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>
+               Dans les couloirs de l'Assemblée, <seg type="NOM" n="1">les <orgName type="political" nymRef="parti"
+                  ana="RN">frontistes</orgName></seg>
+               <w pos="V" msd="Act" n="2">déversent</w>  
+               <seg type="EXP" n="3">leur fiel sur la malheureuse juge.</seg> 
+            </s>
+            <s> Ressortent une interview dans laquelle cette dernière contait son admiration pour
+               <persName corresp="#Eva_Joly" nymRef="juge">Eva Joly</persName>, <roleName type="political" nymRef="candidat" corresp="#Eva_Joly">ancienne candidate écolo à la présidentielle de 2012</roleName> 
+               après une carrière de <roleName type="judicial" nymRef="magistrat" corresp="#Eva_Joly">magistrate</roleName> illustrée par la lutte contre la corruption.</s>
+            <s> <said who="JP_Tanguy" direct="true">Peut-être qu'elle [Perthuis] sera bientôt candidate aux européennes, comme Joly[en
+               2009 avec les Verts]</said>», siffle <persName type="political" nymRef="elu">Jean-Philippe Tanguy</persName>, <roleName type="political" nymRef="elu" ana="Tanguy">député de la Somme</roleName>.</s>
+            <s> Hors des murs de l'Assemblée, l'offensive commence à prendre forme.</s>
+            <s> Lundi après midi, <persName corresp="#Jordan_Bardella">Jordan Bardella </persName>a mis en ligne une pétition sobrement intitulée :
+               «<quote corresp="#Jordan_Bardella">Sauvons la démocratie, soutenons <addName type="nickName" corresp="#Marine_Le_Pen">Marine</addName></quote>», et appelle à une «<quote corresp="#Jordan_Bardella">mobilisation populaire
+               et pacifiques</quote>», qui devrait prendre la forme d’une campagne d'affichage ce
+               week-end.</s>
+            <s> Des tracts ont été imprimés en urgence lundi après-midi, énième preuve de
+               l'impréparation du mouvement.</s>
+         </p>
+         <p>
+            <s>Des échos
+                 contradictoires nourrissent la cacophonie.</s>
+            <s>
+               « <said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="true"> Evidemment, nous n'allons pas manifester</said>», jure
+               <persName corresp="JP_Tanguy" ana="RN" type="political"> Tanguy</persName> le matin.</s>
+            <s>
+               <interp type="COMMENTARY"/>
+               L'après-midi, le <seg type="NOM" n="1"><orgName type="political" nymRef="parti" ana="RN">RN</orgName></seg>
+               <w n="2" pos="V" msd="Act">annonce</w>  <w pos="NOM" n="3">une manifestation</w> à
+               Paris, devant les Invalides – mais pas trop près de l'Assemblée, pour ne pas rappeler
+               de mauvais souvenirs.</s>
+            <s> Les argumentaires se rodent, laborieusement: est-ce après la juge seule, la justice
+               entière ou le fantasmagorique «<said who="unknown" direct="false">système</said>», qu'il faut aboyer?</s>
+            <s> Les uns se disent seuls contre tous.</s>
+            <s> Les autres étalent les réserves exprimées par <persName>Bayrou</persName> et <persName>Mélenchon</persName>, citent <persName>Chirac</persName> et
+               <persName>Sarkozy</persName> pour rapprocher leurs sorts.</s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Coincées entre ses ressorts populistes et sa volonté de
+                  notabilisation, les fesses du <orgName
+                  type="political" nymRef="parti" ana="RN">RN</orgName>.</s>
+         </p>
+
+         <p>
+            <s>Peu importe, il reste la vitupération.</s>
+            <s> Les questions au gouvernement, mardi après-midi voient monter au créneau les poids
+               lourds du groupe frontiste.</s>
+            <s>
+               «<said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="true">Jamais l'oligarchie n'a accepté que le peuple décide</said>», attaque
+               <persName corresp="JP_Tanguy" ana="RN" type="political">Tanguy</persName>, lancé dans une philippique
+               pleine d'anaphores et de mensonges contre les «<said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="true">magistrats</said>», et le 
+               «<said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="true">quarteron de procureurs et de
+               juges</said>» qui ont condamné Le Pen –dans une référence gaullienne aux putschistes
+               d’Alger.</s>
+            <s>
+               <seg pos="NOM" n="1"><persName ana="RN" type="political">Laure Lavalette</persName></seg>
+               <w n="2" pos="V" msd="Act">cible</w>  <seg type="ADJ" n="3"
+                  corresp="#Bénédicte_Perthuis">encore la magistrate</seg>, coupable de «<said who="L.Lavalette"
+                  corresp="vision_FN" aloud="true" direct="true">déclarations d’amour à l'ancienne
+                     candidate d'extrême gauche <persName>Eva Joly</persName></said>», et d'oublier «<said who="L.Lavalette"
+                        corresp="vision_FN" aloud="true" direct="true">qu’elle doit rendre ses
+               décisions au nom du peuple</said>».</s>
+            <s> Enfin, <persName>Sébastien Chenu</persName> prend à témoin l'univers : «<said who="Chenu" direct="true">Sous le regard du monde entier,
+               sous le regard de démocraties authentiques, la France est observée.</said>»</s>
+            <s>
+               <interp type="IRONY"/>Moins d'une semaine après la visite de <persName
+                     corresp="#Jordan_Bardella" ana="RN" type="political">Jordan Bardella</persName>
+                  au chevet du gouvernement de <persName type="gouvernment" nymRef="président"
+                     corresp="Benyamin_Netanyahou">Benyamin Netanyahou</persName>, contesté dans la rue pour
+                  avoir limogé la procureure générale d'Israël, le genre d'authenticité goûtée
+               par le <orgName type="political" ana="RN" nymRef="parti" corresp="#RN">RN</orgName>
+               semble clair.</s>
+            <s> Voilà pour la colère.</s>
+         </p>
+         <p>
+            <s>MENACE À PEINE VOILÉE Après elle, sur le chemin du deuil, expliquent les
+               psychologues, vient le marchandage.</s>
+            <s> Il a débuté, mardi, par l'annonce de l'allié
+               <persName corresp="Eric_Ciotti" type="political">Eric Ciotti</persName>, de la mise
+               à l'agenda de la niche parlementaire de son groupe, en juin, d'une proposition de loi
+               «pour supprimer l'exécution provisoire pour les peines d'inéligibilité».</s>
+            <s> «<said who="Eric_Ciotti" direct="true">Nous voulons savoir quel sort votre gouvernement voudra lui réserver</said>», s'enquiert
+               le <addName type="nickName" corresp="Eric_Ciotti">Niçois</addName>.</s>
+            <s> Une menace à peine voilée : la censure du Premier ministre pourrait en dépendre.</s>
+            <s> Le <roleName type="gouvernment" corresp="#Gérald_Darmanin">garde des
+                  Sceaux</roleName>, <seg
+                     type="NOM" n="1"><persName type="gouvernment" corresp="#Gérald_Darmanin">Gérald Darmanin</persName></seg>, <w pos="V" msd="Act" n="2">a
+                  déjà esquissé</w>
+               <seg type="EXP" n="3">un pas en direction du <orgName corresp="#RN" ana="RN">RN</orgName></seg>, en disant souhaiter que le délai d'appel
+               «puisse être organisé le plus rapidement possible».</s>
+            <s> En fin de journée, la <orgName type="judicial">cour d'appel de Paris</orgName> a assuré qu’elle «<said who="Cour_appel_Paris" direct="true">examinera ce dossier
+               dans des délais qui devraient permettre de rendre une décision à l'été 2026</said>».</s>
+            <s> De quoi suspendre, pour un temps, le processus du deuil.</s>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Jeanne_Monde_2025">
+   <teiHeader>
+      <fileDesc xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+         <titleStmt>
+            <title>
+               <s>Peines de prison, amendes pour le 
+                  <orgName type="political" ana="RN" corresp="#RN">FN</orgName> 
+                  et 
+                  <orgName type="economical" corresp="Frédéric_Chatillon">Riwal</orgName>, 
+                  dissolution de 
+                  <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>
+                  … 
+                  <eventName corresp="#affaire_Jeanne">Au procès du <orgName type="political" ana="RN">FN</orgName>, des réquisitions sévères</eventName>
+               </s>
+            </title>
+            <author>Le Monde</author> <!-- Premier degré j'ai pas le nom de l'auteur. C'est juste écrit "Le Monde" -->
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>Encodage de l'article</resp>
+               <name>...</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Projet HN spé Traitement de textes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>
+                  <s>Peines de prison, amendes pour le 
+                     <orgName type="political" ana="RN" corresp="#RN">FN</orgName> 
+                     et 
+                     <orgName type="economical" corresp="Frédéric_Chatillon">Riwal</orgName>, 
+                     dissolution de 
+                     <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>
+                     … 
+                     <eventName corresp="#affaire_Jeanne">Au procès du <orgName type="political" ana="RN">FN</orgName>, des réquisitions sévères</eventName>
+                  </s>
+               </title>
+               <author>Le Monde</author>
+               <publisher>Le Monde</publisher>
+               <series/>
+               <ptr type="URL" target=""/>
+               <date when="2019-11-27" type="published"/>
+               <note type="Word_count">670</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <list>
+            <item>
+               <persName xml:id="Frédéric_Chatillon"/>
+            </item>
+            <item>
+               <persName xml:id="Marine_Le_Pen"/>
+            </item>
+            <item>
+               <orgName xml:id="RN"/>
+            </item>
+            <item>
+               <eventName xml:id="affaire_Jeanne"></eventName>
+            </item>
+            <item>
+              <persName xml:id="Cécile_Ducournau"></persName>
+            </item>
+            <item>
+               <persName xml:id="Nicolas_Barret"></persName>
+            </item>
+            <item>
+               <orgName xml:id="Jeanne"/>
+            </item>
+            <item>
+               <eventName xml:id="kits_de_campagne"/>
+            </item>
+            <item>
+               <persName xml:id="Bernard_Grelon"></persName>
+            </item>
+            <item>
+               <orgName xml:id="GUD"/>
+            </item>
+            <item>
+               <eventName xml:id="#affaire_Jeanne"/>
+            </item>
+
+         </list>
+
+         <p>
+            <hi n="2">
+            <s>
+               La peine
+               la plus lourde de quatre ans de prison, dont deux ferme, 
+               a été requise 
+               contre <persName type="proche" ana="Marine_Le_Pen"  corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName>,
+               <addName type="nickName"  corresp="#Frédéric_Chatillon">un proche conseiller</addName> 
+               de 
+               <persName corresp="#Marine_Le_Pen"  type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName>.
+            </s>
+            </hi>
+         </p>
+         <p>
+            <s>
+               <seg corresp="#affaire_Jeanne">Prison ferme pour des proches de 
+                  <persName type="gouvernment" corresp="#Marine_Le_Pen">Marine Le Pen</persName>, amendes pour le
+                  <orgName type="political" ana="RN" corresp="#RN">parti frontiste</orgName> et l’entreprise 
+                  <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>, dissolution du microparti 
+                  <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>… </seg>
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>
+               <seg type="NOM" n="1">Des réquisitions sévères </seg>
+               <w pos="V" msd="Pass" n="2">ont été énoncées</w>
+               , mercredi 27 novembre, 
+               <seg type="EXP" n="3">au procès du financement du <orgName type="gouvernment" nymRef="parti" ana="RN" corresp="#RN">Front national</orgName> (FN)</seg>, 
+               devenu <orgName type="gouvernment" nymRef="parti" ana="RN" corresp="#RN">Rassemblement national</orgName> (RN).
+            </s>
+         </p>
+         
+         <p>
+            <s>
+               « <said who="Céline Ducournau et Nicolas Barret " direct="true" corresp="#affaire_Jeanne">Montages fumeux</said> », 
+               « <said who="Céline Ducournau et Nicolas Barret " direct="true" corresp="#affaire_Jeanne">prêts fictifs</said> », 
+               « <said who="Céline Ducournau et Nicolas Barret " direct="true" corresp="#affaire_Jeanne">prix excessifs</said> » : 
+               dans un réquisitoire à deux voix, 
+               <addName type="nickName" corresp="#Cécile_Ducournau #Nicolas_Barret">les procureurs</addName> 
+             Céline Ducournau et Nicolas Barret 
+              ont détaillé 
+               pendant six heures 
+                  une « <said who="Céline Ducournau et Nicolas Barret " direct="true" corresp="#affaire_Jeanne">litanie d’escroqueries</said> »
+                  destinées à « <said who="Céline Ducournau et Nicolas Barret " direct="true" corresp="#affaire_Jeanne">détourner de l’argent public de manière systémique</said> »
+            </s>
+            
+            <s>
+               <seg type="NOM" n="1"><addName type="nickName" corresp="#RN">Le parti</addName> et plusieurs de <orgName type="political"  ana="RN" subtype="accusé">ses acteurs</orgName></seg>
+               <w pos="V" msd="Act" n="2">sont soupçonnés</w>
+               , entre autres, 
+               <seg type="ADJ" n="3">d’escroquerie et d’abus de biens sociaux</seg>
+               pour un montage financier complexe impliquant 
+               <addName type="nickName" corresp="#Jeanne">la structure</addName> 
+               <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> 
+               et la société de communication 
+               <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>, appartenant à 
+               <persName type="proche" ana="Marine_Le_Pen"  corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName>.
+            </s>
+         </p>
+         <p>
+            <s>
+               Contre ce dernier, 
+               <seg type="NOM" n="1"><roleName type="judicial">les procureurs</roleName></seg>
+               <w pos="V" msd="Act" n="2">ont réclamé</w>
+               <seg type="EXP" n="3" corresp="#Frédéric_Chatillon">la peine la plus lourde</seg>
+               , une peine de quatre ans de prison, dont deux ferme,
+               ainsi qu’une amende de 200 000 euros et une interdiction de gestion définitive a été requise.
+            </s>
+            <s>
+               <seg type="NOM" n="1"><addName type="nickName" corresp="#Frédéric_Chatillon">Ce proche conseiller de la présidente du RN</addName> </seg>
+               <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> 
+               <w pos="V" msd="Act" n="2">doit répondre</w>
+               notamment 
+               <seg type="ADJ" n="3">aux accusations d’abus de bien sociaux  et de blanchiment desdits abus</seg>, 
+               d’enrichissement personnel, donc, au détriment de sa propre société.
+            </s>
+            <s>
+               Contre sa compagne 
+               <seg type="NOM" n="1"><persName type="proche" ana="Marine_Le_Pen">Sighild Blanc</persName></seg>, 
+               absente à l’audience et 
+               <w pos="V" msd="Act" n="2">poursuivie</w> 
+               pour des faits similaires,
+               <seg type="ADJ" n="3">une peine de douze mois avec sursis, une amende de 70 000 euros et une interdiction de gestion pendant cinq ans a été demandée.</seg>
+            </s>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" n="1">Une amende de 500 000 euros</seg>
+               <w pos="V" msd="Act" n="2">a été requise </w>
+               <seg type="ADJ" n="3">contre le <orgName corresp="#RN">Front national</orgName> dans l’<eventName corresp="#kits_de_campagne">affaire des kits de campagne</eventName></seg>
+               des législatives de 2012.
+            </s>
+            <s>
+               Avant les réquisitions du parquet, 
+               <seg type="NOM" n="1">l’<roleName type="judicial" nymRef="avocat">avocat de l’Etat</roleName></seg>, 
+               seule partie civile au procès, 
+               <w pos="V" msd="Act" n="2" corresp="#kits_de_campagne">avait réclamé </w>
+               <seg type="ADJ" n="3" corresp="#kits_de_campagne">11,6 millions d’euros de dommages et intérêts au 
+                  <addName type="nickName" corresp="#RN">parti frontiste</addName> et à ses <addName type="nickName" corresp="#Frédéric_Chatillon">coprévenus</addName>
+               </seg>
+               dans l’affaire des <eventName corresp="#kits_de_campagne">kits de campagne</eventName> des <eventName  type="political" nymRef="élection">législatives de 2012</eventName>.
+            </s>
+            <s>
+               <roleName type="judicial" nymRef="avocat" corresp="#Bernard_Grelon">L’avocat de l’Etat</roleName>, 
+               Me <persName corresp="#Bernard_Grelon">Bernard Grelon</persName>, 
+               avait égrené
+               les « <said who="#Bernard_Grelon" direct="true" corresp="#RN">manœuvres</said> » du <orgName corresp="#RN">FN</orgName>, pour « <said who="#Bernard_Grelon" direct="true" corresp="#RN">détourner les règles électorales</said> » 
+               et obtenir un remboursement indu des dépenses de campagne de ses <roleName type="political" nymRef="candidat" corresp="#RN">candidats</roleName>.</s>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>
+               <seg type="NOM" n="1">Cette somme</seg>
+               , très supérieure aux amendes prévues par le code pénal, 
+               <w pos="V" msd="Act" n="2">est</w>, 
+               en cas de condamnation, 
+               <seg type="EXP" n="3">beaucoup plus inquiétante pour les finances déjà mal-en-point du <addName type="nickName" corresp="#RN">parti frontiste</addName></seg>.
+            </s>
+            <s>
+               Tenant pour responsable le président <persName type="gouvernment" nymRef="président">Emmanuel Macron</persName> et le premier ministre <persName type="gouvernment">Edouard Philippe</persName>, 
+               le <orgName corresp="#RN">RN</orgName> 
+               a dénoncé
+               sur Twitter 
+               une « <said who="#RN" direct="true">volonté de ces politiciens de tuer le RN, plutôt que de le laisser gagner dans les urnes !</said> »
+            </s>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" n="1">Une amende de 200 000 euros </seg>
+               <w pos="V" msd="Act" n="2">a également été requise</w>
+               <seg type="EXP" n="3">contre la société de communication <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName></seg>.
+            </s>
+         </p>
+         <p>
+            <hi n="2"></hi>
+            <s>Crochet, Jalkh, Loustau…</s>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" n="1"><orgName type="judicial" corresp="parquet_Paris">Le parquet de Paris</orgName></seg>
+               <w pos="V" msd="Act" n="2">a également demandé</w>
+               <seg type="EXP" n="3">la dissolution du microparti <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg>.
+            </s>
+            <s>
+               Contre 
+              <seg type="NOM" n="1"> <roleName type="political" corresp="#Nicolas_Crochet">le comptable</roleName> </seg>
+               <persName type="political">Nicolas Crochet</persName>, 
+               <addName type="nickName" corresp="Nicolas_Crochet">homme lige constamment présent</addName>, 
+               <w pos="V" msd="Act" n="2">a notamment été requise</w>
+              <seg type="EXP" n="3"> une peine de trente mois de prison, dont six ferme, 70 000 euros d’amende et une interdiction d’exercer comme expert comptable pendant cinq ans.</seg>
+            </s>
+            <s>
+               Contre 
+              <roleName type="political" corresp="#JF_Jalkh"> l’eurodéputé </roleName>
+               <persName type="political" corresp="#JF_Jalkh">Jean-François Jalkh</persName>, 
+               <addName type="nickName" corresp="#JF_Jalkh">spécialiste électoral du parti</addName>,
+               <orgName type="judicial">le parquet de Paris</orgName> , 
+               a demandé
+               une peine de deux ans de prison avec sursis, cinq ans d’inéligibilité et 50 000 euros d’amende.
+            </s>
+         </p>
+         <p>
+            <s>
+               Contre 
+               <seg type="NOM" n="1"><persName type="political" corresp="#Axel_Loustau" ana="RN">Axel Loustau</persName></seg>, 
+               <roleName type="political" corresp="#Axel_Loustau" ana="RN">conseiller régional RN en Ile-de France </roleName>
+               et 
+               <roleName type="political" corresp="#Axel_Loustau" ana="RN">trésorier du microparti Jeanne</roleName>, 
+               <w pos="V" msd="Act" n="3">est requis </w>
+               <seg type="EXP" n="3">une peine de douze mois de prison avec sursis, l’interdiction d’être trésorier et une amende de 30 000 euros.</seg>
+            </s>
+            <s>
+               <seg type="NOM" n="1"><orgName type="gouvernment">Le ministère public</orgName> </seg>
+              <w pos="V" msd="Act" n="2" corresp="Olivier_Duguet">a demandé</w>, 
+               à l’encontre d’<persName type="political" corresp="Olivier_Duguet" ana="RN">Olivier Duguet</persName>, 
+               <seg type="EXP" n="3">une peine de six mois de prison ferme, une révocation du <eventName corresp="#kit_de_campagne">sursis prononcé en 2012</eventName> pour escroquerie et une interdiction d’exercer la profession de comptable.</seg>
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Comme <persName corresp="#Axel_Loustau">Axel Loustau</persName>, 
+               <seg type="PRONOUN" n="1" corresp="Olivier_Duguet">il</seg>
+               <w pos="V" msd="Act" n="2">est</w>
+               <seg type="EXP" n="3">un ancien du <addName type="nickName" corresp="#GUD">syndicat étudiant d’extrême droite</addName> <orgName type="political" nymRef="union" corresp="#GUD">GUD</orgName>.</seg>
+            </s>
+         </p>
+         <p>
+            <s>
+              <seg type="NOM" n="1"><roleName type="judicial" corresp="parquet_Paris">Les représentants du parquet</roleName></seg>
+               <w pos="V" msd="Act" n="2">ont aussi appelé à sanctionner</w>
+               <seg type="EXP" n="3">des opérations suspectes lors de la <eventName  type="political" nymRef="élection">présidentielle de 2012 </eventName>et d’<eventName  type="political" nymRef="élection">autres campagnes électorales jusqu’en 2015</eventName></seg>.
+            </s>
+         </p>
+         <p>
+            <s>
+               Enfin, « <said who="parquet_Paris" direct="true" corresp="Wallerand_de_Saint_Just">au regard de son positionnement, de sa qualité, du lien central avec Riwal et Jeanne</said> », 
+               <orgName type="judicial" corresp="parquet_Paris">le parquet de Paris</orgName>
+               <w pos="V" msd="Act" n="2">a requis</w> 
+               <seg type="EXP" n="3">dix mois de prison avec sursis, l’interdiction d’être trésorier pendant cinq ans et une peine de deux ans d’inéligibilité contre 
+               <persName type="political" corresp="Wallerand_de_Saint_Just" ana="RN">Wallerand de Saint-Just</persName>.</seg>
+            </s>
+         </p>
+      </body>
+   </text>
+</TEI>

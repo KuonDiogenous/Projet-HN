@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Menaces_Monde_2025">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- Desc. fichier | Obligatoire -->
+                <title><s>Critiquée, <orgName type="judicial">la justice </orgName>fait bloc face aux menaces</s></title>
+                <author>Grégoire Biseau et Jérôme Lefilliâtre</author>
+            </titleStmt>
+            <editionStmt>
+                <!-- Desc. de l'éditionn | Facultatif -->
+                <edition/>
+                <!-- Obligatoire si <editionStmt> -->
+                <respStmt>
+                    <!-- Déclaration de responsabilité | Facultatif -->
+                    <resp>Encodage de l'article</resp>
+                    <!-- Obligatoire si <respStmt> -->
+                    <name>Vincent Vieux-champagne</name>
+                    <!-- Obligatoire si <respStmt> -->
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <!-- Contexte et production du fichier | Obligatoire -->
+                <p>Projet HN spé Traitement de textes</p>
+                <!-- Obligatoire -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title><s>Critiquée, <orgName type="judicial">la justice</orgName> fait bloc face aux menaces</s></title>
+                    <author >Grégoire Biseau et
+                        Jérôme Lefilliâtre</author>
+                    <publisher>Le Monde</publisher>
+                    <series>Société</series>
+                    <ptr type="URL"
+                        target="https://www.lemonde.fr/societe/article/2025/04/02/apres-la-condamnation-de-marine-le-pen-la-justice-fait-bloc-face-aux-critiques-et-aux-menaces_6589764_3224.html"/>
+                    <date when="2025-04-03" type="published"/>
+                    <note type="Word_count">953</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+
+            <list>
+                <item>
+                    <persName xml:id="Grégoire_Biseau_et_Jérôme_Lefilliâtre"/>
+                </item>
+                <item>
+                    <orgName xml:id="La_justice"/>
+                </item>
+                <item>
+                    <orgName xml:id="CSM"/>
+                </item>
+                <item>
+                    <persName xml:id="Marine_Le_Pen"/>
+                </item>
+                <item>
+                    <orgName xml:id="Elus_RN"/>
+                </item>
+                <item>
+                    <persName xml:id="Bénédicte_Perthuis"/>
+                </item>
+                <item>
+                    <orgName xml:id="Figures_ED"/>
+                </item>
+                <item>
+                    <persName xml:id="Eva_Joly"/>
+                </item>
+                <item>
+                    <orgName xml:id="CNB"/>
+                </item>
+                <item>
+                    <persName xml:id="Boualem_Naman"/>
+                </item>
+                <item>
+                    <orgName xml:id="Frontières"/>
+                </item>
+                <item>
+                    <persName xml:id="Alexandra_Vaillan"/>
+                </item>
+                <item>
+                    <orgName xml:id="CNews"/>
+                </item>
+                <item>
+                    <persName xml:id="Jordan_Bardella"/>
+                </item>
+                <item>
+                    <persName xml:id="Rémy_Heitz"/>
+                </item>
+                <item>
+                    <orgName xml:id="RTL"/>
+                </item>
+                <item>
+                    <orgName xml:id="Parquet_général"/>
+                </item>
+                <item>
+                    <persName xml:id="Magistrat_parquet"/>
+                </item>
+                <item>
+                    <persName xml:id="Magistrat_siège"/>
+                </item>
+                <item>
+                    <orgName xml:id="Conseil_constitutionnel"/>
+                </item>
+            </list>
+
+            <p>
+               <hi n="1"> <s>
+                    Critiquée, <seg type="NOM" n="1"><orgName type="judicial">la justice</orgName></seg>
+                    <w pos="V" msd="Act" corresp="#La_justice" n="2">fait</w> <seg type="EXP" n="3"> bloc face aux menaces</seg>
+                </s>
+               </hi>
+                <hi n="2">
+                    <s>
+                        <orgName type="judicial" corresp="#CSM">Le Conseil supérieur de la magistrature</orgName>
+                        a fait part
+                    de son 
+                    son «<said who="#CSM" direct="true"> inquiétude </said> » après des « <said who="#CSM" direct="true"> réactions virulentes </said> »  
+                </s>
+                </hi>
+            </p>
+
+            <p>
+                <s>
+                    <interp type="IRONY"/> 
+                    Dans
+                    sa campagne
+                    orchestrée
+                    contre la « <said who="#Marine_Le_Pen" direct="true"> tyrannie des juges</said>», 
+                    selon ses propres mots, 
+                    <seg type="NOM" n="1"><persName corresp="#Marine_Le_Pen" type="gouvernment" ana="RN" nymRef="elu">Marine Le Pen</persName></seg> 
+                    aura au moins réussi à 
+                    <w pos="V" msd="Pass" n="2"> rassembler </w> 
+                    contre elle
+                    <seg type="NOM" n="3">contre elle tous les professionnels de l’<orgName type="judicial">institution judiciaire</orgName></seg>.
+                </s>
+                <s> La situation a été jugée suffisamment grave pour que 
+                    <seg type="NOM" n="1"><roleName type="judicial" nymRef="magistrat">magistrats</roleName> et<roleName type="judicial" nymRef="avocat">avocats</roleName></seg>
+                    se retrouvent parfaitement alignés sur la même position pour 
+                    <w pos="V" msd="Act" n="2">dénoncer</w>
+                    <seg type="NOM" n="3"> les atteintes à l’indépendance de <orgName type="judicial">la justice</orgName>
+                        et les menaces proférées contre <roleName type="judicial" nymRef="magistrat">les magistrats</roleName>.</seg></s>
+            </p>
+
+            <p>
+                <s>
+                    Même
+                    <seg type="NOM" corresp="#Gérald_Darmanin" n="1"><persName corresp="#Gérald_Darmanin" type="gouvernment" ana="Parti_centriste">Gérald Darmanin</persName></seg>,
+                    <interp type="IRONY"/> 
+                    qui avait pourtant déclaré en novembre 2024, au moment du réquisitoire de l’affaire, qu’il
+                    <said who="#Gérald_Darmanin" direct="true"> « serait profondément choquant que Marine Le Pen soit jugée inéligible et ainsi ne puisse pas se présenterdevant le suffrage des Français » </said>, 
+                    <w pos="V" msd="Pass" n="2">a
+                        apporté </w>
+                    <seg type="NOM" n="3">son soutien aux <roleName type="judicial" nymRef="magistrat">magistrats</roleName></seg>.
+                </s>
+                <s> 
+                    «<said who="#Gérald_Darmanin" direct="true"> Dans un Etat de droit démocratique,
+                     la critique d’une décision de justice ne peut en aucun cas s’exprimer par
+                     des menaces formulées à l’égard des magistrats </said>»
+                    , a déclaré
+                    l’<addName type="nickname" corresp="#Gérald_Darmanin" >actuel garde des sceaux</addName>.</s>
+            </p>
+
+            <p>
+                <s> Dès lundi soir 31 mars, sur TF1, à la suite de sa condamnation, 
+                    <seg type="NOM" corresp="#Marine_Le_Pen" n="1"> <persName corresp="#Marine_Le_Pen" type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName></seg>
+                    <w pos="V" msd="Pass" n="2">a lancé</w>
+                    <seg type="ADJ" n="3">la contre-offensive médiatique</seg>
+                    en 
+                    <said who="#Marine_Le_Pen" direct="true"> dénonçant une 
+                    « décision politique » et en accusant le tribunal correctionnel de Paris de 
+                     « l’empêcher de pouvoir être élue présidente de la République ».</said> 
+                </s>
+                <s> 
+                    Puis les 
+                    <seg type="NOM" n="1"><orgName type="political" nymRef="elu" ana="RN">élus du Rassemblement national (RN)</orgName></seg>
+                    se sont succédé sur les plateaux de télévision et de radio pour 
+                    <w pos="V" msd="Pass" n="2">relayer</w>
+                    <seg type="EXP" n="3">les mêmes éléments de langage</seg> 
+                    <interp type="COMMENTARY"/>qui avaient été minutieusement préparés.
+                </s>
+                <s> 
+                    Parallèlement, sur les réseaux sociaux, 
+                    <addName type="nickname" corresp="#Bénédicte_de_Perthuis">la présidente du tribunal correctionnel</addName>, 
+                    <seg type="NOM" corresp="#Bénédicte_de_Perthuis" n="1"><persName corresp="#Bénédicte_de_Perthuis" type="judicial">Bénédicte de Perthuis</persName></seg> , 
+                    <w pos="V" msd="Pass" n="2">a été</w>
+                    <seg type="EXP" n="3">la cible de l’extrême droite</seg>,
+                    subissant insultes et menaces. 
+                </s>
+                <s> 
+                    Des photos d’elle ont été publiées et détournées, et  
+                    son adresse personnelle 
+                    a été 
+                    diffusée.
+                </s>
+            </p>
+
+            <p><hi n="2">« Ordre public »</hi></p>
+
+            <p>
+                <s> 
+                    Des
+                    <seg type="NOM" corresp="Figures_ED" n="1"><orgName corresp="Figures_ED" type="political" nymRef="sympathisant" ana="RN">figures actives de l’extrême droite</orgName></seg>
+                    <w pos="V" msd="Act" n="2">ont dénoncé</w>
+                    <seg type="EXP" n="3">la partialité supposée de <persName corresp="#Bénédicte_de_Perthuis" type="judicial"> Bénédicte de Perthuis</persName></seg>
+                    en citant notamment un podcast de 2020, où elle expliquait être devenue juge par  admiration pour 
+                    <persName corresp="#Eva_Joly" type="judicial" nymRef="magistrat">Eva Joly</persName>,
+                    l’<addName type="nickname" corresp="#Eva_Joly">ex-magistrate</addName> 
+                    qui a été la
+                    <roleName corresp="#Eva_Joly" type="political" nymRef="candidat" ana="Ecologistes"> candidate des écologistes à l’élection présidentielle de 2012</roleName>.
+                </s>
+                <s> 
+                    <interp type="IRONY"/>
+                    <seg type="NOM" corresp="#Eva_Joly" n="1">Cette supposée filiation politique</seg> 
+                    <w pos="V" msd="Pass" n="2">a suscité</w>
+                    de très 
+                    <seg type="ADJ" n="3">nombreux commentaires haineux.</seg>
+                </s>
+            </p>
+
+            <p>
+                <s> 
+                    En réponse à ces 
+                    «<said who="#CSM" direct="true"> réactions virulentes</said> » ,
+                    le 
+                    <seg type="NOM" corresp="#CSM" n="1"><orgName corresp="#CSM" type="judicial" nymRef="conseil">Conseil supérieurde la magistrature (CSM)</orgName></seg>
+                    <w pos="V" msd="Act" n="2">a exprimé</w>
+                    son 
+                    «<said who="#CSM" direct="true"><seg type="ADJ" n="3"> inquiétude </seg></said> »
+                    dans un communiqué.
+                </s>
+                <s>
+                    Fait rare, cet 
+                    organe,
+                    qui a la responsabilité constitutionnelle d’assurer l’indépendance des 
+                    <roleName type="judicial" nymRef="magistrat">magistrats</roleName>, 
+                    s’est montré
+                    accusateur :
+                    <said who="#CSM" direct="true">
+                        « Ainsi,
+                        <seg type="NOM" n="1">les menaces visant personnellement les <roleName type="judicial" nymRef="magistrat">magistrats</roleName></seg>
+                        chargés du dossier, tout comme les prises de parole de <roleName type="political" nymRef="elu">responsables politiques</roleName> sur le bien-fondé des
+                        poursuites ou de la condamnation(...) 
+                        <w pos="V" msd="Pass" n="2">ne peuvent être acceptées</w>
+                        <seg type="EXP" n="3">dans une société démocratique.</seg>» 
+                    </said> 
+                </s>
+            </p>
+
+            <p>
+                <s> Même écho chez les avocats.</s>
+                <s> 
+                    Le 
+                    <seg type="NOM" corresp="#CNB" n="1"><orgName corresp="#CNB" type="judicial" nymRef="conseil">Conseil national des barreaux</orgName></seg>
+                    <w pos="V" msd="Act" n="2">en appelle</w>
+                    même 
+                    <seg type="EXP" n="3">au sursaut</seg> : 
+                    <said who="#CNB" direct="true">
+                     « Dans un contexte où 
+                     l’<orgName type="judicial">autorité judiciaire</orgName> 
+                     est de plus en plus contestée sur les réseaux sociaux et dans le débat public, il est de la 
+                     <seg type="NOM" n="1">responsabilité collective des <orgName type="political" nymRef="elu">acteurs institutionnels</orgName> </seg>
+                     de 
+                     <w pos="V" msd="Act" n="2">faire bloc </w>
+                     <seg type="ADJ" corresp="#La_justice" n="3">pour la protéger</seg>.»
+                    </said> 
+                </s>
+            </p>
+
+            <p>
+                <s> 
+                    Si la mobilisation est aussi forte et unanime, c’est parce que 
+                    <seg type="NOM" n="1" corresp="#La_justice">beaucoup d’acteurs de <roleName type="judicial">la justice</roleName></seg> 
+                    <w pos="V" msd="Act" n="2">ont l'impression de vivre</w>
+                   depuis quelques mois
+                   <seg type="EXP" n="3">un possible moment de basculement.</seg> 
+                </s>
+                <s> 
+                    <interp type="COMMENTARY"/>
+                    Comme si 
+                    <seg type="NOM" n="1">la France</seg> 
+                    <w pos="V" msd="Pass" n="2">était touchée</w> 
+                    à son tour 
+                    <seg type="EXP" n="3">par la trumpisation du débat public.</seg>
+                </s>
+            </p>
+
+            <p>
+                <s> 
+                    Longtemps protégé par son statut d’autorité, le 
+                    <seg type="NOM"  corresp="#La_justice" n="1"><orgName type="judicial" nymRef="magistrat">corps de la magistrature</orgName></seg>
+                    <w pos="V " msd="Act" n="2">est</w> 
+                    désormais 
+                    <seg type="EXP" n="3">de plus en plus pris à partie</seg>.
+                </s>
+                <s> 
+                    Le 10 février, au tribunal administratif de Melun,
+                    <seg type="NOM" corresp="#La_justice" n="1"> la <roleName type="judicial" nymRef="président">présidente</roleName> et plusieurs <roleName type="judicial" nymRef="magistrat">magistrats</roleName></seg>
+                    <w pos="V" msd="Pass" n="2">ont été </w>
+                    <seg type="ADJ" n="3">menacés de mort</seg> 
+                    à la suite de l’annulation de l’obligation de quitter le territoire français (OQTF) de 
+                    l’<addName type="nickname" corresp="#Boualem_Naman">influenceur algérien</addName>
+                    <persName corresp="#Boualem_Naman">Boualem Naman</persName>. 
+                </s>
+                <s> 
+                    Un mois plus tôt, c’était au tour du 
+                    <seg type="NOM" corresp="#Frontières" n="1"><addName type="nickName" corresp="#Frontières">magazine d’extrême droite</addName> 
+                        <orgName corresp="#Frontières" type="presse" nymRef="ED">Frontières</orgName></seg> 
+                    de 
+                    <w pos="V" msd="Act" n="2">susciter</w>
+                    <seg type="EXP" n="3">un flot de menaces et d’injures contre des <roleName type="judicial" nymRef="avocat">avocats</roleName> </seg>,
+                        spécialistes du droit des étrangers, après avoir publié un palmarès sélectionnant 60 d’entre eux.
+                </s>
+            </p>
+
+            <p>
+                <s> 
+                    « <said who="#Alexandra_Vaillant"> 
+                        On est dans une période un peu inquiétante où on sent bien qu’
+                        une partie de la société
+                        veut tester
+                        la robustesse de notre vie démocratique,
+                        en remettant en question notre Etat de droit </said>» ,
+                    s’alarme 
+                    <persName corresp="#Alexandra_Vaillant">Alexandra Vaillant</persName>,
+                    <roleName corresp="#Alexandra_Vaillant" type="judicial" nymRef="adhérent">secrétaire nationale au 
+                        <orgName type="judicial" nymRef="union">Syndicat supérieur de la magistrature (USM)</orgName></roleName>.
+                </s>
+                <s> 
+                    Mardi matin sur 
+                    <orgName corresp="#CNews" type="presse" ana="ED">CNews</orgName>,
+                    <seg type="NOM" corresp="#Jordan_Bardella" n="1"><persName corresp="#Jordan_Bardella" type="political">Jordan Bardella</persName></seg>
+                    <w pos="V" msd="Pass" n="2">s’est maintenu</w>
+                    <interp type="COMMENTARY"></interp>
+                    <seg type="EXP" n="3">sur un étroit chemin de crête</seg>
+                    :  tout en condamnant «<said who="#Jordan_Bardella" direct="true"> les menaces, les injures ou les insultes à l’égard du juge ou des magistrats </said> , 
+                        <seg type="NOM" corresp="#Jordan_Bardella" n="1">le <roleName corresp="#Jordan_Bardella" type="political" nymRef="elu">président du RN</roleName></seg> 
+                        <w pos="V" msd="Act" n="2" >a appelé</w> 
+                        <seg type="EXP" n="3">les Français à s’indigner</seg>.
+                </s>
+                <s> 
+                    <said who="#Jordan_Bardella" direct="true"> 
+                        « <seg type="NOM" n="1"><roleName type="judicial" nymRef="juge">Des juges</roleName></seg> 
+                        <w pos="V" msd="Act" n="2">ont décidé d’éliminer</w>
+                        purement et simplement 
+                        <seg type="EXP" n="3">de la course à la présidentielle <roleName corresp="#Marine_Le_Pen" type="political" nymRef="candidat">la candidate du Rassemblement national</roleName></seg> »</said>, 
+                    a-t-il ajouté.
+                </s>
+            </p>
+
+            <p>
+                <s> 
+                    Au cœur des critiques des <roleName type="political" nymRef="candidat">élus du RN</roleName> 
+                    se trouve 
+                    la justification par le tribunal de la fameuse exécution provisoire de 
+                    la peine d’inéligibilité de <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName>.
+                </s>
+                <s> 
+                    Et notamment «<said corresp="#La_justice" direct="true">   l’impératif de sauvegarde de l’ordre public </said> ».
+                </s>
+                <s>
+                    «<said corresp="#La_justice" direct="true">  Le tribunal</said>, écrivent les
+                    <roleName type="judicial" nymRef="magistrat">magistrats</roleName>, 
+                    «<said>prend en considération le trouble majeur à l’ordre public
+                        démocratique qu’engendrerait (...) le fait que soit candidate, par exemple
+                        et notamment à l’élection présidentielle, voire élue, 
+                        <addName type="nickName">une personne qui aurait déjà été condamnée en première instance</addName>, 
+                        notamment à une peine complémentaire d’inéligibilité, pour des faits de détournement de fonds publics. </said>»
+                </s>
+            </p>
+
+            <p><hi n="2">« Pourquoi politiser ? »</hi></p>
+
+            <p>
+                <s> 
+                    Interrogé mardi par 
+                    <orgName corresp="#RTL" type="presse">RTL</orgName> 
+                    sur la justesse de cet argument,
+                    <seg type="NOM" corresp="Rémi_Heitz" n="1"><roleName corresp="Rémy Heitz" type="judicial" nymRef="magistrat"> le procureur général près la Courde cassation</roleName>, 
+                    <persName corresp="Rémy_Heitz">Rémy Heitz</persName></seg>, 
+                    <w pos="V" msd="Pass">ne s’est pas</w> 
+                    <w pos="EXP" n="3">prononcé</w> :  
+                    «<said who="Rémi_Heitz" direct="true"> Je ne commenterai pas une décision qui a été rendue et qui est
+                        de surcroît non définitive puisqu’elle a été frappée d’appel. </said> » 
+                </s>
+                <s> 
+                    A l’occasion d’une conférence de presse, 
+                    <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName>
+                    a, elle, <interp type="COMMENTARY"/> repris l’expression pour mieux renverser
+                    l’accusation : 
+                    « <said who="#Marine_Le_Pen" direct="true"> L’ingérence de ces
+                        magistrats dans le processus électoral suprême qui est celui de l’élection
+                        présidentielle, voilà où est le trouble à l’ordre public.</said> »
+                </s>
+            </p>
+
+            <p>
+                <s> Tout en faisant bloc contre ces accusations, les 
+                    <seg type="NOM" n="1"><roleName corresp="#La_justice" type="judicial" nymRef="magistrat">les magistrats</roleName></seg>
+                    <w pos="V" msd="Act" n="2">ne sont pas tous</w> 
+                    <seg type="EXP" n="3">forcément très à l’aise avec les motivations de la décision</seg>. 
+                </s>
+                <s>
+                    <roleName corresp="Magistrat_parquet" type="judicial" nymRef="magistrat">L' un d’entre eux</roleName> 
+                    appartenant à un 
+                    <orgName corresp="Parquet_général" type="judicial" nymRef="Parquet">parquet général</orgName>
+                    explique par exemple que 
+                    « <said who="Magistrat_parquet" direct="true">dans ce dossier, 
+                       <seg type="NOM" n="1"> les faits</seg> 
+                        <w pos="V" msd="Act" n="2">sont</w>
+                        <seg type="ADJ" n="3">accablants et graves</seg>, 
+                        pour <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> et <orgName type="political" nymRef="parti" ana="RN">son parti</orgName> 
+                        Cela ne fait aucun doute pour personne. Pourquoi, alors, avoir voulu politiser le
+                        jugement ?</said>»
+                    se demande-t-il. 
+                    « <said who="Magistrat_parquet" direct="true"> C’est excessif par rapport aux principes,
+                        inutile par rapport à l’objectif de sanction, et dangereux par rapport à
+                        l’ensemble de l’institution.</said> »
+                </s>
+                <s>
+                    Comme d’autres, il espérait que le tribunal se tiendrait le plus loin possible de toute référence à la vie politique pour éviter les accusations de partialité.
+                </s>
+            </p>
+
+            <p>
+                <s>  
+                    Une analyse 
+                    que 
+                    ne partage pas
+                    ce 
+                    <roleName corresp="Magistrat_siège" type="judicial" nymRef="magistrat">magistrat du siège</roleName> ,
+                    qui reconnaît pourtant, lui aussi, que l’idée d’un 
+                    <said who="Magistrat_siège" direct="inapplicable">« ordre public démocratique » n’est « pas une notion familière du droit », contrairement à celle d’un « ordre public  ». </said>
+                </s>
+                <s> 
+                    Mais pour ce 
+                    <roleName corresp="Magistrat_siège" type="judicial" nymRef="magistrat">magistrat</roleName>,
+                    l’ajout à ce cadre juridique de l’ambition d’un  
+                    « <said who="Magistrat_siège" direct="true">bon fonctionnement de la démocratie</said> »
+                    lui semble néanmoins 
+                    «<said who="Magistrat_siège" direct="true">très judicieux</said>».
+                  </s>
+                <s> 
+                    Et ce d’autant plus que le  
+                    <orgName corresp="Conseil_constitutionnel" type="judicial" nymRef="conseil">Conseil constitutionnel</orgName>
+                    a rappelé, dans une décision du 28 mars que l’exécution provisoire d’une peine d’inéligibilité, en contribuant à 
+                    «<said who="Conseil_constitutionnel" direct="true">renforcer l’exigence de probité et d’exemplarité des élus et la confiance des électeurs dans leurs  représentants </said>» ,
+                    répondait à «<said who="Conseil_constitutionnel" direct="true">l’objectif de valeur constitutionnelle de sauvegarde de l’ordre public </said>». 
+                </s>
+            </p>
+        </body>
+    </text>
+</TEI>

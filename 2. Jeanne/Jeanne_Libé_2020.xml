@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Jeanne_Libé_2020"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <s>Affaire Jeanne : le FN est condamné mais échappe au pire</s>
+            </title>
+            <author>Tristan Berteloot</author>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>Encodage de l'article</resp>
+               <name>Nicolas Bleton</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Projet HN spé Traitement de textes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>
+                  <s>Affaire Jeanne : le FN est condamné mais échappe au pire</s>
+               </title>
+               <author corresp="Tristan_Berteloot">Tristan Berteloot</author>
+               <publisher>Libération</publisher>
+               <series>Evénement</series>
+
+               <ptr type="URL"
+                  target="https://www.liberation.fr/actualites/2020/06/16/affaire-jeanne-le-fn-est-condamne-mais-echappe-au-pire_1791403/"/>
+               <date when="2020-06-16" type="published"/>
+               <note type="Word_count">868</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+
+         <p>
+            <s><seg n="1"><addName type="nickName" subtype="accusé" corresp="#Jeanne">Le
+                     parti</addName> de <persName corresp="#Marine_Le_Pen" ana="RN" type="political"
+                     >Marine Le Pen</persName></seg>
+               <w pos="V" msd="Pass" n="2">est condamné</w>
+               <seg n="3" type="EXP">pour «recel d’abus de biens sociaux»</seg> mais relaxé de la principale accusation de complicité d’escroquerie.
+            </s>
+            <s>Il risquait plusieurs millions euros de dommages-intérêts.</s>
+         </p>
+
+         <p>
+            <s>Des peines inférieures aux réquisitions.</s>
+            <s>Le <seg n="1"><orgName type="judicial" corresp="#TCP">tribunal correctionnel de
+                     Paris</orgName></seg>
+               <w pos="V" msd="Act" n="2">a condamné</w> mardi <seg n="3" type="EXP">des proches de <persName
+                     corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le
+                     Pen</persName></seg> à de lourdes amendes et à de la prison ferme, dans l'<eventName corresp="#kits_de_campagne">affaire
+               des kits de campagne du FN</eventName> aux législatives de 2012.</s>
+            <s>Mais <seg n="1"><orgName type="political" nymRef="parti" ana="RN">le mouvement
+                     d'extrême droite</orgName></seg>, devenu<orgName corresp="#RN">Rassemblement national</orgName> en 2018, <w
+                  pos="V" msd="Act" n="2">évite</w>
+               <seg n="3" type="EXP">l'amende de 500 000 euros réclamée par l'accusation, ainsi que les 11,6
+                  millions d'euros de dommages-intérêts demandés par l'Etat, partie civile au
+                  procès</seg>.</s>
+            <s><seg n="1"><addName type="nickName" corresp="#Jeanne">La formation</addName></seg>
+               <w pos="V" msd="Pass" n="2">est condamnée</w>
+               <seg n="3">pour «recel d'abus de biens sociaux» à une amende de 18 750 euros</seg>,
+               soit le maximum encouru pour une personne morale, a indiqué le tribunal.</s>
+            <s><seg n="1"><orgName type="political" nymRef="parti" ana="RN">Le RN</orgName></seg>
+               <w pos="V" msd="Pass" n="2">a été relaxé</w>
+               <seg n="3">de la principale accusation de complicité d'escroquerie</seg> : le
+               tribunal n'a retenu sa culpabilité que pour avoir profité d'un crédit sans intérêt de
+               plusieurs millions d'euros et l'emploi fictif de deux élus actuels, l'<roleName ana="Nicolas_Bay">eurodéputé</roleName>
+               <persName ana="Nicolas_Bay" type="political" nymRef="elu" corresp="#RN">Nicolas Bay</persName> 
+               et le <roleName ana="David_Rachline">maire de Fréjus</roleName>, <persName ana="David_Rachline" type="political" nymRef="elu" corresp="#RN">David Rachline</persName>.</s>
+         </p>
+
+         <p>
+            <s>Il a en outre condamné le <roleName type="political" ana="RN" nymRef="responsable"
+                  >trésorier du RN</roleName>, <persName type="political" ana="RN"
+                  nymRef="responsable" subtype="accusé" corresp="#W_Saint-Just">Wallerand de
+                  Saint-Just</persName>, à <seg corresp="#W_Saint-Just">six mois de prison avec
+                  sursis</seg>, et le <roleName type="political" ana="RN" nymRef="elu"
+                  corresp="#JF_Jalkh">député européen</roleName>
+               <persName type="political" ana="RN" nymRef="responsable" subtype="accusé"
+                  corresp="#JF_Jalkh">Jean-François Jalkh</persName>, <roleName type="political"
+                  ana="RN" nymRef="responsable" corresp="#JF_Jalkh">juriste du parti</roleName>, à
+                  <seg corresp="#JF_Jalkh">une peine de deux ans de prison, dont dix-huit mois avec
+                  sursis, assortie d'une inéligibilité de cinq ans</seg>.</s>
+            <s>A Bruxelles depuis 2014, réélu aux européennes de 2019, <persName corresp="#JF_Jalkh">Jalkh</persName> pourrait perdre son
+               mandat.</s>
+            <s>Mais il évite l'amende de 50 000 euros réclamée par le parquet à son encontre.</s>
+            <s><persName type="political" ana="RN" nymRef="sympathisant" subtype="accusé"
+                  corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName> est quant à lui
+               condamné à <seg corresp="Frédéric_Chatillon">trente mois de prison, dont vingt avec
+                  sursis, et 250 000 d'amende</seg>.</s>
+            <s>Moins que les réquisitions du parquet : en novembre, il avait réclamé contre lui
+               quatre ans de prison, dont deux avec sursis, une peine d'amende de 200 000 euros, et
+               une interdiction définitive de gestion.</s>
+            <s>Contacté par <orgName type="presse">Libération</orgName>, son <roleName ana="Alexandre_Varaut">avocat</roleName> Me <persName type="judicial" nymRef="avocat" ana="Alexandre_Varaut">Alexandre Varaut</persName>, qui avait plaidé la relaxe,
+               s'est refusé à tout commentaire.</s>
+            <s><addName type="nickName" corresp="#Frédéric_Chatillon">Son clien</addName>t réserve sa décision concernant un appel éventuel au début de semaine
+               prochaine, pour une décision, selon une source «moins pire ça aurait pu être, et loin
+               d'être un échec.</s>
+            <s><persName type="political" ana="RN" nymRef="sympathisant" subtype="accusé"
+                  corresp="#Frédéric_Chatillon"><w pos="NOM" n="1">Chatillon</w></persName>
+               <w n="2" pos="V" msd="Act">va porter</w>
+               <seg n="3">un bracelet électronique</seg> quelques mois en Italie, ce n'est pas la
+               prison».</s>
+         </p>
+
+         <p>
+            <s>Dans ses réquisitions de novembre, après trois semaines de débats devant la 11e
+               chambre du tribunal correctionnel de Paris, le parquet avait résumé <eventName corresp="#kits_de_campagne">l'histoire des
+               kits de campagne</eventName> ainsi : une
+                     «<said who="TCP" corresp="#kits_de_campagne" direct="true">recherche systématique de l'appât du gain, pour faire du parti une véritable
+                     machine à cash</said>».</s>
+            <s><persName type="political" ana="RN" nymRef="sympathisant" subtype="accusé"
+                  corresp="#Frédéric_Chatillon"><w pos="NOM" n="1">Chatillon</w></persName>, un très
+                  <w pos="ADJ" corresp="#Frédéric_Chatillon">proche</w> de <persName
+                  corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le Pen</persName>, <w
+                  pos="V" n="2" msd="Act">était</w>
+               <seg n="3">le principal prestataire du <orgName type="political" nymRef="parti"
+                     ana="RN" corresp="#RN">Front national</orgName></seg> pendant les législatives de 2012.</s>
+            <s>Et pour cet ancien <seg n="1"><roleName nymRef="président"
+                     corresp="#Frédéric_Chatillon" type="political">leader</roleName> du <orgName
+                     type="political" nymRef="Groupe" ana="GUD" corresp="#GUD">GUD</orgName></seg>, <addName type="nickName" corresp="#GUD">groupuscule
+               radical</addName>, le tribunal a considéré qu'il <w n="2" pos="V" msd="Act">avait participé</w>
+               de manière active, via sa société <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>, <seg n="3" type="EXP">à ce que la justice considère
+                  comme un système de détournement d'argent public pour enrichir le <orgName corresp="#RN">FN</orgName> au préjudice
+                  de l'Etat.</seg></s>
+            <s>Celui-ci ayant été imaginé pour permettre au <addName type="nickName" corresp="#RN">parti d'extrême droite</addName> de faire campagne
+               à l'époque malgré une dette abyssale de plusieurs millions d'euros.</s>
+            <s><persName type="political" ana="RN" nymRef="sympathisant" subtype="accusé"
+                  corresp="#Frédéric_Chatillon"><w pos="NOM" n="1">Chatillon</w></persName> <w pos="V" msd="Pass" n="2">est en
+               outre condamné</w> <seg n="3">pour une longue série d'abus de biens sociaux</seg> au préjudice de son
+               entreprise, estimé à 500 000 euros par le tribunal.</s>
+         </p>
+
+         <p>
+            <s>En 2012, le <orgName type="political" nymRef="parti" ana="RN"><w pos="NOM"
+               n="1">FN</w></orgName> <w pos="V" msd="Act" n="2">a obligé</w> <seg n="3">ses 577 candidats à la députation à acheter des «kits de
+               campagne»</seg> contenant des affiches et tracts, notamment, produits par <orgName corresp="#Frédéric_Chatillon">Riwal</orgName> et vendus
+               au prix fort de 16 500 euros pièce.</s>
+            <s>Ceux-ci ont été achetés via des prêts consentis par Jeanne, une structure de
+               financement dédiée à l’activité de <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> et créée par <persName corresp="#JF_Jalkh">Jean-François Jalkh</persName>, et
+               ce afin que les candidats n’aient pas à avancer un centime.</s>
+            <s>De cette manière, <orgName corresp="#Jeanne" type="political"><w pos="NOM" n="1">«Jeanne»</w></orgName> <w pos="V" msd="Act" n="2">était</w> au cœur du système.</s>
+            <s>À la fin, la somme était remboursée par l’Etat au titre des frais de campagne, le FN
+               ayant touché un billet au passage, <orgName corresp="#Jeanne">Jeanne</orgName> les intérêts des prêts, et <orgName corresp="#Frédéric_Chatillon">Riwal</orgName> – ainsi
+               que son dirigeant et ses proches – la marge liée aux kits.</s>
+         </p>
+
+         <p>
+            <s>Tout en n’étant pas imprimeur elle-même, la société de <persName corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName> faisait
+               travailler des prestataires, opérant grâce à un crédit fournisseur général, où tout
+               le monde – prestataires, comptables et autres – était payé une fois les frais de
+               campagne touchés.</s>
+            <s>La garantie : les sondages offraient au <orgName corresp="#RN">FN</orgName> l’assurance de se les voir remboursés.</s>
+            <s>Cela a permis à <orgName corresp="#Jeanne">Jeanne</orgName> d’avancer presque 9 millions d’euros pour la campagne, sans
+               avoir de fonds propres, le <addName type="nickName" corresp="#Jeanne">microparti</addName> attendant aussi l’argent de l’Etat pour payer
+               <orgName corresp="#Frédéric_Chatillon">Riwal</orgName>.</s>
+            <s>Contre <orgName corresp="#Jeanne">Jeanne</orgName>, le tribunal a fixé mardi une amende de 300 000 euros, dont la moitié
+               avec sursis.</s>
+            <s>Et dans le volet des prêts fictifs, il a estimé le préjudice de l’Etat à quelque 860
+               000 euros, qui doivent être dédommagés solidairement, notamment par <persName corresp="#Frédéric_Chatillon">Frédéric
+               Chatillon</persName>, et <persName corresp="#JF_Jalkh">Jean-François Jalkh</persName>, <addName type="nickName" corresp="#JF_Jalkh">le «concepteur» de l’escroquerie aux prêts</addName>.</s>
+         </p>
+
+         <p>
+            <s>Mardi, le <seg n="1"><orgName type="political" nymRef="parti" ana="RN" corresp="#RN">Rassemblement
+                     national</orgName></seg>
+               <w pos="V" msd="Pass" n="2">s'est félicité</w> par communiqué d'avoir été <quote
+                  corresp="#RN"><seg n="3" type="EXP">«[innocenté] tant dans la mise en œuvre des kits
+                     électoraux proposés à ses candidats que dans leur prétendue surfacturation», ce
+                     qui, selon la formation d'extrême droite aurait «mis un terme aux accusations
+                     gravissimes largement relayées par les médias depuis de nombreuses
+                     années»</seg></quote>.</s>
+         </p>
+      </body>
+   </text>
+</TEI>

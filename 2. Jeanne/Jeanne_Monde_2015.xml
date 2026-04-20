@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Jeanne_Monde_2015">
+   
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- Desc. fichier | Obligatoire -->
+            <title><s>Comment s'enrichit <orgName corresp="#Jeanne">Jeanne</orgName>, 
+                  <addName type="nickName" corresp="#Jeanne">le microparti de <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName></addName></s></title>
+            <author>Maxime Vaudano</author>
+         </titleStmt>
+         <editionStmt>
+            <!-- Desc. de l'éditionn | Facultatif -->
+            <edition/>
+            <!-- Obligatoire si <editionStmt> -->
+            <respStmt>
+               <!-- Déclaration de responsabilité | Facultatif -->
+               <resp>Encodage de l'article</resp>
+               <!-- Obligatoire si <respStmt> -->
+               <name>Vincent Vieux-champagne</name>
+               <!-- Obligatoire si <respStmt> -->
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <!-- Contexte et production du fichier | Obligatoire -->
+            <p>Projet HN spé Traitement de textes</p>
+            <!-- Obligatoire -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title><s>Comment s'enrichit <orgName corresp="#Jeanne">Jeanne</orgName>, 
+                     <addName type="nickName" corresp="#Jeanne">le microparti de <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName></addName></s></title>              
+               <author>Maxime Vaudano</author>
+               <publisher>Le Monde</publisher>
+               <series>Société</series>
+               <ptr type="URL"
+                  target="https://www.lemonde.fr/les-decodeurs/article/2015/01/31/comment-s-enrichit-jeanne-le-microparti-de-marine-le-pen_4567011_4355770.html"/>
+               <date when="2015-01-31" type="published"/>
+               <note type="Word_count">1494</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         
+         <list>
+            <item>
+               <persName xml:id="Marine_Le_Pen"/>
+            </item>
+            <item>
+               <persName xml:id="Frédéric_Chatillon"/>
+            </item>
+            <item>
+               <orgName xml:id="RN"/>
+            </item>
+            <item>
+               <orgName xml:id="Jeanne"/>
+            </item>
+            <item>
+               <orgName xml:id="PC"/>
+            </item>
+            <item>
+               <orgName xml:id="LR"/>
+            </item>
+            <item>
+               <orgName xml:id="PS"/>
+            </item>
+            <item>
+               <orgName xml:id="Cotelec"></orgName>
+            </item>
+            <item>
+               <persName xml:id="JM_le_pen"/>
+            </item>
+            <item>
+               <roleName xml:id="CC_Jeanne"></roleName> <!-- Commissaire aux comptes de Jeanne -->
+            </item>
+            <item>
+               <orgName xml:id="candidats_RN"/>
+            </item>
+            <item>
+               <orgName xml:id="La_justice"/>
+            </item>
+            <item>
+               <orgName xml:id="CNCCFP"/> <!-- Commission nationale des comptes de campagne et des financements politiques -->
+            </item>
+            <item>
+               <orgName xml:id="Mediapart"/>
+            </item>
+            <item>
+               <orgName xml:id="Obs"/>
+            </item>
+            <item>
+               <orgName xml:id="Etat"/>
+            </item>
+         </list>
+
+         <p>
+            <s>Le Monde.</s>
+         </p>
+         <p/>
+         <p/>
+         <p>
+            <hi n="2">
+               <s>
+                  <seg corresp="#Frédéric_Chatillon" type="NOM" n="1"><persName type="judicial" subtype="accusé" corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName></seg>, 
+                  <addName type="nickName" corresp="#Frédéric_Chatillon">proche de <persName corresp="#Marine_Le_Pen"  type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName></addName>,
+                  <w pos="V" msd="Pass" n="2">a été</w> 
+                  de nouveau 
+                  <seg type="EXP" n="3">mis en examen pour les activités de sa société <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName></seg>
+                  avec le microparti <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>.</s></hi>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>Officiellement, il n'a rien à voir avec <persName corresp="#Marine_Le_Pen" type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName>.
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>La masse des témoignages récoltés par la presse à longueur d'enquêtes depuis plusieurs années ne laisse pourtant guère de doute : 
+               <seg type="NOM" corresp="#Jeanne" n="1"><orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg>, 
+              <addName type="nickName" corresp="#Jeanne"> le microparti de la nébuleuse frontiste</addName>, 
+               dans le viseur de la justice, 
+               <w pos="V" msd="Act" n="2">est bien</w>
+               <seg type="ADJ" n="3">la machine de guerre de la <addName type="nickname" corresp="#Marine_Le_Pen">présidente du Front national</addName></seg>,
+               même si son nom n'apparaît nulle part dans ses statuts.
+            </s>
+         </p>
+         <p>
+            <s>
+               Créée à l'automne 2010 pour l'aider à succéder à son père, 
+               <seg type="NOM" n="1" corresp="#Jeanne"><addName type="nickname" corresp="#Jeanne">cette structure</addName></seg>
+               <w pos="V" msd="Act" n="2">est </w>
+               <seg type="EXP" n="3">au coeur du « système Le Pen »</seg>, 
+               qui doit préparer sa candidature pour l'<eventName type="political" nymRef="élection">élection présidentielle de 2017</eventName>.
+            </s>
+            <s>
+              <seg type="NOM" n="1">L'information judiciaire</seg>
+               confiée en avril 2014 aux juges 
+               <persName type="judicial">Renaud Van Ruymbeke</persName> 
+               et 
+               <persName type="judicial">Aude Buresi</persName> 
+               <w pos="V" msd="Act" n="2">a donné lieu</w>, 
+               le 23 janvier, 
+               <seg type="EXP" n="3">à la mise en examen de <persName type="judicial" subtype="accusé" corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName></seg>,
+               <addName type="nickName" corresp="#Frédéric_Chatillon">un proche de <persName corresp="#Marine_Le_Pen"  type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName></addName>, 
+               soupçonné d'être <addName type="nickName" corresp="#Frédéric_Chatillon">l'un des principaux bénéficiaires du système </addName>
+               mis en place autour de 
+               <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>.
+            </s>
+         </p>
+         <p>
+            <s>
+               Si l'enquête n'a pas encore livré toutes ses conclusions, 
+               <interp type="COMMENTARY"/>
+              <seg type="NOM" n="1">la seule étude des comptes de campagne du <addName type="nickName" corresp="#Jeanne">microparti</addName></seg>,
+               disponibles en ligne,
+               <w pos="V" msd="Act" n="2">permet de se faire</w>
+               <seg type="EXP" n="3">une idée des mécanismes en jeu</seg>.
+            </s>
+         </p>
+         <p>
+            <hi n="2"><s>Des recettes par millions</s></hi>
+         </p>
+         <p>
+            <s>
+               Bien davantage qu'un <addName type="nickName" corresp="#Jeanne">simple microparti censé soutenir la carrière politique de Marine Le Pen</addName>, 
+               <seg type="NOM" n="1" corresp="#Jeanne"><orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg>
+               <w pos="V" msd="Act" n="2">manipule</w> 
+               <seg type="EXP" n="3">une manne financière qui n'a rien à envier aux grands partis de la vie politique française</seg>.
+            </s>
+            <s>En 2012, année présidentielle, 
+               <seg type="NOM" n="1" corresp="#Jeanne"><addName type="nickName" corresp="#Jeanne">le microparti</addName></seg>
+               <w pos="V" msd="Act" n="2">était</w>
+              <seg type="ADJ" n="3"> la quatrième formation politique en termes de rentrées financières</seg>,
+               à 9,6 millions d'euros, 
+               <interp type="IRONY"/>
+               derrière le <orgName type="gouvernment" nymRef="parti" ana="PS" corresp="#PS">PS</orgName>,
+               l'<orgName type="gouvernment" nymRef="parti" ana="UMP" corresp="#LR">UMP</orgName>
+               et le 
+               <orgName type="gouvernment" nymRef="parti" ana="PS" corresp="#PC">PCF</orgName>
+               ...mais devant le <orgName type="gouvernment" nymRef="parti" ana="RN" corresp="RN">FN</orgName>.</s>
+         </p>
+         <p>
+            <s>
+               Chez <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>, l'argent ne provient pas des cotisations d'adhérents
+               : elles s'élèvent à peine à 120 à 180 euros annuels au total.
+            </s>
+            <s>Ce
+              n'est pas non plus
+              une structure de recueil discret de dons, 
+               comme pouvait l'être <orgName type="political" nymRef="parti" corresp="#Cotelec">Cotelec</orgName>, 
+               <addName type="nickName" corresp="#Cotelec">le microparti de <persName type="political" ana="ED" corresp="#JM_le_pen">Jean-Marie Le Pen</persName></addName>.
+            </s>
+            <s>
+               Aucun don 
+              n'a été 
+              enregistré en 2013, 
+               contre à peine 11500 euros en 2011.</s>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" corresp="#Jeanne" n="1">L'essentiel des recettes</seg>
+               provient des « produits d'exploitation», qui 
+               <w pos="V" msd="Act" n="2">font</w>
+               <seg type="ADJ" n="3">de <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> une véritable PME au service de et servie par la <addName type="nickName" corresp="#RN">galaxie frontiste</addName>.</seg>
+            </s>
+            <s>
+               En 2011 et 2012, plus de 
+               90 % des rentrées d'argent
+               de 
+               <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>
+               étaient constituées
+               de la facturation des« <said who="#CC_Jeanne" direct='true'>services rendus aux candidats pour les <eventName  type="political" nymRef="élection">campagnes électorales</eventName></said>».
+            </s>
+            <s>
+               Essentiellement 
+               <seg type="NOM" n="1">les « kits de campagne » </seg>
+               (tracts, affiches, sites Web...) de 16 500 euros 
+               <w pos="V" msd="Act" n="2">proposés - puis quasiment imposés - </w>
+               <seg type="EXP" n="3">à l'ensemble des candidats du <orgName type="political" nymRef="parti" ana="RN" corresp="#RN">Front national</orgName></seg>
+               (99 % des candidats aux législatives de 2012 y ont souscrit, selon l'<roleName corresp="#CC_Jeanne">ancien commissaire aux comptes de Jeanne</roleName>).
+            </s>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" corresp="#Jeanne" n="1">Ces kits </seg>
+               sont au coeur des soupçons des juges : 
+               <w pos="V" msd="Act" n="2">fabriqués</w> 
+               <seg type="ADJ" n="2">par la société <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName></seg>, 
+               dirigée par <persName type="judicial" subtype="accusé" corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName>,
+               l'<addName type="nickName" corresp="#Frédéric_Chatillon">un des plus proches conseillers de l'ombre de <persName type="gouvernment" nymRef="candidat" ana="RN" corresp="#Marine_Le_Pen">Marine Le Pen</persName></addName>,
+               ils auraient été largement surfacturés aux 
+               <seg type="NOM" n="1"><roleName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats frontistes</roleName></seg>, 
+               qui 
+               <w pos="V" msd="Act" n="2">les payaient </w>
+               <seg type="EXP" n="2">grâce au financement public des <eventName  type="political" nymRef="élection">campagnes électorales</eventName> en cas de score supérieur à 5 %</seg>.
+            </s>
+            <s>
+               En plus de bénéficier à <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>, 
+               qui a réalisé, selon 
+               <orgName type="presse" corresp="#Obs">L' Obs</orgName>, 
+               plus de 2 millions de marge en 2012, 
+              <seg type="NOM" n="1"> ce mécanisme</seg> 
+               <w pos="V" msd="Act" n="2">a peut-être </w>
+               <seg type="NOM" n="3">profité à <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg>,
+               qui aurait pris des marges au passage en tant qu'intermédiaire.
+            </s>
+         </p>
+         <p>
+            <s>
+               Le reste des recettes
+               de 
+               <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName>
+               vient pour l'essentiel
+               des « produits financiers»,
+               qui correspondent à un autre volet des soupçons
+               des juges chargés de l'instruction : pour financer leur fameux « kit de campagne» de 16 500 euros, 
+               <interp type="IRONY"/>
+               <seg type="NOM" n="1" corresp="#candidats_RN"><orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">les candidats frontistes aux législatives</orgName></seg> 
+               <w pos="V" msd="Pass" n="2">se sont quasiment tous vu proposer</w>
+               par le <addName type="nickName" corresp="#Jeanne">microparti</addName> 
+               <seg type="EXP" n="3">un prêt standard de...16 500 euros, avec un taux d'intérêt (6,5 %) bien supérieur à celui proposé par les banques.</seg>
+            </s>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>
+               L'occasion pour 
+               <seg type="NOM" corresp="#Jeanne" n="1"><addName type="nickName" corresp="#Jeanne">la « banque» improvisée</addName><orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg>
+               <w pos="V" msd="Act" n="2">d'empocher</w>
+               au passage 
+               <seg type="ADJ" n="3">un joli pactole</seg>.</s>
+            <s>
+               Pour se justifier, 
+               <seg type="NOM" corresp="RN"><orgName type="political" nymRef="parti" ana="RN" corresp="#RN">l'état-major du FN</orgName></seg> 
+               <w pos="V" msd="Act" n="2">explique qu'il s'agit là </w>
+               <seg type="EXP" n="3">du seul moyen de contourner la réticence des banques à financer ses <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats</orgName>.</seg>
+            </s>
+         </p>
+         <p>
+            <hi n="2"><s>A quoi sert cet argent ?</s></hi>
+         </p>
+         <p>
+            <s>
+               <interp type="COMMENTARY"/>
+               En face de toutes ces recettes, 
+               <seg type="NOM" corresp="#Jeanne" n="1">le fonctionnement de <addName type="nickName" corresp="#Jeanne">la machine Jeanne</addName></seg>
+               <w pos="V" msd="Act" n="2">ne pèse pas</w>
+               <seg type="ADJ" n="3">bien lourd</seg>: 
+               à peine 5 000 euros annuels de salaires (charges comprises) en 2013, 271 euros de loyers en 2012 (mais plus rien en 2013),
+               et quelques milliers d'euros en déplacements.
+            </s>
+         </p>
+         <p>
+            <s>
+               La lecture des comptes nous apprend que les plus gros postes de dépenses sont :
+               la « propagande et communication », qui a coûté au <orgName corresp="#Jeanne">microparti</orgName> plus de 8 millions en 2012, lors de la campagne de 
+               <persName type="gouvernment" nymRef="elu" ana="RN" corresp="#Marine_Le_Pen">Marine Le Pen</persName>,
+               et seulement 630 000 euros en 2013 ;
+               les « <said who="unknown" direct="true">autres charges externes</said> », non détaillées, qui peuvent aller de l'achat de matériel à la location de salles, qui ont culminé à 730 000 euros en 2012.
+            </s>
+         </p>
+         <p>
+            <s>
+               Des dépenses 
+               qui pourraient servir à financer des frais courants, mais 
+               qui seraient surtout dédiées
+               à l'achat des kits de campagne à la société <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>,
+                  avant de les revendre aux <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats</orgName>.
+            </s>
+            <s>
+               <interp type="COMMENTARY"/>
+               Pas de quoi vider les caisses de Jeanne; pourtant, le parti affiche chaque année un bilan déficitaire (près de 300 000 euros de pertes en 2013).
+            </s>
+         </p>
+         <p>
+            <s>
+               L'explication est simple : 
+               <addName type="nickName" corresp="#Jeanne">le microparti</addName> 
+               met chaque année de côté
+               un demi-million d'euros dans ses « dotations aux amortissements et provisions »,
+               un poste des comptes censé anticiper les dépenses à venir l'année suivante.
+            </s>
+            <s>
+               <interp type="COMMENTARY"></interp>
+               <seg type="NOM" n="1">Un magot</seg> 
+               <w pos="V" msd="Act" n="2">qui pourrait</w>
+               <seg type="EXP" n="3">servir à 
+                  <persName type="gouvernment" nymRef="elu" ana="RN" corresp="#Marine_Le_Pen">Marine Le Pen</persName> de cagnotte en vue de l'
+                  <eventName type="political" nymRef="élection">élection présidentielle de 2017</eventName>.</seg>
+            </s>
+         </p>
+         <p>
+            <hi n="2"><s>Tout cela est-il illégal ?</s></hi>
+         </p>
+         <p>
+            <s>En soi, 
+               <seg type="NOM" n="1">le montage </seg>
+               <w pos="V" msd="Act" n="2">mis en place</w>
+               <seg type="EXP" n="3">autour de 
+                  <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> et 
+                  <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>
+                  n'est pas illégal.</seg>
+            </s>
+         </p>
+         <p>
+            <hi n="3"><s>
+                  <seg type="NOM" corresp="#Jeanne" n="1"><orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg> 
+                  <w pos="V" msd="Act" n="2">peut-il</w>
+                  <seg type="EXP" n="3">prêter de l'argent ?</seg>
+            </s>
+            </hi>
+         </p>
+         <p>
+            <s>Oui, rien de l'interdit, mais tout est question de mesure.</s>
+            <s>
+               <seg type="NOM" corresp="#La_justice" n="1"><orgName type="judicial">La justice</orgName></seg> 
+               <w pos="V" msd="Act" n="2">pourrait considérer</w>
+               qu'en industrialisant ce système de prêts, 
+               <seg type="EXP" n="3"><orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> s'est mis en contravention de la loi</seg>,
+               qui <said who="unknown">« interdit à toute personne autre qu'un établissement de crédit d'effectuer des opérations de banque à titre habituel »</said>. <!-- <quote @source="loi">-->
+            </s>
+         </p>
+         <p>
+            <s>
+               <orgName type="judicial" corresp="#La_justice">La loi </orgName>autorise bien une formation politique A à prêter de l'argent à un parti B, 
+               mais seulement si l'emprunt «relaie» un prêt bancaire consenti par A, avec les mêmes intérêts.
+            </s>
+            <s>
+               <seg type="NOM" n="1">Il était donc a priori interdit à <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> </seg>
+               <w pos="V" msd="Act" n="2">de puiser </w>
+               <seg type="EXP" n="3">dans ses fonds propres pour consentir un prêt aux <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats frontistes</orgName></seg>.
+            </s>
+         </p>
+         <p>
+            <s>
+               L'autre problème vient du fait que 
+               <seg type="NOM" n="1" corresp="#candidats_RN"><orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">les candidats frontistes</orgName></seg>
+               <w pos="V" msd="Act" n="2">ont déclaré</w>
+               <seg type="EXP" n="3">les (gros) intérêts payés avec le remboursement du prêt comme frais de campagne</seg>,
+               pour pouvoir se les faire rembourser par l'<orgName type="gouvernment">Etat</orgName>.</s>
+            <s>
+               Indirectement, 
+               <interp type="COMMENTARY"/>
+               <seg type="NOM" n="1">l'<orgName type="gouvernment">Etat</orgName> </seg>
+               <w pos="V" msd="Act" n="2">a donc financé</w> 
+               <seg type="ADJ" n="3">la gourmandise financière de <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg>
+               - à hauteur de 400 000 euros pour les seules législatives de 2012, selon 
+               <orgName type="presse" corresp="#Obs">l'Obs</orgName> .</s>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" n="1" corresp="#Marine_Le_Pen"><persName corresp="#Marine_Le_Pen"  type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName> </seg>
+               <w pos="V" msd="Act" n="2">avait déjà ainsi tenté</w> 
+               <seg type="EXP" n="3">d'incorporer à ses comptes de la <eventName type="political" nymRef="élection">campagne présidentielle de 2012</eventName> les intérêts des prêts que lui avaient consentis <addName type="nickName" corresp="#Cotelec">le micro-parti de Jean-Marie Le Pen</addName></seg>, 
+               <orgName type="political" nymRef="parti" corresp="#Cotelec">Cotelec</orgName> (319 000 euros pour un prêt de 4,5 millions) et <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> (19 000 euros d'intérêts pour un prêt de 450 000 euros).
+            </s>
+            <s>
+               <seg type="NOM" corresp="#Marine_Le_Pen" n="1">Elle</seg>
+               <w pos="V" msd="Pass" n="2">s'était</w>
+               alors 
+               <seg type="EXP" n="3">fait rappeler à l'ordre par la <orgName type="judicial" nymRef="comission" corresp="#CNCCFP">CNCCFP</orgName></seg>
+               , qui rappelait que les prêts entre deux formations politiques ne doivent pas «procurer un enrichissement sans cause» au prêteur.</s>
+         </p>
+         <p>
+            <s>
+               En revanche, pour l'instant, 
+               <seg type="NOM" n="1"><orgName type="judicial" nymRef="commission" corresp="#CNCCFP">la CNCCFP</orgName></seg>
+               <w pos="V" msd="Act" n="2">n'a annulé </w>
+               <seg type="EXP" n="3">aucun compte de campagne de <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidat frontiste</orgName> aux <eventName type="political" nymRef="élection">législatives</eventName> pour ce motif,</seg> 
+               même si elle a rectifié plusieurs irrégularités.
+            </s>
+         </p>
+         <p>
+            <hi n="3"><s>Des prêts imposés ?</s></hi>
+         </p>
+         <p>
+            <s>Selon <orgName type="presse" corresp="#Mediapart">Mediapart</orgName> , 
+               <seg type="NOM" n="1" corresp="#candidats_RN"><orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">certains candidats frontistes</orgName></seg>
+               <w pos="V" msd="Act" n="2">ont déclaré</w>
+               <seg type="EXP" n="3">aux <roleName type="judicial" nymRef="juge">juges</roleName> ne pas avoir été mis au courant du prêt qu'ils avaient souscrit auprès de <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName></seg>.
+            </s>
+            <s>
+               <seg type="NOM" n="1">Un tel contrat forcé</seg>, 
+               forcément paraphé avec une signature frauduleuse, 
+               <w pos="V" msd="Act" n="2">relèverait </w>
+               <seg type="ADJ" n="3">du faux et usage de faux et de l'escroquerie</seg>.
+            </s>
+            <s>Les motifs retenus pour la mise en examen de <persName type="judicial" subtype="accusé" corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName>, le 23 janvier.</s>
+         </p>
+         <p>
+            <hi n="3"><s>Des contrats antidatés ?</s></hi>
+         </p>
+         <p>
+            <s>
+               Toujours selon <orgName type="presse" corresp="#Mediapart">Mediapart</orgName>, 
+               <seg type="NOM" n="1">l'entourage de <persName corresp="#Marine_Le_Pen"  type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName></seg>
+               <w pos="V" msd="Pass" n="1">aurait demandé</w>
+               <seg type="EXP" n="3">à certains <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats</orgName>
+                  d'antidater des conventions de prêt avec <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> qui n'avaient pas été signés dans les temps</seg>,
+               c'est-à-dire pendant la 
+               <eventName type="political" nymRef="élection">campagne</eventName>.</s>
+         </p>
+         <p>
+            <hi n="3"><s>Des prestations surfacturées ?</s></hi>
+         </p>
+         <p>
+            <s>
+               <seg type="NOM" n="1">De nombreux témoignages et éléments matériels</seg>
+               <w pos="V" msd="Act" n="2">suggèrent</w> 
+               <seg type="EXP" n="3">que le kit de 16 500 euros était largement surfacturé aux <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN" >candidats</orgName> 
+                  (et donc à l'<orgName type="gouvernment">Etat</orgName>, </seg>
+               qui remboursait les frais de <eventName type="political" nymRef="élection">campagne</eventName> des <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats</orgName> dépassant les 5 %).
+            </s>
+            <s>
+               Selon une enquête de l'<orgName type="presse" corresp="#Obs">Obs</orgName> , 
+               <seg type="NOM" n="1">certaines prestations </seg>
+               <w pos="V" msd="Act" n="2">étaient facturées </w>
+               <seg type="EXP" n="3">jusqu'à cinq fois le prix du marché, ce qui aurait eu pour but d'accroître la marge de <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>.</seg>
+            </s>
+         </p>
+      </body>
+   </text>
+</TEI>

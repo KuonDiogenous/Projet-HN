@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ali_Monde_1995">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <s><roleName corresp="Accusés">Des militants du FN</roleName> sont impliqués
+                        dans <eventName corresp="#Mort_Ali">la mort d'Ibrahim Ali</eventName>, 17
+                        ans</s>
+                </title>
+                <author>PHILIPPE BERNARD</author>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt>
+                    <resp>Encodage de l'article</resp>
+                    <name>Lucie Louis</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <p>Projet HN spé Traitement de textes</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>
+                        <s><roleName subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">Des militants du FN</roleName> sont impliqués
+                            dans la mort d'Ibrahim Ali, 17 ans</s>
+                    </title>
+                    <author xml:id="Bernard">PHILIPPE BERNARD</author>
+                    <publisher>Le Monde</publisher>
+                    <series>Envoyé spécial</series>
+                    <ptr type="URL"
+                        target="https://www.lemonde.fr/archives/article/1995/02/24/des-militants-du-fn-sont-impliques-dans-la-mort-d-ibrahim-ali-17-ans_3840992_1819218.html"/>
+                    <date when="1995-02-24" type="published"/>
+                    <note type="Word_count"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+
+                <item>
+                    <persName xml:id="Mégret"/>
+                </item>
+                <item>
+                    <persName xml:id="JM_le_pen"/>
+                </item>
+                <item>
+                    <persName xml:id="Ali"/>
+                </item>
+                <item>
+                    <persName xml:id="Gaudin"/>
+                </item>
+                <item>
+                    <persName xml:id="Emmanuelli"/>
+                </item>
+                <item>
+                    <persName xml:id="Voynet"/>
+                </item>
+                <item>
+                    <persName xml:id="Hassany"/>
+                </item>
+
+                <item>
+                    <persName xml:id="Soulé"/>
+                </item>
+                <item>
+                    <persName xml:id="Marc_Georges"/>
+                </item>
+                <item>
+                    <persName xml:id="Soly"></persName>
+                </item>
+                <item>
+                    <orgName xml:id="RN"/>
+                </item>
+                <item>
+                    <orgName xml:id="CGT"/>
+                </item>
+                <item>
+                    <orgName xml:id="CFDT"/>
+                </item>
+                <item>
+                    <orgName xml:id="B_Vice"/>
+                </item>
+                <item>
+                    <orgName xml:id="communauté_commorienne"/>
+                </item>
+                <item>
+                    <orgName xml:id="les_jeunes"/>
+                </item>
+                <item>
+                    <eventName xml:id="mort_Ali"/>
+                </item>
+                <item>
+                    <eventName xml:id="funérailles_Ali"/>
+                </item>
+                <item>
+                    <eventName xml:id="hommage_Ali"/>
+                </item>
+                <item>
+                    <eventName xml:id="indépendance_Comores"/>
+                </item>
+            </list>
+            <p>SOCIÉTÉ </p>
+            <p>LE MONDE VENDREDI 24 FÉVRIER 1995</p>
+            <p>
+
+                <hi n="3">MARSEILLE</hi>
+
+                <s>
+                  <seg type="NOM" n="1"><persName type="judicial" subtype="victime" corresp="#Ali">Ibrahim
+                        Ali</persName></seg>, <roleName corresp="#Ali">un lycéen</roleName> âgé de 17 ans, <roleName nymRef="race_sociale">d'origine comorienne</roleName>, <w pos="V" msd="Pass" n="2">a été tué</w>,
+                    dans la nuit de mardi à mercredi 22 février, à Marseille, d'une balle de 22 long
+                    rifle tirée dans le dos <seg type="EXP" n="3">par <roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">des
+                        colleurs d'affiches de <persName type="political" nymRef="président"
+                            corresp="#JM_le_pen">Jean-Marie Le Pen</persName></roleName>.</seg></s>
+                <s>A LA « DEMANDE »<orgName type="political" nymRef="parti"> du Front
+                        national</orgName>, <roleName corresp="#Accusés" corresp="#Lagier #Giglio #Ambrosio">trois hommes</roleName> se
+                    sont rendus, mercredi, à la police et ont été placés en <eventName type="police"
+                        nymRef="GAD">garde à vue</eventName>.</s>
+                <s><orgName type="judicial" nymRef="parquet_mineurs">Le parquet des
+                        mineurs</orgName> est saisi de l'affaire et envisage d'ouvrir une
+                    information judiciaire, vendredi 24 février.</s>
+                <s><persName corresp="#Mégret"><seg type="NOM" n="1">M. Mégret</seg></persName>,
+                        <roleName corresp="#Mégret" type="political" ana="RN" nymRef="responsable"
+                        >délégué du FN</roleName>, <w pos="V" msd="Act" n="2">avance</w> la thèse de
+                        <seg type="EXP" n="3">la légitime défense</seg>, <said
+                        who="#Mégret" direct="false">expliquant que<roleName type="judicial"
+                            subtype="accusé"> ses colleurs d'affiches</roleName> auraient été
+                        agressés.</said></s>
+                <s>Ce que démentent les témoins du drame.</s>
+                <s> LA PLUPART DES <seg type="NOM" n="1"><orgName type="political" nymRef="parti"
+                            >PARTIS</orgName>, <orgName type="political" nymRef="union"
+                            >syndicats</orgName> et <orgName type="humanitarian" nymRef="ONG"
+                            >associations</orgName></seg>
+                    <w pos="V" msd="Act" n="2">ont vivement condamné</w>
+                    <eventName corresp="#Mort_Ali"><w pos="NOM" n="3">ce
+                    meurtre</w></eventName>.</s>
+                <s>Plusieurs centaines de personnes ont défilé mercredi à Marseille, où une
+                        <eventName type="political" nymRef="manifestation"
+                        corresp="#funérailles_Ali">nouvelle manifestation</eventName> devrait avoir
+                    lieu samedi, jour <eventName corresp="#funérailles_Ali">des obsèques d'<persName
+                            type="judicial" corresp="#Ali">Ibrahim Ali.</persName></eventName></s>
+            </p>
+            <p>
+                <hi n="1">
+                    <s><seg type="NOM" n="1"><roleName corresp="#Lagier #Giglio #Ambrosio">Des militants du FN</roleName></seg>
+                        <w pos="V" msd="Act" n="2">sont impliqués</w> dans <seg type="EXP" n="3"
+                                ><eventName type="judicial" corresp="#mort_Ali">la mort d'<persName
+                                    corresp="#Ali">Ibrahim Ali</persName></eventName></seg>, 17
+                        ans</s>
+                </hi>
+            </p>
+            <p>
+                <hi n="2">
+                    <s><roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">Trois personnes</roleName> étaient
+                            <eventName type="police" nymRef="GAD">placées en garde à
+                        vue</eventName>, jeudi 23 février, à Marseille, après <eventName
+                            corresp="#Mort_Ali">la mort <roleName type="judicial" subtype="victime"
+                                corresp="#Ali">d'un lycéen d'origine
+                            comorienne</roleName></eventName>, tué d'une balle dans le dos par
+                            <roleName subtype="accusé">une équipe de colleurs
+                            d'affiches</roleName> du <orgName type="political" nymRef="parti"
+                            corresp="#RN">parti d'extrême droite</orgName></s>
+                </hi>
+
+            </p>
+
+            <p>
+                <s>
+                    <hi n="3">
+                        <s>MARSEILLE</s>
+                    </hi>
+                </s>
+            </p>
+            <p>
+                <s>
+                    <hi n="4">de notre envoyé spécial </hi>
+                </s>
+            </p>
+
+            <p>
+                <s>Sur le mur gris de l'entrepôt désaffecté, <persName type="political"
+                        nymRef="président" corresp="#JM_le_pen">Jean-Marie Le Pen</persName>
+                    continue de sourire derrière ses lunettes.</s>
+                <s>Entre les lacérations, on distingue toujours le faisceau tricolore qui s'élance à
+                    droite de l'affiche vers un avenir radieux:«<quote source="Affiche"
+                        corresp="#JM_le_pen #RN" cert="high"> Avec <persName corresp="JM_le_pen">Le
+                            Pen</persName>, trois millions d'immigrés rapatrié. En avant pour la
+                        Sixième République.</quote>»
+                </s>
+                <s>Dans la nuit de mardi 21 à mercredi 22 février, <roleName type="judicial"
+                        subtype="accusé">les militants du <orgName type="political" nymRef="parti"
+                            corresp="#RN">Front national</orgName></roleName> (FN) n'ont pas fait
+                    que coller les affiches de leur chef. </s>
+                <s><persName type="judicial" subtype="victime" corresp="#Ali">Ibrahim
+                    Ali</persName>, lycéen âgé de dix-sept ans, né à Foumbuni (Comores), <seg
+                        type="EXP" corresp="Ali">français de nationalité et marseillais depuis
+                        treize ans</seg>, a été tué d'une balle de 22 long rifle tirée dans le dos
+                    alors que, selon toute vraisemblance, <seg type="NOM" n="1" corresp="#Ali"
+                        >il</seg>
+                    <w pos="V" msd="Act" n="2">fuyait</w>
+                    <roleName subtype="accusé" type="judicial"><seg type="NOM" n="3"><roleName corresp="#Lagier #Giglio #Ambrosio">ses
+                        agresseurs</roleName></seg></roleName>.</s>
+            </p>
+            <p>
+                <s>Autour de minuit, personne ne se risquerait à pied au carrefour des Aygalades,
+                    coincé entre la voie de chemin de fer Lyon-Marseille et des friches
+                    industrielles clôturées de barbelés.</s>
+                <s> Personne, sauf <orgName type="proche" corresp="#Ali #B_Vice">la petite dizaine
+                        de rappeurs de B Vice</orgName> qui revenaient d'une répétition, et sauf
+                    <seg type="NOM" n="1" corresp="#Lagier #Giglio #Ambrosio"><roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">une brochette de militants du
+                        Front national</roleName></seg>, certains d'entre eux pratiquant l'affichage sauvage pendant que d'autres,
+                        <w pos="V"  msd="Act" n="2">armés</w>, <seg type="EXP" n="3"
+                            >surveillaient les opérations à bord de deux voitures.</seg> </s>
+            </p>
+            <p>
+                <s>Moins de 50 mètres séparaient <roleName type="proche" corresp="#Ali #B_Vice">les
+                        rappeurs</roleName> de l'arrêt de l'autobus R, le service de nuit qui devait
+                    les remonter vers la Savine, leur cité perchée dans la pinède.</s>
+                <s> Ils couraient, les bras chargés de platines, tables de mixage et autre matériel
+                    de sono, pour que le dernier bus ne leur échappe pas. </s>
+            </p>
+            <p>
+                <s>
+                    <hi n="3">AU MOINS TROIS ARMES </hi>
+                </s>
+            </p>
+            <p>
+                <s>" <said aloud="true" direct="true" who="#Hassany" corresp="#Mort_Ali">Une 205
+                        grise m'a dépassé doucement.J'ai eu peur, d'autant qu'elle était bourrée
+                        d'affiches du <orgName ana="RN" corresp="#RN">FN</orgName></said>," raconte <persName type="judicial" subtype="témoin"
+                        corresp="#B_Vice #Hassany">Hassany</persName>, un lycéen âgé de vingt
+                    ans."<said aloud="true" direct="true" who="#Hassany" corresp="#Mort_Ali">
+                        Le type a stoppé et s'est mis à tirer Tac-tac, avec un flingue comme ils
+                        ont dans les films.</said>"</s>
+                <s>Simultanément, <roleName type="judicial" subtype="accusé"><seg type="NOM" n="1">les
+                            occupants d'une R18</seg></roleName>
+                    <w pos="V" msd="Act">ont ouvert </w><seg type="EXP" n="3">le feu</seg>, rapportent les musiciens.</s>
+                <s>
+                    <persName corresp="#B_Vice #Soulé" subtype="témoin" type="judicial"
+                        >Soulé</persName>, dix-huit ans, pense avoir été visé avec un pistolet à
+                    grenaille.</s>
+                <s>
+                    <seg type="PRONOUN" corresp="#Soulé" n="1">Il</seg>
+                    <w pos="V" msd="Act" n="2">s'est couché pour faire le mort</w>.<persName
+                        corresp="#B_Vice #Hassany" type="judicial" subtype="témoin">
+                        Hassany</persName>, lui, a fait demi-tour en courant:«<said aloud="true"
+                        direct="true" who="#Hassany"> J'ai entendu d'autres coups de feu, des cris:
+                        venez, <seg type="PRONOUN" n="1">ils</seg>
+                        <w pos="V" msd="Act" n="2">ont eu</w><persName type="judicial" subtype="victime"
+                            corresp="#Ali"><seg type="NOM" n="2" corresp="#Ali">
+                        Ibrahim</seg></persName>. Quand je l'ai vu par terre, je l'ai cru évanoui.Je
+                        croyais qu'ils avaient voulu nous faire peur, juste avec des fusils à plomb.
+                        Mais le <orgName>SAMU</orgName> n'a pas pu le ranimer. »</said></s>
+            </p>
+            <p>
+                <s>Au total, neuf douilles de calibre 22 et 7,65 ainsi que des étuis de grenaille
+                    ont été retrouvés par <roleName type="police">les inspecteurs du
+                    SRPJ</roleName>.</s>
+                <s>Au moins trois armes différentes ont été utilisées.</s>
+                <s>
+                    Hébété, au
+                        bord des larmes plusieurs heures après le drame, <persName
+                        corresp="#Hassany #B_Vice" type="judicial" subtype="témoin"
+                            >Hassany</persName> cherche encore à comprendre :«<said who="#Hassany"
+                        aloud="true" direct="true"> Ils ont vu <orgName type="social"
+                            nymRef="race_sociale">des Noirs</orgName> courir dans la nuit et ont dû
+                        penser qu'on allait les agresser,</said> avance-t-il.<said who="#Hassany"
+                            aloud="true" direct="true"> Mais <seg type="PRONOUN" corresp="#Lagier #Giglio #Ambrosio" n="1"
+                            >ils</seg>
+                            <w pos="V"  msd="Act"  n="2">n'avaient</w> <seg type="EXP" n="3">aucune raison de tuer un jeune</seg>. Sauf la haine.</said>»</s>
+            </p>
+            <p>
+                <s>Ainsi <seg type="NOM" n="1"><orgName type="social" nymRef="communauté"
+                            corresp="#communauté_commorienne">la communauté comorienne</orgName> de
+                        Marseille</seg>, partout <w pos="V" msd="Pass" n="2">citée</w> comme <seg
+                        type="EXP" n="3">un miracle de gentillesse et d'intégration</seg>, a-t-elle
+                    découvert que <seg type="NOM" corresp="#communauté_commorienne" n="1">sa peau
+                        foncée</seg>
+                    <w pos="V" msd="Act" n="2">n'était pas</w>
+                    <seg type="EXP" n="3">du goût de tous les Phocéens</seg>. Pourtant, des marins
+                    originaires de l'océan Indien travaillent au port depuis des lustres.</s>
+                <s> Ils ont été rejoints par leurs familles depuis <eventName type="historical"
+                        corresp="#indépendance_Comores">l'indépendance des Comores</eventName>, en
+                    décembre 1974.</s>
+                <s>Les quelque vingt mille Comoriens dont les deux tiers sont français sont l'une
+                    des plus récentes pièces de la mosaïque marseillaise.</s>
+                <s>Très attachés à la France,
+                    fortement structurés en
+                        association, ils sont presque absents des registres de la délinquance et comptent beaucoup de <roleName nymRef="race_sociale">musulmans</roleName>
+                    pieux.</s>
+            </p>
+            <p>
+                <s>«<said who="responsable_associatif_comorien" aloud="true" direct="true"
+                        corresp="#communauté_comorienne"> On a essayé la discrétion, le respect de
+                        l'autre, il faut croire que ça ne marche pas </said>», confiait <roleName
+                        type="humanitarian" nymRef="responsable">un responsable associatif
+                        comorien</roleName> lors du <eventName type="political"
+                        nymRef="manifestation" corresp="#hommage_Ali"><seg type="NOM" n="1"
+                            >rassemblement silencieux</seg></eventName> qui, sur les lieux du drame,
+                        <w pos="V" msd="Act" n="2">a réuni</w> mercredi quelque <seg type="EXP"
+                        n="3">cinq cents personnes, <roleName type="political" nymRef="elu">élus de
+                            gauche</roleName>, <roleName type="political" nymRef="militant">
+                            militants antiracistes</roleName>, <roleName nymRef="race_sociale">blancs</roleName>, <roleName nymRef="race_sociale">blacks</roleName> et
+                            <roleName nymRef="race_sociale">beurs
+                            mêlés</roleName>, dans un climat de tension très maîtrisée</seg>.</s>
+                <s>«<said who="responsable_associatif_comorien" aloud="true" direct="true">
+                            <persName type="political" nymRef="président" corresp="#JM_le_pen">Le
+                            Pen</persName> jouela confusion entre <orgName type="social"
+                            nymRef="nationalité" corresp="#français">Français</orgName> et <roleName nymRef="race_sociale">Blancs</roleName>.
+                        Ses affiches sont une incitation à nous jeter à la mer. Elles devraient être
+                        interdites </said>», ajoute-t-il.</s>
+                <s><seg type="NOM" n="1">Une gerbe de fleurs</seg>
+                    <w pos="V" msd="Act" n="2">a éclairé</w> un instant <seg type="EXP" n="3"
+                        >l'asphalte à l'endroit précis où <persName corresp="#Ali"
+                            >Ibrahim</persName> est tombé</seg>.</s>
+                <s>Aucun discours, mais beaucoup d'inquiétudes murmurées.</s>
+                <s> La provocation verbale des colleurs d'affiches fait partie du folklore
+                    marseillais.</s>
+                <s>« <said who="élu_1" aloud="true" direct="true">Les mots,mais pas les fusils
+                </said>», insiste <roleName type="political" nymRef="elu">un élu du
+                    secteur</roleName>, venu pleurer anonymement «<said who="élu_1" aloud="true"
+                        direct="true"> à la mémoire de; ce gamin tué seulement parce qu'il était <roleName nymRef="race_sociale">noir</roleName>.</said>»</s>
+                <s>
+                    <said who="élu_2" aloud="true" direct="true">«Si la campagne a commencé ainsi,
+                        où en serons-nous dans quatre mois?»</said>, s'alarmait <roleName
+                        type="political" nymRef="elu">un autre élu</roleName>. </s>
+            </p>
+            <p>
+                <s>
+                    <hi n="3">SOLIDARITÉ </hi>
+                </s>
+            </p>
+            <p>
+                <s><seg corresp="#funérailles_Ali" type="EXP">Samedi, on enterrera <persName
+                            type="judicial" subtype="victime" corresp="#Ali">Ibrahim Ali</persName>
+                        au cimetière Saint-Pierre</seg>.</s>
+                <s>
+                    <w pos="NOM" corresp="#hommage_Ali" type="political">Une manifestation</w>
+                    parcourra la Canebière jusqu'à la préfecture, «<said
+                        who="représentant_fédération_comorienne" corresp="#mort_Ali">pour
+                        symboliser un acte qui aurait été évité si les autorités avaient pris les
+                        mesures qui s'imposent</said>», précise <roleName corresp="représentant_fédération_comorienne">un représentant de la Fédération
+                    des Comoriens de Marseille.</roleName></s>
+            </p>
+            <p>
+                <s>Car <persName subtype="témoin">le patron maghrébin du Modern Bar</persName>,
+                    témoin direct des événements, l'a dit et répété : <said aloud="true"
+                        direct="false" who="#témoins" corresp="#mort_Ali">un incident similaire a eu
+                        lieu au même endroit, peu avant Noël, impliquant la même R18</said>.</s>
+                <s>
+                    <seg type="NOM" n="1">Une femme coiffée d'un képi</seg> et chaussée de rangers
+                        <w pos="V" msd="Act" n="2">aurait tenu en joue</w>
+                    <seg type="NOM" n="3">un <roleName nymRef="race_sociale">jeune d'origine maghrébine</roleName></seg> pendant que <roleName
+                        type="political" ana="RN" nymRef="militant">des colleurs d'affiches du Front
+                        national</roleName> s'affairaient. </s>
+                <s><said direct="true" aloud="true" who="#les_jeunes">« Ca n'a pas intéressé
+                            <orgName type="police" nymRef="police">la police</orgName>»</said>,
+                    tonnent en chœur <orgName type="social" nymRef="groupe" corresp="#les_jeunes">les
+                        jeunes</orgName>.</s>
+                <s> Ils voient dans ce nouveau fait divers un motif de solidarité avec les « <roleName nymRef="race_sociale">blacks</roleName>
+                        »:"<said direct="true" aloud="true" corresp="les_jeunes"><orgName
+                            type="social" nymRef="communauté" corresp="communauté_commorienne"
+                            >Commoriens</orgName> ou <roleName nymRef="race_sociale">Arabes</roleName></orgName>, le tarif est le même. <seg type="NOM" n="1" corresp="RN"
+                                ><persName
+                                    type="political" nymRef="sympathisant" corresp="#RN">Ces gens-là</seg>
+                        <w pos="V" msd="Act" n="2">ne parlent pas</w>, <seg type="EXP" n="3"
+                            >ils tirent</seg>. </said>"
+                </s>
+            </p>
+            <p>
+                <s>L'interpellation des <roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">trois auteurs
+                        présumés</roleName> de <eventName type="judicial" corresp="#Mort_Ali">la
+                        fusillade</eventName>, "<quote source="unknown">invités à se présenter à la
+                        police par <orgName type="political" nymRef="parti" corresp="#RN">le
+                            FN</orgName></quote>", a très provisoirement calmé les esprits.
+                    <persName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">Les trois hommes</persName>, dont
+                    deux sont âgés de quarante ans et un de soixante ans, ont été placés en garde à
+                    vue.</s>
+                <s>Mais la thèse de la légitime défense avancée par<persName
+                        type="political" nymRef="responsable" corresp="#Mégret">Bruno
+                        Mégret</persName>, <roleName type="political" nymRef="adhérent"
+                        corresp="#Mégret">délégué général</roleName> du <orgName type="political"
+                        nymRef="parti" corresp="#RN">parti d'extrême droite</orgName>, a révolté
+                    <orgName type="social" nymRef="groupe" corresp="les_jeunes">les jeunes</orgName>.</s>
+                <s> Selon <persName type="political" nymRef="responsable" corresp="#Mégret">M.
+                        Mégret</persName>, l'un des colleurs d'affiches "<said direct="true"
+                        aloud="true" who="#Mégret" corresp="#Mort_Ali">a été violemment agressé
+                        par une quinzaine de Comoriens et, pour se dégager, les colleurs, se sentant
+                        menacés de mort, ont tiré en l'air en direction de leurs agresseurs et ont
+                        quitté rapidement les lieux pour leur échapper. </said>"</s>
+                <s>;<seg type="EXP" n="1"> «Tiré en l'air en direction... », ce lapsus</seg>, exposé
+                    sans commentaires au journal de 20 heures, <w pos="V" msd="Act" n="2">a fait
+                        monter</w> d'un cran <seg type="ADJ" n="3">la rage</seg>.</s>
+            </p>
+            <p>
+                <s>Dans leur local, au rez-de-chaussée d'une HLM, <persName type="proche"
+                        corresp="#Ali #B_Vice">les membres de B Vice</persName> ne comprenaient
+                    plus, mercredi soir, comment une répétition pour un concert prévu début mars, à
+                    Vitrolles, au profit des enfants malades du sida, avait pu déboucher sur
+                        <eventName type="judicial" corresp="#mort_Ali">pareille
+                        catastrophe</eventName>.</s>
+                <s> Fils d'un employé d'une société de nettoyage, <persName type="judicial"
+                        subtype="victime" corresp="#Ali">Ibrahim Ali</persName> venait de rejoindre
+                        <orgName type="proche" corresp="#B_vice #Ali">B Vice</orgName> (pour
+                        <roleName nymRef="race_sociale">Blacks</roleName>
+                    Vu de l'intérieur comme de l'extérieur), <eventName nymRef="création_groupe"
+                        corresp="#B_Vice"><orgName corresp="#B_Vice #Ali" type="proche">un groupe de
+                            rap</orgName></eventName> créé en 1985 qui a obtenu par deux fois la
+                    reconnaissance des Francofolies de La Rochelle.</s>
+            </p>
+            <p>
+                <s><orgName type="proche" corresp="#B_Vice #Ali">B Vice</orgName>, qui mêle des
+                   <roleName nymRef="race_sociale"> jeunes de toute origine mais à dominante comorienne</roleName>, donne des spectacles pour
+                        <orgName type="humanitarian" nymRef="ONG">les Restaurants du cœur</orgName>
+                    et bénéficie de l'aide du <orgName type="gouvernment" nymRef="conseil_communal"
+                        >conseil communal de prévention de la délinquance</orgName>.</s>
+                <s>Ses textes oscillent entre la dénonciation de la drogue, de la violence, les
+                    hymnes à la fraternité.</s>
+            </p>
+            <p>
+                <s>"<said aloud="true" direct="true" who="#B_vice">Aimons-nous, aimons-nous
+                        vivants</said>" et la dénonciation de la galère des quartiers nord et du
+                    racisme.</s>
+                <s> L'une des dernières productions de <persName type="proche"
+                        corresp="#B_Vice #Ali #Soly">Mohamed</persName>, alias <persName type="proche"
+                        corresp="#Soly #B_Vice #Ali">M.T. Soly</persName>
+                    <!-- jsp si ça va super bien marcher ça -->, s'en prenait à <persName
+                        type="political" nymRef="président" corresp="#JM_le_pen">Jean-Marie Le
+                        Pen</persName> sans le nommer: <said aloud="true" direct="true" who="#B_Vice"
+                        corresp="#JM_le_pen">« Il était naguère <addName corresp="#JM_le_pen">une
+                            bête sanguinaire</addName> qui rêvait de faire de la terre entière un
+                        enfer pour ceux qui avaient l'erreur et le de venir au monde sans la bonne
+                        couleur de peau, car ce <persName corresp="#JM_le_pen">sot
+                            inculte</persName>, n'ayons pas peur des mots,rêvait d'un nouveau monde
+                        où seuls <roleName nymRef="race_sociale">les
+                            Blancs</roleName> seraient égaux.</said></s>
+            </p>
+            <p>
+                <s>Philippe Bernard </s>
+            </p>
+            <p>
+                <s>
+                    <hi n="2">
+                        <s><seg type="EXP" n="1"><roleName type="political" nymRef="elu"
+                                    ana="RN">Plusieurs membre du Front national</roleName></seg>
+                            déjà <w pos="V" msd="Pass" n="2">condamnés</w><seg type="EXP" n="3">lors de campagnes
+                            électorales</seg></s>
+                    </hi>
+                </s>
+            </p>
+            <p>
+                <s><seg type="EXP" n="1"><roleName type="political" nymRef="adhérent"
+                            ana="RN">Plusieurs sympathisants ou militants du Front national</roleName></seg>
+                    <w pos="V" msd="Pass" n="2">ont été ces dernières années condamnés</w><seg type="ADJ" n="3"> pour des
+                    actes de violence lors de campagnes électorales.</seg></s>
+            </p>
+            <!-- Ici on a une mise en page particulière dans l'original, avec chaque date qui est précédé d'un bullet point, elle est également mise en gras. En gros ça fiat une liste, voir s'il y a moyen de tout mettre en avant -->
+            <!-- comment mettre en avant la liste des condamnations : pour l'instant modèle du n1 - V - n2  -->
+            <p>
+                <s>Le 28 avril 1994, <seg type="EXP" n="1">Marc Georges</seg>, <roleName
+                        corresp="#Marc_Georges" type="political" nymRef="candidat" ana="RN">candidat
+                        du FN</roleName> aux législatives de mars 1993, <w pos="V" msd="Pass" n="2"
+                        >est condamné</w> par <orgName type="judicial">le tribunal correctionnel de Pontoise </orgName><seg type="ADJ" n="3">à dix-huit mois
+                    de prison, dont douze mois avec sursi</seg>s.</s>
+                <s> Au cours d'une échauffourée entre colleurs d'affiches, <seg type="NOM" n="1"
+                            ><roleName type="political" nymRef="sympathisant"
+                            corresp="#Marc_Georges">un sympathisant d'extrême
+                        droite</roleName></seg>
+                    <w pos="V" msd="Act" n="2">avait fait feu</w>, <seg type="EXP" n="3">blessant un
+                        jeune homme</seg> à la jambe.</s>
+            </p>
+            <p>
+                <s>Le 12 mars 1993, <persName><seg type="NOM" n="1">Emilien Bonnal</seg></persName>,
+                        <roleName corresp="Emilien_Bonnal" type="political" ana="RN"
+                        nymRef="militant">militant du FN</roleName>, <w pos="V" msd="Pass" n="2">est
+                        condamné</w> à huit ans de réclusion criminelle par la cour d'assises du Var
+                        <seg type="EXP" n="3">pour le meurtre d'un jeune homme</seg> âgé de vingt-cinq
+                    ans.</s>
+                <s> <persName>Abdallah Moktari</persName> avait invectivé <persName type="political" nymRef="candidat" corresp="Bonnad">Emilien Bonnal</persName>, candidat du FN aux élections
+                    cantonales, alors qu'il collait des affiches. Il avait été tué d'un coup de
+                    fusil à pompe.</s>
+            </p>
+            <p>
+                <s>Le 6 décembre 1989, <roleName type="political" ana="RN"
+                            nymRef="adhérent">un adhérent</roleName> et <roleName type="political"
+                            nymRef="sympathisant" ana="RN">six sympathisants</roleName> du Front
+                        national de Dreux sont
+                        condamnés à des peines allant de trois mois à huit mois de prison. <seg
+                        type="NOM" corresp="un adhérent et six sympathisants du Front national"
+                        n="1">Ils</seg>
+                    <w pos="V" msd="Act" n="2">avaient agressé</w>
+                    <seg type="NOM" n="3">un groupe de jeunes</seg> après l'annonce de la victoire
+                    de Marie-France Stirbois à l'issue de cette élection législative partielle.</s>
+            </p>
+            <p>
+                <s>Le 11 avril 1989, <seg type="NOM" n="1"><roleName type="political" ana="RN"
+                            nymRef="adhérent">deux membres du <orgName nymRef="parti"
+                                type="political" corresp="#RN">FN</orgName></roleName></seg>
+                    <w pos="V" msd="Pass" n="2">sont condamnés </w>par le <orgName type="judicial" nymRef="tribunal">tribunal correctionnel de
+                    Nancy</orgName> à trois mois de prison avec sursis <seg type="EXP" n="3">pour avoir
+                        insulté et menacé d'un pistolet un <roleName nymRef="race_sociale">Maghrébin</roleName></seg> lors de la campagne des
+                    élections municipales.</s>
+            </p>
+            <p>
+                <s>Le 25 avril 1988, <seg type="NOM" n="1"><roleName type="political" ana="RN"
+                            nymRef="sympathisant">un sympathisant du <orgName type="political"
+                                nymRef="parti" corresp="#RN">FN</orgName></roleName>
+                    </seg><w pos="V" msd="Pass" n="2">est condamné</w> par <orgName type="judicial" nymRef="tribunal">le tribunal correctionnel
+                    du Havre</orgName> à un an de prison <seg type="EXP" n="3">pour avoir attaqué à coups de
+                        batte des partisans de <persName type="political" ana="PC">M.
+                            Juquin</persName></seg> qui recouvraient des affiches de <persName
+                        type="political" ana="RN" corresp="#JM_le_pen">M. Le Pen</persName>.</s>
+            </p>
+            <p>
+                <s>Le 7 mars 1986, <persName><seg type="NOM" n="1" corresp="Philippe_Brocard">Philippe Brocard</seg></persName>,
+                        <roleName type="political" ana="PC" nymRef="sympathisant"
+                        corresp="Philippe_Brocard">un sympathisant du Parti socialiste</roleName>,
+                        <w pos="V" msd="Pass" n="2">est mortellement blessé</w> de neuf coups de
+                    poignard <seg type="EXP" n="3">au cours d'une rixe avec <roleName
+                            type="political" nymRef="sympathisant" corresp="#RN">des colleurs
+                            d'affiches du <orgName type="political" nymRef="parti" corresp="#RN"
+                                >Front national</orgName></roleName></seg>.</s>
+            </p>
+            <p>
+                <s>
+                    <hi n="2">Indignation générale au sein des partis et des associations </hi>
+                </s>
+            </p>
+            <p>
+                <s> LA PLUPART DES RESPONSABLES de <seg type="NOM" n="1"><orgName type="political"
+                            nymRef="parti">partis politiques</orgName> et d'<orgName
+                            type="humanitarian" nymRef="ONG">associations
+                        antiracistes</orgName></seg><w pos="V" msd="Act" n="2"> ont condamné</w>
+                    <seg type="EXP" n="3"><eventName type="judicial" corresp="#Mort_Ali">le meurtre
+                                d'<persName corresp="#Ali">Ibrahim Ali</persName></eventName></seg>,
+                    dans la nuit de mardi à mercredi 22 février.</s>
+                <s><persName corresp="#Gaudin">Jean-Claude Gaudin</persName> (UDF-PR), <roleName
+                        type="political" corresp="#Gaudin">président du conseil régional
+                        Provence-Alpes-Côte d'Azur</roleName>, a déclaré :"<said direct="true"
+                        aloud="true" who="#Gaudin">Aucun enjeu électoral ne vaut <eventName
+                            type="judicial" corresp="#Mort_Ali">la mort d'un
+                        adolescent</eventName>.</said>"
+                </s>
+                <s><roleName type="political" nymRef="elu" ana="PS" corresp="#Emmanuelli">Le premier
+                        secrétaire du Parti socialiste</roleName>,<persName type="political"
+                        corresp="#Emmanuelli"> Henri Emmanuelli</persName>, estime que <said
+                        direct="inapplicable" who="#Emmanuelli">le gouvernement doit prendre« toutes
+                        ses responsabilités »</said> après<said direct="true" corresp="#Emmanuelli">
+                        « <eventName type="political" corresp="#mort_Ali">ce crime raciste
+                        </eventName>»</said>.</s>
+                <s>
+                    <persName corresp="#Voynet">Dominique Voynet</persName>, <roleName type="political"
+                        nymRef="candidat" ana="Vert" corresp="#Voynet">candidate des Verts à
+                        l'élection présidentielle</roleName>, <said direct="inapplicable"
+                        who="#Voynet">juge, pour sa part, <persName corresp="#JM_le_pen">Jean Marie
+                            Le Pen</persName> « moralement responsable» et demande au <roleName
+                            type="gouvernment" corresp="ministre">ministre de l'intérieur</roleName>
+                        d'exercer « un strict contrôle sur la possession d'armes »</said>. </s>
+                <s>Radical
+                    «<said direct="true" who="#Voynet"> condamne ces pratiques de bandits</said>».
+                </s>
+            </p>
+            <p>
+                <s>Pour la <orgName corresp="#CGT" type="political" nymRef="union">CGT</orgName>
+                    <said aloud="true" direct="true" who="#CGT" corresp="#Mort_Ali">« <eventName
+                            corresp="#Mort_Ali">cette mort</eventName> n'est <w pos="ADJ"
+                            corresp="#Mort_Ali">ni accidentelle</w>
+                        <w pos="ADJ" corresp="#mort_Ali">ni involontaire</w>, c'est <w pos="NOM"
+                            corresp="#mort_Ali">un assassinat</w> ! Les hommes qui l'ont
+                            perpétré militent au <orgName corresp="#RN" type="political"
+                            nymRef="parti">FN</orgName>, un parti dont les thèses sont celles de
+                        l'exclusion </said>», poursuit <orgName type="political" corresp="#CGT"
+                        nymRef="union">la centrale syndicale</orgName>, en <said direct="inapplicable"
+                        who="#CGT"> exigeant que « les loisantiracistes soient pleinement
+                            appliquées </said>».</s>
+                <s>Pour <orgName type="political" nymRef="union" corresp="#CFDT">la CFDT</orgName>,
+                    «  <said who="#CFDT" direct="true" aloud="true"><eventName type="political"
+                            corresp="#Mort_Ali">ce meurtre</eventName> met en évidence les
+                        conséquences odieuses de l'action de <seg type="EXP" corresp="RN">ceux
+                            qui,dans notre pays, propagent des idéologies racistes et
+                            xénophobes</seg></said> ».</s>
+                <s> Enfin, <orgName type="police" nymRef="union"><seg type="NOM" n="1">le Syndicat
+                            général de la police</seg></orgName>
+                    <w pos="V" msd="Act" n="2">dénonce</w>
+                    «<said who="syndicat_police" direct="true" corresp="#mort_Ali"><seg type="EXP"
+                            n="3"> cet acte indigne de la République française</seg></said>»
+                        et<said direct="inapplicable">
+                        exige
+                        « une répression impitoyable contre les éléments
+                            factieux qui tentent de promouvoir les idées que l'on croyait mortes
+                            depuis cinquante ans »</said>.</s>
+            </p>
+            <p>
+                <s>Les associations ont également réagi. Le président de la <orgName
+                        type="humanitarian" corresp="FECOM" nymRef="ONG">Fédération comorienne
+                        (FECOM)</orgName>
+                    <said direct="inapplicable" who="FECOM" corresp="#Mort_Ali">a condamné ce crime
+                        « à caractère raciste et fasciste »</said>.</s>
+                <s><said who="FECOM" direct="true" corresp="#Mort_Ali">«Le FN est passé du discours
+                        à l'acte»</said>, poursuit la <orgName type="humanitarian" corresp="FECOM"
+                        nymRef="ONG">FECOM</orgName>, dont le siège est à Marseille.</s>
+                <s>
+                    «<said who="FECOM" direct="true" corresp="#Mort_Ali">Cet assassinat se déroule
+                        à un moment où, une nouvelle fois, les étrangers et les jeunes d'origine
+                        étrangère se trouvent pris au piège tendu par des démagogues. </said>»
+                </s>
+                <s>Pour le <orgName type="humanitarian" corresp="MRAP" nymRef="ONG">MRAP</orgName>,
+                        <eventName corresp="#Mort_Ali">le meurtre d'Ibrahim Ali</eventName> est
+                    « <said who="MRAP" direct="true" corresp="#Mort_Ali">la conséquence logique
+                        et tragique d'une idéologie prônée par le<orgName type="political"
+                            nymRef="parti" corresp="#RN"> Front national</orgName></said> ».</s>
+                <s>Quant au <orgName corresp="#CRIF" type="humanitarian" nymRef="ONG">CRIF (Conseil
+                        représentatif des institutions juives de France)</orgName>, il «<said
+                        direct="true" who="CRIF">tient à réagir contre <eventName
+                            corresp="#Mort_Ali">un acte criminel de caractère raciste</eventName>
+                        </said>».</s>
+                <s>Enfin, pour <orgName type="humanitarian" nymRef="ONG" corresp="asso_droit_cité"
+                        >l'association Droit de cité</orgName>, « <said direct="true"
+                            who="asso_droit_cité">le tir aux jeunes est ouvert</said> » et <orgName
+                        type="humanitarian" nymRef="ONG" corresp="#SOS_racisme">SOS
+                                Racisme</orgName>«<said who="#SOS_racisme" direct="true">envisage de se
+                        porter partie civile contre les coupables. Nous ne pouvons pas accepter
+                        qu'un parti mène une campagne électorale en armant ses
+                        militants.</said>»</s>
+            </p>
+            <p>
+                <s>Quant <roleName type="political" nymRef="président" corresp="#JM_le_pen">au
+                        président du Front national</roleName>
+                    <persName type="political" corresp="##JM_le_pen">Jean Marie Le Pen</persName>, il
+                        <said who="#JM_le_pen" direct="inapplicable">s'est déclaré « profondément
+                        peiné par la mort » d'<persName corresp="#Ali">Ibrahim
+                            Ali</persName></said>. Mais il « <said who="#JM_le_pen" direct="true">pense
+                        aussi <roleName type="political" nymRef="militant" corresp="#accusés">aux
+                            militants</roleName> et à <roleName type="proche" corresp="#accusés"
+                            >leurs familles</roleName> qui ont eu le malheur d'être impliqués dans
+                                ce tragique accident.</said>»«<said who="#JM_le_pen" direct="true">Ceux
+                        qui se dévouent pour défendre leurs idées et leurs convictions (...) sont,
+                        eux aussi, <persName corresp="#accusés">des victimes de
+                            l'insécurité</persName> </said>», ajoute <roleName corresp="#JM_le_pen"
+                        nymRef="président" type="political">le leader
+                    d'extrême-droite</roleName>.</s>
+            </p>
+            <!-- faire XML:id avec MRAP, CRIF, FECOM,etc... + PC -->
+        </body>
+    </text>
+</TEI>

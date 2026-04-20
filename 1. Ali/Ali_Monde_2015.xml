@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="Ali_Monde_2015">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <s>La deuxième mort d'<persName corresp="#Ali">Ibrahim Ali</persName></s>
+                </title>
+                <author/>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt>
+                    <resp>Encodage de l'article</resp>
+                    <name>Lucie Louis</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <p>Projet HN spé Traitement de textes</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>
+                        <s>La deuxième mort d'<persName corresp="#Ali">Ibrahim Ali</persName></s>
+                    </title>
+                    <author/>
+                    <publisher/>
+                    <series/>
+                    <ptr type="URL" target=""/>
+                    <date when="1900-10-10" type="published"/>
+                    <note type="Word_count">2330</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item>
+                    <persName xml:id="Ibrahima"/>
+                </item>
+                <item>
+                    <persName xml:id="Maoulida"/>
+                </item>
+                <item>
+                    <persName xml:id="Collard"/>
+                </item>
+                <item>
+                    <persName xml:id="Ravier"/>
+                </item>
+                <item><persName xml:id="Soprano"/></item>
+                <item>
+                    <persName xml:id="Ahamada"></persName>
+                </item>
+            </list>
+            <p>
+                <s>Le Monde.</s>
+            </p>
+            <p/>
+            <p/>
+            <p>
+                <s>La plaque est là, sur un mur de ciment brut.</s>
+                <s>Entre deux conteneurs de tri sélectif et un poteau électrique de chantier.</s>
+                <s>Invisible, ou presque.</s>
+                <s>Marseille, quartiers nord.</s>
+                <s>Carrefour des Quatre-Chemins.</s>
+                <s>Un urbanisme confus, entre zones industrielles décrépites et nouveaux programmes
+                    fonciers qui poussent là, incongrus.</s>
+                <s>Vingt ans après, ce bout de plastique noir terni par le soleil reste l'unique
+                    témoignage d'un drame qui a secoué la France.</s>
+                <s>En lettres dorées, la formule, qui raconte <eventName corresp="#mort_Ali">le
+                        meurtre d'<roleName type="social" subtype="victime" corresp="#Ali">un jeune
+                            Marseillais d'origine comorienne</roleName> par <roleName
+                            type="judicial" subtype="accusé" ana="RN">colleurs d'affiches du Front
+                                national</roleName></eventName>, étonne encore :«<quote
+                        source="plaque_commémorative">  Ici est mort <persName corresp="#Ali"
+                            >Ibrahim Ali</persName> à l'âge de 17 ans. <seg corresp="#Ali">Victime de
+                            l'intolérance et de la haine</seg> en sortant d'une répétition de
+                                    théâtre et de musique, le 21 février 1995.</quote>»</s>
+            </p>
+            <p/>
+            <p>
+                <s>«<said direct="true" who="#Ahamada" corresp="#mort_Ali"> Aujourd'hui, tout le
+                        monde est Charlie. A l'époque, ils criaient tous : "Justice pour
+                        Ibrahim"</said>, se souvient <persName ana="Ahamada">Saïd Ahamada</persName>, 42 ans.<said direct="true"
+                        who="#Ahamada" corresp="#mort_Ali">L'émotion était très forte.<eventName
+                            type="political" nymRef="manifestation">Manifs</eventName> dans toute la
+                        France, 30 000 personnes dans les rues de Marseille(ici une vidéo). Mais, ce
+                        21 février, combien serons-nous aux Quatre-Chemins pour honorer sa mémoire ?
+                        Tous les ans, on vit la même chose. On se regarde dans le blanc des yeux, de
+                        moins en moins nombreux. Personne, ni <orgName type="political">la
+                            municipalité</orgName> ni <orgName type="gouvernment">la
+                            République</orgName>, n'a saisi l'enjeu de ce meurtre. Et<orgName
+                            type="political" nymRef="parti" ana="RN">le Front national</orgName> a
+                            pris une mairie à Marseille. Cela frise le déni.</said>»</s>
+                <s><persName corresp="#Ahamada" type="political" nymRef="elu" ana="LREM">Saïd
+                        Ahamada</persName> est aujourd'hui <roleName type="political" nymRef="elu"
+                        corresp="#Ahamada">adjoint (MoDem) de la maire socialiste</roleName> du 8e
+                    secteur, <persName corresp="#Ghali" type="political" ana="PS" nymRef="elu">Samia
+                        Ghali</persName>.</s>
+                <s>En juin, il bouclera ses études à l'Institut national des études territoriales,
+                    équivalent de l'<orgName>ENA</orgName> pour la fonction publique territoriale.</s>
+                <s>Il sera alors <seg type="EXP" corresp="#Ahamada">le premier haut fonctionnaire de
+                        <orgName type="gouvernment">la République</orgName> française issu de l'immigration comorienne</seg>.</s>
+            </p>
+            <p>
+                <s>A l'époque du meurtre,<persName corresp="#Ahamada"> Saïd Ahamada</persName>
+                    traîne avec les<orgName xml:id="BTF" type="proche" ana="Ahamada" corresp="BTF"
+                        >BTF</orgName>, <orgName corresp="BTF #Ahamada">une bande de jeunes
+                        rappeurs insouciants</orgName>.</s>
+                <s>«<said direct="true" who="#Ahamada" corresp="BTF">Beaucoup de <orgName
+                            type="social" nymRef="nationality">Comoriens</orgName>d'origine comme
+                        moi. Un peu de <orgName type="social" nymRef="nationality"
+                            >Maghrébins</orgName>. Tous de la cité Félix-Pyat </said>»,
+                    rappelle-t-il.</s>
+                <s><persName corresp="#Ali">Ibrahim Ali</persName>, lui, fait partie d'un <orgName
+                        type="proche" corresp="#Ali #B_Vice">collectif hip-hop historique</orgName>,
+                    les B.Vice de la Savine, une des cités les plus enclavées du 15e arrondissement.
+                    «<said who="#Ahamada" corresp="#Ali" direct="true">On ne s'est croisés
+                        qu'une ou deux fois. Mais on vivait exactement les mêmes choses.<eventName
+                            corresp="#Mort_Ali"> Son assassinat</eventName> a été un déclic. Je me
+                        suis alors intéressé au fonctionnement de notre société.Et j'ai compris que
+                       <roleName type="gouvernment">les politiques</roleName> ne comprenaient rien à nos quartiers.</said>»<interp
+                        type="COMMENTARY"/>Vingt ans après, <seg type="NOM" corresp="#Ahamada " n="1">il</seg> <w pos="V" msd="Act" n="2">frissonne encore en évoquant</w>
+                        <seg type="EXP" n="3"><eventName corresp="#Mort_Ali">la mort d'Ibrahim Ali</eventName></seg>.</s>
+                <s>
+                    «<said who="#Ahamada" corresp="#Mort_Ali" direct="true">Quand on a appris que
+                            <roleName type="judicial" subtype="accusé">des colleurs du <orgName
+                                corresp="#RN">FN</orgName></roleName> avaient tiré sur <roleName
+                            corresp="#Ali">un des<orgName corresp="#B_vice"
+                            >B.Vice</orgName></roleName>, notre cité, comme toutes les autres, s'est
+                            enflammée.<eventName type="political" nymRef="manifestation"><orgName
+                                type="social" nymRef="groupe">Les jeunes</orgName> sont descendus
+                            avec des barres de fer, des cocktails Molotov</eventName>.Prêts à
+                        retourner Marseille.Mais on voulait que les gars de la Savine nous disent
+                        quoi faire. C'était <roleName corresp="#Ali">leur frère</roleName>.C'était
+                        leur décision.</said>»
+                </s>
+            </p>
+            <p/>
+            <p>
+                <s><persName corresp="#Hassany" subtype="témoin" type="proche" ana="Ali">Hassany
+                        Ibrahima</persName> est l'<addName corresp="#Hassany">un de ces « gars de la
+                        Savine »</addName>.</s>
+                <s><interp type="COMMENTARY"/>Quadra souriant, tout en rondeurs, <seg type="NOM" n="1" corresp="#Hassany"><addName type="nickName" corresp="#Hassany">ce Comorien
+                    d'origine</addName></seg> <w pos="V" msd="Act" n="2">se ferme brusquement</w> <seg type="EXP" n="3">quand on revient sur la soirée du 21 février
+                    1995.</seg></s>
+                <s>Cette nuit-là, avec <roleName type="proche" ana="Hassany">ses copains de
+                        B.Vice</roleName>, il revient d'un centre social près du port industriel, à
+                    8 kilomètres de sa cité.</s>
+                <s>«<said who="Hassany" direct="true">On préparait un spectacle pour la lutte
+                        contre le sida</said>, énonce-t-il,
+                    ému. <said who="Hassany" direct="true">A la Savine, on n'avait pas de salle
+                        assez grande. </said>»La soirée caritative doit se tenir à Vitrolles, ville
+                    qui, deux ans plus tard, élira <orgName type="political" nymRef="parti" ana="RN"
+                        >le FN</orgName> et <persName type="political" nymRef="elu" ana="RN"
+                        corresp="#Mégret">le couple Mégret</persName>.</s>
+                <s><persName corresp="#Hassany">Hassany Ibrahima</persName> se rappelle une
+                    répétition qui se termine tard.</s>
+                <s>«<said who="Hassany" direct="true" corresp="#B_vice">On voulait faire grosse
+                        impression.C'était ça, <orgName corresp="#B_Vice">B.Vice</orgName>, <addName
+                            corresp="#B_vice">un groupe de scène</addName>. On a beaucoup discuté
+                        pour savoir comment remonter chez nous. Les bus, dans les quartiers nord de
+                        Marseille, c'est compliqué.</said>» L'enchaînement des circonstances le
+                    sidère toujours.</s>
+                <s>Aux Quatre-Chemins,« comme ses potes », il se met à courir, portant platines et
+                    table de mixage.</s>
+                <s>«<said who="Hassany" direct="true"> On cavalait pour ne pas rater la
+                        correspondance.C'était Ramadan, on avait faim.</said>»
+                    <interp type="COMMENTARY"/>
+                    <persName corresp="#Hassany">Hassany Ibrahima</persName> ne raconte pas que,
+                    dans le spectacle, <persName corresp="#Ali">Ibrahim</persName> devait jouer un
+                    mort.</s>
+                <s>C'est<persName type="proche" ana="Hassany" corresp="#Ibrahima"
+                        >Ibrahima</persName>, <roleName corresp="#Ibrahima" type="proche"
+                        ana="Hassany">son grand frère</roleName> et <roleName corresp="#Ibrahima"
+                        >cofondateur des B-Vice</roleName>, absent ce soir-là, qui le révèle.</s>
+                <s>«<said who="#Ibrahima" direct="true">Les prémonitions, on n'aime pas trop ça,
+                        nous <orgName type="social" nymRef="nationalité">les
+                            Comoriens</orgName></said>.»
+                    <interp type="COMMENTARY"/><addName corresp="#Ibrahima #Hassany">Les deux
+                        hommes</addName> n'ont pas voulu être interviewés ensemble.</s>
+                <s>«<said who="#Ibrahima" corresp="#Mort_Ali" direct="true">Depuis vingt ans, on n'a
+                        jamais parlé de cette soirée</said>, confie Ali Ibrahima, aujourd'hui cadre
+                    à la mairie de Marseille.<said who="#Ibrahima" corresp="#Mort_Ali" direct="true"
+                        >Entre nous, c'est très pudique.<eventName corresp="#Mort_Ali"> Ce
+                            drame</eventName> a fait <addName corresp="#Ali">un mort</addName>, mais
+                        combien de traumatisés ? Il y avait dix gamins ce soir-là. Aucun n'a eu
+                        droit à une aide psychologique.</said>»</s>
+            </p>
+            <p>
+                <s><interp type="COMMENTARY"/><seg type="NOM" n="1"><eventName corresp="#mort_Ali">Le meurtre</eventName>,</seg>
+                    <w pos="V" n="2" msd="Act">c'est</w> <seg type="EXP" n="3"><eventName type="judicial" corresp="#procès_Ali">le procès</eventName> qui
+                    l'a décortiqué pour eux.</seg></s>
+                <s>Du 9 au 22 juin 1998, <orgName type="judicial">la cour d'assises d'Aix-en-Provence</orgName> a établi les
+                    circonstances de la tournée mortelle de <persName type="judicial"
+                        subtype="accusé" corresp="#Lagier">Robert Lagier</persName>, 63 ans,
+                        <persName type="judicial" subtype="accusé" corresp="#Ambrosio">Mario
+                        d'Ambrosio</persName>, 41 ans, et <persName type="judicial" subtype="accusé"
+                        corresp="#Giglio">Pierre Giglio</persName>, 33 ans, <roleName
+                        type="political" subtype="accusé" nymRef="adhérent" ana="RN">trois adhérents
+                        du <orgName corresp="#RN">Front national</orgName></roleName>, qui, ce
+                    soir-là, collaient des affiches pour la campagne présidentielle de <persName
+                        corresp="#JM_le_pen">Jean-Marie Le Pen</persName>.</s>
+                <s>Les deux premiers étaient armés.</s>
+                <s><persName corresp="#Lagier"><seg type="NOM" n="1">Robert Lagier</seg></persName>
+                    <w pos="V"  msd="Act"  n="2">a tiré</w><seg  type="ADJ" n="3">trois fois</seg> avec son pistolet automatique
+                    chargé de balles expansives.</s>
+                <s>Un projectile a explosé dans la poitrine d'<persName corresp="#Ali"
+                        >Ibrahim</persName>, touché dans le dos alors qu'il courait vers son
+                    bus.</s>
+                <s><persName corresp="#Lagier">Robert Lagier</persName> a été condamné à quinze ans
+                    de prison et est mort en détention peu après; <persName corresp="#Ambrosio">Marc
+                        d'Ambrosio</persName> a pris dix ans; <persName corresp="#Giglio">Pierre
+                        Giglio</persName> deux ans, dont un avec sursis.</s>
+                <s><said who="#Ibrahima" direct="true" corresp="#procès_Ali">«La justice a fait son
+                        boulot</said>, résume Ali Ibrahima.<said who="#Ibrahima" direct="true"
+                        corresp="#procès_Ali"> Même si, pour nous, elle n'a pas vraiment reconnu le
+                        caractère raciste du meurtre. »</said></s>
+            </p>
+
+
+
+
+
+            <p>
+                <s>Vingt ans plus tard, la route qui mène à la cité de la Savine serpente toujours
+                    entre des pins centenaires, comme une promesse de promenade dans les
+                    collines.</s>
+                <s>Illusion fugitive.</s>
+                <s>A l'arrivée sur le plateau qui surplombe tout Marseille, deux guetteurs au
+                    service des trafiquants de drogue, capuches et lunettes noires, s'abritent du
+                    froid sous les arbres et matent attentivement le visiteur.</s>
+                <s>Derrière eux, d'imposantes barres HLM et les palissades des chantiers du projet
+                    de rénovation urbaine (PRU), arrêtés depuis 2010.</s>
+            </p>
+            <p>
+                <s>«<said direct="true" who="Soly" corresp="la_Savine"> Tu ne viens pas à la Savine
+                        par hasard, c'est le bout du monde. Tu peux passer vingt fois devant sans
+                        savoir que, là-haut, tu as une cité de 1 500 habitants</said>», sourit Soly
+                    MBaé.</s>
+                <s>Personnage historique du rap marseillais, il est l'âme de <orgName
+                        corresp="#B_Vice">la Sound Musical School</orgName>, l'association des
+                    B.Vice, implantée là depuis 1991.</s>
+                <s><persName corresp="Soly">Soly</persName> a fréquenté <persName>IAM</persName>, aidé <persName>Soprano</persName> à
+                    décoller.</s>
+                <s>A 45 ans, il dirige toujours la structure, et ses multiples ateliers artistiques
+                    pour les gamins.</s>
+                <s>Malgré les opportunités, il n'est jamais parti.</s>
+                <s>Jonglant jusqu'à l'épuisement avec les baisses de subvention, les contrats aidés
+                    et l'impression d'abandon.</s>
+                <s>«<said direct="true" who="Soly" corresp="#B_Vice">On a fondé ce projet pour
+                        encadrer <orgName type="social" nymRef="groupe" corresp="#les_jeunes">nos
+                            petits frères comme<persName corresp="#Ali"
+                        >Ibrahim</persName></orgName>, les aider à s'insérer. A l'époque, on a dû
+                        taper sur la table pour imposer nos idées, vis-à-vis des parents qui
+                        n'avaient pas confiance, des financeurs. Et, au final, cela s'est soldé par
+                            <eventName corresp="#Mort_Ali">la mort d'un ado</eventName>. Après ça,
+                        c'était difficile de tout lâcher</said>», reconnaît-il.</s>
+            </p>
+            <p>
+                <s>Chemise blanche, lunettes et casquette élégantes, l'homme, petit gabarit, regard
+                    intense, parle avec un débit posé.</s>
+                <s>Cette même voix, réfléchie, profonde, qui avait apaisé les esprits le lendemain
+                    du meurtre.</s>
+                <s>«<said direct="true" who="Soly" corresp="#hommage_Ali">La mère d'Ibrahim m'a dit
+                        : "Faites ce que vous voulez, mais rien qui ne salisse la mémoire de mon
+                        fils".</said>» La phrase a fait de <persName corresp="Soly">Soly
+                        MBaé</persName> et de <roleName type="proche" ana="Soly">ses
+                        copains</roleName> de <orgName type="humanitarian" corresp="#B_Vice">la Sound
+                        Musical School les gardiens</orgName> de la flamme.</s>
+                <s><said direct="true" who="#Ibrahima" corresp="#hommage_Ali">« Certains, dans les
+                        quartiers, nous ont reproché d'avoir calmé le jeu, et accusés d'être achetés
+                        par les politiques,</said> lâche Ali Ibrahima. <said direct="true"
+                        who="#Ibrahima" corresp="#hommage_Ali">Ça nous a fait mal.»</said>Esseulés
+                    sur le piton de leur cité ghetto, ils en ont développé méfiance et crainte aiguë
+                    de la récupération.</s>
+                <s><said direct="true" who="Soly" corresp="#hommage_Ali">« Cette dignité, c'était
+                        le visage qu'il fallait montrer,</said> tranche Soly.<said direct="true"
+                        who="Soly" corresp="#hommage_Ali">Sinon, on aurait donné raison au <orgName
+                            corresp="#RN">FN</orgName> et à <persName corresp="#Mégret"
+                            type="political" nymRef="elu" ana="RN">Bruno Mégret</persName> qui
+                        qualifiait un tir dans le dos de légitime défense. Mais aujourd'hui, je
+                        regrette que l'on n'ait pas donné un grand coup de pied dans la fourmilière
+                        quand je vois le nombre de gens contaminés par <orgName corresp="#RN"
+                            type="political">ce parti de la haine</orgName>.»</said> Autre regret :
+                        <persName type="political">Dieudonné</persName> qui, en 1995, marchait au
+                    premier rang de la manifestation marseillaise.</s>
+                <s><said direct="true" who="Soly" corresp="#hommage_Ali">« A l'époque, nous avons
+                        apprécié son soutien,</said> répond Soly MBaé.<said direct="true"
+                        who="Soly" corresp="#hommage_Ali">Aujourd'hui, je ne comprends plus son
+                        discours.</said></s>
+            </p>
+            <p>
+                <s><seg type="NOM" n="1">La Savine</seg>
+                    <w pos="V" msd="Act" n="2">est</w> un <seg type="EXP" n="3">symbole de l'apartheid hexagonal</seg>
+                    dénoncé par<roleName type="gouvernment" corresp="Valls"> le premier ministre</roleName>,<persName type="gouvernment" nymRef="elu"
+                        corresp="Valls">Manuel Valls</persName>, en déplacement à Marseille les 9 et
+                    10 février 2015 .
+                </s>
+                <s><persName corresp="Soly">Soly MBaé</persName> décrit une cité «<said
+                        direct="true" who="Soly" corresp="La_Savine"> paupérisée, avec des
+                        communautés refermées sur elles-mêmes. Avant, on s'invitait les uns les
+                        autres aux fêtes religieuses. Aujourd'hui, c'est fini. Et il n'y a toujours
+                        qu'un bus de nuit. Si tu le rates, tu rentres à pied </said>».</s>
+                <s>Le 30 janvier, <persName type="political" nymRef="elu">Marie Lajus</persName>,
+                        <roleName type="political" nymRef="elu">préfète à l'égalité des
+                        chances</roleName>, était en visite pour marquer la relance du plan de
+                    rénovation, endormi depuis quatre ans : «<said who="Marie_Lajus" direct="true">
+                        Cent quarante millions d'euros sont investis ici pour créer une meilleure
+                        mixité sociale</said>», assure-t-elle.</s>
+                <s>Mais <persName corresp="Soly">Soly MBaé</persName> n'y croit plus.</s>
+                <s><persName corresp="#Ibrahima">Ali Ibrahima</persName>, lui aussi, est désabusé :
+                        <said who="#Ibrahima" direct="true">« Nous, on a toujours l'impression d'être
+                        des Français à part, J'ai fait mon service, je paye mes impôts, je tremble
+                        quand je chante La Marseillaise. Quand est-ce que cette maison
+                        m'appartiendra aussi ?»</said></s>
+            </p>
+            <p>
+                <s>«<said who="JM_Pesenti" direct="true" corresp="#procès_Ali"> Après le procès,
+                        j'étais convaincu que <orgName corresp="#RN">le FN</orgName> disparaîtrait
+                        des quartiers nord. Mais on a très vite oublié<eventName corresp="#Mort_Ali"
+                            >le meurtre</eventName>,</said> confie <roleName type="judicial"
+                        nymRef="avocat" corresp="JM_Pesenti">l'avocat</roleName> des trois accusés,
+                        <persName type="judicial" nymRef="avocat" corresp="JM_Pesenti">Jean-Michel
+                        Pesenti</persName>.<said> Cette résurgence du Front national, on la doit
+                        d'abord <roleName type="political" nymRef="elu">aux hommes politiques
+                            marseillais</roleName> de tout bord qui n'ont rien fait pour améliorer
+                        la situation de ces quartiers.»</said><said who="#Ahamada" direct="true"
+                        >«Dans les partis, personne n'a dit : ces jeunes ont été magnifiques, il
+                            faut construire avec eux</said>», rebondit Saïd Ahamada.</s>
+                <s><seg type="NOM" n="1">La représentation des immigrations</seg> récentes <w
+                        pos="V" n="2">avance peu</w>
+                    <seg type="EXP" n="3">à Marseille</seg>.</s>
+                <s>Sur 101 conseillers municipaux, à peine huit sont d'<roleName nymRef="race_sociale">origine maghrébine ou
+                    comorienne</roleName>.</s>
+            </p>
+            <p>
+                <s>De <orgName type="proche" ana="Ali">la famille d'<persName corresp="#Ali">Ibrahim
+                            Ali</persName></orgName>, il ne reste personne à la Savine.</s>
+                <s><persName type="proche" ana="Ali" corresp="#Maoulida">Fati Maoulida</persName>,
+                        <roleName type="proche" ana="Ali" corresp="#Maoulida">une de ses
+                        cousines</roleName>, aujourd'hui cadre commerciale, vit en centre-ville.</s>
+                <s>«<said who="#Maoulida" direct="true"> Ma tante a quitté Marseille. Elle ne
+                        supportait plus de croiser les copains de son fils unique. Autour du 21
+                        février, elle se rend toujours aux Comores, ça l'apaise </said>»,
+                    explique-t-elle.</s>
+                <s><interp type="COMMENTARY"/>Ses larmes remontent.</s>
+                <s>
+                    «<said who="#Maoulida" corresp="#Ali" direct="true"> Pour mes trois soeurs et
+                        moi, <persName type="proche" ana="Maoulida" corresp="#Ali"
+                            >Ibrahim</persName> était <addName corresp="#Ali">un grand
+                            frère</addName>
+                        <w pos="ADJ" corresp="#Ali">tendre</w>, <w pos="ADJ" corresp="#Ali"
+                            >drôle</w>, <seg type="EXP" corresp="#Ali">toujours là</seg>. Nous avons
+                        partagé le même appartement, puis le même palier. On vivait les uns chez les
+                        autres.</said>»
+                </s>
+            </p>
+            <p>
+                <s><persName corresp="#Maoulida">Fati</persName> se souvient de son incompréhension
+                    à l'annonce du <eventName corresp="#Mort_Ali">décès</eventName>.</s>
+                <s>«<said who="#Maoulida" direct="true">Au collège, je suis allée voir <roleName
+                            type="proche" ana="Maoulida">mes copines françaises</roleName>. <orgName
+                            type="social" nymRef="nationalité">Des Blanches</orgName>, quoi Je leur
+                        ai demandé : "Mais c'est quoi <orgName type="political" nymRef="parti"
+                            ana="RN">le Front national</orgName> ?" Ce jour-là, j'ai découvert le
+                        racisme. </said>»Le 11 janvier dernier, la même incompréhension l'a
+                    submergée.</s>
+                <s>Brutale.</s>
+                <s>
+                    «<said who="#Maoulida" direct="true">En déplacement à Paris, je suis allée
+                        devant le siège de Charlie Hebdo et à l'Hyper Cacher, porte de Vincennes. Il
+                        fallait que je voie ça de mes yeux.</said>»
+                </s>
+            </p>
+            <p>
+                <s><persName corresp="#Maoulida">Fati Maoulida</persName> a eu 14 ans le jour de
+                    l'enterrement de <roleName type="proche" ana="Maoulida" corresp="#Ali">son
+                        cousin</roleName>.</s>
+                <s>«<said who="#Maoulida" corresp="#Mort_Ali" direct="true">Depuis,</said>
+                    confie-t-elle, <said who="#Maoulida" corresp="#Mort_Ali" direct="true">c'est un
+                        amer anniversaire.</said>» Le 21 février, devant la plaque des
+                    Quatre-Chemins, elle laissera <persName corresp="Soly">Soly Mbaé</persName>
+                    prendre la parole.</s>
+                <s>«<said who="#Maoulida" corresp="#hommage_Ali" direct="true"> Ses mots sont
+                        tellement justes </said>», assure-t-elle.</s>
+                <s>Comme lui, comme ceux de la Savine, elle espère encore «<said who="#Maoulida"
+                        corresp="#hommage_Ali" direct="true">une vraie reconnaissance
+                </said>.</s>»
+                <s>Un bâtiment public au nom d'Ibrahim ?</s>
+                <s>
+                    «<said who="#Maoulida" corresp="#hommage_Ali" direct="true">On préférerait que
+                        ce carrefour où il a été tué soit rebaptisé. Chaque année, on donne la
+                        demande en mains propres aux politiques.Et, chaque année, on n'a pas de
+                        réponse.</said>»
+                </s>
+            </p>
+
+            <p>
+                <s><addName corresp="#Maoulida">La jeune femme</addName> partage les mêmes
+                    désillusions que <persName corresp="Soly">Soly Mbaé</persName>, <persName
+                        corresp="#Ibrahima">Ali</persName> et <persName corresp="#Hassany">Hassany
+                        Ibrahima</persName> et les autres.</s>
+                <s>Les «<said who="#Maoulida" direct="true" corresp="#Collard"> coups de poignard
+                </said>» des deux dernières décennies.</s>
+                <s>Son « <said who="#Maoulida" direct="true" corresp="#Collard">dégoût </said>»
+                    quand elle a vu <persName corresp="#Collard">Gilbert Collard</persName> devenir
+                        <roleName type="political" nymRef="elu" ana="RN" corresp="#Collard">député
+                        du <orgName type="political" nymRef="parti" ana="RN">rassemblement Bleu
+                            Marine</orgName></roleName>.</s>
+                <s>«<said who="#Maoulida" corresp="#Collard" direct="true">C'était <roleName
+                            type="judicial" nymRef="avocat" corresp="#Collard">notre avocat au
+                            procès</roleName>,</said> rappelle-t-elle. <said who="#Maoulida"
+                        corresp="#Collard" direct="true">Il montrait de l'empathie. On le pensait
+                        sincèrement touché par notre histoire. Il a vu les garçons pleurer dans son
+                        bureau.</said>». Elle se souvient des mots de <roleName type="judicial"
+                        nymRef="avocat" corresp="#Collard">l'avocat vedette</roleName>, se
+                    demandant, devant les jurés, <said who="Collard" direct="true" corresp="#RN">«
+                        si l'idéologie véhiculée par <orgName corresp="#RN">le Front
+                            national</orgName> n'a pas provoqué le fantasme de peur dans l'esprit
+                            <roleName subtype="accusé" type="political">des colleurs d'affiches
+                            </roleName></said>».</s>
+                <s>« <said who="#Maoulida" corresp="#Collard" direct="true">Le voir assis à côté de
+                            <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> a été un choc
+                </said>» , dit-elle.</s>
+            </p>
+            <p/>
+            <p>
+                <s><persName corresp="#Maoulida">Fati Maoulida </persName>parle aussi de cette
+                    plaque posée un jour par la mairie de Marseille sur un terre-plein au bas de la
+                    Savine : «<quote source="plaque_commémorative"> <persName corresp="#Ali"
+                            >Ibrahim-Ali</persName>, 1978-1995</quote>».</s>
+                <s>«<said who="#Maoulida" direct="true" corresp="plaque_commémorative">En catimini,
+                        sans inauguration, sans prévenir la famille, les amis,</said>
+                    souffle-t-elle. <said who="#Maoulida" direct="true"
+                        corresp="plaque_commémorative">A un endroit qui ne veut rien
+                        dire.</said>»</s>
+                <s>
+                    « <said who="Soly" direct="true"> Le mépris des pouvoirs publics, c'est ce qui
+                        nous fait le plus mal, s'agace Soly Mbaé.</said>
+                    <said who="Soly" direct="true"><seg type="NOM" n="1">Pour eux</seg>, c'est <seg
+                            type="V" n="2"><addName corresp="#Ali">un petit Comorien</addName> qui
+                            est mort</seg>, <seg type="NOM" n="3"> pas <addName corresp="#Ali">un
+                                minot</addName> de Marseille</seg> Dans le 15e, ils ont donné à un
+                        collège le nom de <persName>Rosa Parks</persName> [l'Américaine surnommée « mère du mouvement des
+                        droits civiques » pour avoir refusé, en 1955, de céder son siège d'autobus à
+                        un Blanc].Pourquoi pas <persName corresp="#Ali">Ibrahim Ali</persName> ?
+                        L'antiracisme, c'est mieux quand ça vient des Etats-Unis ? Il n'y a aucun
+                        courage politique. Tout le monde a peur de la réaction du <orgName
+                            corresp="#RN">FN</orgName>. </said>»
+                </s>
+            </p>
+            <p>
+                <s>A moins d'un kilomètre des Quatre-Chemins, <persName corresp="#Ravier"
+                        type="political" nymRef="elu" ana="RN">Stéphane Ravier</persName> occupe,
+                    depuis mars 2014, le bureau de maire du 7e secteur de Marseille.</s>
+                <s>«<said who="#Maoulida" direct="true" corresp="élection_Ravier"> La deuxième mort
+                        <persName corresp="#Ali">d'Ibrahim</persName> </said>», dit <persName
+                        corresp="#Maoulida">Fati Maoulida</persName>.</s>
+                <s>En 2013, alors que deux élus de gauche proposaient de faire du 21 février une «
+                    journée de lutte contre le racisme », <addName corresp="#Ravier"
+                        type="political">le leader frontiste</addName> avait dénoncé «<said
+                        who="#Ravier" direct="true" corresp="journée_antiracisme"> une profanation
+                        </said>».</s>
+                <s>«<said who="#Ravier" direct="true" corresp="journée_antiracisme">La gauche
+                        réveille les plaies, c'est vraiment minable</said>», déclarait-il à La
+                    Provence.</s>
+                <s>Aujourd'hui, <roleName corresp="#Ravier" type="political" nymRef="elu" ana="RN"
+                        >élu maire</roleName> et<roleName corresp="#Ravier" type="political"
+                        nymRef="elu" ana="RN"> sénateur</roleName>, il évoque « <said who="#Ravier" direct="true">un drame qui a brisé
+                    plusieurs familles.
+                Celle de la victime, bien sûr et avant tout, mais aussi celles de militants
+                    sincères</said> ».</s>
+                <s><interp type="COMMENTARY"/>Si <persName corresp="#Ravier">Stéphane Ravier</persName> tire une leçon du drame, c'est celle que <persName corresp="#JM_le_pen">Jean-Marie Le Pen</persName>
+                    évoquait déjà au lendemain du meurtre : « <said who="#Ravier" corresp="#Mort_Ali" direct="true">Ne jamais être armé pour un
+                        collage. </said>»</s>
+            </p>
+            <p>
+                <s><addName corresp="#Soprano">Marseillais d'origine comorienne</addName>,<persName corresp="#Soprano"> Soprano</persName> n'était qu'un ado quand il a commencé à
+                    fréquenter <orgName corresp="#B_Vice">la Sound Musical School</orgName>.</s>
+                <s>A l'heure des vingt ans de la mort d'<persName corresp="#Ali">Ibrahim Ali</persName>, il est devenu <roleName corresp="#Soprano">un rappeur</roleName> qui
+                    empile les tubes festifs, vides de substance politique : «<said who="#Soprano" direct="true"> Aujourd'hui, les
+                        jeunes des cités ne savent pas qui est Ibrahim et ne vont pas voter. On a tous notre part de responsabilité là-dedans, moi compris. Une chose est sûre, nous n'avons pas assez transmis.</said>»</s>
+            </p>
+        </body>
+    </text>
+</TEI>

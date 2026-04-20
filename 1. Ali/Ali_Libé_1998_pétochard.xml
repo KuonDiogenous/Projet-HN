@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ali_Libé_1998_pétochard">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <s><eventName corresp="#procès_Ali">Le meurtre d'Ibrahim Ali aux assises
+                            d'Aix</eventName>. <addName type="judicial" subtype="accusé"
+                            corresp="#Giglio">Le "pétochard"</addName>, <addName type="judicial"
+                            subtype="accusé" corresp="#Ambrosio">la "flèche"</addName> et <addName
+                            type="judicial" subtype="accusé" corresp="#Lagier">l'ex- PCF</addName>,
+                            <note xml:id="Vision_FN">une certaine vision du FN</note>. Itinéraire
+                            <addName type="judicial" subtype="accusé"
+                            corresp="#Giglio #Lagier #Ambrosio">des trois colleurs d'affiches
+                            accusés</addName>.</s>
+                </title>
+                <author>JOHANNES Franck</author>
+            </titleStmt>
+            <editionStmt>
+                <!-- Desc. de l'éditionn | Facultatif -->
+                <edition/>
+                <!-- Obligatoire si <editionStmt> -->
+                <respStmt>
+                    <!-- Déclaration de responsabilité | Facultatif -->
+                    <resp>Encodage de l'article</resp>
+                    <!-- Obligatoire si <respStmt> -->
+                    <name>Lucie Louis, Dina Senaque</name>
+                    <!-- Obligatoire si <respStmt> -->
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <!-- Contexte et production du fichier | Obligatoire -->
+                <p>Projet HN spé Traitement de textes</p>
+                <!-- Obligatoire -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>
+                        <s><eventName corresp="#procès_Ali">Le meurtre d'Ibrahim Ali aux assises
+                                d'Aix</eventName>. <addName type="judicial" subtype="accusé"
+                                corresp="#Giglio">Le "pétochard"</addName>, <addName type="judicial"
+                                subtype="accusé" corresp="#Ambrosio">la "flèche"</addName> et
+                                <addName type="judicial" subtype="accusé" corresp="#Lagier">l'ex-
+                                PCF, une certaine vision du FN</addName>. Itinéraire des trois
+                            colleurs d'affiches accusés.</s>
+                    </title>
+                    <author xml:id="Johannes">JOHANNES Franck</author>
+                    <publisher>Libération</publisher>
+                    <series>Envoyé spécial</series>
+
+                    <ptr type="URL"
+                        target="https://www.liberation.fr/societe/1998/06/11/le-meurtre-d-ibrahim-ali-aux-assises-d-aix-le-petochard-la-fleche-et-l-ex-pcf-une-certaine-vision-du_241098/"/>
+                    <date when="1998-06-11" type="published"/>
+                    <note type="Word_count">729</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <!-- Est ce qu'il n'y a pas un espace où on peut faire la liste des XML:ID dont on a besoin dans le texte et qu'on implémente au fur et à mesure-->
+        <body>
+
+            <list>
+                <item>
+                    <persName xml:id="Lagier"/>
+                </item>
+                <item>
+                    <persName xml:id="Ambrosio"/>
+                </item>
+                <item>
+                    <persName xml:id="Giglio"/>
+                </item>
+                <item>
+                    <persName xml:id="Ali"/>
+                </item>
+                <item>
+                    <persName xml:id="JM_le_pen"/>
+                </item>
+                <item>
+                    <persName xml:id="Fayolle"/>
+                </item>
+                <item>
+                    <orgName xml:id="PC"/>
+                </item>
+                <item>
+                    <orgName xml:id="FN"/>
+                </item>
+
+                <item>
+                    <orgName xml:id="asso_antiraciste"/>
+                </item>
+                <item>
+                    <eventName xml:id="procès_Ali"/>
+                </item>
+                <item>
+                    <eventName xml:id="Pacte_Varsovie_1968"/>
+                </item>
+                <item>
+                    <eventName xml:id="Guerre_du_Golfe"/>
+                </item>
+
+
+            </list>
+
+
+            <p>
+                <s>Aix-en-Provence, envoyé spécial.</s>
+            </p>
+
+            <p>
+                <s>
+                    <interp type="IRONY" corresp="#Lagier"/>
+                    <said who="#Lagier" direct="false">C'est <w type="champs_banalité" pos="NOM"
+                            corresp="#Lagier">un type moyen</w>.Mais <orgName type="social"
+                            nymRef="nationalité" corresp="#Lagier">Français</orgName>.</said>
+                </s>
+                <s>Qui s'est trouvé une place assise dans un créneau encombré : il est <w pos="ADJ"
+                        type="champs_banalité" corresp="#Lagier">banal</w>, et il en est
+                    content.</s>
+                <s>"<said who="#Lagier" direct="true" aloud="true">Je ne pense pas me distinguer des
+                        autres</said>, assure <persName corresp="#Lagier" type="judicial"
+                        subtype="accusé">Robert Lagier</persName>,<said who="#Lagier" direct="true"
+                        aloud="true"> je me considère comme ça, le type même du Français
+                        moyen.</said>"</s>
+                <s>Pas vraiment antipathique,<w pos="ADJ" corresp="#Lagier" type="champs_banalité">
+                        neutre</w>.</s>
+                <s><interp type="SARCASM"/>
+                    <w pos="ADJ" corresp="#Lagier" type="champs_banalité">Terne</w>, <w pos="ADJ"
+                        corresp="#Lagier" type="champs_banalité">raisonnable</w>, jamais un dérapage
+                    raciste et même pas le physique de l'emploi :<addName type="judicial"
+                        subtype="accusé" corresp="#Lagier">le colleur d'affiches du <orgName
+                            type="political" corresp="#RN">Front national</orgName></addName> a 66
+                    ans, <seg type="EXP" corresp="Lagier">le teint livide</seg>, et un cancer des os
+                    qui le grignote lentement.</s>
+                <s>C'est devenu, au deuxième <eventName corresp="#procès_Ali" type="judicial">jour
+                        du procès des assassins d'<persName type="judicial" subtype="victime"
+                            corresp="#Ali">Ibrahim" Ali</persName></eventName> à Aix-en-Provence,
+                        <roleName type="judicial" nymRef="responsable" corresp="#Lagier">le
+                        porte-parole des accusés</roleName>.</s>
+                <s>Il n'a pas tellement le choix : <persName type="judicial" subtype="accusé"
+                        corresp="#Ambrosio">Mario D'Ambrosio</persName> a du mal à aligner deux
+                    propositions cohérentes et <addName type="judicial" subtype="accusé"
+                        corresp="#Giglio">le troisième larron</addName>, <persName type="judicial"
+                        subtype="accusé" corresp="Giglio">Pierre Giglio</persName>, est ravi de
+                    passer pour le <addName corresp="#Giglio" type="champs_lâche">trouillard de
+                        l'équipe</addName>.</s>
+            </p>
+
+            <p>
+                <s>
+                    <interp type="IRONY"/>
+                    <addName corresp="#Lagier">Fils de héros.</addName>
+                </s>
+                <s>
+                    <persName type="proche" corresp="#Lagier Robert_Lagier">Robert
+                        Lagier</persName> est né à Alger en 1932, d'un <addName type="proche"
+                        corresp="#Lagier Robert_Lagier">père héros</addName> qui avait rejoint de
+                    Gaulle à Londres puis les Anglais dans les commandos de marine, et mettait des
+                    raclées à ses enfants quand ils ne marchaient pas droit.</s>
+                <s>Démobilisé, <addName type="proche" corresp="#Lagier Robert_Lagier">le papa
+                        adjudant-chef</addName> monte un atelier photo, la maman est fille d'un
+                    facteur toulousain, et<interp type="IRONY"/><said direct="false" aloud="true">
+                        <seg type="NOM" n="1"><addName corresp="#Lagier">le petit
+                            pied-noir</addName></seg><w pos="V" msd="Act" n="2"> avoue</w>
+                        <seg type="EXP" n="3">une enfance heureuse, avec
+                                <orgName type="proche" corresp="#Ali">ses copains
+                                algériens</orgName></seg>.</said></s>
+                <s>Pas au point d'apprendre l'arabe : "<said who="#Lagier" direct="true" aloud="true"
+                        >C'était plutôt à eux d'apprendre le français, une langue
+                        universelle"</said>"</s>
+            </p>
+
+            <p>
+                <s><seg type="NOM" corresp="#Lagier" n="1"><roleName type="proche" corresp="#Lagier">Le fiston</roleName></seg> a repris le studio
+                    du père quand arrive la guerre d'Algérie, où <interp type="IRONY"/>"<said
+                        who="#Lagier" direct="true" aloud="true">il se bat du côté <orgName
+                            type="social" nymRef="nationalité" corresp="#français">des
+                            Français</orgName></said>", c'est-à-dire qu'il verse son obole à
+                        l'<orgName type="historical">OAS</orgName>, et <w pos="V" msd="Act" n="2">regrette</w><seg type="EXP" n="3">le bon vieux
+                    temps.</seg></s>
+                <s>
+                    "<said direct="true" aloud="true" who="#Lagier">Aujourd'hui, on n'achèterait pas
+                        du pétrole, on en vendrait, on ferait partie de l'Opep. Voilà pourquoi aussi
+                        je voulais que l'Algérie reste française.</said>"
+                </s>
+                <s> Mais il débarque sans un sou à Marseille, en 1962, avec sa femme et son petit
+                    garçon et s'embauche comme maçon.</s>
+                <s>Ça lui plaît, et il passe vite chef d'équipe, puis chef de chantier, travaille en
+                    Arabie Saoudite, en Irak, en Algérie… Avant de traverser, à la fin des années
+                    quatre-vingt, de longs mois de chômage, dont il a honte.</s>
+                <s>C'est là qu'il s'inscrit au <orgName type="political" corresp="#RN">FN</orgName>
+                    en 1989.</s>
+                <s>"<said direct="true" aloud="true" who="#Lagier" corresp="#Vision_FN">J'ai horreur
+                        de voir quelqu'un persécuté</said>, explique Lagier.<said aloud="true"
+                        direct="true"> C'est mon caractère. Quand j'ai vu cet acharnement contre le
+                            <orgName type="political" nymRef="parti" corresp="#RN">Front
+                            national</orgName>, j'y suis allé.</said>"</s>
+            </p>
+            <!-- serait intéressant d'encoder la position de victime donnée au FN -->
+
+            <p>
+                <s>Après un détour par <orgName type="political" nymRef="parti" corresp="#PC">le
+                        Parti communiste</orgName>. Un jour, sur un chantier, ils se retrouvent à
+                    200 chômeurs, non indemnisables pour des pépins administratifs. Le Parti a
+                    arrangé ça.</s>
+                <s>"<said direct="true" aloud="true" who="#Lagier">J'avais une dette de
+                        reconnaissance </said>, explique <persName type="judicial" subtype="accusé"
+                        corresp="#Lagier">Robert Lagier</persName>.<said direct="true" aloud="true">
+                        Ensuite, évidemment, ils m'ont présenté la facture, ils voulaient que
+                        j'aille <eventName type="political" nymRef="manifestation">aux
+                            manifs</eventName>, j'allais pas dire non.</said>"</s>
+                <!-- ici je ne suis pas sûre de s'il parle du PC ou du FN : pour encoder les "ils"-->
+                <s>Mais quand <eventName type="historical" corresp="#Pacte_Varsovie_1968">les chars
+                        russes envahissent la Tchécoslovaquie</eventName>
+                    <!-- à encoder comme événement historique ? est ce que je devrais l'encoder tout court ? -->,
+                    il rend son tablier :"<said direct="true" aloud="true" who="#Lagier"
+                        corresp="#Pacte_Varsovie_1968">Je me suis dit, ils sont à Prague, bientôt
+                        ils seront à Marseille.</said>"</s>
+            </p>
+
+            <p>
+                <s> <w pos="PRONOUN" corresp="#Lagier" n="1">il</w> ne vote plus, sauf des fois pour Giscard, et <w pos="V" msd="Act" n="2">va écouter</w> <seg type="EXP" n="3">deux fois <persName
+                        type="political" nymRef="président" corresp="#JM_Le_pen">Le Pen</persName></seg>.
+                        "<said aloud="true" direct="true" who="#Lagier" corresp="#Vision_FN">J'ai
+                        entendu tout ce qui a été dit, rien ne m'a choqué. Par contre, tout ce qu'on
+                        disait le lendemain sur <w pos="PRONOUN" corresp="#JM_le_pen">lui</w> dans
+                        les journaux était faux, les phrases avaient été manipulées,
+                        bricolées.</said>"</s>
+                <s>Il prend sa carte, mais va à <eventName type="political" nymRef="manifestation"
+                        >une manif</eventName> du <orgName type="political" nymRef="parti"
+                        corresp="#PC">PC</orgName> contre la <eventName type="historical"
+                        corresp="#Guerre_du_Golfe">guerre du Golfe</eventName>, parce que <said
+                        direct="false" aloud="true" who="#Lagier">lui, il les connaît <orgName
+                            type="social" nymRef="nationalité">les Irakiens</orgName>, ce sont de
+                        braves gens.</said></s>
+                <s>Voilà.</s>
+                <s>
+                    <interp type="IRONY"/>
+                    <said direct="false" aloud="true" who="#Lagier" corresp="#Lagier">A part ça,
+                            <persName type="judicial" subtype="accusé" corresp="#Lagier"
+                            >il</persName> a un hobby, <w pos="PRONOUN" corresp="#Lagier" n="1">il</w> <w pos="V" msd="Act" n="2">est</w> <seg type="EXP" n="3"><roleName type="judicial"
+                            subtype="accusé" corresp="#Lagier">membre d'un club de tir</roleName></seg>,
+                            <seg type="ADJ" corresp="#Lagier">respectueux des lois et des feux
+                            rouges</seg>,<roleName type="proche" corresp="#Lagier"> bon père de
+                            famille</roleName> et <roleName type="judicial" subtype="accusé"
+                            corresp="#Lagier">colleur d'affiches sans casier judiciaire</roleName>.
+                    </said>
+                </s>
+            </p>
+
+            <p>
+                <s>
+                    <interp type="COMMENTARY"/><orgName type="humanitarian"
+                        corresp="#asso_antiraciste">Le bataillon d'associations antiracistes des
+                            <roleName type="judicial" corresp="partie_civile">parties
+                            civiles</roleName></orgName> essaie de <persName corresp="#Lagier"
+                        >le</persName> pousser un peu et fait chou blanc. </s>
+                <!-- peut-être possible ici de faire le travail sur position 1 - pos 2 : mais pas sur que ce soit nécessaire si on ne le fait que là -->
+                <s>
+                    <said direct="false" aloud="true" who="#asso_antiraciste" toWhom="#Lagier"
+                            ><persName type="judicial" subtype="victime" corresp="#Ali">Ibrahim
+                            Ali</persName> aurait il pu être un Français moyen?</said>
+                </s>
+                <s>
+                    "<said direct="true" aloud="true" who="#Lagier" toWhom="#asso_antiraciste">Bien
+                        sûr, répond <persName type="judicial" subtype="accusé" corresp="#Lagier"
+                            >Lagier</persName>, il aurait pu le devenir si je ne l'avais pas tué
+                        malheureusement.</said>"
+                </s>
+                <s>
+                    <interp type="SARCASM"/>
+                    <said who="#Lagier" direct="false" aloud="true" corresp="#Vision_FN">Et <w pos="PRONOUN" corresp="#Lagier" n="1">il</w><w pos="V" msd="Act" n="2">ne
+                        voit pas</w><seg type="EXP" n="3"> en quoi le <orgName type="political" corresp="#RN">FN</orgName>
+                        pourrait être <w pos="ADJ" corresp="#RN">xénophobe</w></seg>.</said>
+                </s>
+                <s><interp type="COMMENTARY"/>C'est <roleName type="judicial" nymRef="président"
+                        corresp="#Fayolle">le président</roleName> qui marque un point.</s>
+                <s>"<said direct="true" aloud="true" who="#Fayolle" toWhom="#Lagier"
+                        corresp="#Vision_FN préférence_nationale">Selon vous </said>, demande
+                        <persName type="judicial" nymRef="président" corresp="#Fayolle">Bernard
+                        Fayolle</persName>,<said> la préférence nationale, c'est un <w pos="ADJ"
+                            corresp="préférence_nationale">propos raciste</w>?</said>"</s>
+                <s>
+                    <said direct="true" aloud="true" who="#Lagier" toWhom="#Fayolle"
+                        corresp="préférence_nationale">"Non</said>, répond <persName
+                        corresp="Lagier">Lagier</persName>.<said direct="true" aloud="true"
+                        who="#Lagier" toWhom="#Fayolle" corresp="préférence_nationale"> C'est
+                        logique. Pas tout le temps, mais <seg type="EXP"
+                            corresp="préférence_nationale">c'est logique</seg>."</said></s>
+            </p>
+
+            <p>
+                <s>
+                    <interp type="SARCASM" corresp="#Ambrosio"/>
+                    <w corresp="#Ambrosio" type="champs_simple" pos="ADJ">Sans convictions</w>. Le
+                    débat plafonne plus bas avec <seg type="NOM" corresp="#Ambrosio" n="1"><persName type="judicial" subtype="accusé"
+                        corresp="#Ambrosio">Mario D'Ambrosio</persName></seg>, 43 ans, qui avoue
+                    volontiers qu'il "<said who="#Ambrosio" aloud="true" direct="true"
+                        corresp="#Ambrosio"><w pos="V" msd="Act" n="2">n'était </w><w pos="EXP" corresp="#Ambrosio"
+                            type="champs_simple" n="3">pas une flèche à l'école</w></said>", apparemment
+                    en politique non plus.</s>
+                <s><w pos="PRONOUN" corresp="#Ambrosio" n="1">Il</w> est<roleName corresp="#Ambrosio">maçon</roleName>, <w type="ADJ"
+                        corresp="#Ambrosio">marseillais</w>, <w pos="V" msd="Act" n="2">n'a jamais voté</w><seg type="EXP" n="3"> mais a pris sa carte au
+                        <orgName type="political">FN</orgName></seg> en 1984, puis en 1994.</s>
+                <s>"<said who="#Ambrosio" direct="true" aloud="true" corresp="#Vision_FN">Je n'ai
+                        pas de convictions</said>, explique <persName type="judicial"
+                        subtype="accusé" corresp="#Ambrosio">Mario</persName>.<said who="#Ambrosio"
+                        direct="true" aloud="true" corresp="#Vision_FN">J'ai adhéré pour mes idées
+                        personnelles.</said>"</s>
+                <s>il finit par expliquer que "<said who="#Ambrosio" direct="true" aloud="true"
+                        corresp="#Vision_FN">le <orgName type="political" corresp="#RN"
+                            >FN</orgName>, c'est le <orgName type="political" nymRef="parti"
+                            corresp="#RN">parti</orgName> qui dérange, qui fait bouger nos hommes
+                        politiques.Parce qu'on accepte les gens, et on n'est pas capable de leur
+                        donner du travail, c'est une question de dignité. Le reste, je m'en
+                        fous.</said>"</s>
+                <s><persName type="judicial" subtype="accusé" corresp="#Ambrosio"
+                        >D'Ambrosio</persName> est <seg type="NOM" corresp="#Ambrosio">le fils d'un
+                        immigré italien qui n'a jamais été naturalisé</seg> malgré cinq ans dans la
+                        <orgName type="police">Légion</orgName>, et ça <said who="#Giglio"
+                        aloud="true" direct="true" corresp="refus_de_naturalisation_de_son_père">"a
+                        choqué affectivement"</said> son <roleName type="proche" corresp="#Ambrosio"
+                        >fils</roleName>. <roleName type="proche" corresp="#Ambrosio">Lui, le fils
+                        d'immigré</roleName>, veut mettre les immigrés dehors? <said>"Je laisse
+                            <persName corresp="#JM_Le_Pen">Le Pen</persName> libre de ses déclara
+                        tions."</said></s>
+                <s> D'ailleurs, <persName type="judicial" subtype="accusé" corresp="#Ambrosio"
+                        >Mario</persName> n'est pas contrariant: <said aloud="true"
+                        direct="inapplicable" corresp="#Ambrosio">au lieu de coller "les Français
+                        d'abord", il aurait "tout aussi bien" collé"les Français dehors".</said>
+                    <interp type="COMMENTARY"/>Les avocats jettent l'éponge. </s>
+            </p>
+
+            <p>
+                <s><interp type="COMMENTARY"/>Du beurre dans les épinards</s>. <s><persName
+                        type="judicial" subtype="accusé" corresp="#Giglio">Pierre Giglio</persName>,
+                    39 ans, est <roleName corresp="#Giglio">ébéniste</roleName>, <w pos="ADJ"
+                        corresp="#Giglio">catholique</w>, "<said direct="true" aloud="true"
+                        who="enquêteur" corresp="#Giglio"><w pos="ADJ" corresp="#Giglio"
+                            >travailleur</w>, <w pos="ADJ" corresp="#Giglio">timide</w>,<w pos="ADJ"
+                            corresp="#Giglio" type="champs_lâche">anxieux</w>, <w pos="ADJ"
+                            corresp="#Giglio" type="champs_lâche">peureux</w></said>", bref
+                            <said>"<addName corresp="#Giglio"><w pos="ADJ" corresp="#Giglio"
+                                type="champs_lâche">pétochard</w></addName>"</said> selon un
+                    enquêteur, et <seg type="EXP" corresp="Giglio">depuis vingt ans sous
+                        antidépresseur</seg>.</s>
+                <s>Lui est au <orgName type="political" nymRef="parti" corresp="#RN">FN</orgName>
+                    parce que <said direct="true" aloud="true" who="#Giglio">"c'est le seul parti
+                        qui dénonce l'insécurité pour les personnes âgées"</said>.</s>
+                <s><interp type="COMMENTARY" corresp="#Vision_FN"/>Et qui permet de metre un peu de
+                    beurre dans les épinards: il s'est présenté aux municipales parce qu'on lui
+                    avait dit qu'il gagnerait 3 000 F s'il était élu, et <orgName type="political"
+                        corresp="#RN">le parti</orgName> lui a versé 3 500 F par mois à sa sortie de
+                    prison...</s>
+            </p>
+
+            <p>
+                <s><said direct="false" aloud="false" corresp="#Vision_FN">S'il n'y avait pas en
+                        somme ce<eventName corresp="#procès_Ali">malheureux incident</eventName> qui
+                        a tué raide <persName type="judicial" subtype="victime" corresp="#Ali"
+                            >Ibrahim</persName>, <roleName type="judicial" subtype="accusé"
+                            corresp="#Ambrosio #Giglio #Lagier">les accusés</roleName> avoueraient
+                        franchement qu'il n'y a que des braves gens, au <orgName type="political" corresp="#RN"
+                            >FN</orgName></said>.</s>
+                <s>
+                    "<said direct="true" aloud="false" who="#Ambrosio">Cette <orgName
+                            type="political" nymRef="parti" corresp="#RN">formation</orgName>
+                        n'était pas près d'accéder au pouvoir en 1995</said>, dit sentencieusement
+                        <persName type="judicial" subtype="accusé" corresp="#Ambrosio"
+                        >D'Ambrosio</persName>.<said direct="true" aloud="false" who="#Ambrosio">Par
+                        contre, depuis que je n'y suis plus, j'ai l'impresion que c'est en train de
+                        se faire</said>". </s>
+            </p>
+
+        </body>
+    </text>
+</TEI>
