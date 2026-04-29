@@ -12,5 +12,5 @@
     <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Libé_2021.xml"/>
   <!--    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Monde_1995.xml"/>
   -->  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Monde_2015.xml"/>
-    <xi:include href="Index.xml"/>
+   <!-- <xi:include href="Index.xml"/> -->
 </master>
