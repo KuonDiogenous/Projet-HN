@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <master xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="projet_HN"> 
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/3.%20Le%20Pen/Menaces_Figaro_2025.xml"/>
-   <!--   <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/3.%20Le%20Pen/Menaces_Lib%C3%A9_2025.xml"/>
-  -->  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/3.%20Le%20Pen/Menaces_Monde_2025.xml"/>
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/2.%20Jeanne/Jeanne_Lib%C3%A9_2020.xml"/>
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/2.%20Jeanne/Jeanne_Monde_2015.xml"/>
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/2.%20Jeanne/Jeanne_Monde_2019.xml"/>
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Lib%C3%A9_1995.xml"/>
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Libé_1998_paranoïa.xml"/>
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Libé_1998_pétochard.xml"/>
-    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Libé_2021.xml"/>
-  <!--    <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Monde_1995.xml"/>
-  -->  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Monde_2015.xml"/>
-   <!-- <xi:include href="Index.xml"/> -->
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Lib%C3%A9_1995.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Lib%C3%A9_1998_parano%C3%AFa.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Lib%C3%A9_1998_p%C3%A9tochard.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Lib%C3%A9_2021.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Monde_1995.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/1.%20Ali/Ali_Monde_2015.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/2.%20Jeanne/Jeanne_Lib%C3%A9_2020.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/2.%20Jeanne/Jeanne_Monde_2015.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/2.%20Jeanne/Jeanne_Monde_2019.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/3.%20Le%20Pen/Menaces_Figaro_2025.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/3.%20Le%20Pen/Menaces_Lib%C3%A9_2025.xml"/>
+  <xi:include href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/XML/3.%20Le%20Pen/Menaces_Monde_2025.xml"/>
+ <!--  <xi:include href="Index.xml"/> -->  
 </master>
