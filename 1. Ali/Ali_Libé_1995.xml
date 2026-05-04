@@ -62,7 +62,7 @@
                 </item>
                 <!-- Je suis obligé de rajouter des item pour chaque, je ne comprends pas pourquoi alors que le Pétochard a un format différent  -->
                 <item>
-                    <persName xml:id="JM_le_pen"/>
+                    <persName xml:id="JM_le_Pen"/>
                 </item>
                 <item>
                     <persName xml:id="Mégret"/>
@@ -156,7 +156,7 @@
                         <roleName type="judicial" subtype="témoin" corresp="#patron_bar">Le patron
                             du bar</roleName>
                         <said direct="inapplicable" who="#patron_bar">reconnaît la R18
-                            "des gars à <persName type="political" corresp="#JM_le_pen">Le
+                            "des gars à <persName type="political" corresp="#JM_le_Pen">Le
                                 Pen</persName>"</said>
                     </s>
                 </hi>
@@ -168,7 +168,7 @@
                     sont formels: <said direct="false" who="amis_Ali" corresp="#Mort_Ali">il n'y a
                         pas eu l'ombre d'une bagarre, ni même des mots échangés avec les trois
                         hommes qui collaient les affiches de <persName type="political"
-                            corresp="#JM_le_pen">Le Pen</persName> sur ce mur encore vierge du
+                            corresp="#JM_le_Pen">Le Pen</persName> sur ce mur encore vierge du
                         carrefour.</said></s>
                 <s>Selon eux, <said direct="false" who="amis_Ali" corresp="#Mort_Ali">les coups de
                         feu sont partis d'une voiture garée à proximité, une 205 blanche qui s'est
@@ -322,9 +322,9 @@
             </p>
 
             <p>
-                <s><persName corresp="#JM_le_pen">Jean-Marie Le Pen</persName>. <roleName
+                <s><persName corresp="#JM_le_Pen">Jean-Marie Le Pen</persName>. <roleName
                         type="political" ana="RN">Le président du FN</roleName>
-                    <said direct="inapplicable" who="#JM_le_pen" corresp="#Mort_Ali">s'est déclaré
+                    <said direct="inapplicable" who="#JM_le_Pen" corresp="#Mort_Ali">s'est déclaré
                         "profondément peiné par la mort" du jeune Français d'origine comorienne,
                         mais a ajouté qu'il pensait "aussi aux militants qui ont eu le malheur
                         d'être impliqués dans ce tragique accident"</said>.</s>
