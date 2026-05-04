@@ -129,7 +129,7 @@
                     «<said who="#Ahamada" corresp="#Mort_Ali" direct="true">Quand on a appris que
                             <roleName type="judicial" subtype="accusé">des colleurs du <orgName
                                 corresp="#RN">FN</orgName></roleName> avaient tiré sur <roleName
-                            corresp="#Ali">un des<orgName corresp="#B_vice"
+                            corresp="#Ali">un des<orgName corresp="#B_Vice"
                             >B.Vice</orgName></roleName>, notre cité, comme toutes les autres, s'est
                             enflammée.<eventName type="political" nymRef="manifestation"><orgName
                                 type="social" nymRef="groupe">Les jeunes</orgName> sont descendus
@@ -159,9 +159,9 @@
                         corresp="#Mégret">le couple Mégret</persName>.</s>
                 <s><persName corresp="#Hassany">Hassany Ibrahima</persName> se rappelle une
                     répétition qui se termine tard.</s>
-                <s>«<said who="Hassany" direct="true" corresp="#B_vice">On voulait faire grosse
+                <s>«<said who="Hassany" direct="true" corresp="#B_Vice">On voulait faire grosse
                         impression.C'était ça, <orgName corresp="#B_Vice">B.Vice</orgName>, <addName
-                            corresp="#B_vice">un groupe de scène</addName>. On a beaucoup discuté
+                            corresp="#B_Vice">un groupe de scène</addName>. On a beaucoup discuté
                         pour savoir comment remonter chez nous. Les bus, dans les quartiers nord de
                         Marseille, c'est compliqué.</said>» L'enchaînement des circonstances le
                     sidère toujours.</s>
@@ -203,7 +203,7 @@
                         type="political" subtype="accusé" nymRef="adhérent" ana="RN">trois adhérents
                         du <orgName corresp="#RN">Front national</orgName></roleName>, qui, ce
                     soir-là, collaient des affiches pour la campagne présidentielle de <persName
-                        corresp="#JM_le_pen">Jean-Marie Le Pen</persName>.</s>
+                        corresp="#JM_le_Pen">Jean-Marie Le Pen</persName>.</s>
                 <s>Les deux premiers étaient armés.</s>
                 <s><persName corresp="#Lagier"><seg type="NOM" n="1">Robert Lagier</seg></persName>
                     <w pos="V"  msd="Act"  n="2">a tiré</w><seg  type="ADJ" n="3">trois fois</seg> avec son pistolet automatique
@@ -474,7 +474,7 @@
                     plusieurs familles.
                 Celle de la victime, bien sûr et avant tout, mais aussi celles de militants
                     sincères</said> ».</s>
-                <s><interp type="COMMENTARY"/>Si <persName corresp="#Ravier">Stéphane Ravier</persName> tire une leçon du drame, c'est celle que <persName corresp="#JM_le_pen">Jean-Marie Le Pen</persName>
+                <s><interp type="COMMENTARY"/>Si <persName corresp="#Ravier">Stéphane Ravier</persName> tire une leçon du drame, c'est celle que <persName corresp="#JM_le_Pen">Jean-Marie Le Pen</persName>
                     évoquait déjà au lendemain du meurtre : « <said who="#Ravier" corresp="#Mort_Ali" direct="true">Ne jamais être armé pour un
                         collage. </said>»</s>
             </p>
