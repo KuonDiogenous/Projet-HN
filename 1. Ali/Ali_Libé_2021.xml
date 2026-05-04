@@ -48,7 +48,7 @@
                     <persName xml:id="Ghali"/>
                 </item>
                 <item>
-                    <persName xml:id="Harmier"/>
+                    <persName xml:id="Hermier"/>
                 </item>
                 <item>
                     <persName xml:id="Ahamada"/>
@@ -173,7 +173,7 @@
                 <s>Sur leur route,<roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio"> trois militants du
                             <orgName corresp="#RN">Front national</orgName></roleName>, venus
                     recouvrir les murs d'affiches de <persName type="political" nymRef="président"
-                        corresp="#JM_le_pen">Jean-Marie Le Pen</persName>, alors en campagne
+                        corresp="#JM_le_Pen">Jean-Marie Le Pen</persName>, alors en campagne
                     présidentielle.</s>
                 <s><seg type="NOM" n="1">Deux d'entre eux</seg>, <persName type="judicial"
                         subtype="accusé" corresp="#Lagier">Robert Lagier</persName>, 63 ans, et
@@ -290,8 +290,8 @@
                 <s>
                     «<said who="#Soly" corresp="#RN" direct="true">Nos politiques ne se sont pas
                         battus pour le bien des habitants,</said> tranche Soly.<said who="#Soly"
-                        corresp="#RN" direct="true"> Avant, <persName corresp="JM_le_pen">Le
-                            Pen</persName>, c'était <addName corresp="#JM_le_pen">le
+                        corresp="#RN" direct="true"> Avant, <persName corresp="JM_le_Pen">Le
+                            Pen</persName>, c'était <addName corresp="#JM_le_Pen">le
                             diable</addName>, aujourd'hui on a <seg type="ADJ"
                             corresp="Marine_Le_Pen">une blonde qui présente bien</seg>, mais on sait
                             que les idées sont les mêmes.</said>»
@@ -307,7 +307,7 @@
                         type="political" nymRef="elu">Samia Ghali (ex-PS)</persName>, <seg
                         type="ADJ" corresp="#Ghali">soutien de la première heure du projet de
                         rue</seg>.</s>
-                <s>Avant elle, <roleName corresp="#Harmier" type="political" nymRef="elu" ana="PC"
+                <s>Avant elle, <roleName corresp="#Hermier" type="political" nymRef="elu" ana="PC"
                         >l'ancien maire</roleName> de secteur communiste <persName type="political"
                         corresp="#Hermier">Guy Hermier</persName> s'était lancé dans la bataille,
                     faisant poser la plaque mémorielle au carrefour des Quatre-Chemins, en attendant
