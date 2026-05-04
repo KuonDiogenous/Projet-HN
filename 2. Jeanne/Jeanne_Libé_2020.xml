@@ -148,7 +148,7 @@
             <s>Ceux-ci ont été achetés via des prêts consentis par Jeanne, une structure de
                financement dédiée à l’activité de <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> et créée par <persName corresp="#JF_Jalkh">Jean-François Jalkh</persName>, et
                ce afin que les candidats n’aient pas à avancer un centime.</s>
-            <s>De cette manière, <orgName corresp="#Jeanne" type="political"><w pos="NOM" n="1">«Jeanne»</w></orgName> <w pos="V" msd="Act" n="2">était</w> au cœur du système.</s>
+            <s>De cette manière, <orgName corresp="#Jeanne" type="political"><w pos="NOM" n="1">«Jeanne»</w></orgName> <w pos="V" msd="Act" n="2">était</w> <seg type="NOM" n="3">au cœur du système.</seg></s>
             <s>À la fin, la somme était remboursée par l’Etat au titre des frais de campagne, le FN
                ayant touché un billet au passage, <orgName corresp="#Jeanne">Jeanne</orgName> les intérêts des prêts, et <orgName corresp="#Frédéric_Chatillon">Riwal</orgName> – ainsi
                que son dirigeant et ses proches – la marge liée aux kits.</s>
@@ -173,12 +173,12 @@
          <p>
             <s>Mardi, le <seg n="1"><orgName type="political" nymRef="parti" ana="RN" corresp="#RN">Rassemblement
                      national</orgName></seg>
-               <w pos="V" msd="Pass" n="2">s'est félicité</w> par communiqué d'avoir été <quote
-                  corresp="#RN"><seg n="3" type="EXP">«[innocenté] tant dans la mise en œuvre des kits
+               <w pos="V" msd="Pass" n="2">s'est félicité</w> par communiqué d'avoir été «<quote
+                  corresp="#RN"><seg n="3" type="EXP">[innocenté] tant dans la mise en œuvre des kits
                      électoraux proposés à ses candidats que dans leur prétendue surfacturation», ce
                      qui, selon la formation d'extrême droite aurait «mis un terme aux accusations
                      gravissimes largement relayées par les médias depuis de nombreuses
-                     années»</seg></quote>.</s>
+                     années</seg></quote>».</s>
          </p>
       </body>
    </text>
