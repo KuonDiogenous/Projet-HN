@@ -7,8 +7,8 @@
          <titleStmt>
             <!-- Desc. fichier | Obligatoire -->
             <title>
-               <s><persName corresp="#Bénédice_Perthuis">Bénédicte de Perthuis</persName>,
-                  <roleName corresp="#Bénédice_Perthuis">la juge</roleName> par qui le
+               <s><persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName>,
+                  <roleName corresp="#Bénédicte_Perthuis">la juge</roleName> par qui le
                   tremblement de terre est arrivé</s>
             </title>
             <author>Paule Gonzales</author>
@@ -33,8 +33,8 @@
          <sourceDesc>
             <bibl>
                <title>
-                  <s><persName corresp="#Bénédice_Perthuis">Bénédicte de Perthuis</persName>,
-                     <roleName corresp="#Bénédice_Perthuis">la juge</roleName> par qui le
+                  <s><persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName>,
+                     <roleName corresp="#Bénédicte_Perthuis">la juge</roleName> par qui le
                      tremblement de terre est arrivé</s>
                </title>
                <author corresp="#Paule_Gonzales">Paule Gonzales</author>
@@ -295,9 +295,9 @@
             </s>
             <s>
                <interp type="COMMENTARY"/>
-               À l'Assemblée nationale, <persName corresp="#Gerald_Darmanin">Gérald
+               À l'Assemblée nationale, <persName corresp="#Gérald_Darmanin">Gérald
                   Darmanin</persName> a demandé que l'appel intervienne dans « <said
-                     who="#Gerald_Darmanin" direct="true">des délais raisonnables</said> », ce
+                     who="#Gérald_Darmanin" direct="true">des délais raisonnables</said> », ce
                   qui signifie au plus vite, pour tenir compte de la présidentielle de 2027. </s>
             <s> Ce procès pourrait donc se conclure avant même celui du
                   <eventName corresp="#MoDem"><orgName type="political" corresp="#MoDem"
