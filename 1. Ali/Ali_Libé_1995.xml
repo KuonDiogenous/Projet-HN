@@ -116,8 +116,8 @@
                 <s><interp type="COMMENTARY"/>L'affiche s'étale, indécente, sur le béton frais d'un
                     mur de clôture: "<quote corresp="#RN" cert="high" source="affiche_FN">Avec Le
                         Pen, 3 millions d'immigrés rapatriés.</quote>"</s>
-                <s>C'est là qu'<persName corresp="#Ali" type="judicial" subtype="victime"><seg
-                            type="NOM" n="1">Ibrahim Ali</seg></persName><w type="V" n="2"> est
+                <s>C'est là qu'<seg
+                            type="NOM" n="1"><persName corresp="#Ali" type="judicial" subtype="victime">Ibrahim Ali</persName></seg><w type="V" n="2"> est
                         tombé</w> mardi soir, peu avant minuit, <seg type="EXP" n="3">abattu d'une
                         balle dans le dos</seg>.</s>
                 <s> Il avait 17 ans, préparait un CAP de menuiserie au lycée d'enseignement
@@ -189,7 +189,7 @@
                     affirme-t-il.</s>
                 <s> "Des gars à Le Pen", soutient-il. Il avait alerté la police, qui ne l'avait pas
                     cru. </s>
-                <s><seg type="NOM" n="1" corresp="#RN">Au <orgName type="political" nymRef="parti" ana="RN">Front national</orgName></seg>, <w pos="V" msd="Act" n="2">on
+                <s><seg type="NOM" n="1" corresp="RN">Au <orgName type="political" nymRef="parti" ana="RN">Front national</orgName></seg>, <w pos="V" msd="Act" n="2">on
                     a d'abord tenté d'écarter</w><seg type="EXP" n="3">les soupçons</seg>, en soutenant hier matin qu'<said
                         direct="false" who="#RN" corresp="#Mort_Ali">aucun <roleName
                             type="political" nymRef="militant" ana="RN">militant</roleName> ne
@@ -247,7 +247,7 @@
                 </s>
                 <s> Ils ont souligné qu'il y avait d'autres témoins, le chauffeur et les quelques
                     passagers du bus qu'ils voulaient prendre.</s>
-                <s> Maintenant, <seg type="NOM" corresp="#B_Vice" n="1">ils</seg> <w pos="V" n="2">ne quittent plus</w> <seg type="EXP" n="3">le petit appartement en rez-de-chaussée</seg> qui
+                <s> Maintenant, <seg type="NOM" corresp="B_Vice" n="1">ils</seg> <w pos="V" n="2">ne quittent plus</w> <seg type="EXP" n="3">le petit appartement en rez-de-chaussée</seg> qui
                     leur sert de local à la Savine.</s>
                 <s>Un haut-parleur psalmodie des versets du Coran tandis que les groupes entrent et
                     sortent sous une pluie fine.</s>
