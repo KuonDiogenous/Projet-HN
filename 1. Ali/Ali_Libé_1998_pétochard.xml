@@ -327,8 +327,8 @@
                         tions."</said></s>
                 <s> D'ailleurs, <persName type="judicial" subtype="accusé" corresp="#Ambrosio"
                         >Mario</persName> n'est pas contrariant: <said aloud="true"
-                        direct="inapplicable" corresp="#Ambrosio">au lieu de coller "les Français
-                        d'abord", il aurait "tout aussi bien" collé"les Français dehors".</said>
+                        direct="inapplicable" who="#Ambrosio">au lieu de coller "les Français
+                        d'abord", il aurait "tout aussi bien" collé "les Français dehors".</said>
                     <interp type="COMMENTARY"/>Les avocats jettent l'éponge. </s>
             </p>
 
