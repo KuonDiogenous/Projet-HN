@@ -257,7 +257,7 @@
                <roleName type="political" corresp="#Axel_Loustau" ana="RN">conseiller régional RN en Ile-de France </roleName>
                et 
                <roleName type="political" corresp="#Axel_Loustau" ana="RN">trésorier du microparti Jeanne</roleName>, 
-               <w pos="V" msd="Act" n="3">est requis </w>
+               <w pos="V" msd="Act" n="2">est requis </w>
                <seg type="EXP" n="3">une peine de douze mois de prison avec sursis, l’interdiction d’être trésorier et une amende de 30 000 euros.</seg>
             </s>
             <s>
@@ -284,7 +284,7 @@
          <p>
             <s>
                Enfin, « <said who="parquet_Paris" direct="true" corresp="Wallerand_de_Saint_Just">au regard de son positionnement, de sa qualité, du lien central avec Riwal et Jeanne</said> », 
-               <orgName type="judicial" corresp="parquet_Paris">le parquet de Paris</orgName>
+               <seg type="NOM" n="1"><orgName type="judicial" corresp="parquet_Paris">le parquet de Paris</orgName></seg>
                <w pos="V" msd="Act" n="2">a requis</w> 
                <seg type="EXP" n="3">dix mois de prison avec sursis, l’interdiction d’être trésorier pendant cinq ans et une peine de deux ans d’inéligibilité contre 
                <persName type="political" corresp="Wallerand_de_Saint_Just" ana="RN">Wallerand de Saint-Just</persName>.</seg>
