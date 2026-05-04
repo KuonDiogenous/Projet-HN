@@ -215,10 +215,10 @@
                     de prison et est mort en détention peu après; <persName corresp="#Ambrosio">Marc
                         d'Ambrosio</persName> a pris dix ans; <persName corresp="#Giglio">Pierre
                         Giglio</persName> deux ans, dont un avec sursis.</s>
-                <s><said who="#Ibrahima" direct="true" corresp="#procès_Ali">«La justice a fait son
-                        boulot</said>, résume Ali Ibrahima.<said who="#Ibrahima" direct="true"
-                        corresp="#procès_Ali"> Même si, pour nous, elle n'a pas vraiment reconnu le
-                        caractère raciste du meurtre. »</said></s>
+                <s>"<said who="#Ibrahima" direct="true" corresp="#procès_Ali">La justice a fait son
+                        boulot</said>", résume Ali Ibrahima.<said who="#Ibrahima" direct="true"
+                        corresp="#procès_Ali">Même si, pour nous, elle n'a pas vraiment reconnu le
+                        caractère raciste du meurtre. </said>"</s>
             </p>
 
 
@@ -271,13 +271,13 @@
                         MBaé</persName> et de <roleName type="proche" ana="Soly">ses
                         copains</roleName> de <orgName type="humanitarian" corresp="#B_Vice">la Sound
                         Musical School les gardiens</orgName> de la flamme.</s>
-                <s><said direct="true" who="#Ibrahima" corresp="#hommage_Ali">« Certains, dans les
+                <s>"<said direct="true" who="#Ibrahima" corresp="#hommage_Ali">Certains, dans les
                         quartiers, nous ont reproché d'avoir calmé le jeu, et accusés d'être achetés
-                        par les politiques,</said> lâche Ali Ibrahima. <said direct="true"
-                        who="#Ibrahima" corresp="#hommage_Ali">Ça nous a fait mal.»</said>Esseulés
+                        par les politiques</said> lâche Ali Ibrahima. <said direct="true"
+                        who="#Ibrahima" corresp="#hommage_Ali">Ça nous a fait mal.</said>". Esseulés
                     sur le piton de leur cité ghetto, ils en ont développé méfiance et crainte aiguë
                     de la récupération.</s>
-                <s><said direct="true" who="Soly" corresp="#hommage_Ali">« Cette dignité, c'était
+                <s>"<said direct="true" who="Soly" corresp="#hommage_Ali">Cette dignité, c'était
                         le visage qu'il fallait montrer,</said> tranche Soly.<said direct="true"
                         who="Soly" corresp="#hommage_Ali">Sinon, on aurait donné raison au <orgName
                             corresp="#RN">FN</orgName> et à <persName corresp="#Mégret"
@@ -288,8 +288,8 @@
                             type="political">ce parti de la haine</orgName>.»</said> Autre regret :
                         <persName type="political">Dieudonné</persName> qui, en 1995, marchait au
                     premier rang de la manifestation marseillaise.</s>
-                <s><said direct="true" who="Soly" corresp="#hommage_Ali">« A l'époque, nous avons
-                        apprécié son soutien,</said> répond Soly MBaé.<said direct="true"
+                <s>"<said direct="true" who="Soly" corresp="#hommage_Ali">A l'époque, nous avons
+                        apprécié son soutie</said>, répond Soly MBaé.<said direct="true"
                         who="Soly" corresp="#hommage_Ali">Aujourd'hui, je ne comprends plus son
                         discours.</said></s>
             </p>
@@ -313,10 +313,10 @@
                         mixité sociale</said>», assure-t-elle.</s>
                 <s>Mais <persName corresp="Soly">Soly MBaé</persName> n'y croit plus.</s>
                 <s><persName corresp="#Ibrahima">Ali Ibrahima</persName>, lui aussi, est désabusé :
-                        <said who="#Ibrahima" direct="true">« Nous, on a toujours l'impression d'être
+                        "<said who="#Ibrahima" direct="true">Nous, on a toujours l'impression d'être
                         des Français à part, J'ai fait mon service, je paye mes impôts, je tremble
                         quand je chante La Marseillaise. Quand est-ce que cette maison
-                        m'appartiendra aussi ?»</said></s>
+                        m'appartiendra aussi ?</said>"</s>
             </p>
             <p>
                 <s>«<said who="JM_Pesenti" direct="true" corresp="#procès_Ali"> Après le procès,
@@ -328,8 +328,8 @@
                         Pesenti</persName>.<said> Cette résurgence du Front national, on la doit
                         d'abord <roleName type="political" nymRef="elu">aux hommes politiques
                             marseillais</roleName> de tout bord qui n'ont rien fait pour améliorer
-                        la situation de ces quartiers.»</said><said who="#Ahamada" direct="true"
-                        >«Dans les partis, personne n'a dit : ces jeunes ont été magnifiques, il
+                        la situation de ces quartiers.»</said>"<said who="#Ahamada" direct="true"
+                        >Dans les partis, personne n'a dit : ces jeunes ont été magnifiques, il
                             faut construire avec eux</said>», rebondit Saïd Ahamada.</s>
                 <s><seg type="NOM" n="1">La représentation des immigrations</seg> récentes <w
                         pos="V" n="2">avance peu</w>
@@ -380,7 +380,7 @@
                 <s><persName corresp="#Maoulida">Fati Maoulida</persName> a eu 14 ans le jour de
                     l'enterrement de <roleName type="proche" ana="Maoulida" corresp="#Ali">son
                         cousin</roleName>.</s>
-                <s>«<said who="#Maoulida" corresp="#Mort_Ali" direct="true">Depuis,</said>
+                <s>«<said who="#Maoulida" corresp="#Mort_Ali" direct="true">Depuis</said>
                     confie-t-elle, <said who="#Maoulida" corresp="#Mort_Ali" direct="true">c'est un
                         amer anniversaire.</said>» Le 21 février, devant la plaque des
                     Quatre-Chemins, elle laissera <persName corresp="Soly">Soly Mbaé</persName>
@@ -418,7 +418,7 @@
                         sincèrement touché par notre histoire. Il a vu les garçons pleurer dans son
                         bureau.</said>». Elle se souvient des mots de <roleName type="judicial"
                         nymRef="avocat" corresp="#Collard">l'avocat vedette</roleName>, se
-                    demandant, devant les jurés, <said who="Collard" direct="true" corresp="#RN">«
+                    demandant, devant les jurés, "<said who="Collard" direct="true" corresp="#RN">
                         si l'idéologie véhiculée par <orgName corresp="#RN">le Front
                             national</orgName> n'a pas provoqué le fantasme de peur dans l'esprit
                             <roleName subtype="accusé" type="political">des colleurs d'affiches
