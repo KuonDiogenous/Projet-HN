@@ -185,8 +185,8 @@
                 </s>
                 <s> 
                     Parallèlement, sur les réseaux sociaux, 
-                    <addName type="nickname" corresp="#Bénédicte_de_Perthuis">la présidente du tribunal correctionnel</addName>, 
-                    <seg type="NOM" corresp="#Bénédicte_de_Perthuis" n="1"><persName corresp="#Bénédicte_de_Perthuis" type="judicial">Bénédicte de Perthuis</persName></seg> , 
+                    <addName type="nickname" corresp="#Bénédicte_Perthuis">la présidente du tribunal correctionnel</addName>, 
+                    <seg type="NOM" corresp="#Bénédicte_Perthuis" n="1"><persName corresp="#Bénédicte_Perthuis" type="judicial">Bénédicte de Perthuis</persName></seg> , 
                     <w pos="V" msd="Pass" n="2">a été</w>
                     <seg type="EXP" n="3">la cible de l’extrême droite</seg>,
                     subissant insultes et menaces. 
@@ -206,7 +206,7 @@
                     Des
                     <seg type="NOM" corresp="Figures_ED" n="1"><orgName corresp="Figures_ED" type="political" nymRef="sympathisant" ana="RN">figures actives de l’extrême droite</orgName></seg>
                     <w pos="V" msd="Act" n="2">ont dénoncé</w>
-                    <seg type="EXP" n="3">la partialité supposée de <persName corresp="#Bénédicte_de_Perthuis" type="judicial"> Bénédicte de Perthuis</persName></seg>
+                    <seg type="EXP" n="3">la partialité supposée de <persName corresp="#Bénédicte_Perthuis" type="judicial"> Bénédicte de Perthuis</persName></seg>
                     en citant notamment un podcast de 2020, où elle expliquait être devenue juge par  admiration pour 
                     <persName corresp="#Eva_Joly" type="judicial" nymRef="magistrat">Eva Joly</persName>,
                     l’<addName type="nickname" corresp="#Eva_Joly">ex-magistrate</addName> 
