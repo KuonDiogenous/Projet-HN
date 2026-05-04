@@ -220,7 +220,7 @@
             <s>
                Et
                <seg type="NOM" corresp="#Lagier" n="1">il</seg> 
-               <w pos="V" msd="Act">scotche</w>
+               <w pos="V" msd="Act" n="2">scotche</w>
                <seg type="EXP" n="3">son pistolet à son mollet gauche</seg>.</s>
             <s>
                <interp type="SARCASM"/>
@@ -237,7 +237,7 @@
             <s>Son entourage proche ne les supporte pas, alors 
                <w pos="NOM" n="1" corresp="#Ambrosio">il</w>
                <w pos="V" msd="Act" n="2">laisse</w> 
-              <seg type="EXP" n="2">son 7,65 sous le siège de la voiture de sa femme.</seg></s>
+              <seg type="EXP" n="3">son 7,65 sous le siège de la voiture de sa femme.</seg></s>
             <s>
                <interp type="IRONY"/>
                Un pistolet qu'il assure n'avoir jamais essayé, mais qu'il prend soin d'emporter ce
