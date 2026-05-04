@@ -72,7 +72,7 @@
                <orgName xml:id="Cotelec"></orgName>
             </item>
             <item>
-               <persName xml:id="JM_le_pen"/>
+               <persName xml:id="JM_le_Pen"/>
             </item>
             <item>
                <roleName xml:id="CC_Jeanne"></roleName> <!-- Commissaire aux comptes de Jeanne -->
@@ -190,7 +190,7 @@
               n'est pas non plus
               une structure de recueil discret de dons, 
                comme pouvait l'être <orgName type="political" nymRef="parti" corresp="#Cotelec">Cotelec</orgName>, 
-               <addName type="nickName" corresp="#Cotelec">le microparti de <persName type="political" ana="ED" corresp="#JM_le_pen">Jean-Marie Le Pen</persName></addName>.
+               <addName type="nickName" corresp="#Cotelec">le microparti de <persName type="political" ana="ED" corresp="#JM_le_Pen">Jean-Marie Le Pen</persName></addName>.
             </s>
             <s>
                Aucun don 
