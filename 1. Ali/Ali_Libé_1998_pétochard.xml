@@ -160,7 +160,7 @@
                     raclées à ses enfants quand ils ne marchaient pas droit.</s>
                 <s>Démobilisé, <addName type="proche" corresp="#Lagier Robert_Lagier">le papa
                         adjudant-chef</addName> monte un atelier photo, la maman est fille d'un
-                    facteur toulousain, et<interp type="IRONY"/><said direct="false" aloud="true">
+                    facteur toulousain, et<interp type="IRONY"/><said direct="false" aloud="true" who="#Lagier">
                         <seg type="NOM" n="1"><addName corresp="#Lagier">le petit
                             pied-noir</addName></seg><w pos="V" msd="Act" n="2"> avoue</w>
                         <seg type="EXP" n="3">une enfance heureuse, avec
@@ -193,7 +193,7 @@
                     en 1989.</s>
                 <s>"<said direct="true" aloud="true" who="#Lagier" corresp="#Vision_FN">J'ai horreur
                         de voir quelqu'un persécuté</said>, explique Lagier.<said aloud="true"
-                        direct="true"> C'est mon caractère. Quand j'ai vu cet acharnement contre le
+                        direct="true" who="#Lagier"> C'est mon caractère. Quand j'ai vu cet acharnement contre le
                             <orgName type="political" nymRef="parti" corresp="#RN">Front
                             national</orgName>, j'y suis allé.</said>"</s>
             </p>
@@ -206,7 +206,7 @@
                     arrangé ça.</s>
                 <s>"<said direct="true" aloud="true" who="#Lagier">J'avais une dette de
                         reconnaissance </said>, explique <persName type="judicial" subtype="accusé"
-                        corresp="#Lagier">Robert Lagier</persName>.<said direct="true" aloud="true">
+                        corresp="#Lagier">Robert Lagier</persName>.<said direct="true" aloud="true" who="#Lagier">
                         Ensuite, évidemment, ils m'ont présenté la facture, ils voulaient que
                         j'aille <eventName type="political" nymRef="manifestation">aux
                             manifs</eventName>, j'allais pas dire non.</said>"</s>
@@ -282,12 +282,12 @@
                         Fayolle</persName>,<said> la préférence nationale, c'est un <w pos="ADJ"
                             corresp="préférence_nationale">propos raciste</w>?</said>"</s>
                 <s>
-                    <said direct="true" aloud="true" who="#Lagier" toWhom="#Fayolle"
-                        corresp="préférence_nationale">"Non</said>, répond <persName
+                    "<said direct="true" aloud="true" who="#Lagier" toWhom="#Fayolle"
+                        corresp="préférence_nationale">Non</said>, répond <persName
                         corresp="Lagier">Lagier</persName>.<said direct="true" aloud="true"
                         who="#Lagier" toWhom="#Fayolle" corresp="préférence_nationale"> C'est
                         logique. Pas tout le temps, mais <seg type="EXP"
-                            corresp="préférence_nationale">c'est logique</seg>."</said></s>
+                            corresp="préférence_nationale">c'est logique</seg>.</said>"</s>
             </p>
 
             <p>
@@ -318,17 +318,17 @@
                 <s><persName type="judicial" subtype="accusé" corresp="#Ambrosio"
                         >D'Ambrosio</persName> est <seg type="NOM" corresp="#Ambrosio">le fils d'un
                         immigré italien qui n'a jamais été naturalisé</seg> malgré cinq ans dans la
-                        <orgName type="police">Légion</orgName>, et ça <said who="#Giglio"
-                        aloud="true" direct="true" corresp="refus_de_naturalisation_de_son_père">"a
-                        choqué affectivement"</said> son <roleName type="proche" corresp="#Ambrosio"
+                        <orgName type="police">Légion</orgName>, et ça "<said who="#Giglio"
+                        aloud="true" direct="true" corresp="refus_de_naturalisation_de_son_père">a
+                        choqué affectivement</said>" son <roleName type="proche" corresp="#Ambrosio"
                         >fils</roleName>. <roleName type="proche" corresp="#Ambrosio">Lui, le fils
                         d'immigré</roleName>, veut mettre les immigrés dehors? <said>"Je laisse
                             <persName corresp="#JM_Le_Pen">Le Pen</persName> libre de ses déclara
                         tions."</said></s>
                 <s> D'ailleurs, <persName type="judicial" subtype="accusé" corresp="#Ambrosio"
                         >Mario</persName> n'est pas contrariant: <said aloud="true"
-                        direct="inapplicable" corresp="#Ambrosio">au lieu de coller "les Français
-                        d'abord", il aurait "tout aussi bien" collé"les Français dehors".</said>
+                        direct="inapplicable" corresp="#Ambrosio" who="#Ambrosio">au lieu de coller "les Français
+                        d'abord", il aurait "tout aussi bien" collé "les Français dehors".</said>
                     <interp type="COMMENTARY"/>Les avocats jettent l'éponge. </s>
             </p>
 
@@ -346,8 +346,8 @@
                     enquêteur, et <seg type="EXP" corresp="Giglio">depuis vingt ans sous
                         antidépresseur</seg>.</s>
                 <s>Lui est au <orgName type="political" nymRef="parti" corresp="#RN">FN</orgName>
-                    parce que <said direct="true" aloud="true" who="#Giglio">"c'est le seul parti
-                        qui dénonce l'insécurité pour les personnes âgées"</said>.</s>
+                    parce que "<said direct="true" aloud="true" who="#Giglio">c'est le seul parti
+                        qui dénonce l'insécurité pour les personnes âgées</said>".</s>
                 <s><interp type="COMMENTARY" corresp="#Vision_FN"/>Et qui permet de metre un peu de
                     beurre dans les épinards: il s'est présenté aux municipales parce qu'on lui
                     avait dit qu'il gagnerait 3 000 F s'il était élu, et <orgName type="political"
@@ -356,8 +356,8 @@
             </p>
 
             <p>
-                <s><said direct="false" aloud="false" corresp="#Vision_FN">S'il n'y avait pas en
-                        somme ce<eventName corresp="#procès_Ali">malheureux incident</eventName> qui
+                <s><said direct="false" aloud="false" corresp="#Vision_FN" who="#membre_FN">S'il n'y avait pas en
+                        somme ce<eventName corresp="#procès_Ali"> malheureux incident</eventName> qui
                         a tué raide <persName type="judicial" subtype="victime" corresp="#Ali"
                             >Ibrahim</persName>, <roleName type="judicial" subtype="accusé"
                             corresp="#Ambrosio #Giglio #Lagier">les accusés</roleName> avoueraient
