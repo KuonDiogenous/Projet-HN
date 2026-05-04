@@ -204,26 +204,26 @@
                             <roleName type="judicial" subtype="accusé">trois colleurs d'affiches de
                             son mouvement</roleName> se trouvaient bien sur les lieux <eventName
                             corresp="#Mort_Ali">la nuit du drame</eventName>.</said></s>
-                <s> Mais sa version est radicalement différente: "<said who="#Mégret" direct="true"
-                        aloud="true" corresp="#Mort_Ali">L'un d'entre eux a été violemment agressé
+                <s> Mais sa version est radicalement différente: <said who="#Mégret" direct="true"
+                        aloud="true" corresp="#Mort_Ali">"L'un d'entre eux a été violemment agressé
                         par <orgName type="social" nymRef="nationalité" corresp="#B_Vice">une
                             quinzaine de Comoriens</orgName> et ses deux compagnons, qui se
                         trouvaient 300 mètres plus loin, sont venus à son secours en état de
                         légitime défense. Pour se dégager, <roleName corresp="#Giglio #Lagier #Ambrosio">les colleurs d'affiches</roleName> se sentant
                         menacés de mort ont tiré en l'air en direction de <roleName corresp="#Ali">leurs
-                    agresseurs</roleName>.</said>"</s>
+                    agresseurs</roleName>."</said></s>
                 <s> Toujours selon <persName type="political" ana="RN" nymRef="elu"
-                        corresp="#Mégret">Bruno Mégret</persName>, "<said who="#Mégret" direct="true"
-                        aloud="true">c'est ce matin seulement, en apprenant qu'il y avait eu un
-                        mort, qu'ils se sont spontanément présentés à <orgName type="police">la police</orgName>.</said>"
+                        corresp="#Mégret">Bruno Mégret</persName>, <said who="#Mégret" direct="true"
+                        aloud="true">"c'est ce matin seulement, en apprenant qu'il y avait eu un
+                        mort, qu'ils se sont spontanément présentés à <orgName type="police">la police</orgName>".</said>
                     <orgName type="police">La police</orgName> avait retrouvé sur place au moins
                     sept douilles de pistolet 22 long rifle et établi que les tireurs avaient
                     également utilisé un pistolet à grenaille et un calibre 7-65.</s>
                 <s><persName type="political" nymRef="elu" ana="RN" corresp="#Mégret">Bruno
                         Mégret</persName> a reconnu que <roleName corresp="#Giglio #Lagier #Ambrosio">les colleurs d'affiches</roleName> avaient transgressé
-                    les consignes en étant armés, mais pour ajouter aussitôt: "<said who="#Mégret"
-                        direct="true" aloud="true" corresp="#Mort_Ali">S'ils n'avaient pas été
-                        armés, le mort aurait été parmi eux.</said>"</s>
+                    les consignes en étant armés, mais pour ajouter aussitôt: <said who="#Mégret"
+                        direct="true" aloud="true" corresp="#Mort_Ali">"S'ils n'avaient pas été
+                        armés, le mort aurait été parmi eux."</said></s>
                 <s><interp type="COMMENTARY"/>Ce sera sans doute la version soutenue par les deux
                     hommes placés en garde à vue, comme par le troisième qui devrait les
                     rejoindre.</s>
@@ -267,18 +267,18 @@
                     nécessaire du deuil.</s>
                 <s>
                     "<said who="#Saïd" direct="true" aloud="true">Nous éprouvons une grande colère
-                        contre <seg type="NOM" corresp="Mort_Ali">cet acte de racisme</seg></said>",
+                        contre <seg type="NOM" corresp="Mort_Ali">cet acte de racisme</seg>"</said>,
                     souligne <persName corresp="#Saïd" type="humanitarian">Saïd Soilihi
                         Bruce</persName>,<roleName type="humanitarian" corresp="#Saïd"> responsable
                         de l'association comorienne</roleName> de la Savine, <said who="#Saïd"
                         direct="true" aloud="true">mais il nous faut d'abord calmer <orgName type="social" nymRef="groupe">les
-                            jeunes</orgName>.</said>"
+                            jeunes</orgName>."</said>
                 </s>
                 <s>Un peu plus tard, dans le garage bondé qui sert de salle de réunion à la <orgName
                         type="humanitarian" nymRef="communauté" corresp="#FECOM">Fédération comorienne</orgName>, à
                     la Joliette, <persName type="humanitarian">Mohamed El Mamouni, son
-                        président,</persName> contient plus difficilement son émotion: "<said
-                        who="Mohamed_El_Mamouni" direct="true" aloud="true">Une nouvelle fois, un
+                        président,</persName> contient plus difficilement son émotion: <said
+                        who="Mohamed_El_Mamouni" direct="true" aloud="true">"Une nouvelle fois, un
                         jeune est mort. <addName type="nickName" corresp="#Ali">Un jeune Français d'origine comorienne</addName> est la victime d'un
                             <eventName type="judicial" corresp="#Mort_Ali">crime à caractère raciste et
                                 fasciste</eventName>, perpétré par des <roleName corresp="#Giglio #Lagier #Ambrosio">militants du Front
