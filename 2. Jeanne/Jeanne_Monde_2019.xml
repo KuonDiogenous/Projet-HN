@@ -264,7 +264,7 @@
                <seg type="NOM" n="1"><orgName type="gouvernment">Le ministère public</orgName> </seg>
               <w pos="V" msd="Act" n="2" corresp="Olivier_Duguet">a demandé</w>, 
                à l’encontre d’<persName type="political" corresp="Olivier_Duguet" ana="RN">Olivier Duguet</persName>, 
-               <seg type="EXP" n="3">une peine de six mois de prison ferme, une révocation du <eventName corresp="#kit_de_campagne">sursis prononcé en 2012</eventName> pour escroquerie et une interdiction d’exercer la profession de comptable.</seg>
+               <seg type="EXP" n="3">une peine de six mois de prison ferme, une révocation du <eventName corresp="#kits_de_campagne">sursis prononcé en 2012</eventName> pour escroquerie et une interdiction d’exercer la profession de comptable.</seg>
             </s>
             <s>
                <interp type="COMMENTARY"/>
