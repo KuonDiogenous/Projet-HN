@@ -89,7 +89,7 @@
                     <persName xml:id="Jordan_Bardella"/>
                 </item>
                 <item>
-                    <persName xml:id="Rémy_Heitz_Heitz"/>
+                    <persName xml:id="Rémy_Heitz"/>
                 </item>
                 <item>
                     <orgName xml:id="RTL"/>
@@ -381,7 +381,7 @@
                     <orgName corresp="#RTL" type="presse">RTL</orgName> 
                     sur la justesse de cet argument,
                     <seg type="NOM" corresp="Rémy_Heitz" n="1"><roleName corresp="Rémy_Heitz Heitz" type="judicial" nymRef="magistrat"> le procureur général près la Cour de cassation</roleName>, 
-                    <persName corresp="Rémy_Heitz_Heitz">Rémy_Heitz Heitz</persName></seg>, 
+                    <persName corresp="Rémy_Heitz">Rémy_Heitz Heitz</persName></seg>, 
                     <w pos="V" msd="Pass" n="2">ne s’est pas</w> 
                     <w pos="EXP" n="3">prononcé</w> :  
                     «<said who="Rémy_Heitz" direct="true"> Je ne commenterai pas une décision qui a été rendue et qui est
