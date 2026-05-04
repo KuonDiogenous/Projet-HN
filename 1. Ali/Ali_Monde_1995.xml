@@ -118,13 +118,13 @@
                         colleurs d'affiches de <persName type="political" nymRef="président"
                             corresp="#JM_le_pen">Jean-Marie Le Pen</persName></roleName>.</seg></s>
                 <s>A LA « DEMANDE »<orgName type="political" nymRef="parti"> du Front
-                        national</orgName>, <roleName corresp="#Accusés" corresp="#Lagier #Giglio #Ambrosio">trois hommes</roleName> se
+                        national</orgName>, <roleName subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">trois hommes</roleName> se
                     sont rendus, mercredi, à la police et ont été placés en <eventName type="police"
                         nymRef="GAD">garde à vue</eventName>.</s>
                 <s><orgName type="judicial" nymRef="parquet_mineurs">Le parquet des
                         mineurs</orgName> est saisi de l'affaire et envisage d'ouvrir une
                     information judiciaire, vendredi 24 février.</s>
-                <s><persName corresp="#Mégret"><seg type="NOM" n="1">M. Mégret</seg></persName>,
+                <s><seg type="NOM" n="1"><persName corresp="#Mégret">M. Mégret</persName></seg>,
                         <roleName corresp="#Mégret" type="political" ana="RN" nymRef="responsable"
                         >délégué du FN</roleName>, <w pos="V" msd="Act" n="2">avance</w> la thèse de
                         <seg type="EXP" n="3">la légitime défense</seg>, <said
@@ -200,11 +200,11 @@
                     Ali</persName>, lycéen âgé de dix-sept ans, né à Foumbuni (Comores), <seg
                         type="EXP" corresp="Ali">français de nationalité et marseillais depuis
                         treize ans</seg>, a été tué d'une balle de 22 long rifle tirée dans le dos
-                    alors que, selon toute vraisemblance, <seg type="NOM" n="1" corresp="#Ali"
+                    alors que, selon toute vraisemblance, <seg type="NOM" n="1" 
                         >il</seg>
                     <w pos="V" msd="Act" n="2">fuyait</w>
-                    <roleName subtype="accusé" type="judicial"><seg type="NOM" n="3"><roleName corresp="#Lagier #Giglio #Ambrosio">ses
-                        agresseurs</roleName></seg></roleName>.</s>
+                    <seg type="NOM" n="3"><roleName subtype="accusé" type="judicial" corresp="#Lagier #Giglio #Ambrosio">ses
+                        agresseurs</roleName></seg>.</s>
             </p>
             <p>
                 <s>Autour de minuit, personne ne se risquerait à pied au carrefour des Aygalades,
@@ -212,7 +212,7 @@
                     industrielles clôturées de barbelés.</s>
                 <s> Personne, sauf <orgName type="proche" corresp="#Ali #B_Vice">la petite dizaine
                         de rappeurs de B Vice</orgName> qui revenaient d'une répétition, et sauf
-                    <seg type="NOM" n="1" corresp="#Lagier #Giglio #Ambrosio"><roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">une brochette de militants du
+                    <seg type="NOM" n="1"><roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">une brochette de militants du
                         Front national</roleName></seg>, certains d'entre eux pratiquant l'affichage sauvage pendant que d'autres,
                         <w pos="V"  msd="Act" n="2">armés</w>, <seg type="EXP" n="3"
                             >surveillaient les opérations à bord de deux voitures.</seg> </s>
@@ -237,23 +237,23 @@
                     ans."<said aloud="true" direct="true" who="#Hassany" corresp="#Mort_Ali">
                         Le type a stoppé et s'est mis à tirer Tac-tac, avec un flingue comme ils
                         ont dans les films.</said>"</s>
-                <s>Simultanément, <roleName type="judicial" subtype="accusé"><seg type="NOM" n="1">les
-                            occupants d'une R18</seg></roleName>
+                <s>Simultanément, <seg type="NOM" n="1"><roleName type="judicial" subtype="accusé">les
+                            occupants d'une R18</roleName></seg>
                     <w pos="V" msd="Act">ont ouvert </w><seg type="EXP" n="3">le feu</seg>, rapportent les musiciens.</s>
                 <s>
                     <persName corresp="#B_Vice #Soulé" subtype="témoin" type="judicial"
                         >Soulé</persName>, dix-huit ans, pense avoir été visé avec un pistolet à
                     grenaille.</s>
                 <s>
-                    <seg type="PRONOUN" corresp="#Soulé" n="1">Il</seg>
+                    <seg type="PRONOUN" corresp="Soulé" n="1">Il</seg>
                     <w pos="V" msd="Act" n="2">s'est couché pour faire le mort</w>.<persName
                         corresp="#B_Vice #Hassany" type="judicial" subtype="témoin">
                         Hassany</persName>, lui, a fait demi-tour en courant:«<said aloud="true"
                         direct="true" who="#Hassany"> J'ai entendu d'autres coups de feu, des cris:
                         venez, <seg type="PRONOUN" n="1">ils</seg>
-                        <w pos="V" msd="Act" n="2">ont eu</w><persName type="judicial" subtype="victime"
-                            corresp="#Ali"><seg type="NOM" n="2" corresp="#Ali">
-                        Ibrahim</seg></persName>. Quand je l'ai vu par terre, je l'ai cru évanoui.Je
+                        <w pos="V" msd="Act" n="2">ont eu</w><seg type="NOM" n="2" corresp="Ali"><persName type="judicial" subtype="victime"
+                            corresp="#Ali">
+                        Ibrahim</persName></seg>. Quand je l'ai vu par terre, je l'ai cru évanoui.Je
                         croyais qu'ils avaient voulu nous faire peur, juste avec des fusils à plomb.
                         Mais le <orgName>SAMU</orgName> n'a pas pu le ranimer. »</said></s>
             </p>
@@ -270,7 +270,7 @@
                         aloud="true" direct="true"> Ils ont vu <orgName type="social"
                             nymRef="race_sociale">des Noirs</orgName> courir dans la nuit et ont dû
                         penser qu'on allait les agresser,</said> avance-t-il.<said who="#Hassany"
-                            aloud="true" direct="true"> Mais <seg type="PRONOUN" corresp="#Lagier #Giglio #Ambrosio" n="1"
+                            aloud="true" direct="true"> Mais <seg type="PRONOUN" n="1"
                             >ils</seg>
                             <w pos="V"  msd="Act"  n="2">n'avaient</w> <seg type="EXP" n="3">aucune raison de tuer un jeune</seg>. Sauf la haine.</said>»</s>
             </p>
@@ -279,7 +279,7 @@
                             corresp="#communauté_commorienne">la communauté comorienne</orgName> de
                         Marseille</seg>, partout <w pos="V" msd="Pass" n="2">citée</w> comme <seg
                         type="EXP" n="3">un miracle de gentillesse et d'intégration</seg>, a-t-elle
-                    découvert que <seg type="NOM" corresp="#communauté_commorienne" n="1">sa peau
+                    découvert que <seg type="NOM" corresp="communauté_commorienne" n="1">sa peau
                         foncée</seg>
                     <w pos="V" msd="Act" n="2">n'était pas</w>
                     <seg type="EXP" n="3">du goût de tous les Phocéens</seg>. Pourtant, des marins
@@ -299,9 +299,9 @@
                         corresp="#communauté_comorienne"> On a essayé la discrétion, le respect de
                         l'autre, il faut croire que ça ne marche pas </said>», confiait <roleName
                         type="humanitarian" nymRef="responsable">un responsable associatif
-                        comorien</roleName> lors du <eventName type="political"
-                        nymRef="manifestation" corresp="#hommage_Ali"><seg type="NOM" n="1"
-                            >rassemblement silencieux</seg></eventName> qui, sur les lieux du drame,
+                        comorien</roleName> lors du <seg type="NOM" n="1"
+                            ><eventName type="political"
+                        nymRef="manifestation" corresp="#hommage_Ali">rassemblement silencieux</eventName></seg> qui, sur les lieux du drame,
                         <w pos="V" msd="Act" n="2">a réuni</w> mercredi quelque <seg type="EXP"
                         n="3">cinq cents personnes, <roleName type="political" nymRef="elu">élus de
                             gauche</roleName>, <roleName type="political" nymRef="militant">
@@ -336,7 +336,7 @@
                 </s>
             </p>
             <p>
-                <s><seg corresp="#funérailles_Ali" type="EXP">Samedi, on enterrera <persName
+                <s><seg corresp="funérailles_Ali" type="EXP">Samedi, on enterrera <persName
                             type="judicial" subtype="victime" corresp="#Ali">Ibrahim Ali</persName>
                         au cimetière Saint-Pierre</seg>.</s>
                 <s>
@@ -362,14 +362,24 @@
                             <orgName type="police" nymRef="police">la police</orgName>»</said>,
                     tonnent en chœur <orgName type="social" nymRef="groupe" corresp="#les_jeunes">les
                         jeunes</orgName>.</s>
-                <s> Ils voient dans ce nouveau fait divers un motif de solidarité avec les « <roleName nymRef="race_sociale">blacks</roleName>
-                        »:"<said direct="true" aloud="true" corresp="les_jeunes"><orgName
-                            type="social" nymRef="communauté" corresp="communauté_commorienne"
-                            >Commoriens</orgName> ou <roleName nymRef="race_sociale">Arabes</roleName></orgName>, le tarif est le même. <seg type="NOM" n="1" corresp="RN"
-                                ><persName
-                                    type="political" nymRef="sympathisant" corresp="#RN">Ces gens-là</seg>
-                        <w pos="V" msd="Act" n="2">ne parlent pas</w>, <seg type="EXP" n="3"
-                            >ils tirent</seg>. </said>"
+                <s> Ils voient dans ce nouveau fait divers un motif de solidarité avec les « 
+                    <roleName nymRef="race_sociale">
+                        blacks</roleName>
+                        »:"<said direct="true" aloud="true" corresp="les_jeunes">
+                            <orgName type="social" nymRef="communauté" corresp="communauté_commorienne">
+                                Commoriens
+                            </orgName> ou 
+                            <roleName nymRef="race_sociale">Arabes</roleName>
+                            , le tarif est le même. 
+                            <seg type="NOM" n="1" corresp="RN">
+                                <persName type="political" nymRef="sympathisant" corresp="#RN">
+                                    Ces gens-là
+                                </persName>
+                            </seg>
+                        <w pos="V" msd="Act" n="2">ne parlent pas</w>, 
+                        <seg type="EXP" n="3">ils tirent
+                        </seg>. </said>"
+                    
                 </s>
             </p>
             <p>
@@ -475,7 +485,7 @@
                         jeune homme</seg> à la jambe.</s>
             </p>
             <p>
-                <s>Le 12 mars 1993, <persName><seg type="NOM" n="1">Emilien Bonnal</seg></persName>,
+                <s>Le 12 mars 1993, <seg type="NOM" n="1"><persName>Emilien Bonnal</persName></seg>,
                         <roleName corresp="Emilien_Bonnal" type="political" ana="RN"
                         nymRef="militant">militant du FN</roleName>, <w pos="V" msd="Pass" n="2">est
                         condamné</w> à huit ans de réclusion criminelle par la cour d'assises du Var
@@ -491,7 +501,7 @@
                             nymRef="sympathisant" ana="RN">six sympathisants</roleName> du Front
                         national de Dreux sont
                         condamnés à des peines allant de trois mois à huit mois de prison. <seg
-                        type="NOM" corresp="un adhérent et six sympathisants du Front national"
+                        type="NOM"
                         n="1">Ils</seg>
                     <w pos="V" msd="Act" n="2">avaient agressé</w>
                     <seg type="NOM" n="3">un groupe de jeunes</seg> après l'annonce de la victoire
@@ -517,7 +527,7 @@
                         type="political" ana="RN" corresp="#JM_le_pen">M. Le Pen</persName>.</s>
             </p>
             <p>
-                <s>Le 7 mars 1986, <persName><seg type="NOM" n="1" corresp="Philippe_Brocard">Philippe Brocard</seg></persName>,
+                <s>Le 7 mars 1986, <seg type="NOM" n="1" corresp="Philippe_Brocard"><persName>Philippe Brocard</persName></seg>,
                         <roleName type="political" ana="PC" nymRef="sympathisant"
                         corresp="Philippe_Brocard">un sympathisant du Parti socialiste</roleName>,
                         <w pos="V" msd="Pass" n="2">est mortellement blessé</w> de neuf coups de
@@ -584,8 +594,8 @@
                         conséquences odieuses de l'action de <seg type="EXP" corresp="RN">ceux
                             qui,dans notre pays, propagent des idéologies racistes et
                             xénophobes</seg></said> ».</s>
-                <s> Enfin, <orgName type="police" nymRef="union"><seg type="NOM" n="1">le Syndicat
-                            général de la police</seg></orgName>
+                <s> Enfin, <seg type="NOM" n="1"><orgName type="police" nymRef="union">le Syndicat
+                            général de la police</orgName></seg>
                     <w pos="V" msd="Act" n="2">dénonce</w>
                     «<said who="syndicat_police" direct="true" corresp="#mort_Ali"><seg type="EXP"
                             n="3"> cet acte indigne de la République française</seg></said>»
