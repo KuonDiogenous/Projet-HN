@@ -234,7 +234,7 @@
                <seg type="NOM" n="1"><roleName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats frontistes</roleName></seg>, 
                qui 
                <w pos="V" msd="Act" n="2">les payaient </w>
-               <seg type="EXP" n="2">grâce au financement public des <eventName  type="political" nymRef="élection">campagnes électorales</eventName> en cas de score supérieur à 5 %</seg>.
+               <seg type="EXP" n="3">grâce au financement public des <eventName  type="political" nymRef="élection">campagnes électorales</eventName> en cas de score supérieur à 5 %</seg>.
             </s>
             <s>
                En plus de bénéficier à <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName>, 
@@ -273,7 +273,7 @@
                <seg type="ADJ" n="3">un joli pactole</seg>.</s>
             <s>
                Pour se justifier, 
-               <seg type="NOM" corresp="RN"><orgName type="political" nymRef="parti" ana="RN" corresp="#RN">l'état-major du FN</orgName></seg> 
+               <seg type="NOM" corresp="RN" n="1"><orgName type="political" nymRef="parti" ana="RN" corresp="#RN">l'état-major du FN</orgName></seg> 
                <w pos="V" msd="Act" n="2">explique qu'il s'agit là </w>
                <seg type="EXP" n="3">du seul moyen de contourner la réticence des banques à financer ses <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats</orgName>.</seg>
             </s>
@@ -436,7 +436,7 @@
             <s>
                Toujours selon <orgName type="presse" corresp="#Mediapart">Mediapart</orgName>, 
                <seg type="NOM" n="1">l'entourage de <persName corresp="#Marine_Le_Pen"  type="gouvernment" nymRef="elu" ana="RN">Marine Le Pen</persName></seg>
-               <w pos="V" msd="Pass" n="1">aurait demandé</w>
+               <w pos="V" msd="Pass" n="2">aurait demandé</w>
                <seg type="EXP" n="3">à certains <orgName type="political" nymRef="candidat" ana="RN" corresp="#candidats_RN">candidats</orgName>
                   d'antidater des conventions de prêt avec <orgName type="political" nymRef="parti" corresp="#Jeanne">Jeanne</orgName> qui n'avaient pas été signés dans les temps</seg>,
                c'est-à-dire pendant la 
