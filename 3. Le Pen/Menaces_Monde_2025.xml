@@ -119,7 +119,7 @@
                         <orgName type="judicial" corresp="#CSM">Le Conseil supérieur de la magistrature</orgName>
                         a fait part
                     de son 
-                    son «<said who="#CSM" direct="true"> inquiétude </said> » après des « <said who="#CSM" direct="true"> réactions virulentes </said> »  
+                    son «<said who="#CSM" direct="true" corresp="#CSM"> inquiétude </said> » après des « <said who="#CSM" direct="true" corresp="#CSM"> réactions virulentes </said> »  
                 </s>
                 </hi>
             </p>
@@ -152,7 +152,7 @@
                     <seg type="NOM" corresp="#Gérald_Darmanin" n="1"><persName corresp="#Gérald_Darmanin" type="gouvernment" ana="Parti_centriste">Gérald Darmanin</persName></seg>,
                     <interp type="IRONY"/> 
                     qui avait pourtant déclaré en novembre 2024, au moment du réquisitoire de l’affaire, qu’il
-                    <said who="#Gérald_Darmanin" direct="true"> « serait profondément choquant que Marine Le Pen soit jugée inéligible et ainsi ne puisse pas se présenterdevant le suffrage des Français » </said>, 
+                    « <said who="#Gérald_Darmanin" direct="true"> serait profondément choquant que Marine Le Pen soit jugée inéligible et ainsi ne puisse pas se présenterdevant le suffrage des Français</said> », 
                     <w pos="V" msd="Pass" n="2">a
                         apporté </w>
                     <seg type="NOM" n="3">son soutien aux <roleName type="judicial" nymRef="magistrat">magistrats</roleName></seg>.
@@ -240,14 +240,14 @@
                     <roleName type="judicial" nymRef="magistrat">magistrats</roleName>, 
                     s’est montré
                     accusateur :
-                    <said who="#CSM" direct="true">
-                        « Ainsi,
+                    «<said who="#CSM" direct="true">
+                         Ainsi,
                         <seg type="NOM" n="1">les menaces visant personnellement les <roleName type="judicial" nymRef="magistrat">magistrats</roleName></seg>
                         chargés du dossier, tout comme les prises de parole de <roleName type="political" nymRef="elu">responsables politiques</roleName> sur le bien-fondé des
                         poursuites ou de la condamnation(...) 
                         <w pos="V" msd="Pass" n="2">ne peuvent être acceptées</w>
-                        <seg type="EXP" n="3">dans une société démocratique.</seg>» 
-                    </said> 
+                        <seg type="EXP" n="3">dans une société démocratique.</seg>
+                    </said>»  
                 </s>
             </p>
 
@@ -259,15 +259,15 @@
                     <w pos="V" msd="Act" n="2">en appelle</w>
                     même 
                     <seg type="EXP" n="3">au sursaut</seg> : 
-                    <said who="#CNB" direct="true">
-                     « Dans un contexte où 
+                    «<said who="#CNB" direct="true">
+                      Dans un contexte où 
                      l’<orgName type="judicial">autorité judiciaire</orgName> 
                      est de plus en plus contestée sur les réseaux sociaux et dans le débat public, il est de la 
                      <seg type="NOM" n="1">responsabilité collective des <orgName type="political" nymRef="elu">acteurs institutionnels</orgName> </seg>
                      de 
                      <w pos="V" msd="Act" n="2">faire bloc </w>
-                     <seg type="ADJ" corresp="#La_justice" n="3">pour la protéger</seg>.»
-                    </said> 
+                     <seg type="ADJ" corresp="#La_justice" n="3">pour la protéger</seg>.
+                    </said>» 
                 </s>
             </p>
 
@@ -343,11 +343,11 @@
                         <seg type="EXP" n="3">les Français à s’indigner</seg>.
                 </s>
                 <s> 
-                    <said who="#Jordan_Bardella" direct="true"> 
-                        « <seg type="NOM" n="1"><roleName type="judicial" nymRef="juge">Des juges</roleName></seg> 
+                    « <said who="#Jordan_Bardella" direct="true"> 
+                        <seg type="NOM" n="1"><roleName type="judicial" nymRef="juge">Des juges</roleName></seg> 
                         <w pos="V" msd="Act" n="2">ont décidé d’éliminer</w>
                         purement et simplement 
-                        <seg type="EXP" n="3">de la course à la présidentielle <roleName corresp="#Marine_Le_Pen" type="political" nymRef="candidat">la candidate du Rassemblement national</roleName></seg> »</said>, 
+                        <seg type="EXP" n="3">de la course à la présidentielle <roleName corresp="#Marine_Le_Pen" type="political" nymRef="candidat">la candidate du Rassemblement national</roleName></seg> </said>», 
                     a-t-il ajouté.
                 </s>
             </p>
@@ -380,9 +380,9 @@
                     Interrogé mardi par 
                     <orgName corresp="#RTL" type="presse">RTL</orgName> 
                     sur la justesse de cet argument,
-                    <seg type="NOM" corresp="Rémi_Heitz" n="1"><roleName corresp="Rémy Heitz" type="judicial" nymRef="magistrat"> le procureur général près la Courde cassation</roleName>, 
+                    <seg type="NOM" corresp="Rémi_Heitz" n="1"><roleName corresp="Rémy Heitz" type="judicial" nymRef="magistrat"> le procureur général près la Cour de cassation</roleName>, 
                     <persName corresp="Rémy_Heitz">Rémy Heitz</persName></seg>, 
-                    <w pos="V" msd="Pass">ne s’est pas</w> 
+                    <w pos="V" msd="Pass" n="2">ne s’est pas</w> 
                     <w pos="EXP" n="3">prononcé</w> :  
                     «<said who="Rémi_Heitz" direct="true"> Je ne commenterai pas une décision qui a été rendue et qui est
                         de surcroît non définitive puisqu’elle a été frappée d’appel. </said> » 
