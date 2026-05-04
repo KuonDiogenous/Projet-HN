@@ -382,7 +382,7 @@
                     sur la justesse de cet argument,
                     <seg type="NOM" corresp="Rémi_Heitz" n="1"><roleName corresp="Rémy Heitz" type="judicial" nymRef="magistrat"> le procureur général près la Courde cassation</roleName>, 
                     <persName corresp="Rémy_Heitz">Rémy Heitz</persName></seg>, 
-                    <w pos="V" msd="Pass">ne s’est pas</w> 
+                    <w pos="V" msd="Pass" n="2">ne s’est pas</w> 
                     <w pos="EXP" n="3">prononcé</w> :  
                     «<said who="Rémi_Heitz" direct="true"> Je ne commenterai pas une décision qui a été rendue et qui est
                         de surcroît non définitive puisqu’elle a été frappée d’appel. </said> » 
