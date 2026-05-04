@@ -75,7 +75,7 @@
                     <persName xml:id="Ali"/>
                 </item>
                 <item>
-                    <persName xml:id="JM_le_pen"/>
+                    <persName xml:id="JM_le_Pen"/>
                 </item>
                 <item>
                     <persName xml:id="Fayolle"/>
@@ -221,10 +221,10 @@
 
             <p>
                 <s> <w pos="PRONOUN" corresp="#Lagier" n="1">il</w> ne vote plus, sauf des fois pour Giscard, et <w pos="V" msd="Act" n="2">va écouter</w> <seg type="EXP" n="3">deux fois <persName
-                        type="political" nymRef="président" corresp="#JM_Le_pen">Le Pen</persName></seg>.
+                        type="political" nymRef="président" corresp="#JM_le_Pen">Le Pen</persName></seg>.
                         "<said aloud="true" direct="true" who="#Lagier" corresp="#Vision_FN">J'ai
                         entendu tout ce qui a été dit, rien ne m'a choqué. Par contre, tout ce qu'on
-                        disait le lendemain sur <w pos="PRONOUN" corresp="#JM_le_pen">lui</w> dans
+                        disait le lendemain sur <w pos="PRONOUN" corresp="#JM_le_Pen">lui</w> dans
                         les journaux était faux, les phrases avaient été manipulées,
                         bricolées.</said>"</s>
                 <s>Il prend sa carte, mais va à <eventName type="political" nymRef="manifestation"
@@ -323,7 +323,7 @@
                         choqué affectivement</said>" son <roleName type="proche" corresp="#Ambrosio"
                         >fils</roleName>. <roleName type="proche" corresp="#Ambrosio">Lui, le fils
                         d'immigré</roleName>, veut mettre les immigrés dehors? <said>"Je laisse
-                            <persName corresp="#JM_Le_Pen">Le Pen</persName> libre de ses déclara
+                            <persName corresp="#JM_le_Pen">Le Pen</persName> libre de ses déclara
                         tions."</said></s>
                 <s> D'ailleurs, <persName type="judicial" subtype="accusé" corresp="#Ambrosio"
                         >Mario</persName> n'est pas contrariant: <said aloud="true"
