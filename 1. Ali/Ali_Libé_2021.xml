@@ -91,9 +91,8 @@
                             type="judicial" subtype="victime" corresp="#Ali">Ibrahim Ali</persName></orgName> en
                     fabriquent d'autres et descendent les accrocher sur l'avenue des Aygalades, en
                     contrebas de la cité du nord de la ville.</s>
-                <s>C'est là, au carrefour des Quatre-Chemins, il y a vingt-six ans, que <seg
-                        type="NOM" n="1"><addName type="nickName" corresp="#Ali">le jeune de 17 ans <roleName nymRef="race_sociale">d'origine
-                            comorienne</roleName></addName></seg> a été abattu d'une balle dans le dos
+                <s>C'est là, au carrefour des Quatre-Chemins, il y a vingt-six ans, que <addName type="nickName" corresp="#Ali">le jeune de 17 ans <roleName nymRef="race_sociale">d'origine
+                            comorienne</roleName></addName> a été abattu d'une balle dans le dos
                     par<roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio"> des colleurs d'affiches
                             du<orgName type="political" nymRef="parti" ana="RN">Front
                             national</orgName></roleName>, alors qu'il rentrait d'une répétition
@@ -196,7 +195,7 @@
                 <s> Il est chargé de prévenir <roleName ana="Ali" type="proche">la mère d'<persName
                             corresp="#Ali">Ibrahim</persName></roleName>.</s>
                 <s>
-                    «<said direct="true" toWhom="Soly" who="mère_Ali">Elle m'a dit: "Va voir tes
+                    «<said direct="true" toWhom="mère_Ali" who="Soly">Elle m'a dit: "Va voir tes
                         frères, calme-les. Ne salissez pas sa mémoire." </said>»
                 </s>
                 <s>Il faudra parlementer jusqu'au matin pour apaiser un peu les colères.</s>
@@ -334,7 +333,7 @@
                             type="political" nymRef="elu">l'ancien maire</roleName></orgName> ont
                     choisi de voter la proposition portée par <orgName type="political" nymRef="élu"
                         >la nouvelle majorité de gauche</orgName>.</s>
-                <s><said direct="true" who="#Ghali" corresp="#Ali">«<persName corresp="#Ali"><w
+                <s>"<said direct="true" who="#Ghali" corresp="#Ali"><persName corresp="#Ali"><w
                                 pos="NOM" n="1">Ibrahim Ali</w></persName>
                         <w pos="V" n="2">était</w>
                         <seg type="ADJ" n="3" corresp="Ali">un enfant de Marseille</seg>,</said>
@@ -342,7 +341,7 @@
                         corresp="#Ali"> Aujourd'hui, il aurait pu être Soprano. Il a eu <seg type="NOM"
                             n="1">sa vie</seg>
                         <w pos="V" n="2">fauchée</w> sauvagement <seg type="EXP" n="3">parce qu'il
-                            était <roleName nymRef="race_sociale">noir</roleName></seg>. Cette rue, ce n'est pas un petit symbole.»</said></s>
+                            était <roleName nymRef="race_sociale">noir</roleName></seg>. Cette rue, ce n'est pas un petit symbole.</said>"</s>
                 <s> Alors que l'hémicycle applaudit, <roleName type="political" ana="RN"
                         nymRef="elu">les élus du Rassemblement national</roleName> s'agitent,
                     veulent prendre la parole.</s>
