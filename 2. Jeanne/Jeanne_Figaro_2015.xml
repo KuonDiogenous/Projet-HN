@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Jeanne_Figaro_2015"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <s><orgName ana="RN" corresp="#RN">Front national</orgName> : le <addName type="nickName" corresp="#Jeanne">micro-parti</addName> <orgName corresp="#Jeanne">Jeanne</orgName> mis en examen</s>
+                </title>
+                <author>Julien Licourt</author>
+            </titleStmt>
+            <editionStmt>
+                <edition></edition>
+                <respStmt>
+                    <resp>Encodage de l'article</resp>
+                    <name>Dina Senaque</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <p>Projet HN spé Traitement de textes</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>
+                        <s><orgName ana="RN" corresp="#RN">Front national</orgName> : le <addName type="nickName" corresp="#Jeanne">micro-parti</addName> <orgName corresp="#Jeanne">Jeanne</orgName> mis en examen</s>
+                    </title>
+                    <author>Julien Licourt</author>
+                    <publisher>Figaro</publisher>
+                    <series>Affaire Jeanne</series> <!-- Je ne sais pas quoi mettre -->
+                    <ptr type="URL" target="https://www.lefigaro.fr/politique/le-scan/decryptages/2015/05/06/25003-20150506ARTFIG00221-jean-marie-le-pen-peut-il-creer-un-nouveau-parti-a-la-droite-du-fn.php"></ptr>
+                    <date when="2015-05-06" type="published"/>
+                    <note type="Word_count">574</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <list>
+                <item><persName xml:id="Marine_Le_Pen"/></item>
+                <item><persName xml:id="JM_le_pen"/></item>
+                <item><persName xml:id="Frédéric_Chatillon"/></item>
+                
+                <item> <eventName xml:id="affaire_Jeanne"/> </item>
+                
+                <item><orgName xml:id="RN"/></item>
+                
+            </list>
+            <p>
+                <s>La justice lui reproche d'avoir été au centre d'un système de 
+                    surfacturation pendant les législatives de 2012.</s> 
+                <s><persName type="political" ana="RN" corresp="#Marine_Le_Pen">Marine Le Pen</persName> <said who="#Marine_Le_Pen" aloud="true" direct="inapplicable" corresp="#affaire_Jeanne">affirme qu'elle et ses proches n'ont «rien à se reprocher».</said></s>
+            </p>
+            <p>
+                <s>Le <seg n="1" type="NOM"><orgName type="political" subtype="accusé" ana="RN" corresp="#RN" nymRef="parti">Front national</orgName></seg> <w n="2" msd="Act" pos="V">enchaîne</w> <seg n="3" type="NOM">les mauvaises nouvelles</seg>. </s>
+                    
+                <s> Alors que <seg n="1" type="NOM">la querelle politico familiale </seg> <w n="2" pos="V" msd="Act">bat son plein </w> entre <persName type="political" corresp="#Marine_Le_Pen">Marine Le Pen </persName> et son père <persName type="political" ana="RN" corresp="#JM_le_pen">Jean-Marie</persName>, <orgName type="political" ana="RN" subtype="accusé" nymRef="parti">Jeanne</orgName>, le 
+                    microparti de la présidente du <orgName type="political" ana="RN" corresp="#RN">Front national</orgName> a été <seg n="3" type="EXP">mis en examen </seg> mardi en tant que 
+                    personne morale, pour escroquerie. </s>
+                    
+                   <s> Une mise en examen qui s'inscrit dans le cadre de 
+                    l'enquête commencée l'an dernier par <persName type="judicial" nymRef="juge">Renaud van Ruymbeke </persName> et <persName nymRef="juge" type="judicial">Aude Buresi</persName>. </s>
+                    
+                   <s> Les juges financiers s'intéressent au financement de la campagne présidentielle et des législatives 
+                    de 2012 du <orgName type="political" ana="RN" corresp="#RN">Front national</orgName>. </s>
+            </p>
+            <p>
+                <s>Bien que <seg n="1" type="NOM">Marine Le Pen </seg> <w pos="V" n="2" msd="Pass">n'apparaisse pas dans </w> <seg n="3" type="NOM">l'organigramme de Jeanne</seg>, baptisé ainsi 
+                    en l'honneur de la Pucelle d'Orléans, ce <seg n="1" type="NOM">micro-parti </seg> <w n="2" pos="V" msd="Pass"> est destiné à la soutenir</w>, notamment 
+                    <seg n="3" type="ADJ">financièrement</seg>. </s>
+                    
+                   <s> Il a été créé fin 2010, au moment où elle n'était que simple <persName type="political" nymRef="responsable" subtype="accusé" ana="RN" corresp="#Marine_Le_Pen">vice
+                    présidente du parti d'extrême droite</persName>, postulante à la <eventName corresp="#Marine_Le_Pen">succession de son père</eventName>. </s> 
+                    
+                   <s> Cette structure a continué à lui servir après l'élection interne: <persName corresp="#JM_le_Pen">Jean-Marie Le Pen</persName> n'a jamais 
+                    lâché les rênes de la <orgName ana="RN" type="political" nymRef="parti" corresp="RN">Cotelec</orgName>, son propre micro-parti, qui a aidé le FN à assurer une partie 
+                    du financement de ces campagnes. </s>
+                    
+                  <s>  Jeanne, depuis la prise de pouvoir de Marine Le Pen, 
+                    a, en quelque sorte pris la suite. </s>
+            </p>
+            <p>
+                <s>
+                    En 2011, elle facture pour 1,8 millions d'euros ses services aux candidats frontistes qui 
+                    se présentent lors des cantonales. </s>
+                    
+                 <s> En 2012, année de la présidentielle et des législatives, 
+                    ce chiffre bondit à 9,6 millions d'euros. 
+                </s>
+            </p>
+            
+            <p>
+                <hi n="1">Kits de campagne </hi>
+              
+                <s>Quels sont les services offerts par <orgName corresp="#Jeanne">Jeanne</orgName> ? Le <seg type="NOM" n="1">micro-parti </seg> <w n="2" msd="Act" ana="RN" pos="V">avançait les fonds</w> pour les 
+                    <seg n="3" type="NOM">candidats aux législatives</seg>, notamment pour qu'ils acquièrent un kit de campagne 
+                    composé d'affiches, de tracts ou encore d'un site Internet. </s>
+                    
+                   <s> Le <seg n="1" type="NOM">taux de prêt</seg>: 6,5%, <w n="2" msd="Act" pos="V">très 
+                    avantageux</w> <seg n="3" type="NOM">pour Jeanne</seg>. </s>
+                    
+                   <s>Quant au <seg n="1" type="NOM">kit</seg>, il <w n="2" pos="V" msd="Pass">était fourni </w> <seg n="3" type="NOM">par la société Riwal</seg>, contre les 
+                    sommes de 9.150 ou 16.650 euros. </s>
+                    
+                   <s>Les <seg n="1" type="NOM">juges </seg> <w n="2" msd="Act" pos="V">reprochent </w>le caractère obligatoire de 
+                    <seg n="3" type="NOM">l'achat de ce kit</seg>, sorte de contrepartie à l'investiture. </s>
+                    
+                   <s> Ils soupçonnent également <seg n="1" type="NOM">Riwal </seg>
+                    d'avoir <w n="2" pos="V">surfacturé</w> cette <seg n="3" type="NOM">prestation</seg>, comptant sur le remboursement des frais de 
+                    campagne par l'État de tous les candidats ayant réalisé plus de 5% des voix.</s>
+                
+            </p>
+            
+            <p>
+                <s><persName ana="RN" type="economical" corresp="#Frédéric_Chatillon" nymRef="sympathisant">Frédéric Chatillon</persName>, le patron de cette société, <addName type="nickName" corresp="#Frédéric_Chatillon">ami de Marine Le Pen</addName>, a été mis en examen 
+                    pour financement illégal de parti politique, tout comme sa société, qui est également 
+                    accusée d'escroquerie. </s>
+                    
+                 <s><orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName> est en effet soupçonnée d'avoir mis gracieusement à 
+                    disposition de <orgName corresp="#Jeanne">Jeanne</orgName> ses locaux et son personnel, de lui avoir octroyé de prêts sans 
+                    intérêt ou d'avoir effectué gratuitement pour elle des travaux de comptabilité.</s>
+            </p>
+            
+            <p>
+                <hi n="2">«Mesure administrative» </hi>
+                <s><orgName corresp="#Frédéric_Chatillon">Riwal</orgName> est également soupçonné d'avoir salarié fictivement, pendant les campagnes 
+                    législatives et présidentielle, <persName type="gouvernment" nymRef="elu" ana="RN" subtype="accusé" corresp="#affaire_Jeanne">Nicolas Bay </persName>(député européen et secrétaire général du 
+                    parti) et <persName ana="RN" type="gouvernment" subtype="accusé" nymRef="elu" corresp="#affaire_Jeanne">David Rachline </persName>(sénateur-maire de Fréjus). </s>
+                    
+                   <s> Des salaires que les <seg n="1" type="NOM">juges </seg>
+                    <w n="2" msd="Act" pos="V">soupçonnent</w> d'être <seg n="3" type="EXP">«des dons déguisés aux candidats»</seg>. </s>
+                    
+                    <s>Des <seg n="1" type="NOM">accusation </seg> <w n="2" msd="Pass" pos="V">démenties</w> par 
+                    les <seg n="3" type="NOM">deux intéressés</seg>.</s>
+            </p>
+            
+            <p>
+                <s><seg n="1" type="NOM"><persName corresp="#Marine_Le_Pen">Marine Le Pen</persName> </seg>a, quant à elle, <w n="2" pos="V" msd="Pass">minimisé</w> cette mise en examen, qualifiée de simple 
+                    <seg n="3" type="EXP">«mesure administrative»</seg>. </s>
+                    
+                <s> «<said who="#Marine_Le_Pen" corresp="#Marine_Le_Pen" direct="true" aloud="true">Je persiste à vous dire que nous n'avons rien à nous 
+                        reprocher</said>», a déclaré la <roleName corresp="#Marine_Le_Pen">présidente du Front national</roleName>, en déplacement à Prague, qui a 
+                    affirmé que le processus de financement des élections a été à quatre reprises au moins 
+                    entériné par <orgName type="judicial">la Commission nationale des comptes de campagnes et des financements 
+                    politiques (CNCCFP)</orgName>.</s>
+            </p>
+        </body>
+    </text>
+    
+    
+    
+    
+    
+    
+</TEI>
