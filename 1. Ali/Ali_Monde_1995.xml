@@ -365,7 +365,7 @@
                 <s> Ils voient dans ce nouveau fait divers un motif de solidarité avec les « 
                     <roleName nymRef="race_sociale">
                         blacks</roleName>
-                        »:"<said direct="true" aloud="true" corresp="les_jeunes">
+                        »:"<said who="#les_jeunes" direct="true" aloud="true" corresp="les_jeunes">
                             <orgName type="social" nymRef="communauté" corresp="communauté_commorienne">
                                 Commoriens
                             </orgName> ou 
@@ -560,7 +560,7 @@
                         secrétaire du Parti socialiste</roleName>,<persName type="political"
                         corresp="#Emmanuelli"> Henri Emmanuelli</persName>, estime que <said
                         direct="inapplicable" who="#Emmanuelli">le gouvernement doit prendre« toutes
-                        ses responsabilités »</said> après<said direct="true" corresp="#Emmanuelli">
+                        ses responsabilités »</said> après<said who="#Emmanuelli" direct="true" corresp="#Emmanuelli">
                         « <eventName type="political" corresp="#mort_Ali">ce crime raciste
                         </eventName>»</said>.</s>
                 <s>
