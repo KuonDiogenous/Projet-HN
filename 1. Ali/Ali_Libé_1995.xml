@@ -74,7 +74,7 @@
                     <persName xml:id="patron_bar"/>
                 </item>
                 <item>
-                    <eventName xml:id="Mort_Ali"/>
+                    <eventName xml:id="mort_Ali"/>
                 </item>
                 <item>
                     <orgName xml:id="B_Vice"/>
@@ -105,7 +105,7 @@
                         <roleName type="judicial" subtype="accusé">des colleurs d'affiches
                             du<orgName type="political" nymRef="parti" ana="RN"> Front
                             national</orgName></roleName></seg>, dans la nuit de mardi à mercredi.</s>
-                <s><said direct="false" who="amis_Ali" corresp="#Mort_Ali">Sans aucune
+                <s><said direct="false" who="amis_Ali" corresp="#mort_Ali">Sans aucune
                         raison</said>, affirment ses amis. "<said who="#Mégret">Légitime
                         défense</said>", répond <persName type="judicial" corresp="#Mégret">Bruno
                         Mégret</persName> au nom de ses <roleName type="political" nymRef="militant"
@@ -143,7 +143,7 @@
                     traversaient à la course pour attraper "le 30", le bus de la Savine, quand les
                     coups de feu ont éclaté. </s>
                 <s>
-                    <eventName corresp="#Mort_Ali">Touché au dos, <persName corresp="#Ali"
+                    <eventName corresp="#mort_Ali">Touché au dos, <persName corresp="#Ali"
                             type="judicial" ana="victime">Ibrahim</persName> a couru quelques mètres
                         avant de tomber sur le trottoir.</eventName>
                 </s>
@@ -165,12 +165,12 @@
 
             <p>
                 <s><roleName type="proche" corresp="Ali" subtype="témoin">Ses copains</roleName>
-                    sont formels: <said direct="false" who="amis_Ali" corresp="#Mort_Ali">il n'y a
+                    sont formels: <said direct="false" who="amis_Ali" corresp="#mort_Ali">il n'y a
                         pas eu l'ombre d'une bagarre, ni même des mots échangés avec les trois
                         hommes qui collaient les affiches de <persName type="political"
                             corresp="#JM_Le_Pen">Le Pen</persName> sur ce mur encore vierge du
                         carrefour.</said></s>
-                <s>Selon eux, <said direct="false" who="amis_Ali" corresp="#Mort_Ali">les coups de
+                <s>Selon eux, <said direct="false" who="amis_Ali" corresp="#mort_Ali">les coups de
                         feu sont partis d'une voiture garée à proximité, une 205 blanche qui s'est
                         évanouie en trombe dans la nuit, après avoir embarqué <roleName
                             type="judicial" ana="accusé">les colleurs</roleName>.</said></s>
@@ -191,7 +191,7 @@
                     cru. </s>
                 <s><seg type="NOM" n="1" corresp="RN">Au <orgName type="political" nymRef="parti" ana="RN">Front national</orgName></seg>, <w pos="V" msd="Act" n="2">on
                     a d'abord tenté d'écarter</w><seg type="EXP" n="3">les soupçons</seg>, en soutenant hier matin qu'<said
-                        direct="false" who="#RN" corresp="#Mort_Ali">aucun <roleName
+                        direct="false" who="#RN" corresp="#mort_Ali">aucun <roleName
                             type="political" nymRef="militant" ana="RN">militant</roleName> ne
                         collait des affiches dans ces quartiers la nuit précédente.</said></s>
                 <s><interp type="COMMENTARY"/>Mais l'évidence s'est rapidement imposée, et <seg type="NOM" n="1">le
@@ -199,13 +199,13 @@
                     <persName type="political" nymRef="elu" ana="RN" corresp="#Mégret">Bruno
                         Mégret</persName></seg>, arrivé précipitamment à Marseille, <w pos="V" msd="Act" n="2">a décidé de jouer</w> <seg type="ADJ" n="3">la
                     transparence. </seg></s>
-                <s> En début d'après-midi, il <said who="#Mégret" direct="false" corresp="#Mort_Ali"
+                <s> En début d'après-midi, il <said who="#Mégret" direct="false" corresp="#mort_Ali"
                         >reconnaissait devant <orgName type="presse">la presse</orgName> que
                             <roleName type="judicial" subtype="accusé">trois colleurs d'affiches de
                             son mouvement</roleName> se trouvaient bien sur les lieux <eventName
-                            corresp="#Mort_Ali">la nuit du drame</eventName>.</said></s>
+                            corresp="#mort_Ali">la nuit du drame</eventName>.</said></s>
                 <s> Mais sa version est radicalement différente: "<said who="#Mégret" direct="true"
-                        aloud="true" corresp="#Mort_Ali">L'un d'entre eux a été violemment agressé
+                        aloud="true" corresp="#mort_Ali">L'un d'entre eux a été violemment agressé
                         par <orgName type="social" nymRef="nationalité" corresp="#B_Vice">une
                             quinzaine de Comoriens</orgName> et ses deux compagnons, qui se
                         trouvaient 300 mètres plus loin, sont venus à son secours en état de
@@ -222,7 +222,7 @@
                 <s><persName type="political" nymRef="elu" ana="RN" corresp="#Mégret">Bruno
                         Mégret</persName> a reconnu que <roleName corresp="#Giglio #Lagier #Ambrosio">les colleurs d'affiches</roleName> avaient transgressé
                     les consignes en étant armés, mais pour ajouter aussitôt: "<said who="#Mégret"
-                        direct="true" aloud="true" corresp="#Mort_Ali">S'ils n'avaient pas été
+                        direct="true" aloud="true" corresp="#mort_Ali">S'ils n'avaient pas été
                         armés, le mort aurait été parmi eux.</said>"</s>
                 <s><interp type="COMMENTARY"/>Ce sera sans doute la version soutenue par les deux
                     hommes placés en garde à vue, comme par le troisième qui devrait les
@@ -241,7 +241,7 @@
                         d'Ibrahim</roleName> ont passé une bonne partie de la nuit à témoigner
                     devant des enquêteurs plutôt méfiants.</s>
                 <s>
-                    <eventName type="judicial" corresp="#Mort_Ali">Ils ont raconté les coups de
+                    <eventName type="judicial" corresp="#mort_Ali">Ils ont raconté les coups de
                         feu, et <persName corresp="#Ali" type="judicial" subtype="victime"
                             >Ibrahim</persName> mourant sur le trottoir.</eventName>
                 </s>
@@ -267,7 +267,7 @@
                     nécessaire du deuil.</s>
                 <s>
                     "<said who="#Saïd" direct="true" aloud="true">Nous éprouvons une grande colère
-                        contre <seg type="NOM" corresp="Mort_Ali">cet acte de racisme</seg></said>",
+                        contre <seg type="NOM" corresp="mort_Ali">cet acte de racisme</seg></said>",
                     souligne <persName corresp="#Saïd" type="humanitarian">Saïd Soilihi
                         Bruce</persName>,<roleName type="humanitarian" corresp="#Saïd"> responsable
                         de l'association comorienne</roleName> de la Savine, <said who="#Saïd"
@@ -280,7 +280,7 @@
                         président,</persName> contient plus difficilement son émotion: "<said
                         who="Mohamed_El_Mamouni" direct="true" aloud="true">Une nouvelle fois, un
                         jeune est mort. <addName type="nickName" corresp="#Ali">Un jeune Français d'origine comorienne</addName> est la victime d'un
-                            <eventName type="judicial" corresp="#Mort_Ali">crime à caractère raciste et
+                            <eventName type="judicial" corresp="#mort_Ali">crime à caractère raciste et
                                 fasciste</eventName>, perpétré par des <roleName corresp="#Giglio #Lagier #Ambrosio">militants du Front
                             national</roleName>.</said>"</s>
                 <s>Après lui, une représentante de l'<orgName type="social" nymRef="union">association maghrébine de la Savine</orgName> élève la
@@ -324,7 +324,7 @@
             <p>
                 <s><persName corresp="#JM_Le_Pen">Jean-Marie Le Pen</persName>. <roleName
                         type="political" ana="RN">Le président du FN</roleName>
-                    <said direct="inapplicable" who="#JM_Le_Pen" corresp="#Mort_Ali">s'est déclaré
+                    <said direct="inapplicable" who="#JM_Le_Pen" corresp="#mort_Ali">s'est déclaré
                         "profondément peiné par la mort" du jeune Français d'origine comorienne,
                         mais a ajouté qu'il pensait "aussi aux militants qui ont eu le malheur
                         d'être impliqués dans ce tragique accident"</said>.</s>
@@ -343,7 +343,7 @@
 
             <p>
                 <s><persName type="gouvernment" nymRef="président">Jacques Chirac</persName>. Sur
-                    RTL, <said direct="inapplicable" who="Jacques_Chirac" corresp="#Mort_Ali">s'est
+                    RTL, <said direct="inapplicable" who="Jacques_Chirac" corresp="#mort_Ali">s'est
                         déclaré "consterné" par ce drame "inexcusable, inexplicable et
                         inadmissible"</said>.</s>
             </p>
@@ -354,7 +354,7 @@
                         Gaudin</persName>. Le <roleName type="political" nymRef="elu"
                         corresp="#Gaudin">président (UDF-PR) du conseil Provence-Alpes-Côte-d'Azur
                         régional</roleName>
-                    <said direct="inapplicable" who="Gaudin" corresp="#Mort_Ali">estime qu'"aucun
+                    <said direct="inapplicable" who="Gaudin" corresp="#mort_Ali">estime qu'"aucun
                         enjeu électoral ne vaut la mort d'un adolescent"</said>.</s>
             </p>
          
