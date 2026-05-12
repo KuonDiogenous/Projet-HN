@@ -360,12 +360,12 @@
                     la peine d’inéligibilité de <persName corresp="#Marine_Le_Pen">Marine Le Pen</persName>.
                 </s>
                 <s> 
-                    Et notamment «<said corresp="#La_justice" direct="true">   l’impératif de sauvegarde de l’ordre public </said> ».
+                    Et notamment «<said who="#RN" corresp="#La_justice" direct="true">   l’impératif de sauvegarde de l’ordre public </said> ».
                 </s>
                 <s>
-                    «<said corresp="#La_justice" direct="true">  Le tribunal</said>, écrivent les
+                    «<said who="#Magistrat_parquet" corresp="#La_justice" direct="true">  Le tribunal</said>, écrivent les
                     <roleName type="judicial" nymRef="magistrat">magistrats</roleName>, 
-                    «<said>prend en considération le trouble majeur à l’ordre public
+                    «<said who="#Magistrat_parquet" corresp="#La_justice" direct="true">prend en considération le trouble majeur à l’ordre public
                         démocratique qu’engendrerait (...) le fait que soit candidate, par exemple
                         et notamment à l’élection présidentielle, voire élue, 
                         <addName type="nickName">une personne qui aurait déjà été condamnée en première instance</addName>, 
