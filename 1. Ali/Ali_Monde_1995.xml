@@ -416,7 +416,7 @@
                         catastrophe</eventName>.</s>
                 <s> Fils d'un employé d'une société de nettoyage, <persName type="judicial"
                         subtype="victime" corresp="#Ali">Ibrahim Ali</persName> venait de rejoindre
-                        <orgName type="proche" corresp="#B_vice #Ali">B Vice</orgName> (pour
+                        <orgName type="proche" corresp="#B_Vice #Ali">B Vice</orgName> (pour
                         <roleName nymRef="race_sociale">Blacks</roleName>
                     Vu de l'intérieur comme de l'extérieur), <eventName nymRef="création_groupe"
                         corresp="#B_Vice"><orgName corresp="#B_Vice #Ali" type="proche">un groupe de
@@ -433,7 +433,7 @@
                     hymnes à la fraternité.</s>
             </p>
             <p>
-                <s>"<said aloud="true" direct="true" who="#B_vice">Aimons-nous, aimons-nous
+                <s>"<said aloud="true" direct="true" who="#B_Vice">Aimons-nous, aimons-nous
                         vivants</said>" et la dénonciation de la galère des quartiers nord et du
                     racisme.</s>
                 <s> L'une des dernières productions de <persName type="proche"
