@@ -599,7 +599,7 @@
                     <w pos="V" msd="Act" n="2">dénonce</w>
                     «<said who="syndicat_police" direct="true" corresp="#mort_Ali"><seg type="EXP"
                             n="3"> cet acte indigne de la République française</seg></said>»
-                        et<said direct="inapplicable">
+                        et<said who="syndicat_police" direct="inapplicable">
                         exige
                         « une répression impitoyable contre les éléments
                             factieux qui tentent de promouvoir les idées que l'on croyait mortes
