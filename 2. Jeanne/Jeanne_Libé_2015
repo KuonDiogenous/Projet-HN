@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Sch%C3%A9ma/Sch%C3%A9ma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <s>Microparti Jeanne: un vice-président du FN mis en examen</s>
+                </title>
+                <author>Inconnu</author>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt>
+                    <resp>Encodage de l'article</resp>
+                    <name>Dina Senaque</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <p>Projet HN spé Traitement de textes</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>
+                        <s>Microparti Jeanne: un vice-président du FN mis en examen</s>
+                    </title>
+                    <author>Inconnu</author>
+                    <publisher>Libération</publisher>
+                    <series>....</series>
+                    <ptr type="URL"
+                        target="https://www.liberation.fr/france/2015/05/22/microparti-jeanne-un-vice-president-du-fn-mis-en-examen_1314477/"/>
+                    <date when="2015-05-22" type="published"/>
+                    <note type="Word_count">530</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item>
+                    <persName xml:id="JF_Jalkh"/>
+                </item>
+
+                <item>
+                    <persName xml:id="Marine_Le_Pen"/>
+                </item>
+
+                <item>
+                    <persName xml:id="Axel_Lousteau"/>
+                </item>
+
+                <item>
+                    <orgName xml:id="Jeanne"/>
+                </item>
+
+                <item>
+                    <orgName xml:id="RN"/>
+                </item>
+
+                <item>
+                    <eventName xml:id="affaire_Jeanne"/>
+                </item>
+            </list>
+
+            <p><s><roleName>Haut cadre frontiste</roleName>, <seg n="1" type="NOM"><persName
+                            corresp="#JF_Jalkh">Jean-François Jalkh</persName></seg> est également
+                    le <seg n="2" type="NOM"><roleName type="political">secrétaire général de
+                        Jeanne</roleName></seg>, <orgName type="political"
+                            corresp="Jeanne">microparti lié au FN</orgName> et <seg n="3"
+                         type="V">soupçonné d'escroquerie au détriment de l'Etat</seg>.</s></p>
+            <p>
+                <s><seg n="1" type="EXP"><interp type="COMMENTARY" corresp="#affaire_Jeanne">La
+                            farandole des mises en examen continue </interp></seg> <seg n="2" type="NOM">dans <eventName
+                        corresp="#affaire_Jeanne">l'affaire Jeanne</eventName></seg>, ce <seg n="3" type="V">
+                            <orgName nymRef="parti" corresp="#Jeanne" type="political" ana="RN"
+                            >microparti lié au FN et soupçonné d'escroquerie au détriment de
+                            l'Etat</orgName></seg>.</s>
+                
+                <s><seg n="1" type="EXP"><interp type="COMMENTARY" corresp="#affaire_Jeanne">Pour la
+                            première fois</interp></seg>, c'est <seg n="2"><persName
+                            corresp="#JF_Jalkh" ana="RN" type="political"> un membre du Front
+                            national</persName></seg> lui-même qui  <seg n="3" type="V"
+                        > est visé.</seg></s>
+                
+                <s><interp type="COMMENTARY" corresp="#affaire_Jeanne">Et pas des moindres</interp>,
+                    puisqu'il s'agit de <seg n="1" type="NOM">><persName corresp="#JF_Jalkh" ana="RN"
+                            type="political">Jean-François Jalkh</persName></seg>, <roleName
+                        type="political" ana="RN" corresp="#JF_Jalkh">vice-président</roleName>,
+                        <roleName type="political" ana="RN" corresp="#JF_Jalkh">responsable des
+                        questions juridiques du parti d'extrême droite</roleName>, et <roleName
+                        type="gouvernment" ana="RN" corresp="#JF_Jalkh">député
+                    européen</roleName>.</s>
+                <s>C'est cependant son rôle de <seg n="2"><roleName type="political" ana="RN"
+                            corresp="#JF_Jalkh" subtype="accusé">secrétaire général de
+                            Jeanne</roleName></seg> qui lui vaut d'être <seg n="3" type="V">inquiété dans cette
+                        <eventName corresp="#affaire_Jeanne">affaire</eventName>.</seg></s>
+                
+            </p>
+            <p>
+                <s>Il a été mis en examen <said who="unknown" direct="false" aloud="false"
+                        corresp="#JF_Jalkh">«cette semaine» pour «escroqueries, abus de confiance et
+                        acceptation par un parti politique d'un financement provenant d'une personne
+                        morale»</said>, en l'occurrence la <orgName type="economical"
+                            ana="RN" corresp="#affaire_Jeanne" subtype="accusé">société de
+                            communication Riwal</orgName>,
+                    <!-- pas certaine pour le economical --> selon une <roleName type="judicial"
+                        >source judiciaire </roleName>citée par l'<orgName type="presse"
+                        >AFP</orgName>.</s>
+                <s>Les faits incriminés se seraient notamment produits lors des élections
+                    législatives de 2012.</s>
+            </p>
+            <p/>
+            <p>
+                <s>Créé en 2010, <seg n="1" type="NOM"><orgName type="political" ana="RN" corresp="#Jeanne"
+                            subtype="accusé" nymRef="parti">Jeanne</orgName></seg> est un <seg n="2"
+                            ><orgName ana="RN" corresp="#Jeanne" type="political" subtype="accusé"
+                            nymRef="parti">microparti à vocation exclusivement
+                                financière</orgName></seg>, <seg n="3" type="V">dirigé par des 
+                    
+                    <persName nymRef="sympathisant" ana="RN" type="proche" corresp="Marine_Le_Pen">proches</persName> 
+                                    de <persName corresp="Marine_Le_Pen" type="political" ana="RN">Marine Le Pen</persName></seg>.</s>
+                
+                <s>Lors de plusieurs scrutins, et notamment des législatives, il a proposé aux
+                        <roleName type="political" ana="RN" nymRef="candidat" corresp="#Jeanne"
+                        >candidats frontistes</roleName> des prêts leur permettant d'acheter des
+                    kits électoraux.</s>
+                <!-- comment encoder kits éle et le lier à Riwal ? -->
+                <s>Conçus par <orgName type="economical" subtype="accusé" ana="RN"
+                        corresp="#affaire_Jeanne">Riwal</orgName>, ces kits contenaient tout le
+                    matériel nécessaire pour mener campagne, des affiches aux bulletins de vote en
+                    passant par un site internet.</s>
+                <s>Les <roleName type="political" ana="RN" nymRef="candidat">candidats</roleName>
+                    ayant atteint un seuil de voix suffisant pouvaient ensuite se faire rembourser
+                    sur fonds public les frais engagés.</s>
+            </p>
+            <p>
+                <!-- est ce qu'il faudrait créer un corresp/xml id pour relier les diff explications autour ce 'système' d'arnaques sous un seul et même libellé et qui renverrait au chef d'accusation ?-->
+                <s>La <orgName type="judicial" corresp="#affaire_Jeanne">justice</orgName> cherche à
+                    déterminer si ce système n'a pas débouché sur un enrichissement illégal de
+                    Jeanne et de Riwal au détriment de l'Etat.</s>
+                <!-- comment encoder enrichissement illégal et la suite ? -->
+                <s>Les <persName type="judicial" nymRef="magistrat" corresp="#affaire_Jeanne"
+                        >juges</persName> envisagent que les kits de campagne (facturés à plus de 16
+                    000 euros lors des législatives) aient pu être vendus très au-dessus de leur
+                    valeur réelle.</s>
+                <s>Ils s'interrogent également sur le taux d'intérêt des prêts accordés par <orgName
+                        type="political" ana="RN" corresp="#Jeanne" subtype="accusé" nymRef="parti"
+                        >Jeanne</orgName> : 7%.</s>
+                <s>Des intérêts qui ont eux aussi été, en partie, remboursés par l'Etat au titre des
+                    dépenses de campagne.</s>
+                <s>Le système apparaît d'autant plus <w pos="ADJ"
+                            >troublant</w> 
+                    qu'<seg n="1" type="NOM"><persName type="political"
+                            subtype="accusé" nymRef="responsable" ana="RN" corresp="#Axel_Loustau"
+                            >Axel Loustau</persName></seg>, <seg n="2" type="NOM"><roleName type="political"
+                                    ana="RN">trésorier de Jeanne</roleName></seg>, a également été, au moins
+                    jusqu'en octobre 2013, l'un des <seg n="3" type="NOM"><roleName type="economical"
+                            >actionnaires de Riwal</roleName>.</seg></s>
+            </p>
+            <p>
+                <s>Autre élément <w pos="ADJ">intriguant </w> : les
+                        <roleName type="political" ana="RN" nymRef="candidat">candidats</roleName>
+                    investis par le <orgName type="political" ana="RN" corresp="#RN">FN</orgName>
+                    <!-- On met corresp RN ou FN ? --> pour les législatives de 2012 étaient, selon
+                    un document interne consulté par <orgName type="presse">Libération</orgName>,
+                    obligés d'acheter le fameux kit.</s>
+                <s> Lors de cette campagne, <seg n="1"><persName corresp="#JF_Jalkh"
+                            type="political" ana="RN" subtype="accusé">Jean-François
+                            Jalkh</persName></seg> était <seg n="2">chargé des «formalités
+                        administratives et juridiques»</seg> ainsi que des <seg n="3">«comptes de
+                        campagne» des candidats</seg>.</s>
+                <!-- Je pense qu'il faut encoder ce qu'l y a entre les "", mais pas de said ou quote, j'avais pensé à persNmae et utiliser un corresp pour relier à JF_Falkh pour dire que c'est ses fonctions -->
+            </p>
+            <p>
+                <s>Avant <persName type="political" subtype="accusé" ana="RN" corresp="#JF_Falkh"
+                        >Jean-François Jalkh</persName>, <persName subtype="accusé" nymRef="groupe"
+                        ana="RN" corresp="#affaire_Jeanne" type="proche">quatre personnes physiques
+                        et une personne morale</persName> avaient déjà été mis en examen.</s>
+                <s><persName type="economical" nymRef="responsable" subtype="accusé"
+                        corresp="#affaire_Jeanne">Frédéric Châtillon</persName>, <roleName
+                        type="economical" subtype="accusé" nymRef="responsable">dirigeant de
+                        Riwal</roleName>; <!-- comment relier 'dirigeant de...' à F.Châtillon ? Je sais qu'il faudrait utiliser un corresp, mais je ne sais pas si c'est pertinent de crée un xml : id juste pour ça -->
+                    <persName subtype="accusé" nymRef="responsable" corresp="#affaire_Jeanne">Axel
+                        Loustau</persName>; <persName type="economical" subtype="accusé"
+                        nymRef="responsable" ana="RN" corresp="#affaire_Jeanne">Olivier
+                        Duguet</persName>, ancien trésorier de Jeanne; <!-- idem -->
+                    <persName subtype="accusé" nymRef="responsable" corresp="#CC_Jeanne">Nicolas
+                        Crochet</persName>, <roleName corresp="#CC_Jeanne" ana="RN"
+                        nymRef="responsable" subtype="accusé" type="economical">commissaire aux
+                        comptes du Front National</roleName>,
+                    <!-- idem, d'autant plus que, dans la liste des xml id, on a un pour commissaire aux comptes, mais pour Jeanne. Ici, c'est le FN/RN -->
+                    ayant certifié les dépenses des candidats FN lors des dernières législatives; et
+                    Jeanne lui-même.</s>
+            </p>
+        </body>
+    </text>
+</TEI>
