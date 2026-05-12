@@ -46,7 +46,7 @@
                     <ptr type="URL"
                         target="https://www.liberation.fr/france/1995/02/23/marseille-ibrahim-tue-a-17-ans-par-des-colleurs-d-affiches-du-fn_125119/"/>
                     <!-- vraiment en maju ? -->
-                    <date type="PUBLISHED" when="1995-02-23"/>
+                    <date type="published" when="1995-02-23"/>
                     <note type="Word_count">903</note>
                 </bibl>
             </sourceDesc>
