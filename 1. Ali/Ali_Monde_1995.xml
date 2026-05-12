@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>
                     <s><roleName corresp="Accusés">Des militants du FN</roleName> sont impliqués
-                        dans <eventName corresp="#Mort_Ali">la mort d'Ibrahim Ali</eventName>, 17
+                        dans <eventName corresp="#mort_Ali">la mort d'Ibrahim Ali</eventName>, 17
                         ans</s>
                 </title>
                 <author>PHILIPPE BERNARD</author>
@@ -46,7 +46,7 @@
                     <persName xml:id="Mégret"/>
                 </item>
                 <item>
-                    <persName xml:id="JM_le_pen"/>
+                    <persName xml:id="JM_Le_pen"/>
                 </item>
                 <item>
                     <persName xml:id="Ali"/>
@@ -86,7 +86,7 @@
                     <orgName xml:id="B_Vice"/>
                 </item>
                 <item>
-                    <orgName xml:id="communauté_commorienne"/>
+                    <orgName xml:id="communauté_comorienne"/>
                 </item>
                 <item>
                     <orgName xml:id="les_jeunes"/>
@@ -116,7 +116,7 @@
                     dans la nuit de mardi à mercredi 22 février, à Marseille, d'une balle de 22 long
                     rifle tirée dans le dos <seg type="EXP" n="3">par <roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">des
                         colleurs d'affiches de <persName type="political" nymRef="président"
-                            corresp="#JM_le_pen">Jean-Marie Le Pen</persName></roleName>.</seg></s>
+                            corresp="#JM_Le_pen">Jean-Marie Le Pen</persName></roleName>.</seg></s>
                 <s>A LA « DEMANDE »<orgName type="political" nymRef="parti"> du Front
                         national</orgName>, <roleName subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">trois hommes</roleName> se
                     sont rendus, mercredi, à la police et ont été placés en <eventName type="police"
@@ -137,7 +137,7 @@
                             >syndicats</orgName> et <orgName type="humanitarian" nymRef="ONG"
                             >associations</orgName></seg>
                     <w pos="V" msd="Act" n="2">ont vivement condamné</w>
-                    <eventName corresp="#Mort_Ali"><w pos="NOM" n="3">ce
+                    <eventName corresp="#mort_Ali"><w pos="NOM" n="3">ce
                     meurtre</w></eventName>.</s>
                 <s>Plusieurs centaines de personnes ont défilé mercredi à Marseille, où une
                         <eventName type="political" nymRef="manifestation"
@@ -159,7 +159,7 @@
                     <s><roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">Trois personnes</roleName> étaient
                             <eventName type="police" nymRef="GAD">placées en garde à
                         vue</eventName>, jeudi 23 février, à Marseille, après <eventName
-                            corresp="#Mort_Ali">la mort <roleName type="judicial" subtype="victime"
+                            corresp="#mort_Ali">la mort <roleName type="judicial" subtype="victime"
                                 corresp="#Ali">d'un lycéen d'origine
                             comorienne</roleName></eventName>, tué d'une balle dans le dos par
                             <roleName subtype="accusé">une équipe de colleurs
@@ -184,11 +184,11 @@
 
             <p>
                 <s>Sur le mur gris de l'entrepôt désaffecté, <persName type="political"
-                        nymRef="président" corresp="#JM_le_pen">Jean-Marie Le Pen</persName>
+                        nymRef="président" corresp="#JM_Le_pen">Jean-Marie Le Pen</persName>
                     continue de sourire derrière ses lunettes.</s>
                 <s>Entre les lacérations, on distingue toujours le faisceau tricolore qui s'élance à
                     droite de l'affiche vers un avenir radieux:«<quote source="Affiche"
-                        corresp="#JM_le_pen #RN" cert="high"> Avec <persName corresp="JM_le_pen">Le
+                        corresp="#JM_Le_pen #RN" cert="high"> Avec <persName corresp="JM_Le_pen">Le
                             Pen</persName>, trois millions d'immigrés rapatrié. En avant pour la
                         Sixième République.</quote>»
                 </s>
@@ -230,11 +230,11 @@
                 </s>
             </p>
             <p>
-                <s>" <said aloud="true" direct="true" who="#Hassany" corresp="#Mort_Ali">Une 205
+                <s>" <said aloud="true" direct="true" who="#Hassany" corresp="#mort_Ali">Une 205
                         grise m'a dépassé doucement.J'ai eu peur, d'autant qu'elle était bourrée
                         d'affiches du <orgName ana="RN" corresp="#RN">FN</orgName></said>," raconte <persName type="judicial" subtype="témoin"
                         corresp="#B_Vice #Hassany">Hassany</persName>, un lycéen âgé de vingt
-                    ans."<said aloud="true" direct="true" who="#Hassany" corresp="#Mort_Ali">
+                    ans."<said aloud="true" direct="true" who="#Hassany" corresp="#mort_Ali">
                         Le type a stoppé et s'est mis à tirer Tac-tac, avec un flingue comme ils
                         ont dans les films.</said>"</s>
                 <s>Simultanément, <seg type="NOM" n="1"><roleName type="judicial" subtype="accusé">les
@@ -276,10 +276,10 @@
             </p>
             <p>
                 <s>Ainsi <seg type="NOM" n="1"><orgName type="social" nymRef="communauté"
-                            corresp="#communauté_commorienne">la communauté comorienne</orgName> de
+                            corresp="#communauté_comorienne">la communauté comorienne</orgName> de
                         Marseille</seg>, partout <w pos="V" msd="Pass" n="2">citée</w> comme <seg
                         type="EXP" n="3">un miracle de gentillesse et d'intégration</seg>, a-t-elle
-                    découvert que <seg type="NOM" corresp="communauté_commorienne" n="1">sa peau
+                    découvert que <seg type="NOM" corresp="communauté_comorienne" n="1">sa peau
                         foncée</seg>
                     <w pos="V" msd="Act" n="2">n'était pas</w>
                     <seg type="EXP" n="3">du goût de tous les Phocéens</seg>. Pourtant, des marins
@@ -309,7 +309,7 @@
                             <roleName nymRef="race_sociale">beurs
                             mêlés</roleName>, dans un climat de tension très maîtrisée</seg>.</s>
                 <s>«<said who="responsable_associatif_comorien" aloud="true" direct="true">
-                            <persName type="political" nymRef="président" corresp="#JM_le_pen">Le
+                            <persName type="political" nymRef="président" corresp="#JM_Le_pen">Le
                             Pen</persName> jouela confusion entre <orgName type="social"
                             nymRef="nationalité" corresp="#français">Français</orgName> et <roleName nymRef="race_sociale">Blancs</roleName>.
                         Ses affiches sont une incitation à nous jeter à la mer. Elles devraient être
@@ -366,7 +366,7 @@
                     <roleName nymRef="race_sociale">
                         blacks</roleName>
                         »:"<said who="#les_jeunes" direct="true" aloud="true" corresp="les_jeunes">
-                            <orgName type="social" nymRef="communauté" corresp="communauté_commorienne">
+                            <orgName type="social" nymRef="communauté" corresp="communauté_comorienne">
                                 Commoriens
                             </orgName> ou 
                             <roleName nymRef="race_sociale">Arabes</roleName>
@@ -384,7 +384,7 @@
             </p>
             <p>
                 <s>L'interpellation des <roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio">trois auteurs
-                        présumés</roleName> de <eventName type="judicial" corresp="#Mort_Ali">la
+                        présumés</roleName> de <eventName type="judicial" corresp="#mort_Ali">la
                         fusillade</eventName>, "<quote source="unknown">invités à se présenter à la
                         police par <orgName type="political" nymRef="parti" corresp="#RN">le
                             FN</orgName></quote>", a très provisoirement calmé les esprits.
@@ -399,7 +399,7 @@
                     <orgName type="social" nymRef="groupe" corresp="les_jeunes">les jeunes</orgName>.</s>
                 <s> Selon <persName type="political" nymRef="responsable" corresp="#Mégret">M.
                         Mégret</persName>, l'un des colleurs d'affiches "<said direct="true"
-                        aloud="true" who="#Mégret" corresp="#Mort_Ali">a été violemment agressé
+                        aloud="true" who="#Mégret" corresp="#mort_Ali">a été violemment agressé
                         par une quinzaine de Comoriens et, pour se dégager, les colleurs, se sentant
                         menacés de mort, ont tiré en l'air en direction de leurs agresseurs et ont
                         quitté rapidement les lieux pour leur échapper. </said>"</s>
@@ -440,12 +440,12 @@
                         corresp="#B_Vice #Ali #Soly">Mohamed</persName>, alias <persName type="proche"
                         corresp="#Soly #B_Vice #Ali">M.T. Soly</persName>
                     <!-- jsp si ça va super bien marcher ça -->, s'en prenait à <persName
-                        type="political" nymRef="président" corresp="#JM_le_pen">Jean-Marie Le
+                        type="political" nymRef="président" corresp="#JM_Le_pen">Jean-Marie Le
                         Pen</persName> sans le nommer: <said aloud="true" direct="true" who="#B_Vice"
-                        corresp="#JM_le_pen">« Il était naguère <addName corresp="#JM_le_pen">une
+                        corresp="#JM_Le_pen">« Il était naguère <addName corresp="#JM_Le_pen">une
                             bête sanguinaire</addName> qui rêvait de faire de la terre entière un
                         enfer pour ceux qui avaient l'erreur et le de venir au monde sans la bonne
-                        couleur de peau, car ce <persName corresp="#JM_le_pen">sot
+                        couleur de peau, car ce <persName corresp="#JM_Le_pen">sot
                             inculte</persName>, n'ayons pas peur des mots,rêvait d'un nouveau monde
                         où seuls <roleName nymRef="race_sociale">les
                             Blancs</roleName> seraient égaux.</said></s>
@@ -524,7 +524,7 @@
                     du Havre</orgName> à un an de prison <seg type="EXP" n="3">pour avoir attaqué à coups de
                         batte des partisans de <persName type="political" ana="PC">M.
                             Juquin</persName></seg> qui recouvraient des affiches de <persName
-                        type="political" ana="RN" corresp="#JM_le_pen">M. Le Pen</persName>.</s>
+                        type="political" ana="RN" corresp="#JM_Le_pen">M. Le Pen</persName>.</s>
             </p>
             <p>
                 <s>Le 7 mars 1986, <seg type="NOM" n="1" corresp="Philippe_Brocard"><persName>Philippe Brocard</persName></seg>,
@@ -546,14 +546,14 @@
                             nymRef="parti">partis politiques</orgName> et d'<orgName
                             type="humanitarian" nymRef="ONG">associations
                         antiracistes</orgName></seg><w pos="V" msd="Act" n="2"> ont condamné</w>
-                    <seg type="EXP" n="3"><eventName type="judicial" corresp="#Mort_Ali">le meurtre
+                    <seg type="EXP" n="3"><eventName type="judicial" corresp="#mort_Ali">le meurtre
                                 d'<persName corresp="#Ali">Ibrahim Ali</persName></eventName></seg>,
                     dans la nuit de mardi à mercredi 22 février.</s>
                 <s><persName corresp="#Gaudin">Jean-Claude Gaudin</persName> (UDF-PR), <roleName
                         type="political" corresp="#Gaudin">président du conseil régional
                         Provence-Alpes-Côte d'Azur</roleName>, a déclaré :"<said direct="true"
                         aloud="true" who="#Gaudin">Aucun enjeu électoral ne vaut <eventName
-                            type="judicial" corresp="#Mort_Ali">la mort d'un
+                            type="judicial" corresp="#mort_Ali">la mort d'un
                         adolescent</eventName>.</said>"
                 </s>
                 <s><roleName type="political" nymRef="elu" ana="PS" corresp="#Emmanuelli">Le premier
@@ -567,7 +567,7 @@
                     <persName corresp="#Voynet">Dominique Voynet</persName>, <roleName type="political"
                         nymRef="candidat" ana="Vert" corresp="#Voynet">candidate des Verts à
                         l'élection présidentielle</roleName>, <said direct="inapplicable"
-                        who="#Voynet">juge, pour sa part, <persName corresp="#JM_le_pen">Jean Marie
+                        who="#Voynet">juge, pour sa part, <persName corresp="#JM_Le_pen">Jean Marie
                             Le Pen</persName> « moralement responsable» et demande au <roleName
                             type="gouvernment" corresp="ministre">ministre de l'intérieur</roleName>
                         d'exercer « un strict contrôle sur la possession d'armes »</said>. </s>
@@ -577,9 +577,9 @@
             </p>
             <p>
                 <s>Pour la <orgName corresp="#CGT" type="political" nymRef="union">CGT</orgName>
-                    <said aloud="true" direct="true" who="#CGT" corresp="#Mort_Ali">« <eventName
-                            corresp="#Mort_Ali">cette mort</eventName> n'est <w pos="ADJ"
-                            corresp="#Mort_Ali">ni accidentelle</w>
+                    <said aloud="true" direct="true" who="#CGT" corresp="#mort_Ali">« <eventName
+                            corresp="#mort_Ali">cette mort</eventName> n'est <w pos="ADJ"
+                            corresp="#mort_Ali">ni accidentelle</w>
                         <w pos="ADJ" corresp="#mort_Ali">ni involontaire</w>, c'est <w pos="NOM"
                             corresp="#mort_Ali">un assassinat</w> ! Les hommes qui l'ont
                             perpétré militent au <orgName corresp="#RN" type="political"
@@ -590,7 +590,7 @@
                             appliquées </said>».</s>
                 <s>Pour <orgName type="political" nymRef="union" corresp="#CFDT">la CFDT</orgName>,
                     «  <said who="#CFDT" direct="true" aloud="true"><eventName type="political"
-                            corresp="#Mort_Ali">ce meurtre</eventName> met en évidence les
+                            corresp="#mort_Ali">ce meurtre</eventName> met en évidence les
                         conséquences odieuses de l'action de <seg type="EXP" corresp="RN">ceux
                             qui,dans notre pays, propagent des idéologies racistes et
                             xénophobes</seg></said> ».</s>
@@ -609,25 +609,25 @@
                 <s>Les associations ont également réagi. Le président de la <orgName
                         type="humanitarian" corresp="FECOM" nymRef="ONG">Fédération comorienne
                         (FECOM)</orgName>
-                    <said direct="inapplicable" who="FECOM" corresp="#Mort_Ali">a condamné ce crime
+                    <said direct="inapplicable" who="FECOM" corresp="#mort_Ali">a condamné ce crime
                         « à caractère raciste et fasciste »</said>.</s>
-                <s><said who="FECOM" direct="true" corresp="#Mort_Ali">«Le FN est passé du discours
+                <s><said who="FECOM" direct="true" corresp="#mort_Ali">«Le FN est passé du discours
                         à l'acte»</said>, poursuit la <orgName type="humanitarian" corresp="FECOM"
                         nymRef="ONG">FECOM</orgName>, dont le siège est à Marseille.</s>
                 <s>
-                    «<said who="FECOM" direct="true" corresp="#Mort_Ali">Cet assassinat se déroule
+                    «<said who="FECOM" direct="true" corresp="#mort_Ali">Cet assassinat se déroule
                         à un moment où, une nouvelle fois, les étrangers et les jeunes d'origine
                         étrangère se trouvent pris au piège tendu par des démagogues. </said>»
                 </s>
                 <s>Pour le <orgName type="humanitarian" corresp="MRAP" nymRef="ONG">MRAP</orgName>,
-                        <eventName corresp="#Mort_Ali">le meurtre d'Ibrahim Ali</eventName> est
-                    « <said who="MRAP" direct="true" corresp="#Mort_Ali">la conséquence logique
+                        <eventName corresp="#mort_Ali">le meurtre d'Ibrahim Ali</eventName> est
+                    « <said who="MRAP" direct="true" corresp="#mort_Ali">la conséquence logique
                         et tragique d'une idéologie prônée par le<orgName type="political"
                             nymRef="parti" corresp="#RN"> Front national</orgName></said> ».</s>
                 <s>Quant au <orgName corresp="#CRIF" type="humanitarian" nymRef="ONG">CRIF (Conseil
                         représentatif des institutions juives de France)</orgName>, il «<said
                         direct="true" who="CRIF">tient à réagir contre <eventName
-                            corresp="#Mort_Ali">un acte criminel de caractère raciste</eventName>
+                            corresp="#mort_Ali">un acte criminel de caractère raciste</eventName>
                         </said>».</s>
                 <s>Enfin, pour <orgName type="humanitarian" nymRef="ONG" corresp="asso_droit_cité"
                         >l'association Droit de cité</orgName>, « <said direct="true"
@@ -639,19 +639,19 @@
                         militants.</said>»</s>
             </p>
             <p>
-                <s>Quant <roleName type="political" nymRef="président" corresp="#JM_le_pen">au
+                <s>Quant <roleName type="political" nymRef="président" corresp="#JM_Le_pen">au
                         président du Front national</roleName>
-                    <persName type="political" corresp="##JM_le_pen">Jean Marie Le Pen</persName>, il
-                        <said who="#JM_le_pen" direct="inapplicable">s'est déclaré « profondément
+                    <persName type="political" corresp="#JM_Le_pen">Jean Marie Le Pen</persName>, il
+                        <said who="#JM_Le_pen" direct="inapplicable">s'est déclaré « profondément
                         peiné par la mort » d'<persName corresp="#Ali">Ibrahim
-                            Ali</persName></said>. Mais il « <said who="#JM_le_pen" direct="true">pense
-                        aussi <roleName type="political" nymRef="militant" corresp="#accusés">aux
-                            militants</roleName> et à <roleName type="proche" corresp="#accusés"
+                            Ali</persName></said>. Mais il « <said who="#JM_Le_pen" direct="true">pense
+                        aussi <roleName type="political" nymRef="militant" corresp="#Accusés">aux
+                            militants</roleName> et à <roleName type="proche" corresp="#Accusés"
                             >leurs familles</roleName> qui ont eu le malheur d'être impliqués dans
-                                ce tragique accident.</said>»«<said who="#JM_le_pen" direct="true">Ceux
+                                ce tragique accident.</said>»«<said who="#JM_Le_pen" direct="true">Ceux
                         qui se dévouent pour défendre leurs idées et leurs convictions (...) sont,
-                        eux aussi, <persName corresp="#accusés">des victimes de
-                            l'insécurité</persName> </said>», ajoute <roleName corresp="#JM_le_pen"
+                        eux aussi, <persName corresp="#Accusés">des victimes de
+                            l'insécurité</persName> </said>», ajoute <roleName corresp="#JM_Le_pen"
                         nymRef="président" type="political">le leader
                     d'extrême-droite</roleName>.</s>
             </p>
