@@ -174,7 +174,7 @@
                 <!-- Je pense qu'il faut encoder ce qu'l y a entre les "", mais pas de said ou quote, j'avais pensé à persNmae et utiliser un corresp pour relier à JF_Falkh pour dire que c'est ses fonctions -->
             </p>
             <p>
-                <s>Avant <persName type="political" subtype="accusé" ana="RN" corresp="#JF_Falkh"
+                <s>Avant <persName type="political" subtype="accusé" ana="RN" corresp="#JF_Jalkh"
                         >Jean-François Jalkh</persName>, <persName subtype="accusé" nymRef="groupe"
                         ana="RN" corresp="#affaire_Jeanne" type="proche">quatre personnes physiques
                         et une personne morale</persName> avaient déjà été mis en examen.</s>
