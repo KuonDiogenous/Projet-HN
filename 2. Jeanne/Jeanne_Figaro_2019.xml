@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Schéma/Schéma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Jeanne_Figaro_2019"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <s>Affaire des kits de campagne du FN, 500.000 euros d'amende requis contre le parti
+                  frontiste.</s>
+            </title>
+            <author/>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt>
+               <resp>Encodage de l'article</resp>
+               <name>Nicolas Bleton</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Projet HN spé Traitement de textes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>
+                  <s>Affaire des kits de campagne du FN, 500.000 euros d'amende requis contre le
+                     parti frontiste.</s>
+               </title>
+               <author/>
+               <publisher>Le Figaro</publisher>
+               <series>Politique</series>
+               <ptr type="URL"
+                  target="https://www.lefigaro.fr/politique/l-etat-francais-reclame-11-millions-d-euros-au-FN-dans-l-affaire-du-financement-de-ses-campagnes-20191127"/>
+               <date when="2019-11-27" type="published"/>
+               <note type="Word_count">1010 </note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+
+         <list>
+            <item>
+               <persName xml:id="Frédéric_Chatillon"/>
+            </item>
+            <item>
+               <persName xml:id="Marine_Le_Pen"/>
+            </item>
+            <item>
+               <orgName xml:id="RN"/>
+            </item>
+            <item>
+               <eventName xml:id="affaire_Jeanne"/>
+            </item>
+            <item>
+               <persName xml:id="Cécile_Ducournau"/>
+            </item>
+            <item>
+               <persName xml:id="Nicolas_Barret"/>
+            </item>
+            <item>
+               <orgName xml:id="Jeanne"/>
+            </item>
+            <item>
+               <eventName xml:id="kits_de_campagne"/>
+            </item>
+            <item>
+               <persName xml:id="Bernard_Grelon"/>
+            </item>
+            <item>
+               <orgName xml:id="GUD"/>
+            </item>
+
+
+         </list>
+
+
+
+         <p>
+            <s><orgName type="judicial" corresp="#TCP"><w pos="NOM" n="1">Le parquet</w></orgName>
+               <w pos="V" msd="Act">a également requis</w>
+               <seg n="3">deux ans de prison ferme contre <persName type="political" ana="RN"
+                     nymRef="sympathisant" subtype="accusé" corresp="#Frédéric_Chatillon">Frédéric
+                     Chatillon</persName></seg>, proche conseiller de <persName
+                  corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le Pen</persName>.</s>
+            <s><orgName corresp="#Jeanne" type="political"><w n="1" pos="NOM">Le parti</w></orgName>
+               <w n="2" pos="V" msd="Pass">est soupçonné</w>
+               <seg n="3" type="EXP">d'avoir mis en place une vaste escroquerie</seg> au préjudice
+               de l'État aux législatives de 2012.</s>
+         </p>
+         <p>
+            <s><seg n="1"><orgName type="judicial" corresp="#TCP">Le parquet de
+                  Paris</orgName></seg>
+               <w pos="V" msd="Act">a requis</w> ce mercredi <seg n="3">une amende de 500.000 euros
+                  contre le <orgName type="political" ana="RN" corresp="#RN">FN</orgName> dans
+                     <eventName corresp="#kits_de_campagne">l'affaire des kits de campagne des
+                     législatives de 2012</eventName></seg>, un système soupçonné de cacher
+               plusieurs escroqueries au préjudice de l'Etat pour financer le parti.</s>
+            <s>Contre <persName type="political" ana="RN" nymRef="sympathisant" subtype="accusé"
+                  corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName>, proche conseiller de
+                  <persName corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le
+                  Pen</persName>, <seg n="1"><orgName type="judicial" corresp="#TCP">le ministère
+                     public</orgName></seg>
+               <w pos="V" msd="Act">a requis</w>
+               <seg n="3">la peine la plus lourde</seg>: quatre ans de prison, dont deux avec
+               sursis, 200.000 euros d'amende et une interdiction de gestion définitive pour le
+               patron de la société de communication <orgName type="economical"
+                  corresp="#Frédéric_Chatillon">Riwal</orgName>, autour duquel «tout le système
+               tient ». </s>
+            <s>Avant les réquisitions du parquet de Paris, <seg type="NOM" n="1">l’<roleName
+                     type="judicial" nymRef="avocat">avocat de l’Etat</roleName></seg>, seule partie
+               civile au procès, <w pos="V" msd="Act" n="2" corresp="#kits_de_campagne">avait
+                  réclamé </w>
+               <seg type="ADJ" n="3" corresp="#kits_de_campagne">11,6 millions d’euros de dommages
+                  et intérêts au <addName type="nickName" corresp="#RN">parti frontiste</addName> et
+                  à ses <addName type="nickName" corresp="#Frédéric_Chatillon">coprévenus</addName>
+               </seg>.</s>
+         </p>
+         <p>
+            <s>Surfacturations, « prêts fictifs», micro-parti « coquille vide» cachant une «
+               apparence d'activité bancaire»: <roleName type="judicial" nymRef="avocat"
+                  corresp="#Bernard_Grelon">l’avocat de l’Etat</roleName>, Me <persName
+                  corresp="#Bernard_Grelon">Bernard Grelon</persName>, a égrené les « <said
+                  who="#Bernard_Grelon" direct="true" corresp="#RN">manœuvres</said> » du <orgName
+                  type="political" ana="RN" corresp="#RN">FN</orgName>, devenu Rassemblement
+               national en 2018, pour « <said who="#Bernard_Grelon" direct="true" corresp="#RN"
+                  >détourner les règles électorales</said> » et obtenir un remboursement indu des
+               dépenses de campagne de ses <roleName type="political" nymRef="candidat"
+                  corresp="#RN">candidats</roleName>.</s>
+         </p>
+         <p>
+            <s>Pour ses finances déjà fragiles, <seg n="1" type="EXP"><orgName type="political"
+                     ana="RN" corresp="#RN">le parti d'extrême-droite</orgName></seg>
+               <w msd="Act" pos="V">a plus à craindre</w>
+               <seg type="EXP">de ces dommages et intérêts que de l'amende</seg> dont le montant
+               maximum, en cas de condamnation, ne dépasserait pas quelques centaines de milliers
+               d'euros.</s>
+            <s><seg n="1" type="EXP"><orgName type="political" ana="RN" corresp="#RN">Le
+                     parti</orgName></seg>
+               <w pos="V" msd="Act">comparaît</w> depuis le 6 novembre devant le tribunal
+               correctionnel de Paris, <seg n="3" type="EXP">pour «complicité d'escroqueries et de
+                  tentatives d'escroqueries» et «recel d'abus de biens sociaux»</seg>.</s>
+            <s>L'audience se poursuit ce mercredi après-midi avec les réquisitions du parquet sur la
+               répartition des responsabilités et les éventuelles peines que méritent chacun des
+               protagonistes jugés, selon les cas, pour escroquerie, abus de biens sociaux et de
+               confiance, recels ou blanchiment.</s>
+         </p>
+
+         <p>
+            <s><seg type="EXP" n="1">Outre le <orgName type="political" ana="RN" corresp="#RN">parti
+                     frontiste</orgName>, deux autres personnes morales - la société de
+                  communication <orgName type="economical" corresp="#Frédéric_Chatillon"
+                     >Riwal</orgName> et le micro-parti <orgName corresp="#Jeanne" type="political"
+                     >Jeanne</orgName> - et sept protagonistes - dont le <roleName type="political"
+                     ana="RN" nymRef="responsable">trésorier du parti</roleName>
+                  <persName type="political" ana="RN" nymRef="responsable" subtype="accusé"
+                     corresp="#W_Saint-Just">Wallerand de Saint-Just</persName> et l'<roleName
+                     type="political" corresp="#JF_Jalkh">eurodéputé </roleName>
+                  <persName type="political" corresp="#JF_Jalkh">Jean-François
+                  Jalkh</persName></seg> - <w pos="V" msd="Act" n="2">comparaissent</w> depuis le 6
+               novembre <seg type="EXP" n="3">devant le <orgName type="judicial" corresp="#TCP"
+                     >tribunal correctionnel de Paris</orgName></seg>.</s>
+            <s>Tous sont liés au personnage central de l'affaire, <persName type="political"
+                  ana="RN" nymRef="sympathisant" subtype="accusé" corresp="#Frédéric_Chatillon"
+                  >Frédéric Chatillon</persName>, patron de <orgName type="economical"
+                  corresp="#Frédéric_Chatillon">Riwal</orgName> et <roleName nymRef="président"
+                  corresp="#Frédéric_Chatillon" type="political">ancien président</roleName> du
+                  <orgName type="political" nymRef="Groupe" ana="GUD" corresp="#GUD">GUD</orgName>,
+               le syndicat étudiant d'extrême-droite, dans les années 90.</s>
+            <s>L'avocat de l'État réclame en plus contre lui 1,8 millions d'euros de dommages et
+               intérêts pour des dépenses remboursées de la présidentielle 2012.</s>
+         </p>
+         <p>
+            <s><seg type="ADJ" n="1">Ce <w pos="ADJ" corresp="#Frédéric_Chatillon">proche</w>
+                  conseiller de <persName corresp="#Marine_Le_Pen" ana="RN" type="political">Marine
+                     Le Pen</persName></seg>
+               <w pos="V" msd="Pass">est soupçonné</w>
+               <seg type="EXP" n="3">de s'être enrichi frauduleusement, ainsi que son
+                  entourage</seg>, grâce à d'astucieux montages dans les cuisines de la
+               communication électorale du parti.</s>
+            <s>Au cœur du dossier, <seg type="EXP" n="1">les <eventName corresp="#kits_de_campagne"
+                     >« kits» de campagne des législatives de 2012</eventName></seg>: composés de
+               tracts, d'affiches, d'un site internet et de prestations comptable, ils <w pos="V"
+                  msd="Pass">étaient vendus</w>
+               <seg type="EXP" n="3">16.650 euros aux candidats par <orgName corresp="#Jeanne"
+                     type="political">Jeanne</orgName></seg>, le micro-parti de <persName
+                  corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le Pen</persName>, et
+               fournis par <orgName type="economical" corresp="#Frédéric_Chatillon"
+               >Riwal</orgName>.</s>
+         </p>
+         <p>
+            <s><orgName type="judicial" corresp="#TCP"><w pos="NOM" n="1">Le tribunal</w></orgName>
+               <w pos="V" msd="Act" n="2">devra dire</w>
+               <seg type="EXP" n="3">si ce système cachait des prestations « très largement
+                  surévaluées», destinées à tromper l'État</seg>, qui rembourse les dépenses des
+               candidats dépassant 5% des voix.</s>
+            <s><orgName corresp="#Jeanne" type="political"><w pos="NOM" n="1">Jeanne</w></orgName>
+               <w pos="V" msd="Act">prétait</w> en effet le <seg type="EXP">montant du kit, et les
+                  intérêts, aux candidats qui lui rendaient immédiatement l'argent en achetant le
+                  matériel.</seg></s>
+            <s>Cet « aller-retour comptable» permettait à <orgName corresp="#Jeanne"
+                  type="political">Jeanne</orgName>, quasi dénué de fonds propres, d'avancer presque
+               9 millions d'euros.</s>
+            <s><orgName corresp="#Jeanne" type="political"><w pos="NOM" n="1">Le
+                  micro-parti</w></orgName>
+               <w pos="V" msd="Act">attendait</w>
+               <seg type="EXP" n="3">ensuite le remboursement de l'Etat pour obtenir de quoi payer
+                     <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName></seg>,
+               son unique intermédiaire auprès des imprimeurs.</s>
+         </p>
+         <p>
+            <s>Se succédant à la barre, les prévenus, dont <roleName type="political"
+                  corresp="#Nicolas_Crochet">le comptable</roleName>
+               <persName type="political">Nicolas Crochet</persName> et deux autres anciens du
+                  <orgName type="political" nymRef="Groupe" ana="GUD" corresp="#GUD">GUD</orgName>,
+               l'élu francilien <persName type="political" corresp="#Axel_Loustau" ana="RN">Axel
+                  Loustau</persName> et <persName type="political" corresp="Olivier_Duguet" ana="RN"
+                  >Olivier Duguet</persName>, ont défendu en bloc la légalité du système, faisant
+               valoir que la Commission des comptes de campagne (CNCCFP) avait approuvé les comptes
+               des candidats.</s>
+            <s>Même si elle avait refusé de rembourser une partie (200.000 euros sur 550.000) des
+               intérêts des prêts, jugés fictifs.</s>
+            <s>Ce sont d'ailleurs <seg type="EXP" n="1">les doutes de cette <orgName
+                     type="gouvernment" corresp="CNCCFP">commission</orgName></seg>, relatés à la
+               barre par son président François Logerot, qui <w pos="V" msd="Act" n="2">ont
+                  déclenché</w>
+               <seg n="3" type="EXP">la première enquête judiciaire en avril 2013</seg>.</s>
+         </p>
+         <p>
+            <s>Au tribunal, <seg type="EXP" n="1">le <roleName type="political" ana="RN"
+                     nymRef="responsable">trésorier</roleName>
+                  <persName type="political" ana="RN" nymRef="responsable" subtype="accusé"
+                     corresp="#W_Saint-Just">Wallerand de Saint-Just</persName></seg>
+               <w pos="V" msd="Act" n="2">a justifié</w>
+               <seg type="EXP" n="3">un « <said who="W_Saint-Just" direct="true"
+                     corresp="#affaire_Jeanne">mécanisme opérationnel et financier</said>» ayant
+                  sauvé un parti criblé de dettes après « <said who="W_Saint-Just" direct="true"
+                     corresp="#affaire_Jeanne">la catastrophe politique et financière</said>» des
+                  élections de 2007</seg>.</s>
+            <s>Les explications sont devenues plus confuses quand a été abordée la question de
+               l'abus des biens sociaux de <orgName type="economical" corresp="#Frédéric_Chatillon"
+                  >Riwal</orgName> commis en faveur du <orgName type="political" ana="RN"
+                  corresp="#RN">FN</orgName> ou au profit personnel des prévenus.</s>
+         </p>
+         <p>
+            <s><orgName corresp="#FN" type="political"><w n="1" pos="NOM">Le parti</w></orgName> <w pos="V" msd="Pass" n="2">se voit reprocher</w> <seg n='3' type="EXP">d'avoir obtenu de <orgName type="economical"
+                  corresp="#Frédéric_Chatillon">Riwal</orgName> des avantages indus</seg>, dont un
+               crédit-fournisseur suspect de quelque 950.000 euros.</s>
+            <s>Le <orgName type="political" ana="RN" corresp="#RN"><w n="1" pos="NOM">Le FN</w></orgName> <w pos="V" msd="Pass" n="2">est aussi soupçonné</w>
+               <seg n="3" type="EXP">d'avoir facturé frauduleusement à <orgName type="economical"
+                  corresp="#Frédéric_Chatillon">Riwal</orgName> 412.000 euros d'impressions
+                  « surévaluées» pour la présidentielle de 2012</seg>.</s>
+            <s><orgName type="judicial" corresp="#TCP"><w n="1" type="NOM">Le tribunal</w></orgName>
+               <w pos="V" msd="Act" n="2">s'est aussi longuement penché</w>
+               <seg n="3" type="EXP"> sur le train de vie de <persName
+                  type="political" ana="RN" nymRef="sympathisant" subtype="accusé"
+                  corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName></seg>, 51 ans, et de son
+               actuelle compagne Sighild Blanc, absente mais représentée par son avocat.</s>
+         </p>
+         <p>
+            <s>À la barre, le communicant a assumé avoir dépensé, entre 2011 et 2013, de « 10.000 à
+               15.000 euros par mois» en voyages à l'étranger, achats de biens de luxe, tels qu'une
+               Harley Davidson, ou dépenses de sa femme dont il est séparé.</s>
+            <s>Le tout financé sur les comptes de <orgName type="economical"
+                  corresp="#Frédéric_Chatillon">Riwal</orgName> avec les bénéfices engrangés dans sa
+               juteuse collaboration avec le <orgName type="political" ana="RN" corresp="#RN"
+                  >FN</orgName> .</s>
+            <s>Mais l'entrepreneur a contesté tout détournement, assurant avoir chaque fois
+               régularisé les comptes en fin d'année.</s>
+         </p>
+         <p>
+            <s>Enfin, <orgName type="judicial" corresp="#TCP"><w pos="NOM" n="1">Le parquet</w></orgName> <w pos="V" msd="Act" n="2">doit</w> aussi <seg n="3" type="EXP">requérir dans un ultime volet sur les kits utilisés
+               cette fois-ci lors des municipales 2014 ainsi que des départementales et régionales
+               de 2015</seg>.</s>
+            <s>Seuls <persName type="political" ana="RN" nymRef="sympathisant" subtype="accusé"
+                  corresp="#Frédéric_Chatillon">Frédéric Chatillon</persName>, <persName
+                  type="political" corresp="#JF_Jalkh">Jean-François Jalkh</persName> et <orgName
+                  corresp="#Jeanne" type="political">Jeanne</orgName> sont ici concernés.</s>
+            <s>Les avocats de la défense plaideront jeudi et vendredi.</s>
+            <s>Le jugement devrait être mis en délibéré à début 2020.</s>
+         </p>
+      </body>
+   </text>
+</TEI>
