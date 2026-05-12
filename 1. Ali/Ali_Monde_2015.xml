@@ -120,13 +120,13 @@
                     les B.Vice de la Savine, une des cités les plus enclavées du 15e arrondissement.
                     «<said who="#Ahamada" corresp="#Ali" direct="true">On ne s'est croisés
                         qu'une ou deux fois. Mais on vivait exactement les mêmes choses.<eventName
-                            corresp="#Mort_Ali"> Son assassinat</eventName> a été un déclic. Je me
+                            corresp="#mort_Ali"> Son assassinat</eventName> a été un déclic. Je me
                         suis alors intéressé au fonctionnement de notre société.Et j'ai compris que
                        <roleName type="gouvernment">les politiques</roleName> ne comprenaient rien à nos quartiers.</said>»<interp
-                        type="COMMENTARY"/>Vingt ans après, <seg type="NOM" corresp="#Ahamada " n="1">il</seg> <w pos="V" msd="Act" n="2">frissonne encore en évoquant</w>
-                        <seg type="EXP" n="3"><eventName corresp="#Mort_Ali">la mort d'Ibrahim Ali</eventName></seg>.</s>
+                        type="COMMENTARY"/>Vingt ans après, <seg type="NOM" corresp="#Ahamada" n="1">il</seg> <w pos="V" msd="Act" n="2">frissonne encore en évoquant</w>
+                        <seg type="EXP" n="3"><eventName corresp="#mort_Ali">la mort d'Ibrahim Ali</eventName></seg>.</s>
                 <s>
-                    «<said who="#Ahamada" corresp="#Mort_Ali" direct="true">Quand on a appris que
+                    «<said who="#Ahamada" corresp="#mort_Ali" direct="true">Quand on a appris que
                             <roleName type="judicial" subtype="accusé">des colleurs du <orgName
                                 corresp="#RN">FN</orgName></roleName> avaient tiré sur <roleName
                             corresp="#Ali">un des<orgName corresp="#B_Vice"
@@ -182,10 +182,10 @@
                             Comoriens</orgName></said>.»
                     <interp type="COMMENTARY"/><addName corresp="#Ibrahima #Hassany">Les deux
                         hommes</addName> n'ont pas voulu être interviewés ensemble.</s>
-                <s>«<said who="#Ibrahima" corresp="#Mort_Ali" direct="true">Depuis vingt ans, on n'a
+                <s>«<said who="#Ibrahima" corresp="#mort_Ali" direct="true">Depuis vingt ans, on n'a
                         jamais parlé de cette soirée</said>, confie Ali Ibrahima, aujourd'hui cadre
-                    à la mairie de Marseille.<said who="#Ibrahima" corresp="#Mort_Ali" direct="true"
-                        >Entre nous, c'est très pudique.<eventName corresp="#Mort_Ali"> Ce
+                    à la mairie de Marseille.<said who="#Ibrahima" corresp="#mort_Ali" direct="true"
+                        >Entre nous, c'est très pudique.<eventName corresp="#mort_Ali"> Ce
                             drame</eventName> a fait <addName corresp="#Ali">un mort</addName>, mais
                         combien de traumatisés ? Il y avait dix gamins ce soir-là. Aucun n'a eu
                         droit à une aide psychologique.</said>»</s>
@@ -203,7 +203,7 @@
                         type="political" subtype="accusé" nymRef="adhérent" ana="RN">trois adhérents
                         du <orgName corresp="#RN">Front national</orgName></roleName>, qui, ce
                     soir-là, collaient des affiches pour la campagne présidentielle de <persName
-                        corresp="#JM_le_Pen">Jean-Marie Le Pen</persName>.</s>
+                        corresp="#JM_Le_Pen">Jean-Marie Le Pen</persName>.</s>
                 <s>Les deux premiers étaient armés.</s>
                 <s><persName corresp="#Lagier"><seg type="NOM" n="1">Robert Lagier</seg></persName>
                     <w pos="V"  msd="Act"  n="2">a tiré</w><seg  type="ADJ" n="3">trois fois</seg> avec son pistolet automatique
@@ -257,7 +257,7 @@
                         >Ibrahim</persName></orgName>, les aider à s'insérer. A l'époque, on a dû
                         taper sur la table pour imposer nos idées, vis-à-vis des parents qui
                         n'avaient pas confiance, des financeurs. Et, au final, cela s'est soldé par
-                            <eventName corresp="#Mort_Ali">la mort d'un ado</eventName>. Après ça,
+                            <eventName corresp="#mort_Ali">la mort d'un ado</eventName>. Après ça,
                         c'était difficile de tout lâcher</said>», reconnaît-il.</s>
             </p>
             <p>
@@ -321,7 +321,7 @@
             <p>
                 <s>«<said who="JM_Pesenti" direct="true" corresp="#procès_Ali"> Après le procès,
                         j'étais convaincu que <orgName corresp="#RN">le FN</orgName> disparaîtrait
-                        des quartiers nord. Mais on a très vite oublié<eventName corresp="#Mort_Ali"
+                        des quartiers nord. Mais on a très vite oublié<eventName corresp="#mort_Ali"
                             >le meurtre</eventName>,</said> confie <roleName type="judicial"
                         nymRef="avocat" corresp="JM_Pesenti">l'avocat</roleName> des trois accusés,
                         <persName type="judicial" nymRef="avocat" corresp="JM_Pesenti">Jean-Michel
@@ -361,7 +361,7 @@
             </p>
             <p>
                 <s><persName corresp="#Maoulida">Fati</persName> se souvient de son incompréhension
-                    à l'annonce du <eventName corresp="#Mort_Ali">décès</eventName>.</s>
+                    à l'annonce du <eventName corresp="#mort_Ali">décès</eventName>.</s>
                 <s>«<said who="#Maoulida" direct="true">Au collège, je suis allée voir <roleName
                             type="proche" ana="Maoulida">mes copines françaises</roleName>. <orgName
                             type="social" nymRef="nationalité">Des Blanches</orgName>, quoi Je leur
@@ -380,8 +380,8 @@
                 <s><persName corresp="#Maoulida">Fati Maoulida</persName> a eu 14 ans le jour de
                     l'enterrement de <roleName type="proche" ana="Maoulida" corresp="#Ali">son
                         cousin</roleName>.</s>
-                <s>«<said who="#Maoulida" corresp="#Mort_Ali" direct="true">Depuis</said>
-                    confie-t-elle, <said who="#Maoulida" corresp="#Mort_Ali" direct="true">c'est un
+                <s>«<said who="#Maoulida" corresp="#mort_Ali" direct="true">Depuis</said>
+                    confie-t-elle, <said who="#Maoulida" corresp="#mort_Ali" direct="true">c'est un
                         amer anniversaire.</said>» Le 21 février, devant la plaque des
                     Quatre-Chemins, elle laissera <persName corresp="Soly">Soly Mbaé</persName>
                     prendre la parole.</s>
@@ -474,8 +474,8 @@
                     plusieurs familles.
                 Celle de la victime, bien sûr et avant tout, mais aussi celles de militants
                     sincères</said> ».</s>
-                <s><interp type="COMMENTARY"/>Si <persName corresp="#Ravier">Stéphane Ravier</persName> tire une leçon du drame, c'est celle que <persName corresp="#JM_le_Pen">Jean-Marie Le Pen</persName>
-                    évoquait déjà au lendemain du meurtre : « <said who="#Ravier" corresp="#Mort_Ali" direct="true">Ne jamais être armé pour un
+                <s><interp type="COMMENTARY"/>Si <persName corresp="#Ravier">Stéphane Ravier</persName> tire une leçon du drame, c'est celle que <persName corresp="#JM_Le_Pen">Jean-Marie Le Pen</persName>
+                    évoquait déjà au lendemain du meurtre : « <said who="#Ravier" corresp="#mort_Ali" direct="true">Ne jamais être armé pour un
                         collage. </said>»</s>
             </p>
             <p>
