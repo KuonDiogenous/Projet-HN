@@ -106,8 +106,8 @@
             </p>
             <p>
                 <s><interp type="COMMENTARY"/>Un mémorial trop petit pour <eventName
-                        corresp="#Mort_Ali">l'histoire</eventName> qu'il raconte: depuis <eventName
-                        type="judicial" corresp="#Mort_Ali">la mort d'Ibrahim Ali</eventName>,
+                        corresp="#mort_Ali">l'histoire</eventName> qu'il raconte: depuis <eventName
+                        type="judicial" corresp="#mort_Ali">la mort d'Ibrahim Ali</eventName>,
                         <orgName type="proche" ana="Ali">ses proches</orgName> mènent bataille pour
                     qu'une rue porte son nom.</s>
                 <s><interp type="COMMENTARY"/>Il aura fallu un quart de siècle et un basculement de
@@ -187,7 +187,7 @@
                 <s>Ce soir-là, <persName corresp="Soly">Soly</persName>, resté peaufiner ses textes
                     à la cité, apprend la nouvelle par téléphone.</s>
                 <s>
-                    «<said who="Soly" direct="true" corresp="#Mort_Ali">Ça s'est répandu dans la
+                    «<said who="Soly" direct="true" corresp="#mort_Ali">Ça s'est répandu dans la
                         ville comme une traînée de poudre, je me souviens les défilés de scooters de
                         tous les quartiers. Ils voulaient brûler Marseille. Moi aussi, j'étais en
                         feu.</said>»
@@ -245,9 +245,9 @@
             </p>
             <p>
                 <s>Vice.</s>
-                <s>«<said direct="true" corresp="#Mort_Ali" who="Soly">On ne pouvait pas faire
+                <s>«<said direct="true" corresp="#mort_Ali" who="Soly">On ne pouvait pas faire
                         comme si c'était un fait divers comme un autre</said>, explique Soly. <said
-                        direct="true" corresp="#Mort_Ali" who="Soly">Il fallait faire quelque chose
+                        direct="true" corresp="#mort_Ali" who="Soly">Il fallait faire quelque chose
                         pour l'honorer, un endroit où des gens habitent, pour que l'on sache
                         pourquoi on l'a tué.</said>»
                 </s>
