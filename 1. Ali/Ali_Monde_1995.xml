@@ -46,7 +46,7 @@
                     <persName xml:id="Mégret"/>
                 </item>
                 <item>
-                    <persName xml:id="JM_Le_pen"/>
+                    <persName xml:id="JM_Le_Pen"/>
                 </item>
                 <item>
                     <persName xml:id="Ali"/>
@@ -116,7 +116,7 @@
                     dans la nuit de mardi à mercredi 22 février, à Marseille, d'une balle de 22 long
                     rifle tirée dans le dos <seg type="EXP" n="3">par <roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">des
                         colleurs d'affiches de <persName type="political" nymRef="président"
-                            corresp="#JM_Le_pen">Jean-Marie Le Pen</persName></roleName>.</seg></s>
+                            corresp="#JM_Le_Pen">Jean-Marie Le Pen</persName></roleName>.</seg></s>
                 <s>A LA « DEMANDE »<orgName type="political" nymRef="parti"> du Front
                         national</orgName>, <roleName subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">trois hommes</roleName> se
                     sont rendus, mercredi, à la police et ont été placés en <eventName type="police"
@@ -184,11 +184,11 @@
 
             <p>
                 <s>Sur le mur gris de l'entrepôt désaffecté, <persName type="political"
-                        nymRef="président" corresp="#JM_Le_pen">Jean-Marie Le Pen</persName>
+                        nymRef="président" corresp="#JM_Le_Pen">Jean-Marie Le Pen</persName>
                     continue de sourire derrière ses lunettes.</s>
                 <s>Entre les lacérations, on distingue toujours le faisceau tricolore qui s'élance à
                     droite de l'affiche vers un avenir radieux:«<quote source="Affiche"
-                        corresp="#JM_Le_pen #RN" cert="high"> Avec <persName corresp="JM_Le_pen">Le
+                        corresp="#JM_Le_Pen #RN" cert="high"> Avec <persName corresp="JM_Le_Pen">Le
                             Pen</persName>, trois millions d'immigrés rapatrié. En avant pour la
                         Sixième République.</quote>»
                 </s>
@@ -309,7 +309,7 @@
                             <roleName nymRef="race_sociale">beurs
                             mêlés</roleName>, dans un climat de tension très maîtrisée</seg>.</s>
                 <s>«<said who="responsable_associatif_comorien" aloud="true" direct="true">
-                            <persName type="political" nymRef="président" corresp="#JM_Le_pen">Le
+                            <persName type="political" nymRef="président" corresp="#JM_Le_Pen">Le
                             Pen</persName> jouela confusion entre <orgName type="social"
                             nymRef="nationalité" corresp="#français">Français</orgName> et <roleName nymRef="race_sociale">Blancs</roleName>.
                         Ses affiches sont une incitation à nous jeter à la mer. Elles devraient être
@@ -440,12 +440,12 @@
                         corresp="#B_Vice #Ali #Soly">Mohamed</persName>, alias <persName type="proche"
                         corresp="#Soly #B_Vice #Ali">M.T. Soly</persName>
                     <!-- jsp si ça va super bien marcher ça -->, s'en prenait à <persName
-                        type="political" nymRef="président" corresp="#JM_Le_pen">Jean-Marie Le
+                        type="political" nymRef="président" corresp="#JM_Le_Pen">Jean-Marie Le
                         Pen</persName> sans le nommer: <said aloud="true" direct="true" who="#B_Vice"
-                        corresp="#JM_Le_pen">« Il était naguère <addName corresp="#JM_Le_pen">une
+                        corresp="#JM_Le_Pen">« Il était naguère <addName corresp="#JM_Le_Pen">une
                             bête sanguinaire</addName> qui rêvait de faire de la terre entière un
                         enfer pour ceux qui avaient l'erreur et le de venir au monde sans la bonne
-                        couleur de peau, car ce <persName corresp="#JM_Le_pen">sot
+                        couleur de peau, car ce <persName corresp="#JM_Le_Pen">sot
                             inculte</persName>, n'ayons pas peur des mots,rêvait d'un nouveau monde
                         où seuls <roleName nymRef="race_sociale">les
                             Blancs</roleName> seraient égaux.</said></s>
@@ -524,7 +524,7 @@
                     du Havre</orgName> à un an de prison <seg type="EXP" n="3">pour avoir attaqué à coups de
                         batte des partisans de <persName type="political" ana="PC">M.
                             Juquin</persName></seg> qui recouvraient des affiches de <persName
-                        type="political" ana="RN" corresp="#JM_Le_pen">M. Le Pen</persName>.</s>
+                        type="political" ana="RN" corresp="#JM_Le_Pen">M. Le Pen</persName>.</s>
             </p>
             <p>
                 <s>Le 7 mars 1986, <seg type="NOM" n="1" corresp="Philippe_Brocard"><persName>Philippe Brocard</persName></seg>,
@@ -567,7 +567,7 @@
                     <persName corresp="#Voynet">Dominique Voynet</persName>, <roleName type="political"
                         nymRef="candidat" ana="Vert" corresp="#Voynet">candidate des Verts à
                         l'élection présidentielle</roleName>, <said direct="inapplicable"
-                        who="#Voynet">juge, pour sa part, <persName corresp="#JM_Le_pen">Jean Marie
+                        who="#Voynet">juge, pour sa part, <persName corresp="#JM_Le_Pen">Jean Marie
                             Le Pen</persName> « moralement responsable» et demande au <roleName
                             type="gouvernment" corresp="ministre">ministre de l'intérieur</roleName>
                         d'exercer « un strict contrôle sur la possession d'armes »</said>. </s>
@@ -639,19 +639,19 @@
                         militants.</said>»</s>
             </p>
             <p>
-                <s>Quant <roleName type="political" nymRef="président" corresp="#JM_Le_pen">au
+                <s>Quant <roleName type="political" nymRef="président" corresp="#JM_Le_Pen">au
                         président du Front national</roleName>
-                    <persName type="political" corresp="#JM_Le_pen">Jean Marie Le Pen</persName>, il
-                        <said who="#JM_Le_pen" direct="inapplicable">s'est déclaré « profondément
+                    <persName type="political" corresp="#JM_Le_Pen">Jean Marie Le Pen</persName>, il
+                        <said who="#JM_Le_Pen" direct="inapplicable">s'est déclaré « profondément
                         peiné par la mort » d'<persName corresp="#Ali">Ibrahim
-                            Ali</persName></said>. Mais il « <said who="#JM_Le_pen" direct="true">pense
+                            Ali</persName></said>. Mais il « <said who="#JM_Le_Pen" direct="true">pense
                         aussi <roleName type="political" nymRef="militant" corresp="#Accusés">aux
                             militants</roleName> et à <roleName type="proche" corresp="#Accusés"
                             >leurs familles</roleName> qui ont eu le malheur d'être impliqués dans
-                                ce tragique accident.</said>»«<said who="#JM_Le_pen" direct="true">Ceux
+                                ce tragique accident.</said>»«<said who="#JM_Le_Pen" direct="true">Ceux
                         qui se dévouent pour défendre leurs idées et leurs convictions (...) sont,
                         eux aussi, <persName corresp="#Accusés">des victimes de
-                            l'insécurité</persName> </said>», ajoute <roleName corresp="#JM_Le_pen"
+                            l'insécurité</persName> </said>», ajoute <roleName corresp="#JM_Le_Pen"
                         nymRef="président" type="political">le leader
                     d'extrême-droite</roleName>.</s>
             </p>
