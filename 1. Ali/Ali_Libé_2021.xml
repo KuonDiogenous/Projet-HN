@@ -29,7 +29,7 @@
                     <publisher/>
                     <series/>
                     <ptr type="URL" target=""/>
-                    <date when="1900-10-10" type="published"/>
+                    <date when="2021-02-20" type="published"/>
                     <note type="Word_count">1835</note>
                 </bibl>
             </sourceDesc>
@@ -57,7 +57,7 @@
             <p/>
             <!-- METTRE NIVEAU TITRE + REMONTER LES XML:ID-->
             <p>
-                <s>samedi 20 février 2021 1835 mots, p.</s>
+                <s>1835 mots</s>
             </p>
             <p/>
             <p/>
