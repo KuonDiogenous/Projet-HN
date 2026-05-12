@@ -261,6 +261,7 @@
           <ref name="roleName"/>
           <ref name="seg"/>
           <ref name="w"/>
+          <ref name="said"/>
         </choice>
       </oneOrMore>
       <optional>
