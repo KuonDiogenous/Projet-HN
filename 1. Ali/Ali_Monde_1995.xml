@@ -108,7 +108,7 @@
             <p>LE MONDE VENDREDI 24 FÉVRIER 1995</p>
             <p>
 
-                <hi n="3">MARSEILLE</hi>
+                <hi>MARSEILLE</hi>
 
                 <s>
                   <seg type="NOM" n="1"><persName type="judicial" subtype="victime" corresp="#Ali">Ibrahim
@@ -146,7 +146,7 @@
                             type="judicial" corresp="#Ali">Ibrahim Ali.</persName></eventName></s>
             </p>
             <p>
-                <hi n="1">
+                <hi>
                     <s><seg type="NOM" n="1"><roleName corresp="#Lagier #Giglio #Ambrosio">Des militants du FN</roleName></seg>
                         <w pos="V" msd="Act" n="2">sont impliqués</w> dans <seg type="EXP" n="3"
                                 ><eventName type="judicial" corresp="#mort_Ali">la mort d'<persName
@@ -155,7 +155,7 @@
                 </hi>
             </p>
             <p>
-                <hi n="2">
+                <hi>
                     <s><roleName type="judicial" subtype="accusé" corresp="#Lagier #Giglio #Ambrosio">Trois personnes</roleName> étaient
                             <eventName type="police" nymRef="GAD">placées en garde à
                         vue</eventName>, jeudi 23 février, à Marseille, après <eventName
@@ -171,14 +171,14 @@
 
             <p>
                 <s>
-                    <hi n="3">
+                    <hi>
                         <s>MARSEILLE</s>
                     </hi>
                 </s>
             </p>
             <p>
                 <s>
-                    <hi n="4">de notre envoyé spécial </hi>
+                    <hi>de notre envoyé spécial </hi>
                 </s>
             </p>
 
@@ -226,7 +226,7 @@
             </p>
             <p>
                 <s>
-                    <hi n="3">AU MOINS TROIS ARMES </hi>
+                    <hi>AU MOINS TROIS ARMES </hi>
                 </s>
             </p>
             <p>
@@ -239,19 +239,19 @@
                         ont dans les films.</said>"</s>
                 <s>Simultanément, <seg type="NOM" n="1"><roleName type="judicial" subtype="accusé">les
                             occupants d'une R18</roleName></seg>
-                    <w pos="V" msd="Act">ont ouvert </w><seg type="EXP" n="3">le feu</seg>, rapportent les musiciens.</s>
+                    <w pos="V" msd="Act" n="2">ont ouvert </w><seg type="EXP" n="3">le feu</seg>, rapportent les musiciens.</s>
                 <s>
                     <persName corresp="#B_Vice #Soulé" subtype="témoin" type="judicial"
                         >Soulé</persName>, dix-huit ans, pense avoir été visé avec un pistolet à
                     grenaille.</s>
                 <s>
                     <seg type="PRONOUN" corresp="Soulé" n="1">Il</seg>
-                    <w pos="V" msd="Act" n="2">s'est couché pour faire le mort</w>.<persName
+                    <w pos="V" msd="Act" n="2">s'est couché</w> <seg type="EXP" n="3">pour faire le mort</seg>.<persName
                         corresp="#B_Vice #Hassany" type="judicial" subtype="témoin">
                         Hassany</persName>, lui, a fait demi-tour en courant:«<said aloud="true"
                         direct="true" who="#Hassany"> J'ai entendu d'autres coups de feu, des cris:
                         venez, <seg type="PRONOUN" n="1">ils</seg>
-                        <w pos="V" msd="Act" n="2">ont eu</w><seg type="NOM" n="2" corresp="Ali"><persName type="judicial" subtype="victime"
+                        <w pos="V" msd="Act" n="2">ont eu</w><seg type="NOM" n="3" corresp="Ali"><persName type="judicial" subtype="victime"
                             corresp="#Ali">
                         Ibrahim</persName></seg>. Quand je l'ai vu par terre, je l'ai cru évanoui.Je
                         croyais qu'ils avaient voulu nous faire peur, juste avec des fusils à plomb.
@@ -332,7 +332,7 @@
             </p>
             <p>
                 <s>
-                    <hi n="3">SOLIDARITÉ </hi>
+                    <hi>SOLIDARITÉ </hi>
                 </s>
             </p>
             <p>
@@ -455,7 +455,7 @@
             </p>
             <p>
                 <s>
-                    <hi n="2">
+                    <hi>
                         <s><seg type="EXP" n="1"><roleName type="political" nymRef="elu"
                                     ana="RN">Plusieurs membre du Front national</roleName></seg>
                             déjà <w pos="V" msd="Pass" n="2">condamnés</w><seg type="EXP" n="3">lors de campagnes
@@ -538,7 +538,7 @@
             </p>
             <p>
                 <s>
-                    <hi n="2">Indignation générale au sein des partis et des associations </hi>
+                    <hi>Indignation générale au sein des partis et des associations </hi>
                 </s>
             </p>
             <p>
