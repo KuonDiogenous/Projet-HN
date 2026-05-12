@@ -173,7 +173,7 @@
                 <s>Sur leur route,<roleName type="judicial" subtype="accusé" corresp="#Giglio #Lagier #Ambrosio"> trois militants du
                             <orgName corresp="#RN">Front national</orgName></roleName>, venus
                     recouvrir les murs d'affiches de <persName type="political" nymRef="président"
-                        corresp="#JM_le_Pen">Jean-Marie Le Pen</persName>, alors en campagne
+                        corresp="#JM_Le_Pen">Jean-Marie Le Pen</persName>, alors en campagne
                     présidentielle.</s>
                 <s><seg type="NOM" n="1">Deux d'entre eux</seg>, <persName type="judicial"
                         subtype="accusé" corresp="#Lagier">Robert Lagier</persName>, 63 ans, et
@@ -290,8 +290,8 @@
                 <s>
                     «<said who="#Soly" corresp="#RN" direct="true">Nos politiques ne se sont pas
                         battus pour le bien des habitants,</said> tranche Soly.<said who="#Soly"
-                        corresp="#RN" direct="true"> Avant, <persName corresp="JM_le_Pen">Le
-                            Pen</persName>, c'était <addName corresp="#JM_le_Pen">le
+                        corresp="#RN" direct="true"> Avant, <persName corresp="JM_Le_Pen">Le
+                            Pen</persName>, c'était <addName corresp="#JM_Le_Pen">le
                             diable</addName>, aujourd'hui on a <seg type="ADJ"
                             corresp="Marine_Le_Pen">une blonde qui présente bien</seg>, mais on sait
                             que les idées sont les mêmes.</said>»
@@ -319,7 +319,7 @@
                             corresp="#Ali">Ibrahim-Ali</persName></quote>», un terre-plein rebaptisé
                     en catimini sans même que <roleName type="proche" ana="Ali">la famille</roleName> ou <roleName type="proche" ana="Ali">les amis</roleName> n'aient été informés.</s>
                 <s>Un ratage total, jusque dans la date de naissance du jeune homme, 1978 au lieu de
-                    1977 "<said direct="true" who="Soly" corresp="plaque_commémorative_rond-point"
+                    1977 "<said direct="true" who="Soly" corresp="plaque_commémorative"
                         >C'était d'une violence</said>, grince Soly. <said direct="true"
                         who="Soly">En gros, c'était : fermez vos gueules, on vous a mis un
                         rondpoint en bas de votre cité !</said>"</s>
