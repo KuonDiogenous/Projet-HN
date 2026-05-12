@@ -77,7 +77,7 @@
                     du ressentiment te : la justice en général et <persName
                         type="judicial" corresp="#Bénédicte_Perthuis"> Bénédicte de
                         Perthuis</persName> en particulier, 
-                    <seg type="NOM" n="1" corresp="Bénédicte_Perthuis"><roleName type="judicial" nymRef="magistrat" corresp="#Bénédice_Perthuis">la magistrate </roleName></seg>
+                    <seg type="NOM" n="1" corresp="Bénédicte_Perthuis"><roleName type="judicial" nymRef="magistrat" corresp="#Bénédicte_Perthuis">la magistrate </roleName></seg>
                     <w pos="V" n="2" msd="Act">coupable d'avoir immolé</w>
                     <seg type="EXP" n="3"><persName corresp="#Marine_Le_Pen" ana="RN" type="political">
                         Marine LePen</persName></seg>, c'est-à-dire d'avoir appliqué la loi en
