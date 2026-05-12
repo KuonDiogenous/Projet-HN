@@ -75,7 +75,7 @@
                     <persName xml:id="Ali"/>
                 </item>
                 <item>
-                    <persName xml:id="JM_le_Pen"/>
+                    <persName xml:id="JM_Le_Pen"/>
                 </item>
                 <item>
                     <persName xml:id="Fayolle"/>
@@ -153,12 +153,12 @@
                     <addName corresp="#Lagier">Fils de héros.</addName>
                 </s>
                 <s>
-                    <persName type="proche" corresp="#Lagier Robert_Lagier">Robert
+                    <persName type="proche" corresp="#Lagier">Robert
                         Lagier</persName> est né à Alger en 1932, d'un <addName type="proche"
-                        corresp="#Lagier Robert_Lagier">père héros</addName> qui avait rejoint de
+                        corresp="#Lagier">père héros</addName> qui avait rejoint de
                     Gaulle à Londres puis les Anglais dans les commandos de marine, et mettait des
                     raclées à ses enfants quand ils ne marchaient pas droit.</s>
-                <s>Démobilisé, <addName type="proche" corresp="#Lagier Robert_Lagier">le papa
+                <s>Démobilisé, <addName type="proche" corresp="#Lagier">le papa
                         adjudant-chef</addName> monte un atelier photo, la maman est fille d'un
                     facteur toulousain, et<interp type="IRONY"/><said direct="false" aloud="true" who="#Lagier">
                         <seg type="NOM" n="1"><addName corresp="#Lagier">le petit
@@ -221,10 +221,10 @@
 
             <p>
                 <s> <w pos="PRONOUN" corresp="#Lagier" n="1">il</w> ne vote plus, sauf des fois pour Giscard, et <w pos="V" msd="Act" n="2">va écouter</w> <seg type="EXP" n="3">deux fois <persName
-                        type="political" nymRef="président" corresp="#JM_le_Pen">Le Pen</persName></seg>.
+                        type="political" nymRef="président" corresp="#JM_Le_Pen">Le Pen</persName></seg>.
                         "<said aloud="true" direct="true" who="#Lagier" corresp="#Vision_FN">J'ai
                         entendu tout ce qui a été dit, rien ne m'a choqué. Par contre, tout ce qu'on
-                        disait le lendemain sur <w pos="PRONOUN" corresp="#JM_le_Pen">lui</w> dans
+                        disait le lendemain sur <w pos="PRONOUN" corresp="#JM_Le_Pen">lui</w> dans
                         les journaux était faux, les phrases avaient été manipulées,
                         bricolées.</said>"</s>
                 <s>Il prend sa carte, mais va à <eventName type="political" nymRef="manifestation"
@@ -323,7 +323,7 @@
                         choqué affectivement</said>" son <roleName type="proche" corresp="#Ambrosio"
                         >fils</roleName>. <roleName type="proche" corresp="#Ambrosio">Lui, le fils
                         d'immigré</roleName>, veut mettre les immigrés dehors? <said>"Je laisse
-                            <persName corresp="#JM_le_Pen">Le Pen</persName> libre de ses déclara
+                            <persName corresp="#JM_Le_Pen">Le Pen</persName> libre de ses déclara
                         tions."</said></s>
                 <s> D'ailleurs, <persName type="judicial" subtype="accusé" corresp="#Ambrosio"
                         >Mario</persName> n'est pas contrariant: <said aloud="true"
