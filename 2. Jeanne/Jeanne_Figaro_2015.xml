@@ -41,7 +41,7 @@
         <body>
             <list>
                 <item><persName xml:id="Marine_Le_Pen"/></item>
-                <item><persName xml:id="JM_le_pen"/></item>
+                <item><persName xml:id="JM_Le_Pen"/></item>
                 <item><persName xml:id="Frédéric_Chatillon"/></item>
                 
                 <item> <eventName xml:id="affaire_Jeanne"/> </item>
@@ -57,7 +57,7 @@
             <p>
                 <s>Le <seg n="1" type="NOM"><orgName type="political" subtype="accusé" ana="RN" corresp="#RN" nymRef="parti">Front national</orgName></seg> <w n="2" msd="Act" pos="V">enchaîne</w> <seg n="3" type="NOM">les mauvaises nouvelles</seg>. </s>
                     
-                <s> Alors que <seg n="1" type="NOM">la querelle politico familiale </seg> <w n="2" pos="V" msd="Act">bat son plein </w> entre <persName type="political" corresp="#Marine_Le_Pen">Marine Le Pen </persName> et son père <persName type="political" ana="RN" corresp="#JM_le_pen">Jean-Marie</persName>, <orgName type="political" ana="RN" subtype="accusé" nymRef="parti">Jeanne</orgName>, le 
+                <s> Alors que <seg n="1" type="NOM">la querelle politico familiale </seg> <w n="2" pos="V" msd="Act">bat son plein </w> entre <persName type="political" corresp="#Marine_Le_Pen">Marine Le Pen </persName> et son père <persName type="political" ana="RN" corresp="#JM_Le_Pen">Jean-Marie</persName>, <orgName type="political" ana="RN" subtype="accusé" nymRef="parti">Jeanne</orgName>, le 
                     microparti de la présidente du <orgName type="political" ana="RN" corresp="#RN">Front national</orgName> a été <seg n="3" type="EXP">mis en examen </seg> mardi en tant que 
                     personne morale, pour escroquerie. </s>
                     
@@ -75,7 +75,7 @@
                    <s> Il a été créé fin 2010, au moment où elle n'était que simple <persName type="political" nymRef="responsable" subtype="accusé" ana="RN" corresp="#Marine_Le_Pen">vice
                     présidente du parti d'extrême droite</persName>, postulante à la <eventName corresp="#Marine_Le_Pen">succession de son père</eventName>. </s> 
                     
-                   <s> Cette structure a continué à lui servir après l'élection interne: <persName corresp="#JM_le_Pen">Jean-Marie Le Pen</persName> n'a jamais 
+                   <s> Cette structure a continué à lui servir après l'élection interne: <persName corresp="#JM_Le_Pen">Jean-Marie Le Pen</persName> n'a jamais 
                     lâché les rênes de la <orgName ana="RN" type="political" nymRef="parti" corresp="RN">Cotelec</orgName>, son propre micro-parti, qui a aidé le FN à assurer une partie 
                     du financement de ces campagnes. </s>
                     
