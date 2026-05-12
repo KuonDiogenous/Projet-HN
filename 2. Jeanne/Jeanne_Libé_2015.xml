@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/KuonDiogenous/biais/refs/heads/Sch%C3%A9ma/Sch%C3%A9ma%20v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="">
+    xml:id="Jeanne_Libé_2015">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -85,16 +85,16 @@
                         > est visé.</seg></s>
                 
                 <s><interp type="COMMENTARY" corresp="#affaire_Jeanne">Et pas des moindres</interp>,
-                    puisqu'il s'agit de <seg n="1" type="NOM">><persName corresp="#JF_Jalkh" ana="RN"
+                    puisqu'il s'agit de <persName corresp="#JF_Jalkh" ana="RN"
                             type="political">Jean-François Jalkh</persName></seg>, <roleName
                         type="political" ana="RN" corresp="#JF_Jalkh">vice-président</roleName>,
                         <roleName type="political" ana="RN" corresp="#JF_Jalkh">responsable des
                         questions juridiques du parti d'extrême droite</roleName>, et <roleName
                         type="gouvernment" ana="RN" corresp="#JF_Jalkh">député
                     européen</roleName>.</s>
-                <s>C'est cependant son rôle de <seg n="2"><roleName type="political" ana="RN"
+                <s>C'est cependant <seg n="2">son rôle de <roleName type="political" ana="RN"
                             corresp="#JF_Jalkh" subtype="accusé">secrétaire général de
-                            Jeanne</roleName></seg> qui lui vaut d'être <seg n="3" type="V">inquiété dans cette
+                            Jeanne</roleName></seg> qui <seg n="2">lui vaut</seg> <seg n="3" type="EXP">d'être inquiété dans cette
                         <eventName corresp="#affaire_Jeanne">affaire</eventName>.</seg></s>
                 
             </p>
