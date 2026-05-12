@@ -81,7 +81,7 @@
 
          <p>
             <s><orgName type="judicial" corresp="#TCP"><w pos="NOM" n="1">Le parquet</w></orgName>
-               <w pos="V" msd="Act">a également requis</w>
+               <w pos="V" msd="Act"  n="2">a également requis</w>
                <seg n="3">deux ans de prison ferme contre <persName type="political" ana="RN"
                      nymRef="sympathisant" subtype="accusé" corresp="#Frédéric_Chatillon">Frédéric
                      Chatillon</persName></seg>, proche conseiller de <persName
@@ -94,7 +94,7 @@
          <p>
             <s><seg n="1"><orgName type="judicial" corresp="#TCP">Le parquet de
                   Paris</orgName></seg>
-               <w pos="V" msd="Act">a requis</w> ce mercredi <seg n="3">une amende de 500.000 euros
+               <w pos="V" msd="Act" n="2">a requis</w> ce mercredi <seg n="3">une amende de 500.000 euros
                   contre le <orgName type="political" ana="RN" corresp="#RN">FN</orgName> dans
                      <eventName corresp="#kits_de_campagne">l'affaire des kits de campagne des
                      législatives de 2012</eventName></seg>, un système soupçonné de cacher
@@ -104,7 +104,7 @@
                   <persName corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le
                   Pen</persName>, <seg n="1"><orgName type="judicial" corresp="#TCP">le ministère
                      public</orgName></seg>
-               <w pos="V" msd="Act">a requis</w>
+               <w pos="V" msd="Act" n="2">a requis</w>
                <seg n="3">la peine la plus lourde</seg>: quatre ans de prison, dont deux avec
                sursis, 200.000 euros d'amende et une interdiction de gestion définitive pour le
                patron de la société de communication <orgName type="economical"
@@ -134,13 +134,13 @@
          <p>
             <s>Pour ses finances déjà fragiles, <seg n="1" type="EXP"><orgName type="political"
                      ana="RN" corresp="#RN">le parti d'extrême-droite</orgName></seg>
-               <w msd="Act" pos="V">a plus à craindre</w>
-               <seg type="EXP">de ces dommages et intérêts que de l'amende</seg> dont le montant
+               <w msd="Act" pos="V" n="2">a plus à craindre</w>
+               <seg type="EXP" n="3">de ces dommages et intérêts que de l'amende</seg> dont le montant
                maximum, en cas de condamnation, ne dépasserait pas quelques centaines de milliers
                d'euros.</s>
             <s><seg n="1" type="EXP"><orgName type="political" ana="RN" corresp="#RN">Le
                      parti</orgName></seg>
-               <w pos="V" msd="Act">comparaît</w> depuis le 6 novembre devant le tribunal
+               <w pos="V" msd="Act" n="2">comparaît</w> depuis le 6 novembre devant le tribunal
                correctionnel de Paris, <seg n="3" type="EXP">pour «complicité d'escroqueries et de
                   tentatives d'escroqueries» et «recel d'abus de biens sociaux»</seg>.</s>
             <s>L'audience se poursuit ce mercredi après-midi avec les réquisitions du parquet sur la
@@ -177,14 +177,14 @@
             <s><seg type="ADJ" n="1">Ce <w pos="ADJ" corresp="#Frédéric_Chatillon">proche</w>
                   conseiller de <persName corresp="#Marine_Le_Pen" ana="RN" type="political">Marine
                      Le Pen</persName></seg>
-               <w pos="V" msd="Pass">est soupçonné</w>
+               <w pos="V" msd="Pass" n="2">est soupçonné</w>
                <seg type="EXP" n="3">de s'être enrichi frauduleusement, ainsi que son
                   entourage</seg>, grâce à d'astucieux montages dans les cuisines de la
                communication électorale du parti.</s>
             <s>Au cœur du dossier, <seg type="EXP" n="1">les <eventName corresp="#kits_de_campagne"
                      >« kits» de campagne des législatives de 2012</eventName></seg>: composés de
                tracts, d'affiches, d'un site internet et de prestations comptable, ils <w pos="V"
-                  msd="Pass">étaient vendus</w>
+                  msd="Pass" n="2">étaient vendus</w>
                <seg type="EXP" n="3">16.650 euros aux candidats par <orgName corresp="#Jeanne"
                      type="political">Jeanne</orgName></seg>, le micro-parti de <persName
                   corresp="#Marine_Le_Pen" ana="RN" type="political">Marine Le Pen</persName>, et
@@ -198,7 +198,7 @@
                   surévaluées», destinées à tromper l'État</seg>, qui rembourse les dépenses des
                candidats dépassant 5% des voix.</s>
             <s><orgName corresp="#Jeanne" type="political"><w pos="NOM" n="1">Jeanne</w></orgName>
-               <w pos="V" msd="Act">prétait</w> en effet le <seg type="EXP">montant du kit, et les
+               <w pos="V" msd="Act" n="2">prétait</w> en effet le <seg type="EXP" n="3">montant du kit, et les
                   intérêts, aux candidats qui lui rendaient immédiatement l'argent en achetant le
                   matériel.</seg></s>
             <s>Cet « aller-retour comptable» permettait à <orgName corresp="#Jeanne"
@@ -206,7 +206,7 @@
                9 millions d'euros.</s>
             <s><orgName corresp="#Jeanne" type="political"><w pos="NOM" n="1">Le
                   micro-parti</w></orgName>
-               <w pos="V" msd="Act">attendait</w>
+               <w pos="V" msd="Act" n="2">attendait</w>
                <seg type="EXP" n="3">ensuite le remboursement de l'Etat pour obtenir de quoi payer
                      <orgName type="economical" corresp="#Frédéric_Chatillon">Riwal</orgName></seg>,
                son unique intermédiaire auprès des imprimeurs.</s>
