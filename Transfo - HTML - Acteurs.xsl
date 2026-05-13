@@ -121,7 +121,7 @@
                                                     <xsl:value-of select="."/>                      
                                                 </xsl:attribute>
                                             </xsl:element>
-                                        </xsl:for-e          </xsl:when>                                                     
+                                        </xsl:for-e          </xsl:when>                                                    
                                 </xsl:choose>
                             </xsl:for-each>
                         </xsl:variable>
@@ -405,7 +405,424 @@ Appeler les citations ayant un corresp correspondant aux personnes récupérées
             </xsl:element>
 
         </xsl:element>
+<xsl:call-template name="page_acteurs"/>
+    </xsl:template>
 
+    <xsl:template name="page_acteurs">
+
+
+        <!-- Variable de l'index modifiée -->
+        <xsl:variable name="CorrespNamePage">
+
+            <!-- Récupère tous les @corresp -->
+            <xsl:for-each
+                select="//tei:persName[@corresp] | //tei:roleName[@corresp] | //tei:addName[@corresp]">
+
+                <!-- tokenize permettant de s'occuper des @corresp à multiples valeurs -->
+                <xsl:for-each select="tokenize(@corresp, '\s+')">
+
+
+                    <!-- Item pour récup -->
+                    <xsl:element name="item">
+                        <xsl:attribute name="xml:id">
+                            <xsl:value-of select="replace(., '^#', '')"/>
+                        </xsl:attribute>
+                    </xsl:element>
+
+
+
+                </xsl:for-each>
+
+            </xsl:for-each>
+
+        </xsl:variable>
+
+
+        <!-- group-by @xml:id pour uniformiser et enlever doublon -->
+        <xsl:for-each-group select="$CorrespNamePage/item" group-by="@xml:id">
+
+            <xsl:sort select="@xml:id"/>
+
+            <!-- pour générer seuelement les pages nécessaires -->
+            <xsl:if test="count(current-group()) &gt; 2">
+
+                <!-- var pour éviter les répitions replace(current-grouping-key(), '_', ' ') -->
+                <xsl:variable name="NameNorm" select="replace(current-grouping-key(), '_', ' ')"/>
+                
+                <!-- var pour éviter les répitions replace(current-grouping-key(), '_', ' ') -->
+                <xsl:variable name="NameKey" select="current-grouping-key()"/>
+
+
+                <xsl:result-document method="html" indent="yes" href="{current-grouping-key()}.html">
+
+                    <xsl:element name="html">
+                        <xsl:element name="head">
+                            <xsl:element name="meta">
+                                <xsl:attribute name="charset">
+                                    <xsl:text>UTF-8</xsl:text>
+                                </xsl:attribute>
+                            </xsl:element>
+                            <xsl:element name="link">
+                                <xsl:attribute name="rel">
+                                    <xsl:text>stylesheet</xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="type">
+                                    <xsl:text>text/css</xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:text>./style.css</xsl:text>
+                                </xsl:attribute>
+                            </xsl:element>
+                            <xsl:element name="title">
+                                <xsl:value-of select="$NameNorm"/>
+                            </xsl:element>
+                        </xsl:element>
+                        <xsl:element name="nav">
+                            <xsl:element name="a">
+                                <xsl:attribute name="href">
+                                    <xsl:text>Menu transfo.html</xsl:text>
+                                </xsl:attribute>
+                                <xsl:text>Retour à la liste des transfo</xsl:text>
+                            </xsl:element>
+                        </xsl:element>
+
+                        <xsl:element name="body">
+
+                            <xsl:element name="header">
+                                <xsl:element name="div">
+                                    <xsl:attribute name="class">
+                                        <xsl:text>menu</xsl:text>
+                                    </xsl:attribute>
+
+                                    <xsl:element name="ul">
+
+                                        <xsl:element name="li">
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">
+                                                  <xsl:text>index.html</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:text>Accueil</xsl:text>
+                                            </xsl:element>
+                                        </xsl:element>
+
+                                        <xsl:element name="li">
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">
+                                                  <xsl:text>démarche.html</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:text>Notre démarche</xsl:text>
+                                            </xsl:element>
+                                        </xsl:element>
+
+
+                                        <xsl:element name="li">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>base_sous_menu</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">
+                                                  <xsl:text>résultats.html</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:text>Résultats</xsl:text>
+                                            </xsl:element>
+
+                                            <xsl:element name="ul">
+                                                <xsl:attribute name="class">
+                                                  <xsl:text>sous_menu</xsl:text>
+                                                </xsl:attribute>
+
+
+                                                <xsl:element name="li">
+                                                  <xsl:element name="a">
+                                                  <xsl:attribute name="href">
+                                                  <xsl:text>transfo_seg.html</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:text>Transformation - Ordonnancement des informations</xsl:text>
+                                                  </xsl:element>
+                                                </xsl:element>
+
+                                                <xsl:element name="li">
+                                                  <xsl:element name="a">
+                                                  <xsl:attribute name="href">
+                                                  <xsl:text>transfo_cit.html</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:text>Transformation - Citations</xsl:text>
+                                                  </xsl:element>
+                                                </xsl:element>
+
+                                                <xsl:element name="li">
+                                                  <xsl:element name="a">
+                                                  <xsl:attribute name="href">
+                                                  <xsl:text>transfo_acteurs.html</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:text>Transformation - Acteurs</xsl:text>
+                                                  </xsl:element>
+                                                </xsl:element>
+
+                                            </xsl:element>
+                                        </xsl:element>
+
+                                        <xsl:element name="li">
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">
+                                                  <xsl:text>observations.html</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:text>Observations</xsl:text>
+                                            </xsl:element>
+                                        </xsl:element>
+
+                                        <xsl:element name="li">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>base_sous_menu</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">
+                                                  <xsl:text>dépôt_fichiers.html</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:text>Dépôt des fichiers</xsl:text>
+                                            </xsl:element>
+
+                                            <xsl:element name="ul">
+                                                <xsl:attribute name="class">
+                                                  <xsl:text>sous_menu</xsl:text>
+                                                </xsl:attribute>
+
+
+                                                <xsl:element name="li">
+                                                  <xsl:element name="a">
+                                                  <xsl:attribute name="href">
+                                                  <xsl:text>dépôt_articles.html</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:text>Articles (PDF)</xsl:text>
+                                                  </xsl:element>
+                                                </xsl:element>
+
+                                                <xsl:element name="li">
+                                                  <xsl:element name="a">
+                                                  <xsl:attribute name="href">
+                                                  <xsl:text>dépôt_xml.html</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:text>Fichiers encodés (XML)</xsl:text>
+                                                  </xsl:element>
+                                                </xsl:element>
+
+                                                <xsl:element name="li">
+                                                  <xsl:element name="a">
+                                                  <xsl:attribute name="href">
+                                                  <xsl:text>dépôt_xslt.html</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:text>Transformations (XSLT)</xsl:text>
+                                                  </xsl:element>
+                                                </xsl:element>
+
+                                            </xsl:element>
+                                        </xsl:element>
+
+
+                                    </xsl:element>
+
+
+                                </xsl:element>
+                            </xsl:element>
+                            <xsl:element name="main">
+
+
+                                <xsl:element name="div">
+                                    <xsl:attribute name="class">
+                                        <xsl:text>container_grid</xsl:text>
+                                    </xsl:attribute>
+
+
+                                    <xsl:element name="div">
+                                        <xsl:attribute name="id">
+                                            <xsl:text>item1</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:element name="h1">
+                                            <xsl:value-of select="$NameNorm"/>
+                                        </xsl:element>
+                                    </xsl:element>
+
+
+                                    <xsl:element name="div">
+                                        <xsl:attribute name="id">
+                                            <xsl:text>item2</xsl:text>
+                                        </xsl:attribute>
+
+
+
+                                        <!-- Photo de profil, vérifier que format toujours dans le même format
+                                que photo toujours avec le bon nom. Possibilité de mettre sur github 
+                                et de faire un .../current-grouping-key().png-->
+                                        <xsl:element name="img">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="current-grouping-key()"/>
+                                                <xsl:text>.jpg</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="class">
+                                                <xsl:text>pp</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt"/>
+                                        </xsl:element>
+
+
+
+                                        <xsl:element name="div">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>desc</xsl:text>
+                                            </xsl:attribute>
+                                        </xsl:element>
+                                        <!-- ? -->
+                                    </xsl:element>
+
+                                    <!-- présentation -->
+                                    <xsl:element name="div">
+                                        <xsl:attribute name="id">
+                                            <xsl:text>item3</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:element name="h2">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>desc</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:text>Présentation</xsl:text>
+
+                                        </xsl:element>
+
+                                        <xsl:element name="p">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>desc</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:text>Test
+                                        </xsl:text>
+
+                                        </xsl:element>
+                                    </xsl:element>
+
+
+
+                                    <!-- Noms -->
+                                    <xsl:element name="div">
+                                        <xsl:attribute name="class">
+                                            <xsl:text>nick</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="id">
+                                            <xsl:text>item5</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:element name="h2">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>nick</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:text>Désignation</xsl:text>
+</xsl:element>
+
+                                            <xsl:element name="ul">
+                                                <xsl:attribute name="class">
+                                                  <xsl:text>nick</xsl:text>
+                                                </xsl:attribute>
+<!-- 
+                                                <xsl:for-each select="//ancestor::tei:persName | //ancestor::tei:roleName | //ancestor::tei:addName">
+                                                    <xsl:element name="li">
+                                                    </xsl:element>
+                                                </xsl:for-each>
+           -->                                      
+                                                
+                                                <xsl:value-of select="$NameKey"/>
+                                                <xsl:value-of select="current-grouping-key()"/>
+                                                
+                                                
+
+                                                
+                                            </xsl:element>
+                                        
+
+
+
+
+                                    </xsl:element>
+
+                                    <!-- occurences -->
+                                    <xsl:element name="div">
+                                        <xsl:attribute name="class">
+                                            <xsl:text>occurences</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="id">
+                                            <xsl:text>item4</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:element name="h2">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>occurences</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:text>Occurrences dans les articles</xsl:text>
+                                        </xsl:element>
+                                        <xsl:element name="p"> Test </xsl:element>
+                                        
+                                    </xsl:element>
+<!--  -->
+                                    <xsl:element name="div">
+                                        <xsl:attribute name="class">
+                                            <xsl:text>citations</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="id">
+                                            <xsl:text>item6</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:element name="h2">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>citations</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:text>Citations</xsl:text>
+                                        </xsl:element>
+                                        
+                                        <xsl:element name="h3">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>titre_cit</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:text>Citations directes</xsl:text>
+                                        </xsl:element>
+                                        
+                                        <xsl:element name="ul">
+                                            <xsl:element name="li">
+                                                
+                                                
+                                                
+                                            </xsl:element>
+                                        </xsl:element>
+                                        
+                                        
+                                        <xsl:element name="h3">
+                                            <xsl:attribute name="class">
+                                                <xsl:text>titre_cit</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:text>Ce que l'on en dit</xsl:text>
+                                        </xsl:element>
+                                        
+                                        
+                                        <xsl:element name="ul">
+                                            <xsl:element name="li">
+                                                
+                                                
+                                                
+                                            </xsl:element>
+                                        </xsl:element>
+                                        
+                                        
+                                        <xsl:element name="p"> Test </xsl:element>
+                                    </xsl:element>
+
+                                </xsl:element>
+                            </xsl:element>
+
+                        </xsl:element>
+                    </xsl:element>
+                    <!--     Sur cette page html on pourra trouver : une photo des acteurs, des textes en durs pour les trouver + les surnoms qu’ils ont des les articles, 
+                        où les citations dans lesquelles ils sont mentionnés. Avant ça il faut donc récupérer les données dans les fichiers XML, en créant un document html 
+                        de base à travers le langage XSLT. Appeler les qualifications/citations Appeler le contenu de toutes les balises roleName, persName, addName avec un 
+                        corresp ayant pour valeur les personnes récupérées + haut Appeler les citations ayant un corresp correspondant aux personnes récupérées + haut 
+              -->
+
+                </xsl:result-document>
+
+            </xsl:if>
+
+        </xsl:for-each-group>
     </xsl:template>
 
     <!-- Appeler le contenu de toutes les balises roleName, persName, addName avec un corresp ayant pour valeur les personnes récupérées + haut 
