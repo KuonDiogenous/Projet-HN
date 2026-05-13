@@ -277,9 +277,9 @@
                 <s><interp type="COMMENTARY"/>C'est <roleName type="judicial" nymRef="président"
                         corresp="#Fayolle">le président</roleName> qui marque un point.</s>
                 <s>"<said direct="true" aloud="true" who="#Fayolle" toWhom="#Lagier"
-                        corresp="#Vision_FN préférence_nationale">Selon vous </said>, demande
+                        corresp="#Vision_FN préférence_nationale" type="innaplicable">Selon vous, demande
                         <persName type="judicial" nymRef="président" corresp="#Fayolle">Bernard
-                        Fayolle</persName>,<said> la préférence nationale, c'est un <w pos="ADJ"
+                        Fayolle</persName>,la préférence nationale, c'est un <w pos="ADJ"
                             corresp="préférence_nationale">propos raciste</w>?</said>"</s>
                 <s>
                     "<said direct="true" aloud="true" who="#Lagier" toWhom="#Fayolle"
@@ -315,13 +315,14 @@
                         politiques.Parce qu'on accepte les gens, et on n'est pas capable de leur
                         donner du travail, c'est une question de dignité. Le reste, je m'en
                         fous.</said>"</s>
-                <s><persName type="judicial" subtype="accusé" corresp="#Ambrosio"
-                        >D'Ambrosio</persName> est <seg type="NOM" corresp="#Ambrosio">le fils d'un
+                <s><said who="#Giglio"
+                        aloud="true" direct="innaplicable" corresp="refus_de_naturalisation_de_son_père">
+                        <persName type="judicial" subtype="accusé" corresp="#Ambrosio">
+                        D'Ambrosio</persName> est <seg type="NOM" corresp="#Ambrosio">le fils d'un
                         immigré italien qui n'a jamais été naturalisé</seg> malgré cinq ans dans la
-                        <orgName type="police">Légion</orgName>, et ça "<said who="#Giglio"
-                        aloud="true" direct="true" corresp="refus_de_naturalisation_de_son_père">a
-                        choqué affectivement</said>" son <roleName type="proche" corresp="#Ambrosio"
-                        >fils</roleName>. <roleName type="proche" corresp="#Ambrosio">Lui, le fils
+                        <orgName type="police">Légion</orgName>, et ça "a
+                        choqué affectivement" son <roleName type="proche" corresp="#Ambrosio"
+                        >fils</roleName></said>. <roleName type="proche" corresp="#Ambrosio">Lui, le fils
                         d'immigré</roleName>, veut mettre les immigrés dehors? <said>"Je laisse
                             <persName corresp="#JM_Le_Pen">Le Pen</persName> libre de ses déclara
                         tions."</said></s>
@@ -333,15 +334,15 @@
             </p>
 
             <p>
-                <s><interp type="COMMENTARY"/>Du beurre dans les épinards</s>. <s><persName
+                <s><interp type="COMMENTARY"/>Du beurre dans les épinards</s>. <s> <said direct="innaplicable" aloud="true"
+                        who="enquêteur" corresp="#Giglio"> <persName
                         type="judicial" subtype="accusé" corresp="#Giglio">Pierre Giglio</persName>,
                     39 ans, est <roleName corresp="#Giglio">ébéniste</roleName>, <w pos="ADJ"
-                        corresp="#Giglio">catholique</w>, "<said direct="true" aloud="true"
-                        who="enquêteur" corresp="#Giglio"><w pos="ADJ" corresp="#Giglio"
+                        corresp="#Giglio">catholique</w>, "<w pos="ADJ" corresp="#Giglio"
                             >travailleur</w>, <w pos="ADJ" corresp="#Giglio">timide</w>,<w pos="ADJ"
                             corresp="#Giglio" type="champs_lâche">anxieux</w>, <w pos="ADJ"
                             corresp="#Giglio" type="champs_lâche">peureux</w></said>", bref
-                            <said>"<addName corresp="#Giglio"><w pos="ADJ" corresp="#Giglio"
+                            "<addName corresp="#Giglio"><w pos="ADJ" corresp="#Giglio"
                                 type="champs_lâche">pétochard</w></addName>"</said> selon un
                     enquêteur, et <seg type="EXP" corresp="Giglio">depuis vingt ans sous
                         antidépresseur</seg>.</s>
