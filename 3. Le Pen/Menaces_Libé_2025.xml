@@ -57,10 +57,10 @@
             
             <p>
                 <s>
-                    « <said who="#RN" direct="false">Le système</said> », 
-                    «<said who="#RN" direct="false">l’oligarchie</said>», les 
-                    « <said who="#RN" direct="false">juges rouges</said> » : après
-                    le déni, la colère, deuxième étape du deuil.</s>
+                    <said who="#RN" direct="false">« Le système », 
+                    « l’oligarchie », les 
+                    « juges rouges » : après
+                    le déni, la colère, deuxième étape du deuil.</said></s>
                 <s> La première a duré plus que de raison, au Rassemblement national, où <seg n="1" type="NOM">la
                     condamnation de <persName corresp="#Marine_Le_Pen" ana="RN" type="political"
                         >Marine Le Pen</persName></seg>, lundi, à cinq ans d'inéligibilité avec effet
@@ -92,8 +92,8 @@
                     «<said direct="true" aloud="true" corresp="vision_FN" who="#Jordan_Bardella"
                         >Tout sera fait pour nous empêcher d'arriver au pouvoir</said>», morigène au même moment <persName
                             corresp="#Jordan_Bardella" ana="RN" type="political">Jordan
-                            Bardella</persName> sur <orgName type="presse">Europe 1</orgName>,dénonçant la «<said direct="true" aloud="true" corresp="#vision_FN" who="#Jordan_Bardella">tyrannie des juges</said>» repeints
-                    en «<said direct="true" aloud="true" corresp="vision_FN" who="#Jordan_Bardella">rouge</said>».</s>
+                            Bardella</persName> sur <orgName type="presse">Europe 1</orgName>, <said direct="true" aloud="true" corresp="#vision_FN" who="#Jordan_Bardella">dénonçant la «tyrannie des juges » repeints
+                    en «rouge». </said></s>
                 <s> Les spectateurs de <orgName type="presse">France 2</orgName> et de <orgName type="presse">TF1</orgName> se lèvent aussi avec les protestations de
                     l'extrême droite.</s>
             </p>
@@ -197,8 +197,8 @@
                     <w n="2" pos="V" msd="Act">annonce</w>  <w pos="NOM" n="3">une manifestation</w> à
                     Paris, devant les Invalides – mais pas trop près de l'Assemblée, pour ne pas rappeler
                     de mauvais souvenirs.</s>
-                <s> Les argumentaires se rodent, laborieusement: est-ce après la juge seule, la justice
-                    entière ou le fantasmagorique «<said who="unknown" direct="false">système</said>», qu'il faut aboyer?</s>
+                <s> Les argumentaires se rodent, laborieusement: <said who="unknown" direct="false">est-ce après la juge seule, la justice
+                    entière ou le fantasmagorique «système», qu'il faut aboyer?</said></s>
                 <s> Les uns se disent seuls contre tous.</s>
                 <s> Les autres étalent les réserves exprimées par <persName>Bayrou</persName> et <persName>Mélenchon</persName>, citent <persName>Chirac</persName> et
                     <persName>Sarkozy</persName> pour rapprocher leurs sorts.</s>
