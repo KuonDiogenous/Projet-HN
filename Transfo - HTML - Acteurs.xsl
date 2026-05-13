@@ -775,7 +775,7 @@ Appeler les citations ayant un corresp correspondant aux personnes récupérées
                                             <xsl:attribute name="class">
                                                 <xsl:text>titre_cit</xsl:text>
                                             </xsl:attribute>
-                                            <xsl:text>Citations directes</xsl:text>
+                                            <xsl:text>Citations prononcées</xsl:text>
                                         </xsl:element>
                                         
                                         <xsl:element name="ul">
@@ -791,7 +791,7 @@ Appeler les citations ayant un corresp correspondant aux personnes récupérées
                                             <xsl:attribute name="class">
                                                 <xsl:text>titre_cit</xsl:text>
                                             </xsl:attribute>
-                                            <xsl:text>Ce que l'on en dit</xsl:text>
+                                            <xsl:text>Ce qu'on en dit</xsl:text>
                                         </xsl:element>
                                         
                                         
