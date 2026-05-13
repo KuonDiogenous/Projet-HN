@@ -117,9 +117,9 @@
                 <hi n="2">
                     <s>
                         <orgName type="judicial" corresp="#CSM">Le Conseil supérieur de la magistrature</orgName>
-                        a fait part
+                        <said who="#CSM" direct="inapplicable" corresp="#CSM">a fait part
                     de son 
-                    son «<said who="#CSM" direct="true" corresp="#CSM"> inquiétude </said> » après des « <said who="#CSM" direct="true" corresp="#CSM"> réactions virulentes </said> »  
+                    son « inquiétude » après des « réactions virulentes  » </said>
                 </s>
                 </hi>
             </p>
