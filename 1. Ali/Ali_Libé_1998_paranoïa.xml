@@ -200,20 +200,20 @@
             </s>
             <s>
                <interp type="IRONY"></interp>
-               Plus un coup-de-poing américain dont il ne se sert plus "<said who="#Lagier" direct="true">depuis des années</said>".</s>
+               Plus <said who="#Lagier" direct="innaplicable"> un coup-de-poing américain dont il ne se sert plus "depuis des années"</said>.</s>
             <s>
                <interp type="IRONY"/>
-               C'est qu'il n'a pas "<said who="#Lagier" corresp="#Lagier" direct="true">une passion</said>" pour les armes, juste "<said who="Lagier" corresp="#Lagier" direct="true">un goût</said>".</s>
+               <said who="#Lagier" corresp="#Lagier" direct="innaplicable"> C'est qu'il n'a pas "une passion" pour les armes, juste "un goût"</said>.</s>
             <s>
                <interp type="IRONY"/>
-               Et se voit comme un tireur "<said who="#Lagier" corresp="#Lagier" direct="true">un peu au-dessus de la moyenne</said>", lui qui loge à 25 m une
-               balle dans une cible de 18 cm.</s>
+               <said who="#Lagier" corresp="#Lagier" direct="innaplicable">Et se voit comme un tireur "un peu au-dessus de la moyenne", lui qui loge à 25 m une
+               balle dans une cible de 18 cm</said>.</s>
             <s>
                <interp type="IRONY"/>
                <seg type="NOM" n="1" corresp="#Lagier">Il met six balles dans le chargeur</seg>,
                et pas n'importe lesquelles: il a 3 000
-               cartouches chez lui, mais il prend 
-               des Remington à effet dit "<said who="#Lagier" direct="true">lacérant</said>", 
+               cartouches chez lui, mais <said who="#Lagier" direct="true"> il prend 
+               des Remington à effet dit "lacérant"</said>, 
                <w pos="V" msd="Act" n="2">qui sont</w>
                <seg type="EXP" n="3">interdites même en temps de guerre par la convention de Genève.</seg>
             </s>
@@ -224,8 +224,8 @@
                <seg type="EXP" n="3">son pistolet à son mollet gauche</seg>.</s>
             <s>
                <interp type="SARCASM"/>
-               Officiellement parce que "<said who="#Lagier" direct="true">c'est plus pratique</said>", mais il a avoué au juge qu'il avait
-               ainsi l'impression d'"<said who="#Lagier" corresp="#Lagier" direct="true">être un petit James Bond</said>".</s>
+               <said who="#Lagier" direct="true">Officiellement parce que "c'est plus pratique", mais il a avoué au juge qu'il avait
+               ainsi l'impression d'"être un petit James Bond"</said>.</s>
             <s>Il n'oublie pas non plus d'emporter des lunettes jaunâtres, achetées quinze jours
                avant, pour les essayer.</s>
             <s>Des lunettes de tir, pour accentuer les contrastes.</s>
@@ -258,11 +258,11 @@
                tombées sur sa voiture.</s>
             <s>
                <interp type="COMMENTARY"/>
-               Giglio a entendu le bruit des cailloux, D'Ambrosio les a vus traverser 
-               "<said who="#Ambrosio" corresp="#Ambrosio" direct="true">le faisceau des phares</said>", 
+               Giglio a entendu le bruit des cailloux, D'Ambrosio <said who="#Ambrosio" corresp="#Ambrosio" direct="innaplicable"> les a vus traverser 
+               "le faisceau des phares", 
                <w pos="#Ambrosio" n="1">lui</w>
                <w pos="V" msd="Act" n="2">qui n'a même pas reconnu</w>
-              <seg type="EXP" n="3">son <addName type="nickName" subtype="accusé" corresp="#Giglio">copain</addName> Giglio quand il tirait dans le tas.</seg>
+              <seg type="EXP" n="3">son <addName type="nickName" subtype="accusé" corresp="#Giglio">copain</addName> Giglio quand il tirait dans le tas </said>.</seg>
             </s>
             <s>
                <interp type="COMMENTARY"/>
@@ -288,8 +288,8 @@
             </s>
             <s>
                <interp type="SARCASM"/>
-               Lagier n'est pas raciste, mais, quand il parle des rappeurs, il dit "<said who="#Lagier" corresp="#Lagier" direct="true">les Norvégiens</said>",
-               parfois "<said who="#Ambrosio" corresp="#Ambrosio" direct="true">la meute</said>".
+               Lagier <said who="#Ambrosio" corresp="#Ambrosio" direct="true"> n'est pas raciste, mais, quand il parle des rappeurs, il dit "<said who="#Lagier" corresp="#Lagier" direct="true">les Norvégiens</said>",
+               parfois "la meute"</said>.
             </s>
             <s>Il en a vu dix-sept ou dix-huit qui couraient vers lui.</s>
             <s>Ils n'étaient que dix.</s>
