@@ -304,8 +304,8 @@
                      >MoDem</orgName></eventName>. </s>
             <s>
                <interp type="IRONY"/> De quoi perturber encore davantage
-                  <persName corresp="#François_Bayrou">François Bayrou</persName>, qui s'est dit «
-                  <said who="#François_Bayrou" direct="true">troublé</said> » par l'énoncé du jugement choc ?
+                   <said who="#François_Bayrou" direct="inaplication"><persName corresp="#François_Bayrou">François Bayrou</persName>, qui s'est dit «
+                 troublé » par l'énoncé du jugement choc ?</said>
             </s>
          </p>
          <p>P. G.</p>
