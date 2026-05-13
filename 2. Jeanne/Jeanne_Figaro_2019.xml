@@ -123,11 +123,10 @@
             <s>Surfacturations, « prêts fictifs», micro-parti « coquille vide» cachant une «
                apparence d'activité bancaire»: <roleName type="judicial" nymRef="avocat"
                   corresp="#Bernard_Grelon">l’avocat de l’Etat</roleName>, Me <persName
-                  corresp="#Bernard_Grelon">Bernard Grelon</persName>, a égrené les « <said
-                  who="#Bernard_Grelon" direct="true" corresp="#RN">manœuvres</said> » du <orgName
+                  corresp="#Bernard_Grelon">Bernard Grelon</persName>,<said
+                  who="#Bernard_Grelon" direct="innaplicable" corresp="#RN">a égrené les « manœuvres » du <orgName
                   type="political" ana="RN" corresp="#RN">FN</orgName>, devenu Rassemblement
-               national en 2018, pour « <said who="#Bernard_Grelon" direct="true" corresp="#RN"
-                  >détourner les règles électorales</said> » et obtenir un remboursement indu des
+               national en 2018, pour « détourner les règles électorales »</said> et obtenir un remboursement indu des
                dépenses de campagne de ses <roleName type="political" nymRef="candidat"
                   corresp="#RN">candidats</roleName>.</s>
          </p>
