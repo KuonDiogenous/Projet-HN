@@ -158,9 +158,9 @@
                «<said  who="#DSJ" direct="true"> d'identifier les risques et de demander une évaluation de la menace</said> », en prenant
                «<said who="#DSJ" direct="true"> attache auprès du ministère de l'Intérieur pour que les abords de son domicile soient protégés </said>», sait-on de bonne
                source.</s>
-            <s>La <orgName corresp="#DSJ #Alexandra_Vaillant" type="judicial">DSJ</orgName>,
+            <s><said who="#DSJ" direct="inaplicable">La <orgName corresp="#DSJ #Alexandra_Vaillant" type="judicial">DSJ</orgName>,
                elle, se tenait prête à activer « 
-               <said who="#DSJ" direct="true"> la protection fonctionnelle </said>».</s>
+                la protection fonctionnelle »</said>.</s>
             <s>Mardi, à la suite de ces menaces, une enquête a été confiée à la <orgName
                   type="gouvernment" corresp="#BRDP">brigade de répression de la délinquance aux
                   personnes</orgName> (BRDP).</s>
@@ -169,8 +169,8 @@
             <s>L'affaire est assez sérieuse pour que le <roleName corresp="#Gérald_Darmanin"
                   type="gouvernment">garde des Sceaux</roleName>, 
                <persName corresp="#Gérald_Darmanin">Gérald Darmanin</persName>, 
-               juge 
-               ces menaces « <said who="#Gérald_Darmanin" direct="true">inacceptables dans une démocratie</said> ». </s>
+              <said who="#Gérald_Darmanin" direct="inaplicable"> juge 
+               ces menaces « inacceptables dans une démocratie »</said>. </s>
             <s>Le <roleName type="judicial">procureur général</roleName>
                et le <roleName type="judicial">premier président de la Cour de
                      cassation</roleName>
@@ -187,7 +187,7 @@
                   >secrétaire générale</roleName>.</s>
          </p>
          <p>
-            <s>Qualifiée dans nombre de commentaires de « <said who="unknown" direct="true">juge rouge</said> », 
+            <s><said who="unknown" direct="inaplicable">Qualifiée dans nombre de commentaires de « juge rouge »</said>, 
                <persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName>, 63 ans dont 25 passés dans la
                magistrature, se voit aussi associée au « <said who="unknown" direct="false"><orgName type="judicial">syndicat de la
                      magistrature </orgName></said>», véritable organisation repoussoir pour
@@ -198,9 +198,9 @@
                <interp type="IRONY"/>
                On prête par ailleurs à <roleName corresp="#Bénédicte_Perthuis">la magistrate</roleName> une folle
                admiration pour la juge 
-               <persName corresp="#Eva_Joly" type="judicial" nymRef="juge">Eva Joly</persName>,
+               <said who="unknown" direct="inaplicable"><persName corresp="#Eva_Joly" type="judicial" nymRef="juge">Eva Joly</persName>,
                première 
-               <roleName type="judicial" corresp="Eva_Joly" nymRef="juge">juge</roleName> « <said who="unknown" direct="false">éco-fi </said>» des années 1990 et fortement politisée.</s>
+               <roleName type="judicial" corresp="Eva_Joly" nymRef="juge">juge</roleName> « éco-fi » des années 1990 </said> et fortement politisée.</s>
          </p>
 
          <p>
@@ -296,8 +296,7 @@
             <s>
                <interp type="COMMENTARY"/>
                À l'Assemblée nationale, <persName corresp="#Gérald_Darmanin">Gérald
-                  Darmanin</persName> a demandé que l'appel intervienne dans « <said
-                     who="#Gérald_Darmanin" direct="true">des délais raisonnables</said> », ce
+                  Darmanin</persName> <said who="#Gérald_Darmanin" direct="inaplicable">a demandé que l'appel intervienne dans « des délais raisonnables »</said>, ce
                   qui signifie au plus vite, pour tenir compte de la présidentielle de 2027. </s>
             <s> Ce procès pourrait donc se conclure avant même celui du
                   <eventName corresp="#MoDem"><orgName type="political" corresp="#MoDem"
