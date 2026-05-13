@@ -143,8 +143,8 @@
                     <w pos="V" n="2" msd="Pass">est désigné</w> cent fois : <seg n="3" type="EXP">la <roleName
                         corresp="#Bénédicte_Perthuis" type="judicial" nymRef="magistrat"
                         >magistrate</roleName>, <persName corresp="#Bénédicte_Perthuis" type="judicial"
-                            >Perthuis</persName></seg>, <said direct="true" aloud="true" who="#Marine_Le_Pen">«juge de première instance»</said>, prend-elle toujours
-                    soin de préciser avec mépris.</s>
+                            >Perthuis</persName></seg>, <said direct="inaplicable" aloud="true" who="#Marine_Le_Pen">«juge de première instance», prend-elle toujours
+                    soin de préciser avec mépris</said>.</s>
             </p>
             <p>
                 <s>Certes, <persName corresp="#Marine_Le_Pen" ana="RN" type="political">Le Pen</persName>se désolidarise des multiples menaces dont est victime depuis la veille la juge,
@@ -215,11 +215,10 @@
                     lourds du groupe frontiste.</s>
                 <s>
                     «<said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="true">Jamais l'oligarchie n'a accepté que le peuple décide</said>», attaque
-                    <persName corresp="JP_Tanguy" ana="RN" type="political">Tanguy</persName>, lancé dans une philippique
-                    pleine d'anaphores et de mensonges contre les «<said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="true">magistrats</said>», et le 
-                    «<said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="true">quarteron de procureurs et de
-                        juges</said>» qui ont condamné Le Pen –dans une référence gaullienne aux putschistes
-                    d’Alger.</s>
+                    <persName corresp="JP_Tanguy" ana="RN" type="political">Tanguy</persName>, <said who="JP_Tanguy" corresp="vision_FN" aloud="true" direct="inaplicable"> 
+                        lancé dans une philippique pleine d'anaphores et de mensonges contre les «magistrats», et le 
+                    « quarteron de procureurs et de juges » qui ont condamné Le Pen –dans une référence gaullienne aux putschistes
+                    d’Alger</said>.</s>
                 <s>
                     <seg n="1"><persName ana="RN" type="political">Laure Lavalette</persName></seg>
                     <w n="2" pos="V" msd="Act">cible</w>  <seg type="ADJ" n="3"
