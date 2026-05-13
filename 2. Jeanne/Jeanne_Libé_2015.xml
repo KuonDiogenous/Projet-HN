@@ -92,15 +92,15 @@
                         questions juridiques du parti d'extrême droite</roleName>, et <roleName
                         type="gouvernment" ana="RN" corresp="#JF_Jalkh">député
                     européen</roleName>.</s>
-                <s>C'est cependant <seg n="2">son rôle de <roleName type="political" ana="RN"
+                <s>C'est cependant <seg n="1" type="NOM">son rôle de <roleName type="political" ana="RN"
                             corresp="#JF_Jalkh" subtype="accusé">secrétaire général de
-                            Jeanne</roleName></seg> qui <seg n="2">lui vaut</seg> <seg n="3" type="EXP">d'être inquiété dans cette
+                            Jeanne</roleName></seg> qui <w pos="V" msd="Act" n="2">lui vaut</w> <seg n="3" type="EXP">d'être inquiété dans cette
                         <eventName corresp="#affaire_Jeanne">affaire</eventName>.</seg></s>
                 
             </p>
             <p>
-                <s>Il a été mis en examen <said who="unknown" direct="false" aloud="false"
-                        corresp="#JF_Jalkh">«cette semaine» pour «escroqueries, abus de confiance et
+                <s> <said who="unknown" direct="inapplicable" aloud="false"
+                        corresp="#JF_Jalkh">Il a été mis en examen «cette semaine» pour «escroqueries, abus de confiance et
                         acceptation par un parti politique d'un financement provenant d'une personne
                         morale»</said>, en l'occurrence la <orgName type="economical"
                             ana="RN" corresp="#affaire_Jeanne" subtype="accusé">société de
