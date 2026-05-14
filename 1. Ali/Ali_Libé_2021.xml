@@ -55,7 +55,6 @@
                 </item>
             </list>
             <p/>
-            <!-- METTRE NIVEAU TITRE + REMONTER LES XML:ID-->
             <p>
                 <s>1835 mots</s>
             </p>
@@ -99,7 +98,7 @@
                     avec <orgName type="proche" corresp="#B_Vice" ana="Ali">son groupe de
                         rap</orgName>.</s>
                 <s>«<quote source="plaque_commémorative"><roleName type="judicial" corresp="#Ali"
-                            ><!-- assez maladroit comme "type" -->Victime</roleName> de
+                            >Victime</roleName> de
                         l'intolérance et de la haine</quote>», rappelle une autre plaque à l'angle
                     de la rue, près d'une fresque représentant son visage souriant, lunettes rondes
                     et casquette à l'envers.</s>
@@ -179,7 +178,7 @@
                         subtype="accusé" corresp="#Lagier">Robert Lagier</persName>, 63 ans, et
                         <persName type="judicial" subtype="accusé" corresp="#Ambrosio">Mario
                         d'Ambrosio</persName>, 41 ans, <w pos="V" n="2">sont</w><w pos="ADJ" n="3"
-                        >armés</w><!-- c'est un attribut mais bon tant pis -->.</s>
+                        >armés</w>.</s>
                 <s>Alors qu'il court pour attraper le bus,<persName corresp="#Ali">Ibrahim
                         Ali</persName> reçoit une balle mortelle dans le dos.</s>
             </p>
@@ -285,7 +284,7 @@
                         corresp="#Marine_Le_Pen">Marine Le Pen</persName>.</s>
                 <s>Ou quand <persName type="political" ana="RN" nymRef="elu" corresp="#Ravier"
                         >Stéphane Ravier</persName>, le <roleName corresp="#Ravier">
-                        <!-- METTRE LES ID EN HAUT --> leader frontiste marseillais</roleName>, a
+                         leader frontiste marseillais</roleName>, a
                     raflé la mairie de secteur voisine, en 2014.</s>
                 <s>
                     «<said who="#Soly" corresp="#RN" direct="true">Nos politiques ne se sont pas
