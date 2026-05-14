@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="démarche.html">Notre démarche</a>
+                </li>
+                <li class="base_sous_menu">
+                    <a href="résultats.html">Résultats</a>
+                    <ul class="sous_menu">
+                        <li><a href="transfo_seg.html">Transformation - Ordonnancement des informations</a></li>
+                        <li><a href="transfo_cit.html">Transformation - Citations</a></li>
+                        <li><a href="transfo_acteurs.html">Transformation - Acteurs</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="observations.html">Observations</a>
+                </li>
+                <li class="base_sous_menu">
+                    <a href="dépôt_fichiers.html">Dépôt des fichiers</a>
+                    <ul class="sous_menu">
+                        <li><a href="dépôt_articles.html">Articles (PDF)</a></li>
+                        <li><a href="dépôt_xml.html">Fichiers encodés (XML)</a></li>
+                        <li><a href="dépôt_xslt.html">Transformations (XSLT)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <section id="titre">
+            <h1>Biais journalistiques et Rassemblement National</h1>
+            <h2>Etude sémantique et linguistique de la perception de biais journalistiques
+                dans des affaires liées au Rassemblement National</h2>
+        </section>
+    </header>
+    <main>
+        <section id="contexte">
+            <h3>Contexte et origine du projet</h3>
+            <div class="container">
+                <div class="subContainer">
+                    <p class="indent">L'idée de ce projet nous est venue par observation du contexte politique français, 
+                        et plus particulièrement par les événements survenus suite à la condamnation de nombreux cadres du 
+                        Rassemblement National (RN) dans l’affaire des assistants européens. La virulence des critiques proférées à l’encontre du personnel de l’administration
+                        judiciaire, tendant à remettre en cause l’impartialité de la justice française,
+                        était exceptionnelle, sinon inédite.</p>
+                    <p class="indent">A l’origine, notre objectif était, de produire une liste recensant les condamnations des élus du RN
+                        en nous fondant sur des articles de presse.
+                        Toutefois,
+                        lors de la construction de notre projet, d'autres pistes nous ont permis de pleinement 
+                        tenter de tirer parti des outils offerts par le langage XML-TEI.</p>
+                    <p class="indent">En effet, nous pensons que les nombreuses balises et attributs qu’offrent ce langage
+                        permettent de dépasser la production d’une « simple » liste, et de tendre vers une
+                        analyse à la fois sémantique et linguistique des articles de presse.</p>
+                </div>
+            </div>
+        </section>
+        <section id="présentation_journaux">
+            <h3>Les journaux étudiés</h3>
+            <div class="container">
+                <div class="subContainer">
+                    <p class="indent">Le corpus que nous avons construit est composé de quinze articles de presse,
+                        provenant de trois journaux différents : Libération, Le Monde et Le Figaro. Leur sélection
+                        a fait l’objet de plusieurs critères, les principaux étant leur popularité dans le paysage
+                        médiatique français ainsi que leur orientation politique présumée, représentant respectivement,
+                        peu ou prou, la gauche, le centre, et la droite. Notre étude vise à mettre à l’épreuve cette
+                        classification communément admise.</p>
+                </div>
+            </div>
+        </section>
+        <section id="présentation_site">
+            <h3>Présentation du site</h3>
+            <div class="container">
+                <div class="subContainer">
+                    <p class="indent">La construction du site se veut ergonomique pour l’utilisateur. L’ordre dans 
+                        laquelle nous avons disposé les onglets permet de retracer la construction progressive de 
+                        notre réflexion ainsi que de notre travail.</p>
+                    <p class="indent">L’onglet « <strong>Démarche</strong> » permet d’expliciter et de détailler les choix 
+                        méthodologiques effectués,  dont la bonne compréhension est nécessaire afin 
+                        d’interpréter les résultats obtenus.</p>
+                    <p class="indent">L’onglet « <strong>Résultats</strong> » présente, comme son nom l’indique, les résultats des 
+                        transformations XSLT de nos fichiers XML. Chacune est accompagnée d’une interprétation succincte.  </p>
+                    <p class="indent">L’onglet « <strong>Observations</strong> » rassemble les conclusions que nous avons pu tirer 
+                        de notre travail d’encodage et de transformation. Il comprend une approche réflexive des 
+                        différents résultats.</p>
+                    <p class="indent">Finalement, l’onglet « <strong>Dépôt des fichiers</strong> » permet, en cohérence avec l’ambition 
+                        scientifique de transparence quant à aux données de travail, de mettre à disposition de 
+                        l’utilisateurs l’ensemble de nos documents.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Site réalisé par Nicolas Bleton, Lucie Louis, Dina Sénaque et Vincent Vieux-Champagne.</p>
+    </footer>
+</body>
+</html>

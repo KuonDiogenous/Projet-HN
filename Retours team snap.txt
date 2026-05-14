@@ -1,0 +1,9 @@
+DS : 
+- PHP / JavaScript 
+- Ca va être un petit site de 2 pages l'HTML et CSS Déjà fait 
+- Elle va demander d'ajouter des fonctionnalités dans le code / trouver pourquoi ça marche pas / ce que fait ce code 
+  ==> PHP : Récupérer données formulaire/aller chercher une variable 
+
+
+Projet :
+- Penser à modifier dans le livrable 2 le renvoi en Annexes

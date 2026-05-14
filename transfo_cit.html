@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citations</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="démarche.html">Notre démarche</a>
+                </li>
+                <li class="base_sous_menu">
+                    <a href="résultats.html">Résultats</a>
+                    <ul class="sous_menu">
+                        <li><a href="transfo_seg.html">Transformation - Ordonnancement des informations</a></li>
+                        <li><a href="transfo_cit.html">Transformation - Citations</a></li>
+                        <li><a href="transfo_acteurs.html">Transformation - Acteurs</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="observations.html">Observations</a>
+                </li>
+                <li class="base_sous_menu">
+                    <a href="dépôt_fichiers.html">Dépôt des fichiers</a>
+                    <ul class="sous_menu">
+                        <li><a href="dépôt_articles.html">Articles (PDF)</a></li>
+                        <li><a href="dépôt_xml.html">Fichiers encodés (XML)</a></li>
+                        <li><a href="dépôt_xslt.html">Transformations (XSLT)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <section id="titre">
+            <h1>Transformation - Citations</h1>
+            <h2></h2>
+        </section>
+    </header>
+    <main>
+        <section id="résultat_cit">
+            <h3>Résultat de la transformation</h3>
+            <div class="container">
+                <div class="subContainer">
+                    <p class="indent">La transformation portant sur les citations a pour objectif de rapporter 
+                        toutes les citations utilisées dans les articles. Par le biais de balises &lt;seg> et 
+                            &lt;quote>, nous avons souhaité identifier comment les articles se servent de cet outil. 
+                                L’objectif était de savoir si, en comparant les citations et les interlocuteurs 
+                                mentionnés dans les différents journaux, il était possible de dégager des tendances.  
+                    </p>
+                    <p class="indent">Cette transformation est très intéressante puisqu’elle permet à la fois de 
+                        compléter les résultats de celle portant sur la construction syntaxique, tout en apportant 
+                        des nuances à notre interprétation. 
+                    </p>
+                    <p class="indent">Par ailleurs, le volume de citations utilisées est du simple au double en 
+                        fonction non seulement de la rédaction, mais également de l’auteur de l’article. C’est 
+                        donc un autre biais mis en lumière par cette transformation. 
+                    </p>
+                    <p class="indent">
+                        Les citations "directes" et "indirectes" renvoient au statut de la citation.
+                        Les citations "innaplicable" sont celles dont le statut est mixte.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="abreviation">
+            <h3>Abréviations</h3>
+            <div class="container">
+                <div class="subContainer">
+                    <p>
+                        <strong>CC Jeanne</strong> : Commissaire aux comptes de Jeanne<br/>
+                        <strong>CNB</strong> : Conseil national des barreaux<br/>
+                        <strong>CSM</strong> : Conseil supérieur de la magistrature<br/>
+                        <strong>DSJ</strong> : Direction des services judiciaires<br/>
+                        <strong>RN</strong> : Rassemblement National<br/>
+                        <strong>TCP</strong> : Tribunal correctionnel de Paris<br/>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tableau_cit">
+            
+            <h1 class="intertitre_cit">Affaire des menaces contre les juges</h1>
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">Sur les menaces contre les juges traitées par le Figaro en 2025</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Alexandra Vaillant : <span class="cit_dir">a créé une veille des réseaux sociaux</span></li>
+                        <li>Alexandra Vaillant : <span class="cit_dir">adressé un signalement à
+                            la plateforme Pharos, qui collecte les contenus numériques illicites</span></li>
+                        <li>DSJ : <span class="cit_dir"> d'identifier les risques et de demander une évaluation de la menace</span></li>
+                        <li>DSJ : <span class="cit_dir"> attache auprès du ministère de l'Intérieur pour que les abords de son domicile soient
+                            protégés </span></li>
+                        <li>Procureur général : <span class="cit_dir">défendre l'État de droit</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations indirectes</h2>
+                    <ul>
+                        <li>unknown : <span class="cit_indir">syndicat de la
+                            magistrature </span></li>
+                        <li>unknown : <span class="cit_indir">mur des cons</span></li>
+                        
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>François Bayrou : <span class="cit_inap">qui s'est dit « troublé » par l'énoncé du jugement choc ?</span></li>
+                        <li>DSJ : <span class="cit_inap"> elle, se tenait prête à activer « la protection fonctionnelle »</span></li>
+                        <li>Gérald Darmanin : <span class="cit_inap"> juge ces menaces « inacceptables dans une démocratie »</span></li>
+                        <li>Gérald Darmanin : <span class="cit_inap"> a demandé que l'appel intervienne dans « des délais raisonnables »</span></li>
+                        <li>haut magistrat : <span class="cit_inap">  « Un profil comme ça, forcément, on ne le laisse pas passer dans un tribunal », souligne un haut magistrat, qui rappelle combien « la filière économique et financière est sinistrée » et combien « il est compliqué de trouver des magistrats compétents
+                            pour suivre » une matière réputée âpre, technique, exigeant un travail de moine soldat.</span></li>
+                        <li>unknown : <span class="cit_inap">Eva Joly, « première éco-fi » des années 1990</span></li>
+                        <li>unknown : <span class="cit_inap"> Qualifiée dans nombre de commentaires de « juge rouge »</span></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">Sur les menaces contre les juges traitées par Libération en 2025</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Jordan Bardella : <span class="cit_dir">Tout sera fait pour nous empêcher d'arriver au pouvoir</span></li>
+                        <li>Jordan Bardella : <span class="cit_dir">Quel est
+                            ce pays où on ferme une chaîne de télévision [C8, ndlr], où l'on empêche la leader
+                            de l'opposition de concourir à l'élection présidentielle, où l’on requiert de la
+                            prison ferme contre un ancien président de la République ?</span></li>
+                        <li>Jordan Bardella : <span class="cit_dir">c’était un jour
+                            très sombre pour la démocratie française, peut-être le
+                            plus sombre que la démocratie française ait connu</span></li>
+                        <li>Louis Alliot : <span class="cit_dir">dispositif [...] pas juridique mais
+                            politique</span></li>
+                        <li>Marine Le Pen : <span class="cit_dir"> Le système
+                            a sorti
+                            la bombe nucléaire</span></li>
+                        <li>Marine Le Pen : <span class="cit_dir">Et s'il utilise une arme
+                            aussi puissante contre nous, c'est évidemment parce que nous sommes sur le point
+                            de gagner des élections.</span></li>
+                        <li>Marine Le Pen : <span class="cit_dir">Ils nous ont
+                            volé les législatives [en raison du désistement républicain], que les choses
+                            soient claires, on ne se laissera pas voler la présidentielle.</span></li>
+                        <li>Marine Le Pen : <span class="cit_dir">Cet appel
+                            [...], c'est aussi une menace !</span></li>
+                        <li>Chenu : <span class="cit_dir">Sous le regard du monde entier,
+                            sous le regard de démocraties authentiques, la France est observée.</span></li>
+                        <li>Cour appel Paris : <span class="cit_dir">examinera ce dossier
+                            dans des délais qui devraient permettre de rendre une décision à l'été 2026</span></li>
+                        <li>Eric Ciotti : <span class="cit_dir">Nous voulons savoir quel sort votre gouvernement voudra lui réserver</span></li>
+                        <li>JP Tanguy : <span class="cit_dir">Peut-être qu'elle [Perthuis] sera bientôt candidate aux européennes, comme Joly[en
+                            2009 avec les Verts]</span></li>
+                        <li>JP Tanguy : <span class="cit_dir"> Evidemment, nous n'allons pas manifester</span></li>
+                        <li>JP Tanguy : <span class="cit_dir">Jamais l'oligarchie n'a accepté que le peuple décide</span></li>
+                        <li>L.Lavalette : <span class="cit_dir">déclarations d’amour à l'ancienne
+                            candidate d'extrême gauche Eva Joly</span></li>
+                        <li>L.Lavalette : <span class="cit_dir">qu’elle doit rendre ses
+                            décisions au nom du peuple</span></li>
+                        <li>député RN : <span class="cit_dir">C'était incroyable</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Jordan Bardella :<span class="cit_inap"> dénonçant la «tyrannie des juges » repeints en «rouge»</span></li>
+                        <li>RN :<span class="cit_inap"> « Le système », « l’oligarchie », les « juges rouges » : après le déni, la colère, deuxième étape du deuil</span></li>
+                        <li>unknown :<span class="cit_inap"> est-ce après la juge seule, la justice entière ou le fantasmagorique «système», qu'il faut aboyer?</span></li>
+                        <li>Marine Le Pen :<span class="cit_inap"> «juge de première instance», prend-elle toujours soin de préciser avec mépris</span></li>
+                        <li>JP Tanguy :<span class="cit_inap"> lancé dans une philippique pleine d'anaphores et de mensonges contre les «magistrats», et le « quarteron de procureurs et de juges » qui ont condamné Le Pen dans une référence gaullienne aux putschistes d’Alger</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+
+
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">Sur les menaces
+                        contre les juges traitées par le Monde en 2025</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>CNB : <span class="cit_dir">
+                            Dans un contexte où 
+                            l’autorité judiciaire 
+                            est de plus en plus contestée sur les réseaux sociaux et dans le débat public, il
+                            est de la 
+                            responsabilité collective des acteurs institutionnels 
+                            de 
+                            faire bloc 
+                            pour la protéger.
+                        </span></li>
+                        <li>CSM : <span class="cit_dir">
+                            Ainsi,
+                            les menaces visant personnellement les magistrats
+                            chargés du dossier, tout comme les prises de parole de responsables politiques sur
+                            le bien-fondé des
+                            poursuites ou de la condamnation(...) 
+                            ne peuvent être acceptées
+                            dans une société démocratique.
+                        </span></li>
+                        <li>Gérald Darmanin : <span class="cit_dir"> serait profondément choquant que Marine Le Pen soit jugée inéligible et ainsi ne
+                            puisse pas se présenterdevant le suffrage des Français</span></li>
+                        <li>Gérald Darmanin : <span class="cit_dir"> Dans un Etat de droit démocratique,
+                            la critique d’une décision de justice ne peut en aucun cas s’exprimer par
+                            des menaces formulées à l’égard des magistrats </span></li>
+                        <li>Jordan Bardella : <span class="cit_dir"> les menaces, les injures ou les insultes à l’égard du juge ou des magistrats </span></li>
+                        <li>Jordan Bardella : <span class="cit_dir"> 
+                            Des juges 
+                            ont décidé d’éliminer
+                            purement et simplement 
+                            de la course à la présidentielle la candidate du Rassemblement national </span></li>
+                        <li>Magistrat parquet : <span class="cit_dir">Le tribunal prend en considération le trouble majeur à l’ordre public
+                            démocratique qu’engendrerait (...) le fait que soit candidate, par exemple
+                            et notamment à l’élection présidentielle, voire élue, 
+                            une personne qui aurait déjà été condamnée en première instance, 
+                            notamment à une peine complémentaire d’inéligibilité, pour des faits de détournement
+                            de fonds publics </span></li>
+                        <li>Marine Le Pen : <span class="cit_dir"> tyrannie des juges</span></li>
+                        <li>Marine Le Pen : <span class="cit_dir"> dénonçant une 
+                            « décision politique » et en accusant le tribunal correctionnel de Paris de 
+                            « l’empêcher de pouvoir être élue présidente de la République ».</span></li>
+                        <li>Marine Le Pen : <span class="cit_dir"> L’ingérence de ces
+                            magistrats dans le processus électoral suprême qui est celui de l’élection
+                            présidentielle, voilà où est le trouble à l’ordre public.</span></li>
+                        <li>RN : <span class="cit_dir">   l’impératif de sauvegarde de l’ordre public </span></li>
+                        <li>Conseil constitutionnel : <span class="cit_dir">renforcer l’exigence de probité et d’exemplarité des élus et la confiance des électeurs
+                            dans leurs  représentants </span></li>
+                        <li>Conseil constitutionnel : <span class="cit_dir">l’objectif de valeur constitutionnelle de sauvegarde de l’ordre public </span></li>
+                        <li>Magistrat parquet : <span class="cit_dir">dans ce dossier, 
+                            les faits 
+                            sont
+                            accablants et graves, 
+                            pour Marine Le Pen et son parti 
+                            Cela ne fait aucun doute pour personne. Pourquoi, alors, avoir voulu politiser le
+                            jugement ?</span></li>
+                        <li>Magistrat parquet : <span class="cit_dir"> C’est excessif par rapport aux principes,
+                            inutile par rapport à l’objectif de sanction, et dangereux par rapport à
+                            l’ensemble de l’institution.</span></li>
+                        <li>Magistrat siège : <span class="cit_dir">bon fonctionnement de la démocratie</span></li>
+                        <li>Magistrat siège : <span class="cit_dir">très judicieux</span></li>
+                        <li>Rémy Heitz : <span class="cit_dir"> Je ne commenterai pas une décision qui a été rendue et qui est
+                            de surcroît non définitive puisqu’elle a été frappée d’appel. </span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Magistrat siège : <span class="cit_inap">« ordre public démocratique » n’est « pas une notion familière du droit », contrairement
+                            à celle d’un « ordre public  ». </span></li>
+                        <li>CSM : <span class="cit_inap"> a fait part de son « inquiétude » après des « réactions virulentes »</span></li>
+                    </ul>
+                    
+
+                    
+                </div>
+            </div>
+            <h1 class="intertitre_cit">Affaire Jeanne</h1>
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Jeanne traitée par le Figaro en 2015</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Marine Le Pen : <span class="cit_dir">Je persiste à vous dire que nous n'avons rien à nous 
+                            reprocher</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Marine Le Pen : <span class="cit_inap">affirme qu'elle et ses proches n'ont «rien à se reprocher»</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Jeanne traitée par le Figaro en 2019</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>W Saint-Just : <span class="cit_dir">mécanisme opérationnel et financier</span></li>
+                        <li>W Saint-Just : <span class="cit_dir">la catastrophe politique et financière</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Bernard Grelon : <span class="cit_inap">a égrené les « manœuvres » du FN, devenu Rassemblement national en 2018, pour « détourner les règles électorales »</span></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="container">
+                    <div class="subContainer">
+                        <h1 class="titre_tab">L'affaire Jeanne traitée par Libération en 2015</h1>
+                            <h2 class="titre_cit">Citations indirectes</h2>
+                            <ul>
+                                <li>unknown : <span class="cit_indir">«cette semaine» pour «escroqueries, abus de confiance et
+                        acceptation par un parti politique d'un financement provenant d'une personne
+                        morale»</span></li>
+                            </ul>
+                    </div>
+            </div>
+
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Jeanne traitée par Libération en 2020</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>TCP : <span class="cit_dir">recherche systématique de l'appât du gain, pour faire du parti une véritable
+                            machine à cash</span></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Jeanne traitée par le Monde en 2015</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>CC Jeanne : <span class="cit_dir">services rendus aux candidats pour les campagnes électorales</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Jeanne traitée par le Monde en 2019</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Bernard Grelon : <span class="cit_dir">détourner les règles électorales</span></li>
+                        <li>RN : <span class="cit_dir">volonté de ces politiciens de tuer le RN, plutôt que de le laisser gagner dans les
+                            urnes !</span></li>
+                        <li>Céline Ducournau et Nicolas Barret  : <span class="cit_dir">Montages fumeux</span></li>
+                        <li>Céline Ducournau et Nicolas Barret  : <span class="cit_dir">prêts fictifs</span></li>
+                        <li>Céline Ducournau et Nicolas Barret  : <span class="cit_dir">prix excessifs</span></li>
+                        <li>Céline Ducournau et Nicolas Barret  : <span class="cit_dir">litanie d’escroqueries</span></li>
+                        <li>Céline Ducournau et Nicolas Barret  : <span class="cit_dir">détourner de l’argent public de manière systémique</span></li>
+                        <li>parquet Paris : <span class="cit_dir">au regard de son positionnement, de sa qualité, du lien central avec Riwal et Jeanne</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <h1 class="intertitre_cit">Affaire Ibrahim Ali</h1>
+                
+            
+            <div class="container">
+                    <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Ibrahim Ali traitée par Libération en 1995</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                        <ul>
+                            <li>Mégret : <span class="cit_dir">L'un d'entre eux a été violemment agressé
+                                par une
+                                quinzaine de Comoriens et ses deux compagnons, qui se
+                                trouvaient 300 mètres plus loin, sont venus à son secours en état de
+                                légitime défense. Pour se dégager, les colleurs d'affiches se sentant
+                                menacés de mort ont tiré en l'air en direction de leurs
+                                agresseurs.</span></li>
+                            <li>Mégret : <span class="cit_dir">c'est ce matin seulement, en apprenant qu'il y avait eu un
+                                mort, qu'ils se sont spontanément présentés à la police.</span></li>
+                            <li>Mégret : <span class="cit_dir">S'ils n'avaient pas été
+                                armés, le mort aurait été parmi eux.</span></li>
+                            <li>Saïd : <span class="cit_dir">Nous éprouvons une grande colère
+                                contre cet acte de racisme</span></li>
+                            <li>Saïd : <span class="cit_dir">mais il nous faut d'abord calmer les
+                                jeunes.</span></li>
+                            <li>Mohamed El Mamouni : <span class="cit_dir">Une nouvelle fois, un
+                                jeune est mort. Un jeune Français d'origine comorienne est la victime d'un
+                                crime à caractère raciste et
+                                fasciste, perpétré par des militants du Front
+                                national.</span></li>
+                        </ul>
+                        <h2 class="titre_cit">Citations indirectes</h2>
+                        <ul>
+                            <li>Mégret : <span class="cit_indir">reconnaissait devant la presse que
+                                trois colleurs d'affiches de
+                                son mouvement se trouvaient bien sur les lieux la nuit du drame.</span></li>
+                            <li>RN : <span class="cit_indir">aucun militant ne
+                                collait des affiches dans ces quartiers la nuit précédente.</span></li>
+                            <li>patron bar : <span class="cit_indir">Ce soir-là, des gens qui sortaient de son
+                                bar avaient été braqués par les
+                                trois occupants de cette même voiture</span></li>
+                            <li>amis Ali : <span class="cit_indir">Sans aucune
+                                raison</span></li>
+                            <li>amis Ali : <span class="cit_indir">il n'y a
+                                pas eu l'ombre d'une bagarre, ni même des mots échangés avec les trois
+                                hommes qui collaient les affiches de Le Pen sur ce mur encore vierge du
+                                carrefour.</span></li>
+                            <li>amis Ali : <span class="cit_indir">les coups de
+                                feu sont partis d'une voiture garée à proximité, une 205 blanche qui s'est
+                                évanouie en trombe dans la nuit, après avoir embarqué les colleurs.</span></li>
+                        </ul>
+                        <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                        <ul>
+                            <li>JM Le Pen : <span class="cit_inap">s'est déclaré
+                                "profondément peiné par la mort" du jeune Français d'origine comorienne,
+                                mais a ajouté qu'il pensait "aussi aux militants qui ont eu le malheur
+                                d'être impliqués dans ce tragique accident"</span></li>
+                            <li>SOS racisme : <span class="cit_inap">"envisage de se porter partie civile contre les
+                                coupables" de l'assassinat, attend "de Jean-Marie Le Pen qu'il condamne sans
+                                ambiguïté ce crime."</span></li>
+                            <li>patron bar : <span class="cit_inap">reconnaît la R18
+                                "des gars à Le
+                                Pen"</span></li>
+                            <li>Gaudin : <span class="cit_inap">estime qu'"aucun
+                                enjeu électoral ne vaut la mort d'un adolescent"</span></li>
+                            <li>Jacques Chirac : <span class="cit_inap">s'est
+                                déclaré "consterné" par ce drame "inexcusable, inexplicable et
+                                inadmissible"</span></li>
+                            <li>représentante association maghrébine : <span class="cit_inap">veut rester "pacifique", mais elle demande: "Chaque fois qu'un de nos jeunes sort, doit-on prendre le
+                                deuil?"</span></li>
+                        </ul>
+                </div>
+            </div>
+            
+            
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Ibrahim Ali traitée par Libération en 1998</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Ambrosio : <span class="cit_dir">ne remarque pas des détails comme ça</span></li>
+                        <li>Giglio : <span class="cit_dir">Je les ai vus de couleur noire, mais je ne pense pas que c'est un délit.</span></li>
+                        <li>Lagier : <span class="cit_dir">Ibrahim Ali a été victime des circonstances, dont je suis un élément</span></li>
+                        <li>Lagier : <span class="cit_dir">Il ne représentait pas un danger pour moi, je ne l'ai même pas vu.</span></li>
+                        <li>Lagier : <span class="cit_dir">C'est un accident</span></li>
+                        <li>Lagier : <span class="cit_dir">Je ne prends jamais d'arme quand je vais coller des affiches</span></li>
+                        <li>Lagier : <span class="cit_dir">Quand j'emmène ma femme au supermarché, je mets la bombe dans ma poche</span></li>
+                        <li>Lagier : <span class="cit_dir">la boîte à gants était à ce point encombrée que je ne l'ai pas trouvée</span></li>
+                        <li>Lagier : <span class="cit_dir">le plus maniable</span></li>
+                        <li>Lagier : <span class="cit_dir">manipuler une
+                            arme, probablement à grenaille, dans les locaux du Front national</span></li>
+                        <li>Lagier : <span class="cit_dir">un métis bien brassé </span></li>
+                        <li>Lagier : <span class="cit_dir">Je ne suis plus un petit garçon, je ne m'effraie plus de voir un Noir</span></li>
+                        <li>Lagier : <span class="cit_dir">au sein du FN, il y a des adhérents qui sont noirs</span></li>
+                        <li>Lagier : <span class="cit_dir">à demi arabe</span></li>
+                        <li>Lagier : <span class="cit_dir">Si j'avais été raciste, j'aurais tiré toutes les balles que j'avais dans mon arme</span></li>
+                        <li>Lagier : <span class="cit_dir">Ce soir-là, une chose est certaine, une embuscade nous était tendue</span></li>
+                        <li>Lagier : <span class="cit_dir">Et si on n'a pas retrouvé de pierres, c'est qu'elles ont été enlevées</span></li>
+                        <li>Avocat général : <span class="cit_dir">Qu'est-ce qui, dans leur appartenance au Front national, a pu déterminer leur comportement?</span></li>
+                        <li>chef enquête : <span class="cit_dir">doute fort</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Ambrosio : <span class="cit_inap"> les a vus traverser "le faisceau des phares", lui qui n'a même pas reconnu copain Giglio quand il tirait dans le tas </span></li>
+                        <li>Ambrosio : <span class="cit_inap"> n'est pas raciste, mais, quand il parle des rappeurs, il dit "les Norvégiens", parfois "la meute"</span></li>
+                        <li>Lagier : <span class="cit_inap"> Et se voit comme un tireur "un peu au-dessus de la moyenne", lui qui loge à 25 m une balle dans une cible de 18 cm</span></li>
+                        <li>Lagier : <span class="cit_inap">  un coup-de-poing américain dont il ne se sert plus "depuis des années"</span></li>
+                        <li>Lagier : <span class="cit_inap"> C'est qu'il n'a pas "une passion" pour les armes, juste "un goût"</span></li>
+                        <li>Lagier : <span class="cit_inap"> il prend des Remington à effet dit "lacérant"</span></li>
+                        <li>Lagier : <span class="cit_inap"> Officiellement parce que "c'est plus pratique", mais il a avoué au juge qu'il avait ainsi l'impression d'"être un petit James Bond"</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Ibrahim Ali traitée par Libération en 1998</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Ambrosio : <span class="cit_dir">Je n'ai
+                            pas de convictions</span></li>
+                        <li>Ambrosio : <span class="cit_dir">J'ai adhéré pour mes idées
+                            personnelles.</span></li>
+                        <li>Ambrosio : <span class="cit_dir">le FN, c'est le parti qui dérange, qui fait bouger nos hommes
+                            politiques.Parce qu'on accepte les gens, et on n'est pas capable de leur
+                            donner du travail, c'est une question de dignité. Le reste, je m'en
+                            fous.</span></li>
+                        <li>Ambrosio : <span class="cit_dir">Cette formation
+                            n'était pas près d'accéder au pouvoir en 1995</span></li>
+                        <li>Ambrosio : <span class="cit_dir">Par
+                            contre, depuis que je n'y suis plus, j'ai l'impresion que c'est en train de
+                            se faire</span></li>
+                        <li>Giglio : <span class="cit_dir">c'est le seul parti
+                            qui dénonce l'insécurité pour les personnes âgées</span></li>
+                        <li>Lagier : <span class="cit_dir">Je ne pense pas me distinguer des
+                            autres</span></li>
+                        <li>Lagier : <span class="cit_dir"> je me considère comme ça, le type même du Français
+                            moyen.</span></li>
+                        <li>Lagier : <span class="cit_dir">C'était plutôt à eux d'apprendre le français, une langue
+                            universelle</span></li>
+                        <li>Lagier : <span class="cit_dir">il se bat du côté des
+                            Français</span></li>
+                        <li>Lagier : <span class="cit_dir">Aujourd'hui, on n'achèterait pas
+                            du pétrole, on en vendrait, on ferait partie de l'Opep. Voilà pourquoi aussi
+                            je voulais que l'Algérie reste française.</span></li>
+                        <li>Lagier : <span class="cit_dir">J'ai horreur
+                            de voir quelqu'un persécuté</span></li>
+                        <li>Lagier : <span class="cit_dir"> C'est mon caractère. Quand j'ai vu cet acharnement contre le
+                            Front
+                            national, j'y suis allé.</span></li>
+                        <li>Lagier : <span class="cit_dir">J'avais une dette de
+                            reconnaissance </span></li>
+                        <li>Lagier : <span class="cit_dir">
+                            Ensuite, évidemment, ils m'ont présenté la facture, ils voulaient que
+                            j'aille aux
+                            manifs, j'allais pas dire non.</span></li>
+                        <li>Lagier : <span class="cit_dir">Je me suis dit, ils sont à Prague, bientôt
+                            ils seront à Marseille.</span></li>
+                        <li>Lagier : <span class="cit_dir">J'ai
+                            entendu tout ce qui a été dit, rien ne m'a choqué. Par contre, tout ce qu'on
+                            disait le lendemain sur lui dans
+                            les journaux était faux, les phrases avaient été manipulées,
+                            bricolées.</span></li>
+                        <li>Lagier : <span class="cit_dir">Bien
+                            sûr, répond Lagier, il aurait pu le devenir si je ne l'avais pas tué
+                            malheureusement.</span></li>
+                        <li>Lagier : <span class="cit_dir">Non. C'est
+                            logique. Pas tout le temps, mais c'est logique.</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations indirectes</h2>
+                    <ul>
+                        <li>Lagier : <span class="cit_indir">C'est un type moyen.Mais Français.</span></li>
+                        <li>Lagier : <span class="cit_indir">
+                            le petit
+                            pied-noir avoue
+                            une enfance heureuse, avec
+                            ses copains
+                            algériens.</span></li>
+                        <li>Lagier : <span class="cit_indir">lui, il les connaît les Irakiens, ce sont de
+                            braves gens.</span></li>
+                        <li>Lagier : <span class="cit_indir">A part ça,
+                            il a un hobby, il est membre d'un club de tir,
+                            respectueux des lois et des feux
+                            rouges, bon père de
+                            famille et colleur d'affiches sans casier judiciaire.
+                        </span></li>
+                        <li>Lagier : <span class="cit_indir">Et ilne
+                            voit pas en quoi le FN
+                            pourrait être xénophobe.</span></li>
+                        <li>accusés : <span class="cit_indir">S'il n'y avait pas en
+                            somme ce malheureux incident qui
+                            a tué raide Ibrahim, les accusés avoueraient
+                            franchement qu'il n'y a que des braves gens, au FN</span></li>
+                        <li>asso antiraciste : <span class="cit_indir">Ibrahim
+                            Ali aurait il pu être un Français moyen?</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Ambrosio : <span class="cit_inap">au lieu de coller "les Français
+                            d'abord", il aurait "tout aussi bien" collé "les Français dehors"</span></li>
+                    </ul>
+                    <ul>
+                        <li>Fayolle : <span class="cit_inap"> Selon vous, la préférence nationale, c'est un propos raciste ?</span></li>
+                    </ul>
+                    <ul>
+                        <li>Lagier : <span class="cit_inap"> D'Ambrosio est le fils d'un immigré italien qui n'a jamais été naturalisé malgré cinq ans dans la Légion, et ça "a choqué affectivement" son fils </span></li>
+                    </ul>
+                    <ul>
+                        <li>enquêteur : <span class="cit_inap"> Pierre Giglio, 39 ans, est ébéniste, catholique, "travailleur, timide, anxieux, peureux", bref "pétochard"</span></li>
+                    </ul>
+                    <ul>
+                        <li>Ambrosio : <span class="cit_inap"> avoue volontiers qu'il "n'était pas une flèche à l'école"</span></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Ibrahim Ali traitée par Libération en 2021</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Ahamada : <span class="cit_dir">Avant qu'il ne meure, je
+                            ne pensais pas que ça pouvait arriver en France, mourir parce qu'on est
+                            noir</span></li>
+                        <li>Ahamada : <span class="cit_dir">On a raté une occasion à
+                            l'époque de bouter le FN hors de Marseille. Vingt-cinq ans après, le parti n'a jamais
+                            été aussi fort ici et se
+                            trouve même en situation de l'emporter à l'échelle du pays.C'est aussi ce
+                            constat d'échec collectif que l'on va commémorer dimanche.</span></li>
+                        <li>Ghali : <span class="cit_dir">Ibrahim Ali
+                            était
+                            un enfant de Marseille,</span></li>
+                        <li>Ghali : <span class="cit_dir"> Aujourd'hui, il aurait pu être Soprano. Il a eu sa vie
+                            fauchée sauvagement parce qu'il
+                            était noir. Cette rue, ce n'est pas un petit symbole.</span></li>
+                        <li>Soly : <span class="cit_dir">Nos politiques ne se sont pas
+                            battus pour le bien des habitants,</span></li>
+                        <li>Soly : <span class="cit_dir"> Avant, Le
+                            Pen, c'était le
+                            diable, aujourd'hui on a une blonde qui présente bien, mais on sait
+                            que les idées sont les mêmes.</span></li>
+                        <li>Soly : <span class="cit_dir">Il y avait un tel engouement à l'époque</span></li>
+                        <li>Soly : <span class="cit_dir">IAM avait sorti son album
+                            Concept, les plus jeunes allaient squatter chez Akhenaton et Imhotep pour
+                            écouter des disques ramenés de New York. Moi, j'écrivais des textes et on
+                            les rappait comme tout le monde, sur des faces B américaines.</span></li>
+                        <li>Soly : <span class="cit_dir">Comme nous tous, la musique, ce
+                            n'était pas une voie pour lui,</span></li>
+                        <li>Soly : <span class="cit_dir">Ça s'est répandu dans la
+                            ville comme une traînée de poudre, je me souviens les défilés de scooters de
+                            tous les quartiers. Ils voulaient brûler Marseille. Moi aussi, j'étais en
+                            feu.</span></li>
+                        <li>Soly : <span class="cit_dir">Elle m'a dit: "Va voir tes
+                            frères, calme-les. Ne salissez pas sa mémoire.</span></li>
+                        <li>Soly : <span class="cit_dir">On ne pouvait pas faire
+                            comme si c'était un fait divers comme un autre</span></li>
+                        <li>Soly : <span class="cit_dir">Il fallait faire quelque chose
+                            pour l'honorer, un endroit où des gens habitent, pour que l'on sache
+                            pourquoi on l'a tué.</span></li>
+                        <li>Soly : <span class="cit_dir">Et puis j'en ai eu marre d'écrire</span></li>
+                        <li>Soly : <span class="cit_dir">Souvent, en face, il y a de l'étonnement.
+                            Après, je les laisse écrire sur ce qu'ils ont retenu. La rue, c'est un
+                            symbole, mais il y a toute une action éducative et citoyenne à mener
+                            derrière contre ces idées qui n'ont cessé de progresser.</span></li>
+                        <li>Soly : <span class="cit_dir">C'était d'une violence</span></li>
+                        <li>Soly : <span class="cit_dir">En gros, c'était : fermez vos gueules, on vous a mis un
+                            rondpoint en bas de votre cité !</span></li>
+                        <li>Soly : <span class="cit_dir">On a sans doute notre part de responsabilité.Je
+                            me retrouve devant des gamins qui n'ont pas les mêmes références que moi, le
+                            rap a changé, maintenant tout le monde peut faire son studio dans sa
+                            chambre, le challenge, c'est celui qui a le plus de vues.Les choses se
+                            construisent différemment, mais j'ai besoin d'espérer.</span></li>
+                        <li>maire Marseille : <span class="cit_dir">A ce moment-là de l'histoire, votre humanité
+                            vous impose le silence !</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations indirectes</h2>
+                    <ul>
+                        <li>Ahamada : <span class="cit_indir">c'est la mort d'Ibrahim Ali qui l'a
+                            poussé à s'engager en politique alors qu'il n'avait que 22 ans.</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Soly : <span class="cit_inap">Car en vingt-six ans, sur le terrain
+                            politique, il a fallu encaisser plusieurs «coups de surin»</span></li>
+                    </ul>
+                </div>
+            </div>
+           
+            
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Ibrahim Ali traitée par le Monde en 1995</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>B Vice : <span class="cit_dir">Aimons-nous, aimons-nous
+                            vivants</span></li>
+                        <li>B Vice : <span class="cit_dir">Il était naguère une
+                            bête sanguinaire qui rêvait de faire de la terre entière un
+                            enfer pour ceux qui avaient l'erreur et le de venir au monde sans la bonne
+                            couleur de peau, car ce sot
+                            inculte, n'ayons pas peur des mots,rêvait d'un nouveau monde
+                            où seuls les
+                            Blancs seraient égaux.</span></li>
+                        <li>CFDT : <span class="cit_dir">ce meurtre met en évidence les
+                            conséquences odieuses de l'action de ceux
+                            qui,dans notre pays, propagent des idéologies racistes et
+                            xénophobes</span></li>
+                        <li>CGT : <span class="cit_dir"> cette mort n'est ni accidentelle
+                            ni involontaire, c'est un assassinat ! Les hommes qui l'ont
+                            perpétré militent au FN, un parti dont les thèses sont celles de
+                            l'exclusion </span></li>
+                        <li>Emmanuelli : <span class="cit_dir">ce crime raciste</span></li>
+                        <li>Gaudin : <span class="cit_dir">Aucun enjeu électoral ne vaut la mort d'un
+                            adolescent.</span></li>
+                        <li>Hassany : <span class="cit_dir">Une 205
+                            grise m'a dépassé doucement.J'ai eu peur, d'autant qu'elle était bourrée
+                            d'affiches du FN</span></li>
+                        <li>Hassany : <span class="cit_dir">
+                            Le type a stoppé et s'est mis à tirer Tac-tac, avec un flingue comme ils
+                            ont dans les films.</span></li>
+                        <li>Hassany : <span class="cit_dir"> J'ai entendu d'autres coups de feu, des cris:
+                            venez, ils
+                            ont eu
+                            Ibrahim. Quand je l'ai vu par terre, je l'ai cru évanoui.Je
+                            croyais qu'ils avaient voulu nous faire peur, juste avec des fusils à plomb.
+                            Mais le SAMU n'a pas pu le ranimer</span></li>
+                        <li>Hassany : <span class="cit_dir"> Ils ont vu des Noirs courir dans la nuit et ont dû
+                            penser qu'on allait les agresser,</span></li>
+                        <li>Hassany : <span class="cit_dir"> Mais ils
+                            n'avaient aucune raison de tuer un jeune. Sauf la haine.</span></li>
+                        <li>JM Le Pen : <span class="cit_dir">pense
+                            aussi aux
+                            militants et à leurs familles qui ont eu le malheur d'être impliqués dans
+                            ce tragique accident.</span></li>
+                        <li>JM Le Pen : <span class="cit_dir">Ceux
+                            qui se dévouent pour défendre leurs idées et leurs convictions (...) sont,
+                            eux aussi, des victimes de
+                            l'insécurité </span></li>
+                        <li>Mégret : <span class="cit_dir">a été violemment agressé
+                            par une quinzaine de Comoriens et, pour se dégager, les colleurs, se sentant
+                            menacés de mort, ont tiré en l'air en direction de leurs agresseurs et ont
+                            quitté rapidement les lieux pour leur échapper. </span></li>
+                        <li>SOS racisme : <span class="cit_dir">envisage de se
+                            porter partie civile contre les coupables. Nous ne pouvons pas accepter
+                            qu'un parti mène une campagne électorale en armant ses
+                            militants.</span></li>
+                        <li>Voynet : <span class="cit_dir"> condamne ces pratiques de bandits</span></li>
+                        <li>les jeunes : <span class="cit_dir">Ca n'a pas intéressé
+                            la police</span></li>
+                        <li>les jeunes : <span class="cit_dir">Commoriens ou Arabes, le tarif est le même. Ces gens-là ne parlent pas, ils tirent </span></li>
+                        <li>CRIF : <span class="cit_dir">tient à réagir contre un acte criminel de caractère raciste
+                        </span></li>
+                        <li>FECOM : <span class="cit_dir">Le FN est passé du discours
+                            à l'acte</span></li>
+                        <li>FECOM : <span class="cit_dir">Cet assassinat se déroule
+                            à un moment où, une nouvelle fois, les étrangers et les jeunes d'origine
+                            étrangère se trouvent pris au piège tendu par des démagogues. </span></li>
+                        <li>MRAP : <span class="cit_dir">la conséquence logique
+                            et tragique d'une idéologie prônée par le Front national</span></li>
+                        <li>asso droit cité : <span class="cit_dir">le tir aux jeunes est ouvert</span></li>
+                        <li>responsable associatif comorien : <span class="cit_dir"> On a essayé la discrétion, le respect de
+                            l'autre, il faut croire que ça ne marche pas </span></li>
+                        <li>responsable associatif comorien : <span class="cit_dir">
+                            Le
+                            Pen jouela confusion entre Français et Blancs.
+                            Ses affiches sont une incitation à nous jeter à la mer. Elles devraient être
+                            interdites </span></li>
+                        <li>syndicat police : <span class="cit_dir"> cet acte indigne de la République française</span></li>
+                        <li>élu 1 : <span class="cit_dir">Les mots, mais pas les fusils
+                        </span></li>
+                        <li>élu 1 : <span class="cit_dir">à la mémoire de ce gamin tué seulement parce qu'il était noir.</span></li>
+                        <li>élu 2 : <span class="cit_dir">Si la campagne a commencé ainsi,
+                            où en serons-nous dans quatre mois?</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations indirectes</h2>
+                    <ul>
+                        <li>Mégret : <span class="cit_indir">expliquant que ses colleurs d'affiches auraient été
+                            agressés.</span></li>
+                        <li>témoins : <span class="cit_indir">un incident similaire a eu
+                            lieu au même endroit, peu avant Noël, impliquant la même R18</span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>CGT : <span class="cit_inap"> exigeant que « les loisantiracistes soient pleinement
+                            appliquées </span></li>
+                        <li>Emmanuelli : <span class="cit_inap">le gouvernement doit prendre« toutes
+                            ses responsabilités »</span></li>
+                        <li>JM Le Pen : <span class="cit_inap">s'est déclaré « profondément
+                            peiné par la mort » d'Ibrahim
+                            Ali</span></li>
+                        <li>Voynet : <span class="cit_inap">juge, pour sa part, Jean Marie
+                            Le Pen « moralement responsable» et demande au ministre de l'intérieur
+                            d'exercer « un strict contrôle sur la possession d'armes »</span></li>
+                        <li>FECOM : <span class="cit_inap">a condamné ce crime
+                            « à caractère raciste et fasciste »</span></li>
+                        <li>syndicat police : <span class="cit_inap">
+                            exige
+                            « une répression impitoyable contre les éléments
+                            factieux qui tentent de promouvoir les idées que l'on croyait mortes
+                            depuis cinquante ans »</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            <div class="container">
+                <div class="subContainer">
+                    <h1 class="titre_tab">L'affaire Ibrahim Ali traitée par le Monde en 2015</h1>
+                    <h2 class="titre_cit">Citations directes</h2>
+                    <ul>
+                        <li>Ahamada : <span class="cit_dir"> Aujourd'hui, tout le
+                            monde est Charlie. A l'époque, ils criaient tous : "Justice pour
+                            Ibrahim"</span></li>
+                        <li>Ahamada : <span class="cit_dir">L'émotion était très forte.Manifs dans toute la
+                            France, 30 000 personnes dans les rues de Marseille(ici une vidéo). Mais, ce
+                            21 février, combien serons-nous aux Quatre-Chemins pour honorer sa mémoire ?
+                            Tous les ans, on vit la même chose. On se regarde dans le blanc des yeux, de
+                            moins en moins nombreux. Personne, ni la
+                            municipalité ni la
+                            République, n'a saisi l'enjeu de ce meurtre. Etle Front national a
+                            pris une mairie à Marseille. Cela frise le déni.</span></li>
+                        <li>Ahamada : <span class="cit_dir">Beaucoup de Comoriensd'origine comme
+                            moi. Un peu de Maghrébins. Tous de la cité Félix-Pyat </span></li>
+                        <li>Ahamada : <span class="cit_dir">On ne s'est croisés
+                            qu'une ou deux fois. Mais on vivait exactement les mêmes choses. Son assassinat a
+                            été un déclic. Je me
+                            suis alors intéressé au fonctionnement de notre société.Et j'ai compris que
+                            les politiques ne comprenaient rien à nos quartiers.</span></li>
+                        <li>Ahamada : <span class="cit_dir">Quand on a appris que
+                            des colleurs du FN avaient tiré sur un desB.Vice, notre cité, comme toutes les autres,
+                            s'est
+                            enflammée.Les jeunes sont descendus
+                            avec des barres de fer, des cocktails Molotov.Prêts à
+                            retourner Marseille.Mais on voulait que les gars de la Savine nous disent
+                            quoi faire. C'était leur frère.C'était
+                            leur décision.</span></li>
+                        <li>Ahamada : <span class="cit_dir">Dans les partis, personne n'a dit : ces jeunes ont été magnifiques, il
+                            faut construire avec eux</span></li>
+                        <li>Ibrahima : <span class="cit_dir">Les prémonitions, on n'aime pas trop ça,
+                            nous les
+                            Comoriens</span></li>
+                        <li>Ibrahima : <span class="cit_dir">Depuis vingt ans, on n'a
+                            jamais parlé de cette soirée</span></li>
+                        <li>Ibrahima : <span class="cit_dir">Entre nous, c'est très pudique. Ce
+                            drame a fait un mort, mais
+                            combien de traumatisés ? Il y avait dix gamins ce soir-là. Aucun n'a eu
+                            droit à une aide psychologique.</span></li>
+                        <li>Ibrahima : <span class="cit_dir">La justice a fait son
+                            boulot</span></li>
+                        <li>Ibrahima : <span class="cit_dir">Même si, pour nous, elle n'a pas vraiment reconnu le
+                            caractère raciste du meurtre. </span></li>
+                        <li>Ibrahima : <span class="cit_dir">Certains, dans les
+                            quartiers, nous ont reproché d'avoir calmé le jeu, et accusés d'être achetés
+                            par les politiques</span></li>
+                        <li>Ibrahima : <span class="cit_dir">Ça nous a fait mal.</span></li>
+                        <li>Ibrahima : <span class="cit_dir">Nous, on a toujours l'impression d'être
+                            des Français à part, J'ai fait mon service, je paye mes impôts, je tremble
+                            quand je chante La Marseillaise. Quand est-ce que cette maison
+                            m'appartiendra aussi ?</span></li>
+                        <li>Maoulida : <span class="cit_dir"> Ma tante a quitté Marseille. Elle ne
+                            supportait plus de croiser les copains de son fils unique. Autour du 21
+                            février, elle se rend toujours aux Comores, ça l'apaise </span></li>
+                        <li>Maoulida : <span class="cit_dir"> Pour mes trois soeurs et
+                            moi, Ibrahim était un grand
+                            frère
+                            tendre, drôle, toujours là. Nous avons
+                            partagé le même appartement, puis le même palier. On vivait les uns chez les
+                            autres.</span></li>
+                        <li>Maoulida : <span class="cit_dir">Au collège, je suis allée voir mes copines françaises. Des Blanches, quoi Je leur
+                            ai demandé : "Mais c'est quoi le Front national ?" Ce jour-là, j'ai découvert le
+                            racisme. </span></li>
+                        <li>Maoulida : <span class="cit_dir">En déplacement à Paris, je suis allée
+                            devant le siège de Charlie Hebdo et à l'Hyper Cacher, porte de Vincennes. Il
+                            fallait que je voie ça de mes yeux.</span></li>
+                        <li>Maoulida : <span class="cit_dir">Depuis, c'est un
+                            amer anniversaire.</span></li>
+                        <li>Maoulida : <span class="cit_dir"> Ses mots sont
+                            tellement justes </span></li>
+                        <li>Maoulida : <span class="cit_dir">On préférerait que
+                            ce carrefour où il a été tué soit rebaptisé. Chaque année, on donne la
+                            demande en mains propres aux politiques.Et, chaque année, on n'a pas de
+                            réponse.</span></li>
+                        <li>Maoulida : <span class="cit_dir"> coups de poignard
+                        </span></li>
+                        <li>Maoulida : <span class="cit_dir">dégoût </span></li>
+                        <li>Maoulida : <span class="cit_dir">C'était notre avocat au
+                            procès,</span></li>
+                        <li>Maoulida : <span class="cit_dir">Il montrait de l'empathie. On le pensait
+                            sincèrement touché par notre histoire. Il a vu les garçons pleurer dans son
+                            bureau.</span></li>
+                        <li>Maoulida : <span class="cit_dir">Le voir assis à côté de
+                            Marine Le Pen a été un choc
+                        </span></li>
+                        <li>Maoulida : <span class="cit_dir">En catimini,
+                            sans inauguration, sans prévenir la famille, les amis,</span></li>
+                        <li>Maoulida : <span class="cit_dir">A un endroit qui ne veut rien
+                            dire.</span></li>
+                        <li>Maoulida : <span class="cit_dir"> La deuxième mort
+                            d'Ibrahim </span></li>
+                        <li>Ravier : <span class="cit_dir"> une profanation
+                        </span></li>
+                        <li>Ravier : <span class="cit_dir">La gauche
+                            réveille les plaies, c'est vraiment minable</span></li>
+                        <li>Ravier : <span class="cit_dir">un drame qui a brisé
+                            plusieurs familles.
+                            Celle de la victime, bien sûr et avant tout, mais aussi celles de militants
+                            sincères</span></li>
+                        <li>Ravier : <span class="cit_dir">Ne jamais être armé pour un
+                            collage. </span></li>
+                        <li>Soprano : <span class="cit_dir"> Aujourd'hui, les
+                            jeunes des cités ne savent pas qui est Ibrahim et ne vont pas voter. On a tous notre
+                            part de responsabilité là-dedans, moi compris. Une chose est sûre, nous n'avons pas
+                            assez transmis.</span></li>
+                        <li>Collard : <span class="cit_dir">
+                            si l'idéologie véhiculée par le Front
+                            national n'a pas provoqué le fantasme de peur dans l'esprit
+                            des colleurs d'affiches
+                        </span></li>
+                        <li>Hassany : <span class="cit_dir">On préparait un spectacle pour la lutte
+                            contre le sida</span></li>
+                        <li>Hassany : <span class="cit_dir">A la Savine, on n'avait pas de salle
+                            assez grande. </span></li>
+                        <li>Hassany : <span class="cit_dir">On voulait faire grosse
+                            impression.C'était ça, B.Vice, un groupe de scène. On a beaucoup discuté
+                            pour savoir comment remonter chez nous. Les bus, dans les quartiers nord de
+                            Marseille, c'est compliqué.</span></li>
+                        <li>Hassany : <span class="cit_dir"> On cavalait pour ne pas rater la
+                            correspondance.C'était Ramadan, on avait faim.</span></li>
+                        <li>JM Pesenti : <span class="cit_dir"> Après le procès,
+                            j'étais convaincu que le FN disparaîtrait
+                            des quartiers nord. Mais on a très vite oubliéle meurtre,</span></li>
+                        <li>Marie Lajus : <span class="cit_dir">
+                            Cent quarante millions d'euros sont investis ici pour créer une meilleure
+                            mixité sociale</span></li>
+                        <li>Soly : <span class="cit_dir"> Tu ne viens pas à la Savine
+                            par hasard, c'est le bout du monde. Tu peux passer vingt fois devant sans
+                            savoir que, là-haut, tu as une cité de 1 500 habitants</span></li>
+                        <li>Soly : <span class="cit_dir">On a fondé ce projet pour
+                            encadrer nos
+                            petits frères commeIbrahim, les aider à s'insérer. A l'époque, on a dû
+                            taper sur la table pour imposer nos idées, vis-à-vis des parents qui
+                            n'avaient pas confiance, des financeurs. Et, au final, cela s'est soldé par
+                            la mort d'un ado. Après ça,
+                            c'était difficile de tout lâcher</span></li>
+                        <li>Soly : <span class="cit_dir">La mère d'Ibrahim m'a dit
+                            : "Faites ce que vous voulez, mais rien qui ne salisse la mémoire de mon
+                            fils".</span></li>
+                        <li>Soly : <span class="cit_dir">Cette dignité, c'était
+                            le visage qu'il fallait montrer,</span></li>
+                        <li>Soly : <span class="cit_dir">Sinon, on aurait donné raison au FN et à Bruno Mégret qui
+                            qualifiait un tir dans le dos de légitime défense. Mais aujourd'hui, je
+                            regrette que l'on n'ait pas donné un grand coup de pied dans la fourmilière
+                            quand je vois le nombre de gens contaminés par ce parti de la haine.»</span></li>
+                        <li>Soly : <span class="cit_dir">A l'époque, nous avons
+                            apprécié son soutie</span></li>
+                        <li>Soly : <span class="cit_dir">Aujourd'hui, je ne comprends plus son
+                            discours.</span></li>
+                        <li>Soly : <span class="cit_dir"> paupérisée, avec des
+                            communautés refermées sur elles-mêmes. Avant, on s'invitait les uns les
+                            autres aux fêtes religieuses. Aujourd'hui, c'est fini. Et il n'y a toujours
+                            qu'un bus de nuit. Si tu le rates, tu rentres à pied </span></li>
+                        <li>Soly : <span class="cit_dir"> Le mépris des pouvoirs publics, c'est ce qui
+                            nous fait le plus mal, s'agace Soly Mbaé.</span></li>
+                        <li>Soly : <span class="cit_dir">Pour eux, c'est un petit Comorien qui
+                            est mort,  pas un
+                            minot de Marseille Dans le 15e, ils ont donné à un
+                            collège le nom de Rosa Parks [l'Américaine surnommée « mère du mouvement des
+                            droits civiques » pour avoir refusé, en 1955, de céder son siège d'autobus à
+                            un Blanc].Pourquoi pas Ibrahim Ali ?
+                            L'antiracisme, c'est mieux quand ça vient des Etats-Unis ? Il n'y a aucun
+                            courage politique. Tout le monde a peur de la réaction du FN. </span></li>
+                    </ul>
+                    <h2 class="titre_cit">Citations directes dans un discours indirect</h2>
+                    <ul>
+                        <li>Maoulida : <span class="cit_inap"> elle espère encore « une vraie reconnaissance » </span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <a href="#" class="top">Retour en haut ↑</a>
+    </main>
+    <footer>
+        <p>Site réalisé par Nicolas Bleton, Lucie Louis, Dina Sénaque et Vincent Vieux-Champagne.</p>
+    </footer>
+</body>
+</html>
