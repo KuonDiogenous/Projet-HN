@@ -18,21 +18,14 @@
                 <author>JOHANNES Franck</author>
             </titleStmt>
             <editionStmt>
-                <!-- Desc. de l'éditionn | Facultatif -->
                 <edition/>
-                <!-- Obligatoire si <editionStmt> -->
                 <respStmt>
-                    <!-- Déclaration de responsabilité | Facultatif -->
                     <resp>Encodage de l'article</resp>
-                    <!-- Obligatoire si <respStmt> -->
                     <name>Lucie Louis, Dina Senaque</name>
-                    <!-- Obligatoire si <respStmt> -->
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <!-- Contexte et production du fichier | Obligatoire -->
                 <p>Projet HN spé Traitement de textes</p>
-                <!-- Obligatoire -->
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -58,7 +51,6 @@
         </fileDesc>
     </teiHeader>
     <text>
-        <!-- Est ce qu'il n'y a pas un espace où on peut faire la liste des XML:ID dont on a besoin dans le texte et qu'on implémente au fur et à mesure-->
         <body>
 
             <list>
@@ -197,7 +189,6 @@
                             <orgName type="political" nymRef="parti" corresp="#RN">Front
                             national</orgName>, j'y suis allé.</said>"</s>
             </p>
-            <!-- serait intéressant d'encoder la position de victime donnée au FN -->
 
             <p>
                 <s>Après un détour par <orgName type="political" nymRef="parti" corresp="#PC">le
@@ -210,10 +201,8 @@
                         Ensuite, évidemment, ils m'ont présenté la facture, ils voulaient que
                         j'aille <eventName type="political" nymRef="manifestation">aux
                             manifs</eventName>, j'allais pas dire non.</said>"</s>
-                <!-- ici je ne suis pas sûre de s'il parle du PC ou du FN : pour encoder les "ils"-->
                 <s>Mais quand <eventName type="historical" corresp="#Pacte_Varsovie_1968">les chars
                         russes envahissent la Tchécoslovaquie</eventName>
-                    <!-- à encoder comme événement historique ? est ce que je devrais l'encoder tout court ? -->,
                     il rend son tablier :"<said direct="true" aloud="true" who="#Lagier"
                         corresp="#Pacte_Varsovie_1968">Je me suis dit, ils sont à Prague, bientôt
                         ils seront à Marseille.</said>"</s>
@@ -256,7 +245,6 @@
                             <roleName type="judicial" corresp="partie_civile">parties
                             civiles</roleName></orgName> essaie de <persName corresp="#Lagier"
                         >le</persName> pousser un peu et fait chou blanc. </s>
-                <!-- peut-être possible ici de faire le travail sur position 1 - pos 2 : mais pas sur que ce soit nécessaire si on ne le fait que là -->
                 <s>
                     <said direct="false" aloud="true" who="#asso_antiraciste" toWhom="#Lagier"
                             ><persName type="judicial" subtype="victime" corresp="#Ali">Ibrahim
