@@ -5,7 +5,6 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!-- Desc. fichier | Obligatoire -->
             <title>
                <s><persName corresp="#Bénédicte_Perthuis">Bénédicte de Perthuis</persName>,
                   <roleName corresp="#Bénédicte_Perthuis">la juge</roleName> par qui le
@@ -14,21 +13,14 @@
             <author>Paule Gonzales</author>
          </titleStmt>
          <editionStmt>
-            <!-- Desc. de l'éditionn | Facultatif -->
             <edition/>
-            <!-- Obligatoire si <editionStmt> -->
             <respStmt>
-               <!-- Déclaration de responsabilité | Facultatif -->
                <resp>Encodage de l'article</resp>
-               <!-- Obligatoire si <respStmt> -->
                <name>Nicolas Bleton</name>
-               <!-- Obligatoire si <respStmt> -->
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <!-- Contexte et production du fichier | Obligatoire -->
             <p>Projet HN spé Traitement de textes</p>
-            <!-- Obligatoire -->
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -123,7 +115,7 @@
             </s>
             <s>C'est chose faite avec l'<eventName nymRef="Attachés">affaire des attachés
                   parlementaires du Rassemblement
-               national</eventName><!-- devrait marcher -->.</s>
+               national</eventName>.</s>
             <s>En novembre dernier, les deux 
                <seg n="1" type="NOM"><roleName type="judicial">parquetiers</roleName></seg> du procès <w n="2" pos="V" msd="Act">avaient
                   subi</w>, après leurs réquisitions, des <seg n="3" type="NOM">menaces de mort</seg> et
