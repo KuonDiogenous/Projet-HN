@@ -438,8 +438,7 @@
                     racisme.</s>
                 <s> L'une des dernières productions de <persName type="proche"
                         corresp="#B_Vice #Ali #Soly">Mohamed</persName>, alias <persName type="proche"
-                        corresp="#Soly #B_Vice #Ali">M.T. Soly</persName>
-                    <!-- jsp si ça va super bien marcher ça -->, s'en prenait à <persName
+                        corresp="#Soly #B_Vice #Ali">M.T. Soly</persName>, s'en prenait à <persName
                         type="political" nymRef="président" corresp="#JM_Le_Pen">Jean-Marie Le
                         Pen</persName> sans le nommer: <said aloud="true" direct="true" who="#B_Vice"
                         corresp="#JM_Le_Pen">« Il était naguère <addName corresp="#JM_Le_Pen">une
@@ -469,8 +468,6 @@
                     <w pos="V" msd="Pass" n="2">ont été ces dernières années condamnés</w><seg type="ADJ" n="3"> pour des
                     actes de violence lors de campagnes électorales.</seg></s>
             </p>
-            <!-- Ici on a une mise en page particulière dans l'original, avec chaque date qui est précédé d'un bullet point, elle est également mise en gras. En gros ça fiat une liste, voir s'il y a moyen de tout mettre en avant -->
-            <!-- comment mettre en avant la liste des condamnations : pour l'instant modèle du n1 - V - n2  -->
             <p>
                 <s>Le 28 avril 1994, <seg type="EXP" n="1">Marc Georges</seg>, <roleName
                         corresp="#Marc_Georges" type="political" nymRef="candidat" ana="RN">candidat
@@ -655,7 +652,6 @@
                         nymRef="président" type="political">le leader
                     d'extrême-droite</roleName>.</s>
             </p>
-            <!-- faire XML:id avec MRAP, CRIF, FECOM,etc... + PC -->
         </body>
     </text>
 </TEI>
