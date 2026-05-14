@@ -4,26 +4,18 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- Desc. fichier | Obligatoire -->
                 <title><s>Critiquée, <orgName type="judicial">la justice </orgName>fait bloc face aux menaces</s></title>
                 <author>Grégoire Biseau et Jérôme Lefilliâtre</author>
             </titleStmt>
             <editionStmt>
-                <!-- Desc. de l'éditionn | Facultatif -->
                 <edition/>
-                <!-- Obligatoire si <editionStmt> -->
                 <respStmt>
-                    <!-- Déclaration de responsabilité | Facultatif -->
                     <resp>Encodage de l'article</resp>
-                    <!-- Obligatoire si <respStmt> -->
                     <name>Vincent Vieux-champagne</name>
-                    <!-- Obligatoire si <respStmt> -->
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <!-- Contexte et production du fichier | Obligatoire -->
                 <p>Projet HN spé Traitement de textes</p>
-                <!-- Obligatoire -->
             </publicationStmt>
             <sourceDesc>
                 <bibl>
