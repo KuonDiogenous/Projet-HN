@@ -9,43 +9,30 @@
                     <s>Marseille: <persName corresp="#Ali">Ibrahim</persName>, tué à 17 ans par <roleName corresp="#Lagier #Ambrosio #Giglio">colleurs d'affiches du FN</roleName></s>
                 </title>
                 <author>Daniel GROUSSARD</author>
-                <!-- Je remplace 'Nicolas Bleton' par le nom du journaliste -->
             </titleStmt>
             <editionStmt>
-                <!-- Desc de l'édition -->
-                <!-- Structure obligatoire si <editionStmt -->
                 <edition>
-                    <!-- dois-je mettre qq chose là dedans ? J'ai pas l'impression -->
                 </edition>
                 <respStmt>
-                    <!-- Déclaration de responsabilité -->
                     <resp>Encodage de l'article avec un schéma d'encodage et après une première
                         transformation avec TEI Garage</resp>
-                    <!-- Obligatoire si respStmt -->
                     <name>Nicolas Bleton (transformation avec TEI Garage), Dina Senaque
                         (encodage)</name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <!-- Contexte et production du fichier -->
                 <p>Projet HN spé Traitement de textes</p>
-                <!-- J'ai utilisé le même titre utilisé dans l'article 'Pétochard', mais on peut mettre au chose -->
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <!-- Métadonnées de l'article -->
                     <title>
                         <s>Marseille: <persName corresp="#Ali">Ibrahim</persName>, tué à 17 ans par <roleName corresp="#Lagier #Ambrosio #Giglio" type="political" subtype="accusé">colleurs d'affiches du FN</roleName></s>
                     </title>
                     <author>Daniel GROUSSARD</author>
                     <publisher>Libération</publisher>
                     <series>Marseille correspondance</series>
-                    <!-- Peut être modifier cette information. Selon la TEI Guidelines, la balise <series> englobe les informations concernant les séries, les collections. 
-                        Or, dans le cas d'un article, al chose est plus difficile, peut être mettre un terme générique comme "affaire Ibrahim" -->
-                    <!-- voir avec les autres, parce que Pétochard n'est pas remplis -->
                     <ptr type="URL"
                         target="https://www.liberation.fr/france/1995/02/23/marseille-ibrahim-tue-a-17-ans-par-des-colleurs-d-affiches-du-fn_125119/"/>
-                    <!-- vraiment en maju ? -->
                     <date type="published" when="1995-02-23"/>
                     <note type="Word_count">903</note>
                 </bibl>
@@ -60,7 +47,6 @@
                 <item>
                     <persName xml:id="Ali"/>
                 </item>
-                <!-- Je suis obligé de rajouter des item pour chaque, je ne comprends pas pourquoi alors que le Pétochard a un format différent  -->
                 <item>
                     <persName xml:id="JM_Le_Pen"/>
                 </item>
@@ -262,7 +248,6 @@
                     représentants de la <orgName type="social" nymRef="groupe"
                         corresp="#communauté_comorienne">communauté comorienne</orgName> dans le
                     couloir.</s>
-                <!-- encoder communauté comorienne ? -->
                 <s><interp type="COMMENTARY"/>Tous parlent à mi-voix, insistant sur le respect
                     nécessaire du deuil.</s>
                 <s>
@@ -310,7 +295,6 @@
                     Canebière.</s>
                 <s> Après les obsèques de leur <persName corresp="#Ali">copain</persName>.</s>
             </p>
-            <!-- repredre selon Monde_95 -->
 
 
             <p>
